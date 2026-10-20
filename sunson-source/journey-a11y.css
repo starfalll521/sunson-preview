@@ -1,0 +1,6 @@
+/* Bounded journey QA fixes; preserve existing visual authority. */
+.source-nav nav>a,.source-nav-group>summary{display:inline-flex;align-items:center;min-height:44px;font-size:14px}
+.optional-enquiry-fields>summary,.source-review>summary{display:flex;align-items:center;min-height:44px;padding-block:10px;cursor:pointer}
+.enquiry-context a{display:flex;align-items:center;width:fit-content;max-width:100%;min-height:44px;padding-block:8px}
+.source-nav a:focus-visible,.source-nav summary:focus-visible,.source-menu:focus-visible{outline:3px solid currentColor;outline-offset:4px}
+@media(max-width:767px){.source-nav nav>a{width:100%;padding-block:12px}.source-mega a{min-height:44px}.source-utility{gap:16px}}

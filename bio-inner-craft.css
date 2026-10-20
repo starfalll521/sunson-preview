@@ -1,0 +1,143 @@
+/* Shared editorial craft for the30 inner pages; component sheets follow this file. */
+:root{--bio-arrival:cubic-bezier(.16,1,.3,1)}
+body.bio-craft-inner{font-size:17px;-webkit-font-smoothing:antialiased}
+.bio-craft-inner p{text-wrap:pretty}
+.bio-craft-inner h1,.bio-craft-inner h2{font-weight:450}
+.bio-craft-inner h3{font-weight:550}
+.bio-craft-inner .source-header{box-shadow:0 1px 0 #143e3114;border-bottom:0}
+.bio-craft-inner .source-utility{display:flex;justify-content:flex-end;align-items:center;gap:24px;white-space:nowrap;padding-inline:3%}
+.bio-craft-inner .source-utility>a:first-child{margin-right:auto}
+.bio-craft-inner .source-nav{min-height:72px;padding-block:8px}
+.bio-craft-inner .source-nav>.min-h-\[40px\]{border-radius:3px;font-size:12px;padding:11px 20px}
+.bio-craft-inner .source-logo{font-weight:750;letter-spacing:-.055em;font-size:27px}
+.bio-craft-inner .source-menu{border:0;border-radius:0;font-weight:500;position:relative;padding-left:30px;min-width:74px}
+.bio-craft-inner .source-menu:before,.bio-craft-inner .source-menu:after{content:'';position:absolute;left:4px;width:17px;height:1px;background:currentColor;transition:transform .2s var(--bio-arrival),top .2s var(--bio-arrival)}
+.bio-craft-inner .source-menu:before{top:calc(50% - 4px)}
+.bio-craft-inner .source-menu:after{top:calc(50% + 4px)}
+.bio-craft-inner .source-menu[aria-expanded=true]:before{top:50%;transform:rotate(45deg)}
+.bio-craft-inner .source-menu[aria-expanded=true]:after{top:50%;transform:rotate(-45deg)}
+.bio-craft-inner .source-nav-group>summary{display:flex;align-items:center;gap:12px;min-height:44px}
+.bio-craft-inner .source-nav-group>summary:after{content:'';width:7px;height:7px;border:solid currentColor;border-width:0 1.5px 1.5px 0;transform:rotate(45deg);transition:transform .2s var(--bio-arrival);margin-top:-4px}
+.bio-craft-inner .source-nav-group[open]>summary:after{transform:rotate(225deg);margin-top:2px}
+.bio-craft-inner .source-mega a{transition:background-color .18s ease,color .18s ease;padding-inline:14px;text-decoration:none}
+.bio-craft-inner .source-mega a:focus-visible{background:var(--bio-sage)}
+.bio-craft-inner .source-breadcrumbs{font-size:12px;line-height:1.6;padding-block:22px}
+.bio-craft-inner .source-breadcrumbs a{text-decoration:none;border-bottom:1px solid transparent}
+.bio-craft-inner .source-breadcrumbs a:hover{border-color:currentColor}
+.bio-craft-inner .sun-inner>.source-inner-hero{padding-block:78px 86px!important}
+.bio-craft-inner .sun-inner .source-inner-hero h1{font-weight:450;line-height:1.08;font-size:clamp(44px,5vw,72px);max-width:23ch;letter-spacing:-.035em}
+.bio-craft-inner .source-inner-hero p{font-size:18px!important;line-height:1.7!important;max-width:58ch!important}
+.bio-craft-inner .source-inner-hero a.bg-components-primaryButton-surface{min-height:50px;padding:14px 22px;border-radius:3px;font-size:14px;background:var(--bio-forest);color:var(--bio-paper);margin-top:8px;transition:background-color .18s ease}
+.bio-craft-inner .source-inner-hero a.bg-components-primaryButton-surface:hover{background:#27573d}
+.bio-craft-inner .source-inner-hero a.bg-components-primaryButton-surface:focus-visible{outline-color:var(--bio-forest)}
+.bio-craft-inner .sun-inner>.sun-topic-nav{background:var(--bio-paper);border-bottom:1px solid var(--bio-line)}
+.bio-craft-inner .sun-inner>.sun-topic-nav .sun-topic-links a{font-size:13px;font-weight:500;padding:15px 12px;min-height:50px;transition:background-color .18s ease,color .18s ease}
+.bio-craft-inner .sun-topic-links{gap:0 14px}
+.bio-craft-inner .sun-topic-links a:hover,.bio-craft-inner .sun-topic-links a[aria-current=location]{background:var(--bio-sage);color:var(--bio-forest)}
+.bio-craft-inner .sun-topic-menu>summary{font-size:14px}
+.bio-craft-inner .sun-inner>section.sun-editorial-section{padding-block:88px!important}
+.bio-craft-inner .sun-inner .sun-editorial-heading h2{font-size:clamp(29px,3vw,43px);line-height:1.17;font-weight:450;letter-spacing:-.03em;max-width:22ch}
+.bio-craft-inner .sun-editorial-body{font-size:16px;line-height:1.8;min-width:0}
+.bio-craft-inner .sun-editorial-body>p{max-width:68ch;line-height:1.8}
+.bio-craft-inner .sun-editorial-body h3{font-weight:550;font-size:25px;line-height:1.3}
+.bio-craft-inner .sun-inner>section.sun-editorial-section:nth-of-type(2n+3){background:#f0f3e8}
+.bio-craft-inner .sun-inner>section.sun-range-section,.bio-craft-inner .sun-inner>section.sun-reasons-section{background:var(--bio-sage)}
+.bio-craft-inner .sun-editorial-media,.bio-craft-inner .sun-editorial-media img,.bio-craft-inner .source-media,.bio-craft-inner .sun-picture{border-radius:0}
+.bio-craft-inner .sun-editorial-media figcaption,.bio-craft-inner .source-media figcaption{font-size:12px;line-height:1.6;background:#f8faf5e8;color:var(--bio-ink);padding:15px 20px}
+.bio-craft-inner .source-rich ul,.bio-craft-inner .source-rich ol{padding-left:22px}
+.bio-craft-inner .source-rich li{margin-block:12px;padding-left:4px}
+.bio-craft-inner .source-rich li::marker{color:#50734a}
+.bio-craft-inner .sun-link,.bio-craft-inner .sun-desk-links a,.bio-craft-inner .source-route-links a{transition:background-color .16s ease,color .16s ease;text-decoration-thickness:1px}
+.bio-craft-inner .sun-link:hover,.bio-craft-inner .source-rich a:hover{color:#306047}
+.bio-craft-inner .sun-content-actions a:active,.bio-craft-inner .detail-actions a:active{transform:scale(.96)}
+.bio-craft-inner .sun-product-rows{gap:0 28px!important}
+.bio-craft-inner .sun-product-rows article{border:0;border-top:1px solid var(--bio-line);border-radius:0;background:transparent;padding:30px 0!important;box-shadow:none}
+.bio-craft-inner .sun-table-scroll{position:relative;scrollbar-color:#6b8b70 var(--bio-sage);scrollbar-width:thin}
+.bio-craft-inner .sun-table-scroll[data-scrollable=true]{box-shadow:inset -12px 0 14px -14px #4e6859}
+.bio-craft-inner th,.bio-craft-inner td{font-variant-numeric:tabular-nums;line-height:1.65}
+.bio-craft-inner .source-rich details{border-color:var(--bio-line);padding-block:22px}
+.bio-craft-inner summary{cursor:pointer}
+.bio-craft-inner .source-review{background:var(--bio-paper);border-top:1px solid var(--bio-line);font-size:12px}
+.bio-craft-inner .source-review>summary{min-height:44px;display:flex;align-items:center}
+.bio-craft-inner .source-footer h2{font-size:14px;color:var(--bio-paper);font-weight:650}
+.bio-craft-inner .source-footer a{min-height:36px;padding-block:6px;margin-block:3px;font-size:13px;line-height:1.6}
+.bio-craft-inner .source-footer-bottom a{min-height:44px;display:inline-flex;align-items:center}
+.bio-craft-inner .source-footer :focus-visible,.bio-craft-inner .source-utility :focus-visible{outline-color:var(--bio-citron)}
+.bio-craft-inner .source-footer a:hover{color:var(--bio-citron)}
+
+/* Application overview: a material-led map rather than another catalogue. */
+.bio-overview.bio-craft-inner main>.copy>.overview-opening{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:72px;padding:70px max(var(--bio-gutter),calc((100vw - 1240px)/2 + var(--bio-gutter))) 76px;background:var(--bio-sage);align-items:center}
+.bio-overview .overview-opening h1{font-size:clamp(46px,5vw,72px);line-height:1.08;font-weight:450;max-width:21ch;letter-spacing:-.035em;margin:0 0 28px;padding:0}
+.bio-overview .overview-opening p{font-size:18px;line-height:1.75;max-width:56ch;margin:0;padding:0}
+.overview-material{position:relative;overflow:hidden;aspect-ratio:1.08;background:var(--bio-paper);margin:0}
+.overview-material img{display:block;width:100%;height:100%;object-fit:cover;object-position:55% center}
+.overview-material figcaption{position:absolute;bottom:0;left:0;right:0;padding:19px 22px;background:#f8faf5e8;color:var(--bio-muted);font-size:12px;line-height:1.6}
+.bio-overview.bio-craft-inner .scope-links{display:flex;gap:0;flex-wrap:wrap;padding-block:14px;margin:0;max-width:none;padding-inline:max(var(--bio-gutter),calc((100vw - 1240px)/2 + var(--bio-gutter)));background:var(--bio-paper);border-bottom:1px solid var(--bio-line)}
+.bio-overview.bio-craft-inner .scope-links a{border:0;border-radius:0;background:transparent;min-height:48px;padding:14px 22px;margin:0;font-size:13px;transition:background-color .18s ease}
+.bio-overview.bio-craft-inner .scope-links a:hover,.bio-overview.bio-craft-inner .scope-links a[aria-current=location]{background:var(--bio-sage);color:var(--bio-forest)}
+.bio-overview.bio-craft-inner .industry{padding-block:88px;gap:88px;background:var(--bio-paper)}
+.bio-overview.bio-craft-inner .industry:nth-child(2){background:#f0f3e8}
+.bio-overview.bio-craft-inner .industry:nth-child(3){background:var(--bio-sage)}
+.bio-overview.bio-craft-inner .industry-title h2{font-weight:450;font-size:clamp(35px,3.8vw,52px);max-width:18ch}
+.bio-overview.bio-craft-inner .industry-body>p{font-size:18px;line-height:1.75;margin-bottom:36px}
+.bio-overview.bio-craft-inner .map-row{padding-block:30px;border-top:1px solid var(--bio-line)}
+.bio-overview.bio-craft-inner .map-row h3{font-size:25px;font-weight:550;margin-bottom:16px;line-height:1.25;max-width:26ch}
+.bio-overview.bio-craft-inner .map-row p{font-size:16px;line-height:1.75}
+.bio-overview.bio-craft-inner .map-row a,.bio-overview.bio-craft-inner .split a{border-bottom:1px solid currentColor;text-decoration:none;font-size:13px;min-height:44px;transition:color .18s ease}
+.bio-overview.bio-craft-inner .copy>.section{padding-block:88px}
+.bio-overview.bio-craft-inner .copy>.section h2{font-weight:450;font-size:clamp(32px,3.5vw,48px);line-height:1.17}
+.bio-overview.bio-craft-inner .split{gap:64px}
+.bio-overview.bio-craft-inner .split>div{padding:32px;background:var(--bio-sage);border:0}
+.bio-overview.bio-craft-inner .split h3{font-size:28px;font-weight:500;line-height:1.25;max-width:23ch}
+.bio-overview.bio-craft-inner .process-list{gap:42px}
+.bio-overview.bio-craft-inner .process-list>div{border-color:#aabe9f}
+.bio-overview.bio-craft-inner .process-list dt{font-size:22px;font-weight:550;max-width:22ch}
+.bio-overview.bio-craft-inner .products{border-top:1px solid var(--bio-line);border-bottom:1px solid var(--bio-line);padding-block:22px}
+.bio-overview.bio-craft-inner .product-links a{border-color:var(--bio-line);min-height:50px;font-size:14px}
+.bio-overview.bio-craft-inner .nav-bar .button{border-radius:3px}
+.bio-overview.bio-craft-inner>footer h2{color:var(--bio-paper)}
+.bio-overview.bio-craft-inner .nav-panel a:hover{background:var(--bio-sage)}
+
+@media(max-width:1100px){
+ .bio-craft-inner .source-nav nav{gap:17px}.bio-craft-inner .source-nav nav>a,.bio-craft-inner .source-nav-group>summary{font-size:12px}
+ .bio-overview.bio-craft-inner main>.copy>.overview-opening{gap:44px}.bio-overview.bio-craft-inner .industry{gap:52px}
+}
+@media(max-width:1023px){
+ .bio-craft-inner .source-nav nav.is-open{background:var(--bio-paper);padding-inline:var(--bio-gutter)}
+ .bio-craft-inner .source-nav nav.is-open>.source-menu{align-self:flex-end;font-size:14px;min-height:48px;width:auto}
+ .bio-craft-inner .source-nav nav.is-open>a,.bio-craft-inner .source-nav-group>summary{font-size:22px;min-height:64px}
+ .bio-craft-inner .source-mega>div:last-child{gap:0}
+}
+@media(max-width:767px){
+ .bio-craft-inner .source-utility{gap:14px;padding-inline:20px;font-size:10px;min-height:26px;height:auto}
+ .bio-craft-inner .source-nav{min-height:62px;padding:8px 20px;gap:10px}.bio-craft-inner .source-logo{font-size:23px}
+ .bio-craft-inner .source-nav>.min-h-\[40px\]{padding:10px 12px;font-size:11px}.bio-craft-inner .source-menu{padding-right:6px;min-width:68px;font-size:12px}
+ .bio-craft-inner .source-breadcrumbs{font-size:11px;line-height:1.7;padding-block:20px}
+ .bio-craft-inner .sun-inner>.source-inner-hero{padding-block:44px 52px!important}
+ .bio-craft-inner .sun-inner .source-inner-hero h1{font-size:40px;font-weight:450;line-height:1.12;letter-spacing:-.035em;margin-bottom:24px;max-width:23ch}
+ .bio-craft-inner .source-inner-hero p{font-size:16px!important;line-height:1.75!important}
+ .bio-craft-inner .source-inner-hero a.bg-components-primaryButton-surface{font-size:13px;min-height:48px;padding:13px 18px}
+ .bio-craft-inner .sun-inner>section.sun-editorial-section{padding-block:60px!important}
+ .bio-craft-inner .sun-inner .sun-editorial-heading h2{font-size:31px;line-height:1.2;max-width:25ch}
+ .bio-craft-inner .sun-editorial-body{font-size:16px;line-height:1.75}
+ .bio-craft-inner .sun-editorial-body h3{font-size:24px}
+ .bio-craft-inner .sun-inner>.sun-topic-nav .sun-topic-links a{min-height:48px;padding:13px 12px;font-size:13px}
+ .bio-craft-inner .source-footer-grid{gap:32px 22px}.bio-craft-inner .source-footer h2{font-size:13px}.bio-craft-inner .source-footer a{font-size:12px;margin-block:3px;padding-block:7px}
+ .bio-overview.bio-craft-inner main>.copy>.overview-opening{grid-template-columns:1fr;gap:32px;padding-block:44px 46px}
+ .bio-overview .overview-opening h1{font-size:40px;line-height:1.12;margin-bottom:24px}
+ .bio-overview .overview-opening p{font-size:16px;line-height:1.75}
+ .overview-material{aspect-ratio:1.45}.overview-material figcaption{padding:15px 18px;font-size:11px}
+ .bio-overview.bio-craft-inner .scope-links{display:grid;grid-template-columns:1fr 1fr;padding-block:10px;gap:0}
+ .bio-overview.bio-craft-inner .scope-links a{padding:12px;line-height:1.5;min-height:48px;font-size:12px}
+ .bio-overview.bio-craft-inner .industry{padding-block:56px;gap:28px}
+ .bio-overview.bio-craft-inner .industry-title h2{font-size:35px}
+ .bio-overview.bio-craft-inner .industry-body>p{font-size:16px}
+ .bio-overview.bio-craft-inner .map-row{padding-block:26px}.bio-overview.bio-craft-inner .map-row h3{font-size:24px}
+ .bio-overview.bio-craft-inner .copy>.section{padding-block:60px}.bio-overview.bio-craft-inner .copy>.section h2{font-size:31px;line-height:1.2}
+ .bio-overview.bio-craft-inner .split{gap:22px}.bio-overview.bio-craft-inner .split>div{padding:26px 22px}.bio-overview.bio-craft-inner .split h3{font-size:26px}
+ .bio-overview.bio-craft-inner .process-list{gap:30px}.bio-overview.bio-craft-inner .process-list dt{font-size:23px}
+}
+@media(prefers-reduced-motion:reduce){.bio-craft-inner *{scroll-behavior:auto!important;animation:none!important;transition:none!important}.bio-craft-inner .sun-content-actions a:active,.bio-craft-inner .detail-actions a:active{transform:none}}
+/* Match the application hub's inherited header action to the same brand surface. */
+.bio-overview.bio-craft-inner .nav-bar .button{background:var(--bio-citron);color:var(--bio-forest);border-radius:3px}
+.bio-overview.bio-craft-inner .nav-bar .button:hover{background:#b9d371}
