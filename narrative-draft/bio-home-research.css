@@ -1,0 +1,31 @@
+/* v58: confined to research; published global design is the baseline. */
+#research-in-view .research-scale-intro{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:end;margin-bottom:38px}
+#research-in-view .research-scale-intro h2{max-width:none;text-wrap:balance}
+#research-in-view .research-scale-intro>p{max-width:49ch;margin:0;font-size:16px;line-height:1.8}
+#research-in-view .research-spread{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:start}
+#research-in-view .research-observation{position:static;display:block;margin:0;min-height:0;overflow:visible;background:none}
+#research-in-view .research-observation>img{display:block;position:static;width:100%;height:360px;max-width:100%;object-fit:cover;object-position:57% 50%;opacity:1;transform:none;clip-path:none}
+#research-in-view .research-observation figcaption{display:flex;align-items:center;justify-content:space-between;gap:16px;position:static;margin-top:15px;padding:0;background:none;font-size:12px;line-height:1.6;color:var(--muted)}
+#research-in-view .research-observation .media-info{flex:none}
+#research-in-view .research-perspectives{padding-top:4px;min-width:0}
+#research-in-view .research-perspectives>div+div{margin-top:28px}
+#research-in-view .research-perspectives h3{font-size:24px;line-height:1.3;letter-spacing:-.025em;font-weight:560;margin:0 0 12px;max-width:none}
+#research-in-view .research-perspectives p{font-size:16px;line-height:1.8;max-width:51ch;margin:0}
+#research-in-view .research-perspectives>.reading-link{margin-top:24px}
+@media(max-width:1000px){
+ #research-in-view .research-scale-intro,#research-in-view .research-spread{gap:34px}
+ #research-in-view .research-scale-intro{grid-template-columns:1fr;gap:22px;margin-bottom:30px}
+ #research-in-view .research-scale-intro>p{max-width:68ch}
+ #research-in-view .research-observation>img{height:370px}
+ #research-in-view .research-perspectives h3{font-size:22px}
+}
+@media(max-width:700px){
+ #research-in-view .research-scale-intro{gap:20px}
+ #research-in-view .research-scale-intro h2{font-size:36px;line-height:1.16}
+ #research-in-view .research-spread{grid-template-columns:1fr;gap:27px}
+ #research-in-view .research-observation>img{height:230px;object-position:57% 50%}
+ #research-in-view .research-perspectives{padding:0}
+ #research-in-view .research-perspectives h3{font-size:22px}
+ #research-in-view .research-perspectives>div+div{margin-top:25px}
+ #research-in-view .research-perspectives p{max-width:none}
+}
