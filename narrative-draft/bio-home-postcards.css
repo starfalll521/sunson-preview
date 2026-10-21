@@ -1,0 +1,57 @@
+/* v65: three restrained paper compositions, scoped to two text-only chapters. */
+body.bio-home-landscape.bio-home-bold #work-and-perspectives .editorial-pair{grid-template-columns:1.08fr .92fr;gap:32px;align-items:start}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives .research-story,
+body.bio-home-landscape.bio-home-bold #work-and-perspectives .standards-story{display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:0;min-width:0;min-height:390px;padding:40px;border:1px solid #c5d1bf99;border-radius:6px;box-shadow:none;overflow:visible}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives .research-story{margin:0;background:#fff;color:var(--forest)}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives .standards-story{margin:28px 0 0;background:var(--sage);color:var(--forest)}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives .story-copy{display:flex;flex-direction:column;align-items:flex-start;flex:1;padding:0;background:none}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives .standards-story>*{grid-column:auto;grid-row:auto}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives .story-copy h3,
+body.bio-home-landscape.bio-home-bold #work-and-perspectives .standards-story h3{margin:0;font-size:33px;line-height:1.18;font-weight:550;letter-spacing:-.025em;max-width:none;color:var(--forest)}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives .story-copy p,
+body.bio-home-landscape.bio-home-bold #work-and-perspectives .standards-story p{margin:24px 0 28px;font-size:16px;line-height:1.75;max-width:51ch;color:var(--forest)}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives .story-copy .reading-link,
+body.bio-home-landscape.bio-home-bold #work-and-perspectives .standards-story .reading-link{align-self:flex-start;justify-self:start;margin:0;min-height:44px;padding:11px 18px;max-width:100%;font-size:13px;line-height:1.5;white-space:normal;color:var(--forest);background:transparent;border-color:#54775b}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives .reading-link:hover{background:var(--forest);border-color:var(--forest);color:var(--paper)}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives .reading-link:focus-visible{outline:2px solid var(--forest);outline-offset:5px}
+
+body.bio-home-landscape.bio-home-bold #conversation.landscape-closing{padding-block:56px;background:var(--sage)}
+body.bio-home-landscape.bio-home-bold #conversation .frame.closing{display:grid;grid-template-columns:.88fr 1.12fr;gap:64px;align-items:start;width:min(1280px,calc(100% - 80px));max-width:1280px;margin-inline:auto;padding:52px 56px;background:var(--paper);border:1px solid #c5d1bf99;border-radius:6px;text-align:left;box-sizing:border-box}
+body.bio-home-landscape.bio-home-bold #conversation .closing h2{margin:0;font-size:clamp(38px,3.8vw,50px);line-height:1.12;font-weight:550;letter-spacing:-.03em;max-width:none;color:var(--forest)}
+body.bio-home-landscape.bio-home-bold #conversation .closing>div{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:12px;margin:0;min-width:0}
+body.bio-home-landscape.bio-home-bold #conversation .closing p{grid-column:auto;margin:0 0 12px;max-width:51ch;width:auto;font-size:16px;line-height:1.75;text-align:left;color:var(--forest)}
+body.bio-home-landscape.bio-home-bold #conversation .closing .reading-link{align-self:flex-start;justify-self:start;min-height:46px;max-width:100%;margin:0;padding:11px 20px;font-size:14px;line-height:1.5;text-align:left;white-space:normal;background:transparent;color:var(--forest);border-color:#54775b}
+body.bio-home-landscape.bio-home-bold #conversation .closing .reading-link:last-child{background:var(--forest);color:var(--paper);border-color:var(--forest)}
+body.bio-home-landscape.bio-home-bold #conversation .closing .reading-link:hover{background:var(--sage);color:var(--forest);border-color:var(--forest)}
+body.bio-home-landscape.bio-home-bold #conversation .closing .reading-link:last-child:hover{background:#235540;color:var(--paper)}
+body.bio-home-landscape.bio-home-bold #conversation .reading-link:focus-visible{outline:2px solid var(--forest);outline-offset:5px}
+
+@media(max-width:1000px){
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives .editorial-pair{gap:24px;grid-template-columns:1fr 1fr}
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives .research-story,
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives .standards-story{padding:30px;min-height:0}
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives .story-copy h3,
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives .standards-story h3{font-size:29px}
+ body.bio-home-landscape.bio-home-bold #conversation .frame.closing{padding:40px;gap:40px}
+ body.bio-home-landscape.bio-home-bold #conversation .closing h2{font-size:38px}
+}
+@media(max-width:800px){
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives .editorial-pair{grid-template-columns:1fr;gap:20px}
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives .standards-story{margin-top:0}
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives .research-story,
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives .standards-story{padding:28px}
+ body.bio-home-landscape.bio-home-bold #conversation .frame.closing{grid-template-columns:1fr;gap:28px;width:calc(100% - 48px);padding:36px}
+}
+@media(max-width:560px){
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives .research-story,
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives .standards-story{padding:26px 24px}
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives .story-copy h3,
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives .standards-story h3{font-size:28px}
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives .story-copy p,
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives .standards-story p{margin:20px 0 24px;font-size:15px;line-height:1.8}
+ body.bio-home-landscape.bio-home-bold #conversation.landscape-closing{padding-block:40px}
+ body.bio-home-landscape.bio-home-bold #conversation .frame.closing{width:calc(100% - 40px);padding:30px 24px;gap:24px}
+ body.bio-home-landscape.bio-home-bold #conversation .closing h2{font-size:32px;line-height:1.16}
+ body.bio-home-landscape.bio-home-bold #conversation .closing p{font-size:15px;line-height:1.8}
+ body.bio-home-landscape.bio-home-bold #conversation .closing .reading-link{font-size:13px;padding:11px 16px}
+}
