@@ -1,4 +1,4 @@
-/* v63: one everyday scene, three uses; research is the supporting layer. */
+/* v64: deeper reading area within the existing bright application scene. */
 body.bio-home-landscape.bio-home-bold #research-in-view.research-everyday{padding:64px 0 52px;background:var(--paper);color:var(--forest)}
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-frame{max-width:1360px}
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-intro{display:grid;grid-template-columns:1fr 1fr;gap:10%;align-items:end;margin-bottom:28px}
@@ -14,10 +14,13 @@ body.bio-home-landscape.bio-home-bold #research-in-view .everyday-panel{position
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-panel[hidden]{display:none}
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-visual{position:absolute;inset:0;z-index:-1;overflow:hidden}
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-photo{display:block;width:100%;height:100%;object-fit:cover;object-position:center;margin:0;max-width:100%}
-body.bio-home-landscape.bio-home-bold #research-in-view .everyday-copy{padding:42px;max-width:39%;min-width:0}
-body.bio-home-landscape.bio-home-bold #research-in-view .everyday-copy h3{font-size:clamp(28px,2.7vw,38px);line-height:1.13;letter-spacing:-.025em;font-weight:550;margin:0 0 22px;max-width:none}
-body.bio-home-landscape.bio-home-bold #research-in-view .everyday-copy p{font-size:15px;line-height:1.75;margin:0;max-width:38ch;text-wrap:pretty}
-body.bio-home-landscape.bio-home-bold #research-in-view .everyday-copy .reading-link{margin-top:26px;font-size:13px;min-height:44px;white-space:normal}
+body.bio-home-landscape.bio-home-bold #research-in-view .everyday-panel::before{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;background:linear-gradient(90deg,var(--forest) 0%,var(--forest) 36%,#163e31ed 40%,#163e3190 48%,#163e3100 61%)}
+body.bio-home-landscape.bio-home-bold #research-in-view .everyday-copy{position:relative;z-index:1;padding:42px;max-width:39%;min-width:0;color:var(--paper)}
+body.bio-home-landscape.bio-home-bold #research-in-view .everyday-copy h3{font-size:clamp(28px,2.7vw,38px);line-height:1.13;letter-spacing:-.025em;font-weight:550;margin:0 0 22px;max-width:none;color:var(--paper)}
+body.bio-home-landscape.bio-home-bold #research-in-view .everyday-copy p{font-size:15px;line-height:1.75;margin:0;max-width:38ch;text-wrap:pretty;color:var(--paper)}
+body.bio-home-landscape.bio-home-bold #research-in-view .everyday-copy .reading-link{margin-top:26px;padding:11px 18px;font-size:13px;min-height:44px;white-space:normal;background:var(--lime,#cddd92);color:var(--forest);border-color:transparent}
+body.bio-home-landscape.bio-home-bold #research-in-view .everyday-copy .reading-link:hover{background:var(--paper);color:var(--forest)}
+body.bio-home-landscape.bio-home-bold #research-in-view .everyday-copy .reading-link:focus-visible{outline:2px solid var(--paper);outline-offset:5px}
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-caption{display:flex;align-items:center;gap:20px;justify-content:space-between;min-height:44px;font-size:11px;color:var(--muted)}
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-caption .media-info{position:relative;flex:0 0 44px;width:44px;min-width:44px;margin:0}
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-caption summary{display:grid;place-items:center;width:44px;height:44px}
@@ -45,10 +48,11 @@ body.bio-home-landscape.bio-home-bold #research-in-view .everyday-foundation>.re
  body.bio-home-landscape.bio-home-bold #research-in-view .everyday-copy h3{font-size:30px}
 }
 @media(max-width:880px){
+ body.bio-home-landscape.bio-home-bold #research-in-view .everyday-panel::before{display:none}
  body.bio-home-landscape.bio-home-bold #research-in-view .everyday-panel{display:flex;flex-direction:column;align-items:stretch;min-height:0}
  body.bio-home-landscape.bio-home-bold #research-in-view .everyday-visual{position:relative;inset:auto;z-index:0;height:320px;flex:none}
  body.bio-home-landscape.bio-home-bold #research-in-view .everyday-photo{width:135%;max-width:none;height:100%;margin-left:-35%;object-position:77% 50%;aspect-ratio:auto}
- body.bio-home-landscape.bio-home-bold #research-in-view .everyday-copy{max-width:none;padding:28px;background:#edf1e5}
+ body.bio-home-landscape.bio-home-bold #research-in-view .everyday-copy{max-width:none;padding:28px;background:var(--forest)}
 }
 @media(max-width:680px){
  body.bio-home-landscape.bio-home-bold #research-in-view.research-everyday{padding-block:40px}
