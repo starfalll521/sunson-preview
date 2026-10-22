@@ -1,5 +1,5 @@
 /* Keep the overview reading layout within the shared site shell. */
-:root{--paper:#fffdfa;--ink:#35272b;--muted:#695258;--soft:#f6e8e6;--accent:#78273c;--line:#cdbdbd}
+:root{--paper:#fffdfa;--ink:#102e4c;--muted:#495e72;--soft:#e7eef5;--accent:#2f4f70;--line:#b8c5d2}
 body{font-family:Manrope,Arial,sans-serif}.site-header,body>footer{max-width:none;padding:0;margin:0}
 .site-header .nav-bar{padding-block:0}.site-header nav{max-width:none}.site-header .nav-panel p{margin:0}.site-header a{color:inherit}
 body>footer{background:var(--footer);color:var(--paper);padding:72px 0 24px}body>footer a{color:inherit}

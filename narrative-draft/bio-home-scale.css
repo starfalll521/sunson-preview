@@ -32,7 +32,7 @@
 .bio-home-tech .scale-material-chapter .material-study figcaption{position:static;background:none;padding:15px 0 0;font-size:12px;gap:20px}
 .bio-home-tech .scale-material-chapter .material-continuum{grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin-top:38px}
 .bio-home-tech .scale-material-chapter .material-continuum>article{border:0;padding:0 35px 0 0;min-width:0}
-.bio-home-tech .scale-material-chapter .material-continuum>article+article{border-left:1px solid #b9c9b3;padding-left:35px}
+.bio-home-tech .scale-material-chapter .material-continuum>article+article{border-left:1px solid #b0becc;padding-left:35px}
 .bio-home-tech .scale-material-chapter .material-continuum h3{font-size:28px;line-height:1.2;font-weight:500;letter-spacing:-.025em}
 .bio-home-tech .scale-material-chapter .material-continuum p{font-size:14px;line-height:1.75;max-width:27ch;margin-top:12px}
 
@@ -41,9 +41,9 @@
 .bio-home-tech .scale-industry-chapter .solution-layout{grid-template-columns:minmax(0,.78fr) minmax(0,1.42fr);gap:94px;align-items:start}
 .bio-home-tech .scale-industry-chapter .solution-layout h2{font-size:clamp(36px,3.65vw,50px);line-height:1.14;max-width:16ch}
 .bio-home-tech .scale-industry-chapter .solution-layout>div:first-child>p{font-size:16px;line-height:1.8;max-width:34ch;margin-top:24px}
-.bio-home-tech .scale-industry-chapter .industry-routes{border-top:1px solid #b9cabb}
-.bio-home-tech .scale-industry-chapter .industry-route{position:relative;isolation:isolate;min-height:132px;padding:29px 22px;gap:22px;background:transparent;border-bottom:1px solid #b9cabb;overflow:hidden}
-.bio-home-tech .scale-industry-chapter .industry-route:before{content:'';position:absolute;inset:0;z-index:-1;background:#e3ecd9;transform:scaleX(0);transform-origin:left;transition:transform .42s var(--arrival);pointer-events:none}
+.bio-home-tech .scale-industry-chapter .industry-routes{border-top:1px solid #b4c2cf}
+.bio-home-tech .scale-industry-chapter .industry-route{position:relative;isolation:isolate;min-height:132px;padding:29px 22px;gap:22px;background:transparent;border-bottom:1px solid #b4c2cf;overflow:hidden}
+.bio-home-tech .scale-industry-chapter .industry-route:before{content:'';position:absolute;inset:0;z-index:-1;background:#dae2eb;transform:scaleX(0);transform-origin:left;transition:transform .42s var(--arrival);pointer-events:none}
 .bio-home-tech .scale-industry-chapter .industry-route:hover,.bio-home-tech .scale-industry-chapter .industry-route:focus-visible{background:transparent;color:var(--forest)}
 .bio-home-tech .scale-industry-chapter .industry-route:hover:before,.bio-home-tech .scale-industry-chapter .industry-route:focus-visible:before{transform:scaleX(1)}
 .bio-home-tech .scale-industry-chapter .industry-route strong{font-size:clamp(26px,2.4vw,32px);line-height:1.2;font-weight:500;letter-spacing:-.025em}
@@ -65,21 +65,21 @@
 .bio-home-tech .scale-evidence-chapter .story-copy p{font-size:15px;line-height:1.8;max-width:43ch;margin-top:25px}
 .bio-home-tech .scale-evidence-chapter .standards-story{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.3fr) auto;gap:38px;align-items:center;padding:35px 38px;margin-top:58px;border-radius:0;background:var(--forest);color:var(--paper)}
 .bio-home-tech .scale-evidence-chapter .standards-story h3{font-size:28px;line-height:1.23;font-weight:450;letter-spacing:-.025em}
-.bio-home-tech .scale-evidence-chapter .standards-story p{font-size:14px;line-height:1.8;color:#e1ebd9;margin:0;max-width:46ch}
+.bio-home-tech .scale-evidence-chapter .standards-story p{font-size:14px;line-height:1.8;color:#d9e2eb;margin:0;max-width:46ch}
 .bio-home-tech .scale-evidence-chapter .standards-story .reading-link{align-self:center;justify-self:start;margin:0;padding:0;font-size:12px;max-width:180px;min-height:48px;color:var(--paper)}
 .bio-home-tech .scale-evidence-chapter .standards-story :focus-visible{outline-color:var(--lime)}
 
 /* Production is a field, not a card: four factual stages have room to connect. */
-.bio-home-tech .scale-manufacturing-chapter{background:#edf0ec;padding-block:106px 100px}
+.bio-home-tech .scale-manufacturing-chapter{background:#e9eef3;padding-block:106px 100px}
 .bio-home-tech .scale-manufacturing-chapter .purpose-layout{gap:100px;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr)}
 .bio-home-tech .scale-manufacturing-chapter .purpose-layout h2{font-size:clamp(38px,4vw,54px);line-height:1.15;max-width:20ch}
 .bio-home-tech .scale-manufacturing-chapter .purpose-layout p{font-size:16px;line-height:1.8;max-width:43ch}
 .bio-home-tech .scale-manufacturing-chapter .manufacturing-study{background:none;padding:0;margin-top:74px;border:0;border-radius:0}
 .bio-home-tech .scale-manufacturing-chapter .manufacturing-flow{gap:0}
-.bio-home-tech .scale-manufacturing-chapter .manufacturing-flow:before{top:165px;background:#a7bca6;left:12.5%;right:12.5%}
+.bio-home-tech .scale-manufacturing-chapter .manufacturing-flow:before{top:165px;background:#a0b1c2;left:12.5%;right:12.5%}
 .bio-home-tech .scale-manufacturing-chapter .process-drawing{width:128px;height:128px;margin-bottom:32px}
-.bio-home-tech .scale-manufacturing-chapter .process-drawing>svg{stroke-width:1.1;color:#37634a}
-.bio-home-tech .scale-manufacturing-chapter .process-point{background:#edf0ec;border-color:#72976e}
+.bio-home-tech .scale-manufacturing-chapter .process-drawing>svg{stroke-width:1.1;color:#3b4d5f}
+.bio-home-tech .scale-manufacturing-chapter .process-point{background:#e9eef3;border-color:#67829e}
 .bio-home-tech .scale-manufacturing-chapter .process-name{font-size:20px;letter-spacing:-.02em;margin-top:25px;line-height:1.3}
 .bio-home-tech .scale-manufacturing-chapter .process-name:before{font-size:12px;margin-bottom:8px;color:var(--muted)}
 .bio-home-tech .scale-manufacturing-chapter .manufacturing-study figcaption{border:0;margin-top:42px;padding:0;gap:25px;font-size:12px;color:var(--muted)}
@@ -153,7 +153,7 @@
  .bio-home-tech .scale-material-chapter .material-study figcaption small{display:block;margin-top:5px}
  .bio-home-tech .scale-material-chapter .material-continuum{grid-template-columns:1fr;gap:0;margin-top:27px}
  .bio-home-tech .scale-material-chapter .material-continuum>article,.bio-home-tech .scale-material-chapter .material-continuum>article+article{display:grid;grid-template-columns:minmax(0,.67fr) minmax(0,1.33fr);gap:20px;border:0;padding:19px 0}
- .bio-home-tech .scale-material-chapter .material-continuum>article+article{border-top:1px solid #b9c9b3}
+ .bio-home-tech .scale-material-chapter .material-continuum>article+article{border-top:1px solid #b0becc}
  .bio-home-tech .scale-material-chapter .material-continuum h3{font-size:25px;line-height:1.3}
  .bio-home-tech .scale-material-chapter .material-continuum p{font-size:14px;line-height:1.7;max-width:none;margin:0}
  .bio-home-tech .scale-industry-chapter .solution-layout{gap:33px}
@@ -191,13 +191,13 @@
 
 /* Selection is a tangible field, rather than a decorative hairline. */
 .bio-home-tech .research-scale-controls .research-principles button{padding-inline:16px;border-bottom:0;transition:background-color .24s ease}
-.bio-home-tech .research-scale-controls .research-principles button[aria-pressed=true]{background:#dfead3}
-.bio-home-tech .research-scale-controls .research-principles button:after{height:3px;background:#a8c670;bottom:0}
+.bio-home-tech .research-scale-controls .research-principles button[aria-pressed=true]{background:#d5dee8}
+.bio-home-tech .research-scale-controls .research-principles button:after{height:3px;background:#799bbd;bottom:0}
 .bio-home-tech .research-scale-controls .research-principles>div>p{padding-inline:16px}
 .bio-home-tech .scale-manufacturing-chapter .process-drawing{border-radius:50%;transition:background-color .24s ease}
-.bio-home-tech .scale-manufacturing-chapter [data-process-complete=true] .process-drawing{background:#dfe8d9}
-.bio-home-tech .scale-manufacturing-chapter [data-process-complete=true] .process-point{background:#72976e}
-.bio-home-tech .scale-manufacturing-chapter [data-process-active=true] .process-point{background:var(--forest);box-shadow:0 0 0 5px #c9df8a66}
+.bio-home-tech .scale-manufacturing-chapter [data-process-complete=true] .process-drawing{background:#d7e0ea}
+.bio-home-tech .scale-manufacturing-chapter [data-process-complete=true] .process-point{background:#67829e}
+.bio-home-tech .scale-manufacturing-chapter [data-process-active=true] .process-point{background:var(--forest);box-shadow:0 0 0 5px #bddbed66}
 @media(max-width:767px){.bio-home-tech .research-scale-controls .research-principles button{padding-inline:12px}.bio-home-tech .research-scale-controls .research-principles>div>p{padding-inline:12px}}
 @media(prefers-reduced-motion:reduce){.bio-home-tech .research-scale-controls .research-principles button,.bio-home-tech .scale-manufacturing-chapter .process-drawing{transition:none}}
 /* Mobile selection labels keep an equal target height and a readable line length. */
@@ -259,7 +259,7 @@
 .bio-home-scale .resource-scene h2{font-size:clamp(38px,4.4vw,58px)}
 .bio-home-scale .closing h2{font-size:clamp(36px,3.8vw,50px)}
 .bio-home-scale .resource-scene>img{transform:scaleX(-1);object-position:38% center}
-.bio-home-scale .resource-scene:before{background:linear-gradient(270deg,#0b251df0 0%,#0b251dbf 52%,#0b251d20 100%)}
+.bio-home-scale .resource-scene:before{background:linear-gradient(270deg,#081828f0 0%,#081828bf 52%,#08182820 100%)}
 .bio-home-scale .resource-scene .frame>div{max-width:620px;margin-left:auto}
 @media(max-width:950px){
  .bio-home-scale{--chapter-space:68px}
@@ -280,7 +280,7 @@
  .bio-home-scale{--chapter-space:58px}
  .bio-home-scale #our-solutions,.bio-home-scale #conversation{padding-block:58px}
  .bio-home-scale #continue-the-connection{padding-block:66px}
- .bio-home-scale .resource-scene:before{background:#0b251dd4}
+ .bio-home-scale .resource-scene:before{background:#081828d4}
  .bio-home-scale .resource-scene .frame>div{margin-left:0}
  .bio-home-scale .research-scale-intro h2,
  .bio-home-scale .scale-material-chapter .intro-pair h2,

@@ -24,7 +24,7 @@
 .bio-home-tech .manufacturing-study{position:relative}
 .bio-home-tech .manufacturing-flow>li{transition:color .18s ease}
 .bio-home-tech .manufacturing-flow>li[data-process-active=true]{color:var(--forest)}
-.bio-home-tech .manufacturing-flow>li[data-process-active=true] .process-point{background:var(--forest);box-shadow:0 0 0 5px #c9df8a66}
+.bio-home-tech .manufacturing-flow>li[data-process-active=true] .process-point{background:var(--forest);box-shadow:0 0 0 5px #bddbed66}
 .bio-home-tech .manufacturing-flow>li[data-process-active=true] .process-drawing>svg{color:var(--forest)}
 .bio-home-tech .process-replay{display:inline-flex;gap:10px;align-items:center;min-height:44px;font-size:12px;padding:8px 0;color:var(--forest);flex:none}
 .bio-home-tech .process-replay svg{width:18px;height:18px}
@@ -33,7 +33,7 @@
 .bio-home-tech .reading-link:after{content:'';position:absolute;left:0;right:0;bottom:-1px;height:2px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .28s var(--arrival);pointer-events:none}
 .bio-home-tech .reading-link:hover:after,.bio-home-tech .reading-link:focus-visible:after{transform:scaleX(1)}
 .bio-home-tech .action,.bio-home-tech .button{transition:background-color .2s ease,color .2s ease,transform .18s var(--arrival),box-shadow .2s ease}
-.bio-home-tech .action:hover{box-shadow:0 5px 16px #071e191c}
+.bio-home-tech .action:hover{box-shadow:0 5px 16px #06121f1c}
 .bio-home-tech .action:active{transform:scale(.96)}
 @media(max-width:1100px){.bio-home-tech .research-feature{gap:50px}.bio-home-tech .research-image-window{height:390px}.bio-home-tech .research-viewer figcaption{display:block}.bio-home-tech .research-viewer figcaption small{display:block;margin-top:5px}}
 @media(max-width:767px){

@@ -1,7 +1,7 @@
 /* One chapter, one observation field. No other page or section is restyled. */
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas {
-  --atlas-paper:#f8faf5;--atlas-soft:#d6e3d1;--atlas-accent:#d2e8ae;
-  background:#143e31;padding-block:76px 72px;color:var(--atlas-paper);
+  --atlas-paper:#ffffff;--atlas-soft:#cfdae5;--atlas-accent:#b4cbe2;
+  background:#092b4c;padding-block:76px 72px;color:var(--atlas-paper);
 }
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas>.frame{max-width:1360px}
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .intro-pair{
@@ -16,7 +16,7 @@ body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .intro-pa
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .intro-pair p+p{margin-top:10px}
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-field{margin:0;--field-ink:var(--atlas-paper)}
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-tabs{
-  display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px;border:0;padding:5px;background:#0e342c;border-radius:16px 16px 0 0;
+  display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px;border:0;padding:5px;background:#0c2136;border-radius:16px 16px 0 0;
 }
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-tabs button,
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-tabs button+button{
@@ -28,18 +28,18 @@ body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-tabs button>svg{
   width:26px;height:26px;padding:0;flex:none;stroke:currentColor;stroke-width:1.4;fill:none;opacity:.8;transform:none;transition:opacity .15s ease;
 }
-body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-tabs button[aria-selected=true]{background:var(--atlas-accent);color:#143e31;font-weight:650}
+body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-tabs button[aria-selected=true]{background:var(--atlas-accent);color:#092b4c;font-weight:650}
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-tabs button[aria-selected=true]>svg{opacity:1}
-body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-tabs button:not(:disabled):hover{background:#254f40;color:var(--atlas-paper)}
-body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-tabs button[aria-selected=true]:hover{background:#deedc5;color:#143e31}
+body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-tabs button:not(:disabled):hover{background:#293a4b;color:var(--atlas-paper)}
+body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-tabs button[aria-selected=true]:hover{background:#c8d9ea;color:#092b4c}
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-tabs button:focus-visible{outline:2px solid var(--atlas-paper);outline-offset:-3px}
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-composition{
   position:relative;isolation:isolate;display:grid;grid-template-columns:minmax(0,39fr) minmax(0,61fr);gap:0;
-  padding:0;align-items:center;background:#0c3028;border-radius:0 0 18px 18px;overflow:hidden;
+  padding:0;align-items:center;background:#0b1e31;border-radius:0 0 18px 18px;overflow:hidden;
 }
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-composition:before{
   content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
-  background:radial-gradient(ellipse at 74% 31%,#3c665344 0,transparent 57%),linear-gradient(120deg,#0c3028 24%,#123c32 100%);
+  background:radial-gradient(ellipse at 74% 31%,#3f516344 0,transparent 57%),linear-gradient(120deg,#0b1e31 24%,#0e2740 100%);
 }
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-panels,
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-ready .science-panels{
@@ -53,9 +53,9 @@ body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-
   margin-top:20px;font-size:15px;line-height:1.8;max-width:42ch;color:var(--atlas-soft);text-wrap:pretty;
 }
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-reading>.reading-link{
-  margin-top:24px;border-color:#96b494b3;font-size:13px;min-height:46px;background:transparent;
+  margin-top:24px;border-color:#90a4b8b3;font-size:13px;min-height:46px;background:transparent;
 }
-body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-reading>.reading-link:hover{background:var(--atlas-accent);color:#143e31;border-color:var(--atlas-accent)}
+body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-reading>.reading-link:hover{background:var(--atlas-accent);color:#092b4c;border-color:var(--atlas-accent)}
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-figure{display:contents}
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .atlas-visual{
   order:1;position:relative;min-width:0;align-self:stretch;display:grid;place-items:center;isolation:isolate;overflow:hidden;
@@ -66,19 +66,19 @@ body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .atlas-ob
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas [data-atlas-helix]{width:100%;height:100%;display:block;overflow:visible}
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .atlas-light{
   position:absolute;inset:4% 0 9%;pointer-events:none;opacity:0;
-  background:linear-gradient(110deg,transparent 30%,#d8edac09 40%,#e4f4be20 48%,transparent 61%);transform:translateX(-25%);
+  background:linear-gradient(110deg,transparent 30%,#b1cce809 40%,#c4d9ee20 48%,transparent 61%);transform:translateX(-25%);
   mask-image:radial-gradient(ellipse,#000 12%,transparent 68%);
 }
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .atlas-caption{
   order:2;grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:18px 40px;align-items:end;
-  margin:0;padding:24px 40px 26px;border-top:1px solid #b2cba223;background:#08291f66;min-height:124px;
+  margin:0;padding:24px 40px 26px;border-top:1px solid #a6b6c723;background:#09182866;min-height:124px;
 }
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-ready .science-visual-legends{min-height:76px;display:grid;align-items:center;min-width:0;max-width:780px}
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-legend{margin:0;padding:0;font-size:12px;line-height:1.5}
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-legend>div:first-child{gap:12px 28px}
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-legend strong{font-size:13px;font-weight:550;color:var(--atlas-paper)}
-body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-legend span{font-size:12px;line-height:1.6;margin-top:3px;color:#c1d4bb}
-body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-legend .science-legend-caption{margin-top:12px;color:#adc4a7;font-size:11px}
+body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-legend span{font-size:12px;line-height:1.6;margin-top:3px;color:#bbc8d4}
+body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-legend .science-legend-caption{margin-top:12px;color:#a5b5c6;font-size:11px}
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .atlas-tools{display:flex;align-items:center;justify-content:flex-end;gap:14px;align-self:end}
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .atlas-tools>div{display:flex;align-items:center;gap:20px}
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .atlas-tools button{

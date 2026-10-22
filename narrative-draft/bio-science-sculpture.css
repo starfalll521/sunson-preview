@@ -6,9 +6,9 @@
 [data-science-field] .science-vector-helix [data-helix-segment],[data-science-field] .science-vector-helix [data-helix-rung],[data-science-field] .science-vector-helix [data-helix-trace]{pointer-events:none}
 [data-science-field] .science-vector-helix [data-helix-rung]{transform-box:fill-box;transform-origin:50% 50%}
 [data-science-field] .science-vector-controls{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:8px 26px;margin-top:8px}
-[data-science-field] .science-vector-controls button{display:inline-flex;align-items:center;justify-content:center;gap:9px;width:max-content;min-width:44px;min-height:44px;padding:6px 0;border:0;border-radius:0;background:transparent;color:var(--field-ink,#ecf1df);font:inherit;font-size:12px;line-height:1.3;cursor:pointer;touch-action:manipulation;text-underline-offset:4px}
-[data-science-field] .science-vector-controls button:hover{text-decoration:underline;color:#d5e9b5}
-[data-science-field] .science-vector-controls button:focus-visible{outline:2px solid #d5e9b5;outline-offset:4px}
+[data-science-field] .science-vector-controls button{display:inline-flex;align-items:center;justify-content:center;gap:9px;width:max-content;min-width:44px;min-height:44px;padding:6px 0;border:0;border-radius:0;background:transparent;color:var(--field-ink,#e0e8f0);font:inherit;font-size:12px;line-height:1.3;cursor:pointer;touch-action:manipulation;text-underline-offset:4px}
+[data-science-field] .science-vector-controls button:hover{text-decoration:underline;color:#b9cfe5}
+[data-science-field] .science-vector-controls button:focus-visible{outline:2px solid #b9cfe5;outline-offset:4px}
 [data-science-field] .science-vector-replay::before{content:"";width:10px;height:10px;border:1.5px solid currentColor;border-right-color:transparent;border-radius:50%;transform:rotate(-30deg)}
 [data-science-field] .science-motion-toggle::before{content:"";display:block;width:8px;height:10px;border-left:2px solid currentColor;border-right:2px solid currentColor;box-sizing:border-box}
 [data-science-field] .science-motion-toggle[data-paused="true"]::before{width:0;height:0;border:5px solid transparent;border-left:8px solid currentColor;border-right:0}

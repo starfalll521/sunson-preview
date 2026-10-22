@@ -1,6 +1,6 @@
 /* Living matter / working systems. Home-only composition; one scientific stage.
    Photograph, explanatory surface and animated geometry always have clear bounds. */
-.bio-home-landscape{--paper:#f5f7ef;--sage:#e5eddb;--landscape-mineral:#edf0e7;--frame:1280px}
+.bio-home-landscape{--paper:#eff3f7;--sage:#dce4ec;--landscape-mineral:#e6ecf1;--frame:1280px}
 .bio-home-landscape.bio-home-bold .bio-hero{min-height:calc(100svh - 100px);align-items:center;padding-block:86px 116px}
 .bio-home-landscape.bio-home-bold .bio-hero .hero-copy h1{font-size:clamp(58px,6.4vw,96px);max-width:1040px;line-height:1.045;font-weight:600;letter-spacing:-.03em;margin-bottom:28px;text-wrap:balance}
 .bio-home-landscape.bio-home-bold .bio-hero .hero-copy>p{font-size:18px;line-height:1.7;max-width:37ch}
@@ -19,25 +19,25 @@
 .bio-home-landscape .relocated-research-provenance>small{position:static;display:inline;color:var(--muted);font-size:11px}
 
 /* The scene itself supplies warm open space for text; no white card covers it. */
-.bio-home-landscape.bio-home-bold .landscape-materials{--material-ground:#f4f4e9;padding:0 0 58px;background:var(--material-ground)}
+.bio-home-landscape.bio-home-bold .landscape-materials{--material-ground:#eaeef3;padding:0 0 58px;background:var(--material-ground)}
 .bio-home-landscape.bio-home-bold .material-landscape-figure{display:block;position:static;margin:0;background:none;overflow:visible}
 .bio-home-landscape.bio-home-bold .material-landscape-scene{position:relative;isolation:isolate;min-height:570px;background:var(--material-ground);overflow:hidden}
-.bio-home-landscape.bio-home-bold .material-landscape-scene:after{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;background:linear-gradient(90deg,#f4f4e94d 0%,#f4f4e91a 38%,transparent 59%)}
+.bio-home-landscape.bio-home-bold .material-landscape-scene:after{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;background:linear-gradient(90deg,#eaeef34d 0%,#eaeef31a 38%,transparent 59%)}
 .bio-home-landscape.bio-home-bold .material-landscape-scene>.material-image-window{position:absolute;inset:0;width:100%;height:100%;overflow:hidden;margin:0;background:var(--material-ground)}
 .bio-home-landscape.bio-home-bold .material-landscape-scene>.material-image-window>img{display:block;width:100%;height:100%;aspect-ratio:auto;object-fit:cover;object-position:center 52%}
 .bio-home-landscape.bio-home-bold .material-landscape-frame{position:relative;z-index:1;min-height:570px;display:flex;align-items:center;pointer-events:none}
 .bio-home-landscape.bio-home-bold .material-reading-plane{display:block;flex:0 1 430px;width:430px;max-width:43%;background:transparent;border:0;border-radius:0;box-shadow:none;padding:0;margin:0;pointer-events:auto}
-.bio-home-landscape.bio-home-bold .material-reading-plane h2{font-size:clamp(37px,3.45vw,47px);line-height:1.14;font-weight:500;letter-spacing:-.025em;max-width:18ch;color:#1d4228}
-.bio-home-landscape.bio-home-bold .material-reading-plane>p{font-size:16px;line-height:1.8;max-width:35ch;color:#3c5c43;padding:0;margin-top:25px}
+.bio-home-landscape.bio-home-bold .material-reading-plane h2{font-size:clamp(37px,3.45vw,47px);line-height:1.14;font-weight:500;letter-spacing:-.025em;max-width:18ch;color:#112f4e}
+.bio-home-landscape.bio-home-bold .material-reading-plane>p{font-size:16px;line-height:1.8;max-width:35ch;color:#3b4c5d;padding:0;margin-top:25px}
 .bio-home-landscape.bio-home-bold .material-landscape-caption{position:static;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 25px;min-height:44px;margin-top:10px;padding:0;background:none;color:var(--muted);font-size:12px;line-height:1.7}
 .bio-home-landscape.bio-home-bold .material-landscape-notes .material-continuum{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin-top:26px}
 .bio-home-landscape.bio-home-bold .material-landscape-notes .material-continuum>article{border:0;padding:0 34px 0 0}
-.bio-home-landscape.bio-home-bold .material-landscape-notes .material-continuum>article+article{border-left:1px solid #c0cfb8;padding-left:34px}
+.bio-home-landscape.bio-home-bold .material-landscape-notes .material-continuum>article+article{border-left:1px solid #b6c3d1;padding-left:34px}
 .bio-home-landscape.bio-home-bold .material-landscape-notes h3{font-size:27px;line-height:1.3;font-weight:560}
 .bio-home-landscape.bio-home-bold .material-landscape-notes p{font-size:14px;line-height:1.75;margin-top:12px;max-width:28ch}
 
 /* A compact navigation chapter gives the two expressive scenes breathing room. */
-.bio-home-landscape.bio-home-bold .landscape-industry{padding-block:62px 66px;background:#e8eedf}
+.bio-home-landscape.bio-home-bold .landscape-industry{padding-block:62px 66px;background:#dfe6ee}
 .bio-home-landscape.bio-home-bold .landscape-industry .solution-layout>div:first-child{gap:22px 48px}
 .bio-home-landscape.bio-home-bold .landscape-industry .solution-layout h2{font-size:clamp(40px,3.8vw,51px);line-height:1.13;font-weight:560;max-width:1000px}
 .bio-home-landscape.bio-home-bold .landscape-industry .solution-layout>div:first-child>p{font-size:16px;max-width:680px;line-height:1.8}
@@ -71,13 +71,13 @@
 .bio-home-landscape.bio-home-bold .landscape-evidence .story-copy h3,
 .bio-home-landscape.bio-home-bold .landscape-evidence .standards-story h3{font-size:34px;line-height:1.2;font-weight:560;letter-spacing:-.025em;max-width:22ch;color:var(--forest)}
 .bio-home-landscape.bio-home-bold .landscape-evidence .story-copy p,
-.bio-home-landscape.bio-home-bold .landscape-evidence .standards-story p{font-size:16px;line-height:1.8;max-width:47ch;color:#36533e;margin:25px 0 0}
+.bio-home-landscape.bio-home-bold .landscape-evidence .standards-story p{font-size:16px;line-height:1.8;max-width:47ch;color:#354454;margin:25px 0 0}
 .bio-home-landscape.bio-home-bold .landscape-evidence .standards-story{display:block;border:0;background:none;color:var(--forest);padding:0;margin:0}
 .bio-home-landscape.bio-home-bold .landscape-evidence .standards-story .reading-link,
-.bio-home-landscape.bio-home-bold .landscape-evidence .story-copy .reading-link{display:inline-flex;max-width:100%;margin:27px 0 0;padding:12px 22px;font-size:14px;color:var(--forest);border-color:#54775b;background:none}
+.bio-home-landscape.bio-home-bold .landscape-evidence .story-copy .reading-link{display:inline-flex;max-width:100%;margin:27px 0 0;padding:12px 22px;font-size:14px;color:var(--forest);border-color:#4f667c;background:none}
 .bio-home-landscape.bio-home-bold .landscape-evidence .standards-story .reading-link:hover,
-.bio-home-landscape.bio-home-bold .landscape-evidence .standards-story .reading-link:focus-visible{color:var(--forest);background:#e5edda}
-.bio-home-landscape.bio-home-bold .landscape-evidence :focus-visible{outline-color:#377454}
+.bio-home-landscape.bio-home-bold .landscape-evidence .standards-story .reading-link:focus-visible{color:var(--forest);background:#dbe3ec}
+.bio-home-landscape.bio-home-bold .landscape-evidence :focus-visible{outline-color:#3d556e}
 
 /* The production account stays calm and genuinely ordered. */
 .bio-home-landscape.bio-home-bold .landscape-manufacturing{padding-block:74px 68px;background:var(--landscape-mineral)}
@@ -86,7 +86,7 @@
 .bio-home-landscape.bio-home-bold .landscape-manufacturing .purpose-layout p{font-size:16px;line-height:1.8;max-width:700px}
 .bio-home-landscape.bio-home-bold .landscape-manufacturing .manufacturing-study{margin-top:44px}
 .bio-home-landscape.bio-home-bold .landscape-manufacturing .process-drawing{width:100px;height:100px;margin-bottom:25px}
-.bio-home-landscape.bio-home-bold .landscape-manufacturing .manufacturing-flow:before{top:130px;background:#a3b59d}
+.bio-home-landscape.bio-home-bold .landscape-manufacturing .manufacturing-flow:before{top:130px;background:#96a9bc}
 .bio-home-landscape.bio-home-bold .landscape-manufacturing .process-name{font-size:18px;font-weight:500}
 .bio-home-landscape.bio-home-bold .landscape-manufacturing .process-point{background:var(--landscape-mineral)}
 .bio-home-landscape.bio-home-bold .landscape-manufacturing .manufacturing-study figcaption{margin-top:28px}
@@ -139,7 +139,7 @@
  .bio-home-landscape.bio-home-bold .material-landscape-scene{display:flex;flex-direction:column;min-height:0;overflow:visible}
  .bio-home-landscape.bio-home-bold .material-landscape-scene:after{content:none}
  .bio-home-landscape.bio-home-bold .material-landscape-scene>.material-image-window{position:relative;inset:auto;order:0;width:100%;height:240px;flex:none}
- .bio-home-landscape.bio-home-bold .material-landscape-scene>.material-image-window:after{content:'';position:absolute;left:0;right:0;bottom:0;height:28px;z-index:1;pointer-events:none;background:linear-gradient(180deg,#f4f4e900,var(--material-ground))}
+ .bio-home-landscape.bio-home-bold .material-landscape-scene>.material-image-window:after{content:'';position:absolute;left:0;right:0;bottom:0;height:28px;z-index:1;pointer-events:none;background:linear-gradient(180deg,#eaeef300,var(--material-ground))}
  .bio-home-landscape.bio-home-bold .material-landscape-scene>.material-image-window>img{width:100%;height:240px;object-position:right 52%;aspect-ratio:auto}
  .bio-home-landscape.bio-home-bold .material-landscape-frame{order:1;display:block;width:100%;min-height:0;padding:22px 20px 30px;background:var(--material-ground)}
  .bio-home-landscape.bio-home-bold .material-reading-plane{display:block;width:100%;max-width:none;flex-basis:auto;padding:0;margin:0;background:transparent;border:0;box-shadow:none}
@@ -148,7 +148,7 @@
  .bio-home-landscape.bio-home-bold .material-landscape-caption{margin-top:0;min-height:44px;gap:10px 15px}
  .bio-home-landscape.bio-home-bold .material-landscape-notes .material-continuum{grid-template-columns:1fr;gap:0;margin-top:15px}
  .bio-home-landscape.bio-home-bold .material-landscape-notes .material-continuum>article,.bio-home-landscape.bio-home-bold .material-landscape-notes .material-continuum>article+article{display:grid;grid-template-columns:minmax(0,.65fr) minmax(0,1.35fr);gap:20px;border:0;padding:19px 0}
- .bio-home-landscape.bio-home-bold .material-landscape-notes .material-continuum>article+article{border-top:1px solid #c0cfb8}
+ .bio-home-landscape.bio-home-bold .material-landscape-notes .material-continuum>article+article{border-top:1px solid #b6c3d1}
  .bio-home-landscape.bio-home-bold .material-landscape-notes h3{font-size:25px}
  .bio-home-landscape.bio-home-bold .material-landscape-notes p{font-size:14px;line-height:1.75;max-width:none;margin:0}
  .bio-home-landscape.bio-home-bold .landscape-industry{padding-block:54px 58px}

@@ -7,18 +7,18 @@ body.bio-home-landscape.bio-home-bold #research-in-view .everyday-intro p{margin
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-tabs{display:flex;gap:4px;margin:0 0 14px;align-items:stretch}
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-tabs button{border:0;border-radius:0;padding:13px 22px;min-height:48px;background:transparent;color:var(--forest);font:inherit;font-size:14px;cursor:pointer;transition:background .2s,color .2s}
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-tabs button[aria-selected=true]{background:var(--forest);color:var(--paper)}
-body.bio-home-landscape.bio-home-bold #research-in-view .everyday-tabs button:hover:not([aria-selected=true]){background:#e4ecd9}
+body.bio-home-landscape.bio-home-bold #research-in-view .everyday-tabs button:hover:not([aria-selected=true]){background:#dae2eb}
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-tabs button:focus-visible,body.bio-home-landscape.bio-home-bold #research-in-view .research-background>summary:focus-visible{outline:2px solid var(--forest);outline-offset:4px}
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-scenes{position:relative;min-width:0}
-body.bio-home-landscape.bio-home-bold #research-in-view .everyday-panel{position:relative;display:grid;align-items:center;min-height:510px;overflow:hidden;background:#f3f3eb;isolation:isolate;outline-offset:5px}
+body.bio-home-landscape.bio-home-bold #research-in-view .everyday-panel{position:relative;display:grid;align-items:center;min-height:510px;overflow:hidden;background:#eaeff4;isolation:isolate;outline-offset:5px}
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-panel[hidden]{display:none}
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-visual{position:absolute;inset:0;z-index:-1;overflow:hidden}
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-photo{display:block;width:100%;height:100%;object-fit:cover;object-position:center;margin:0;max-width:100%}
-body.bio-home-landscape.bio-home-bold #research-in-view .everyday-panel::before{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;background:linear-gradient(90deg,var(--forest) 0%,var(--forest) 36%,#163e31ed 40%,#163e3190 48%,#163e3100 61%)}
+body.bio-home-landscape.bio-home-bold #research-in-view .everyday-panel::before{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;background:linear-gradient(90deg,var(--forest) 0%,var(--forest) 36%,#0f2a45ed 40%,#0f2a4590 48%,#0f2a4500 61%)}
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-copy{position:relative;z-index:1;padding:42px;max-width:39%;min-width:0;color:var(--paper)}
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-copy h3{font-size:clamp(28px,2.7vw,38px);line-height:1.13;letter-spacing:-.025em;font-weight:550;margin:0 0 22px;max-width:none;color:var(--paper)}
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-copy p{font-size:15px;line-height:1.75;margin:0;max-width:38ch;text-wrap:pretty;color:var(--paper)}
-body.bio-home-landscape.bio-home-bold #research-in-view .everyday-copy .reading-link{margin-top:26px;padding:11px 18px;font-size:13px;min-height:44px;white-space:normal;background:var(--lime,#cddd92);color:var(--forest);border-color:transparent}
+body.bio-home-landscape.bio-home-bold #research-in-view .everyday-copy .reading-link{margin-top:26px;padding:11px 18px;font-size:13px;min-height:44px;white-space:normal;background:var(--lime,#9ab7d6);color:var(--forest);border-color:transparent}
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-copy .reading-link:hover{background:var(--paper);color:var(--forest)}
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-copy .reading-link:focus-visible{outline:2px solid var(--paper);outline-offset:5px}
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-caption{display:flex;align-items:center;gap:20px;justify-content:space-between;min-height:44px;font-size:11px;color:var(--muted)}
