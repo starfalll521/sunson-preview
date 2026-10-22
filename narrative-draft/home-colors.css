@@ -1,0 +1,32 @@
+/* Colour-only local trial. Layout, dimensions, type and existing motion are retained. */
+body.bio-home-landscape.bio-home-bold #from-research-to-use{
+  --manufacturing-deep:#0b2d4e;
+  background:var(--manufacturing-deep);color:#fff;
+}
+body.bio-home-landscape.bio-home-bold #from-research-to-use .purpose-layout h2{color:#fff}
+body.bio-home-landscape.bio-home-bold #from-research-to-use .purpose-layout p{color:#dce8f2}
+body.bio-home-landscape.bio-home-bold #from-research-to-use .reading-link{
+  color:#fff;border-color:#bddbed;background:transparent;
+}
+body.bio-home-landscape.bio-home-bold #from-research-to-use .reading-link:hover{
+  color:#0b2d4e;border-color:#edf4f9;background:#edf4f9;
+}
+body.bio-home-landscape.bio-home-bold #from-research-to-use .manufacturing-flow:before{background:#83a3bd}
+body.bio-home-landscape.bio-home-bold #from-research-to-use .process-drawing>svg{color:#bddbed}
+body.bio-home-landscape.bio-home-bold #from-research-to-use [data-process-complete=true] .process-drawing{background:#173c5b}
+body.bio-home-landscape.bio-home-bold #from-research-to-use [data-process-active=true] .process-drawing>svg{color:#fff}
+body.bio-home-landscape.bio-home-bold #from-research-to-use .process-point{background:#0b2d4e;border-color:#bddbed}
+body.bio-home-landscape.bio-home-bold #from-research-to-use [data-process-complete=true] .process-point{background:#bddbed}
+body.bio-home-landscape.bio-home-bold #from-research-to-use [data-process-active=true] .process-point{background:#edf4f9}
+body.bio-home-landscape.bio-home-bold #from-research-to-use .process-name{color:#fff}
+body.bio-home-landscape.bio-home-bold #from-research-to-use .process-name:before,
+body.bio-home-landscape.bio-home-bold #from-research-to-use .manufacturing-study figcaption,
+body.bio-home-landscape.bio-home-bold #from-research-to-use .manufacturing-study figcaption>span,
+body.bio-home-landscape.bio-home-bold #from-research-to-use .process-replay{color:#bfd0df}
+body.bio-home-landscape.bio-home-bold #from-research-to-use .media-info>summary{color:#bfd0df;border-color:#83a3bd}
+body.bio-home-landscape.bio-home-bold #from-research-to-use :is(a,button,summary):focus-visible{outline-color:#edf4f9}
+/* The disclosure stays a light reading surface, independent of the dark diagram. */
+body.bio-home-landscape.bio-home-bold #from-research-to-use .media-info-content{color:#123453;background:#fff;border-color:#c5d4e1}
+
+/* Reuse the manufacturing chapter's measured previous colour exactly. */
+body.bio-home-scale #blog-insights{background:#e6ecf1;--closing-line:#9eafbe}

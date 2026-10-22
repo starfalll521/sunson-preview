@@ -1,0 +1,26 @@
+/* User's final choice: manufacturing returns to the original pale blue-grey.
+   Four New remains deep navy; enquiry remains mid-tone mist blue. */
+body.bio-home-landscape.bio-home-bold #from-research-to-use{
+  background:#e6ecf1;color:#123453;
+}
+body.bio-home-landscape.bio-home-bold #from-research-to-use .purpose-layout h2{color:#123453}
+body.bio-home-landscape.bio-home-bold #from-research-to-use .purpose-layout p{color:#123453}
+body.bio-home-landscape.bio-home-bold #from-research-to-use .reading-link{
+  color:#123453;border-color:#52738e;background:transparent;
+}
+body.bio-home-landscape.bio-home-bold #from-research-to-use .reading-link:hover{color:#fff;background:#123453;border-color:#123453}
+body.bio-home-landscape.bio-home-bold #from-research-to-use .manufacturing-flow:before{background:#52738e}
+body.bio-home-landscape.bio-home-bold #from-research-to-use .process-drawing>svg{color:#284d6c}
+body.bio-home-landscape.bio-home-bold #from-research-to-use [data-process-complete=true] .process-drawing{background:#bfd0dd}
+body.bio-home-landscape.bio-home-bold #from-research-to-use [data-process-active=true] .process-drawing{background:#284d6c}
+body.bio-home-landscape.bio-home-bold #from-research-to-use [data-process-active=true] .process-drawing>svg{color:#fff}
+body.bio-home-landscape.bio-home-bold #from-research-to-use .process-point{background:#e6ecf1;border-color:#284d6c}
+body.bio-home-landscape.bio-home-bold #from-research-to-use [data-process-complete=true] .process-point{background:#284d6c}
+body.bio-home-landscape.bio-home-bold #from-research-to-use [data-process-active=true] .process-point{background:#fff}
+body.bio-home-landscape.bio-home-bold #from-research-to-use .process-name{color:#123453}
+body.bio-home-landscape.bio-home-bold #from-research-to-use .process-name:before,
+body.bio-home-landscape.bio-home-bold #from-research-to-use .manufacturing-study figcaption,
+body.bio-home-landscape.bio-home-bold #from-research-to-use .manufacturing-study figcaption>span,
+body.bio-home-landscape.bio-home-bold #from-research-to-use .process-replay{color:#334e65}
+body.bio-home-landscape.bio-home-bold #from-research-to-use .media-info>summary{color:#334e65;border-color:#52738e}
+body.bio-home-landscape.bio-home-bold #from-research-to-use :is(a,button,summary):focus-visible{outline-color:#00529b}

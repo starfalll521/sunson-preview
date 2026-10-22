@@ -7,9 +7,9 @@
   const status = form.querySelector('.inquiry-status');
   const fields = [...form.querySelectorAll('[required]')];
   const errors = {
-    name: 'Please enter your name.',
-    email: 'Enter a valid email address, such as name@company.com.',
-    purpose: 'Choose what you’d like to discuss.'
+    first_name: 'Please enter your first name.',
+    last_name: 'Please enter your last name.',
+    email: 'Enter a valid email address, such as name@company.com.'
   };
   let reviewed = false;
   function check(field) {

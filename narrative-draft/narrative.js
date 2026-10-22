@@ -7,6 +7,7 @@ document.querySelectorAll('[data-carousel]').forEach(root=>{
   show();
 });
 const header=document.querySelector('.site-header'),menu=document.querySelector('.menu-toggle');
+if(header&&menu){
 function closeMenu(){header.classList.remove('nav-open');menu.setAttribute('aria-expanded','false');document.querySelectorAll('.nav-group').forEach(x=>x.open=false);}
 menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';header.classList.toggle('nav-open',open);menu.setAttribute('aria-expanded',String(open));});
 document.querySelectorAll('.nav-group').forEach(group=>group.addEventListener('toggle',()=>{if(group.open)document.querySelectorAll('.nav-group').forEach(other=>{if(other!==group)other.open=false;});}));
@@ -14,3 +15,5 @@ document.addEventListener('keydown',event=>{if(event.key==='Escape'){const wasOp
 document.addEventListener('click',event=>{if(!header.contains(event.target))closeMenu();});
 
 header.classList.add('nav-ready');
+
+}

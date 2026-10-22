@@ -1,0 +1,54 @@
+/* Keep the restored open layout. These are section surfaces and reading dividers,
+   never a new set of cards or an enclosing frame. */
+body.bio-home-landscape.bio-home-bold .identity-strip,
+body.bio-home-landscape.bio-home-bold #research-in-view.research-everyday,
+body.bio-home-scale #blog-insights{background:#e6ecf1}
+
+body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence{
+  position:relative;isolation:isolate;background:#e6ecf1;
+}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives .evidence-background{
+  position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none;
+}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives .evidence-background img{
+  display:block;width:100%;height:100%;object-fit:cover;object-position:center;opacity:.86;
+}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives .evidence-background:after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(90deg,#e6ecf1db 0%,#e6ecf1a8 58%,#e6ecf138 100%);
+}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence>.frame{position:relative;z-index:1}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .editorial-pair{
+  position:relative;
+  --evidence-light:linear-gradient(90deg,transparent 0%,#4d89b6 8%,#5bc9e2 32%,#dcfaff 50%,#5c9ed3 77%,transparent 100%);
+}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .editorial-pair:before{
+  content:"";position:absolute;top:-23px;left:0;right:0;height:2px;
+  background:var(--evidence-light);box-shadow:0 0 6px #51cdeba8,0 0 16px #459bd944;pointer-events:none;
+}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .editorial-pair:after{
+  content:"";position:absolute;top:-23px;bottom:0;left:50%;width:2px;transform:translateX(-1px);
+  background:linear-gradient(180deg,#dcfaff 0%,#57b3db 24%,#5f9bc9 65%,transparent 100%);
+  box-shadow:0 0 6px #51cdeb88,0 0 16px #459bd933;pointer-events:none;
+}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives .evidence-background-note{
+  position:absolute;top:-54px;right:0;margin:0;z-index:4;
+}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives .evidence-background-note>summary{
+  display:grid;place-items:center;width:44px;height:44px;color:#375d7c;
+}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives .evidence-background-note .media-info-content{
+  color:#123453;background:#edf3f8;border-color:#aac2d5;max-width:calc(100vw - 48px);
+}
+@media(max-width:767px){
+  body.bio-home-landscape.bio-home-bold #work-and-perspectives .evidence-background img{object-position:66% center;opacity:.7}
+  body.bio-home-landscape.bio-home-bold #work-and-perspectives .evidence-background:after{background:#e6ecf1a8}
+  body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .editorial-pair:before{top:-17px;box-shadow:0 0 5px #51cdeb88}
+  body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .editorial-pair:after{display:none}
+  body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .standards-story{position:relative}
+  body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .standards-story:before{
+    content:"";position:absolute;top:-19px;left:0;right:0;height:2px;
+    background:var(--evidence-light);box-shadow:0 0 5px #51cdeb88;pointer-events:none;
+  }
+  body.bio-home-landscape.bio-home-bold #work-and-perspectives .evidence-background-note{top:-48px}
+}
