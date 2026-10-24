@@ -28,11 +28,11 @@
     const invalid = fields.filter(field => !check(field));
     status.hidden = false;
     if (invalid.length) {
-      status.textContent = 'Please check the highlighted fields. Your enquiry has not been sent.';
+      status.textContent = 'Please check the highlighted fields. Your contact details have not been sent.';
       invalid[0].focus();
       return;
     }
-    status.textContent = 'Required fields checked. This is a design preview, so your enquiry has not been sent. Your entries remain here for you to edit.';
+    status.textContent = 'Required fields checked. This is a design preview, so your contact details have not been sent. Your entries remain here for you to edit.';
   });
   fields.forEach(field => {
     field.addEventListener('blur', () => { if (field.value || reviewed) check(field); });
