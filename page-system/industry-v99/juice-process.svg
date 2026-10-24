@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" fill="none">
+  <title>Fruit mash, pressing and extracted juice</title>
+  <desc>Illustrative industrial process drawing. Fruit mash enters a press and extracted juice moves to a separate vessel. Red markers identify treatment positions before pressing and after extraction. The drawing makes no performance comparison.</desc>
+  <defs>
+    <pattern id="process-slots" width="14" height="14" patternUnits="userSpaceOnUse">
+      <path d="M5 3v7" stroke="#123453" stroke-width="2" stroke-linecap="round"/>
+    </pattern>
+  </defs>
+  <path d="M38 355h644" stroke="#e6edf3" stroke-width="2"/>
+  <g stroke="#123453" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M53 150h154v147l-39 35H92l-39-35V150Z" fill="#fff"/>
+    <path d="M54 227c17-10 28 9 46 0s29-5 45 0 39-8 61 0v69l-39 35H92l-38-35V227Z" fill="#e6edf3"/>
+    <path d="M48 150h164v14H48z" fill="#e6edf3"/>
+    <path d="M81 332v23m99-23v23"/>
+    <path d="m74 250 15-8 12 11-8 15-17-4-2-14Zm43 32 16-9 14 10-8 16-17-3-5-14Zm38-39 15-5 12 14-9 13-18-6v-16Zm-67 45 13-3 9 11-8 11-14-5v-14Z" fill="#fff"/>
+    <path d="M207 262h54" stroke="#00529b"/>
+    <path d="m252 253 9 9-9 9" stroke="#00529b"/>
+    <path d="M288 106v229m140-229v229"/>
+    <path d="M277 103h162v18H277z" fill="#e6edf3"/>
+    <path d="M280 335h157v20H280z" fill="#e6edf3"/>
+    <path d="M358 121v52"/>
+    <path d="M314 173h88v17h-88z" fill="#00529b" stroke="#00529b"/>
+    <path d="M306 216h104v91H306z" fill="#e6edf3"/>
+    <path d="M307 258h102v48H307z" fill="url(#process-slots)"/>
+    <path d="m322 237 11-5 10 7m13-8 11 8 11-4m10 8 7-6"/>
+    <path d="M298 307h120v15H298z" fill="#fff"/>
+    <path d="M418 314h49v-52h28" stroke="#00529b"/>
+    <path d="m486 253 9 9-9 9" stroke="#00529b"/>
+    <path d="M510 150h150v161c0 13-10 21-23 21H533c-13 0-23-8-23-21V150Z" fill="#fff"/>
+    <path d="M511 240c21-5 42 5 65 0s53-4 83 0v70c0 13-9 21-22 21H533c-13 0-22-8-22-21v-70Z" fill="#e6edf3"/>
+    <path d="M505 150h160v14H505z" fill="#e6edf3"/>
+    <path d="M532 332v23m106-23v23"/>
+    <path d="M533 263h104m-104 27h104" stroke="#00529b"/>
+    <path d="M130 104v31m455-31v31" stroke="#df001b"/>
+    <circle cx="130" cy="72" r="30" fill="#fff" stroke="#df001b"/>
+    <circle cx="585" cy="72" r="30" fill="#fff" stroke="#df001b"/>
+  </g>
+  <g fill="#df001b" font-family="Arial, sans-serif" font-size="36" font-weight="700" text-anchor="middle">
+    <text x="130" y="85">1</text>
+    <text x="585" y="85">2</text>
+  </g>
+  <g stroke="#123453" stroke-width="2" stroke-linecap="round">
+    <path d="M67 373h126m102 0h126m103 0h123"/>
+  </g>
+</svg>

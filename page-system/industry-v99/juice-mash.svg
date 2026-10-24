@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" fill="none">
+  <title>Fruit mash entering a simplified press</title>
+  <desc>Illustrative hopper and press drawing. Irregular pieces show fruit mash entering a pressing basket. This is a process schematic rather than a drawing of a named machine or a measured result.</desc>
+  <defs>
+    <pattern id="mash-slots" width="14" height="14" patternUnits="userSpaceOnUse">
+      <path d="M5 3v7" stroke="#123453" stroke-width="2" stroke-linecap="round"/>
+    </pattern>
+  </defs>
+  <path d="M36 272h428" stroke="#e6edf3" stroke-width="2"/>
+  <g stroke="#123453" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M53 59h133l-33 87h-66L53 59Z" fill="#e6edf3"/>
+    <path d="m52 59 135 0" stroke-width="4"/>
+    <path d="M88 146h65v23h60"/>
+    <path d="m77 82 15-6 12 12-8 14-17-4-2-16Zm43 16 16-8 14 11-9 15-17-3-4-15Zm-21 29 11-5 9 8-6 11" fill="#fff"/>
+    <path d="M216 51v193m180-193v193"/>
+    <path d="M204 41h204v18H204z" fill="#e6edf3"/>
+    <path d="M205 244h202v20H205z" fill="#e6edf3"/>
+    <path d="M306 59v50"/>
+    <path d="M248 109h116v17H248z" fill="#00529b" stroke="#00529b"/>
+    <path d="M240 151h132v76H240z" fill="#e6edf3"/>
+    <path d="M241 188h130v38H241z" fill="url(#mash-slots)"/>
+    <path d="m252 172 14-6 13 8m14-11 12 10 14-5m12 7 12-9 15 7"/>
+    <path d="M230 227h152v17H230z" fill="#fff"/>
+    <path d="M382 236h54v28" stroke="#00529b"/>
+    <path d="M281 140h49" stroke="#df001b"/>
+    <circle cx="305" cy="140" r="4" fill="#df001b" stroke="#df001b"/>
+  </g>
+</svg>

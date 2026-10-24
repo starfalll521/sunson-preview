@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" fill="none">
+<title>Protein substrate and protease in a detergent system</title>
+<desc>Illustrative fabric threads behind a protein chain. A dotted bond marks an example of protease action. It does not depict a measured cleaning result.</desc>
+<defs><pattern id="weave" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M0 10h40M0 30h40M10 0v40M30 0v40" stroke="#c5d4e1" stroke-width="1.5"/></pattern></defs>
+<path d="M58 74h604v272H58z" fill="url(#weave)"/>
+<path d="m52 351 610-8M58 64l604 7" stroke="#123453" stroke-width="2"/>
+<g stroke="#00529b" stroke-width="4"><path d="m138 227 73-46 82 52M356 236l80-51 75 43 72-43"/><path d="m293 233 63 3" stroke="#df001b" stroke-dasharray="5 7"/></g>
+<g fill="#e6edf3" stroke="#123453" stroke-width="2.5"><circle cx="138" cy="227" r="23"/><circle cx="211" cy="181" r="23"/><circle cx="293" cy="233" r="23"/><circle cx="356" cy="236" r="23"/><circle cx="436" cy="185" r="23"/><circle cx="511" cy="228" r="23"/><circle cx="583" cy="185" r="23"/></g>
+<path d="M280 105c0-35 32-56 66-50 25 5 42 25 43 48l-45 3-21 34c-24-1-43-12-43-35Z" fill="#00529b"/>
+<path d="m337 155-9 25m-12-4 12 4 10-7" stroke="#00529b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M137 284v30m188-37v37m185-30v30" stroke="#52677d" stroke-width="1.5"/>
+</svg>
