@@ -1,0 +1,320 @@
+/* v100: industry entries share the selected homepage's photographic scale and open spreads.
+   Loaded after industry-v99.css. All selectors are limited to the three opted-in main elements. */
+.industry-v99.industry-home-v100 {
+  --iv-mist:#e6ecf1;--iv-navy:#092b4c;--iv-ink:#123453;--iv-red:#df001b;
+  --iv-muted:#425e75;--iv-line:#b7c8d6;--iv-pale:#edf4f9;
+  background:var(--iv-mist);color:var(--iv-ink);font-size:17px;line-height:1.75;
+}
+.industry-v99.industry-home-v100 :is(.iv-wrap,.iv-breadcrumbs,.iv-toc,.source-review) {
+  width:min(calc(100% - 112px),1280px);max-width:none;margin-inline:auto;
+}
+.industry-v99.industry-home-v100 :is(h1,h2,h3) {font-weight:550;letter-spacing:-.03em}
+.industry-v99.industry-home-v100 h2 {font-size:clamp(38px,3.2vw,42px);line-height:1.15}
+.industry-v99.industry-home-v100 h3 {font-size:24px;line-height:1.3;letter-spacing:-.02em}
+.industry-v99.industry-home-v100 p {font-size:17px;line-height:1.75}
+.industry-v99.industry-home-v100 p+p {margin-top:18px}
+.industry-v99.industry-home-v100 a {text-underline-offset:6px}
+.industry-v99.industry-home-v100 a:focus-visible {outline:2px solid #00529b;outline-offset:5px}
+.industry-v99.industry-home-v100 .iv-breadcrumbs {min-height:58px;padding-block:5px;font-size:12px;color:#52677d}
+.industry-v99.industry-home-v100 .iv-breadcrumbs a {color:inherit}
+.industry-v99.industry-home-v100 .iv-button {
+  min-height:48px;gap:24px;padding:12px 22px;border-radius:999px;
+  font-size:14px;line-height:1.5;font-weight:650;box-shadow:none;
+}
+.industry-v99.industry-home-v100 .iv-button:hover {background:#b60018;border-color:#b60018}
+.industry-v99.industry-home-v100 .iv-link {font-size:14px;font-weight:550;text-decoration-color:#8da8bd}
+
+/* The industry scene is the sole dominant visual. The text shade is strongest at the left. */
+.industry-v99.industry-home-v100 .iv-hero {
+  position:relative;isolation:isolate;display:flex;align-items:center;min-height:520px;
+  padding:54px 0 62px;overflow:hidden;background:#092b4c;color:#fff;
+}
+.industry-v99.industry-home-v100 .iv-hero::before {
+  content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:linear-gradient(90deg,rgba(7,29,49,.98) 0%,rgba(7,29,49,.95) 24%,rgba(7,29,49,.86) 42%,rgba(7,29,49,.30) 67%,rgba(7,29,49,.06) 100%);
+}
+.industry-v99.industry-home-v100 .iv-hero>.iv-wrap {
+  position:relative;z-index:2;display:block;min-width:0;
+}
+.industry-v99.industry-home-v100 .iv-hero-copy {width:54%;max-width:650px;min-width:0}
+.industry-v99.industry-home-v100 .iv-hero-copy h1 {
+  max-width:17ch;margin:0 0 24px;color:#fff;font-size:clamp(54px,4.5vw,64px);
+  line-height:1.10;letter-spacing:-.035em;font-weight:550;text-wrap:balance;
+}
+.industry-v99.industry-home-v100 .iv-hero-copy>p {max-width:48ch;font-size:17px;line-height:1.75;color:#edf4f9}
+.industry-v99.industry-home-v100 .iv-hero-copy .iv-button {margin-top:26px;color:#fff}
+.industry-v99.industry-home-v100 .iv-hero.iv-hero-copy-right::before {
+  background:linear-gradient(90deg,rgba(7,29,49,.03) 0%,rgba(7,29,49,.12) 28%,rgba(7,29,49,.80) 48%,rgba(7,29,49,.95) 70%,rgba(7,29,49,.98) 100%);
+}
+.industry-v99.industry-home-v100 .iv-hero.iv-hero-copy-right .iv-hero-copy {width:51%;margin-left:auto}
+.industry-v99.industry-home-v100 .iv-scene {
+  position:absolute;inset:0;z-index:auto;width:100%;height:100%;margin:0;overflow:hidden;
+}
+.industry-v99.industry-home-v100 .iv-scene>img {
+  position:absolute;inset:0;z-index:0;display:block;width:100%;max-width:none;height:100%;object-fit:cover;object-position:70% 50%;
+  border:0;border-radius:0;filter:none;transform:none;
+}
+.industry-v99.industry-home-v100 .iv-scene>figcaption {
+  position:absolute;right:28px;bottom:16px;z-index:3;width:fit-content;max-width:42%;margin:0;padding:5px 9px;
+  color:#fff;background:rgba(7,29,49,.72);font-size:11px;line-height:1.6;text-align:right;
+}
+.industry-v99.industry-home-v100.iv-feed .iv-scene>img {object-position:50% 61%}
+.industry-v99.industry-home-v100.iv-juice .iv-scene>img {object-position:48% 52%}
+.industry-v99.industry-home-v100.iv-detergent .iv-scene>img {object-position:50% 52%}
+.industry-v99.industry-home-v100 .iv-toc {
+  gap:0 34px;padding-block:11px;background:transparent;border-bottom:1px solid var(--iv-line);font-size:13px;
+}
+.industry-v99.industry-home-v100 .iv-toc a {min-height:44px;color:#123453}
+
+/* Open, unequal spreads follow the visitor's application questions. */
+.industry-v99.industry-home-v100 .iv-section {
+  padding-block:68px;background:var(--iv-mist);border:0;
+}
+.industry-v99.industry-home-v100 .iv-section+.iv-section {border:0}
+.industry-v99.industry-home-v100 .iv-section-head {
+  grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(40px,6vw,86px);margin-bottom:38px;
+}
+.industry-v99.industry-home-v100 .iv-section-head h2 {max-width:21ch}
+.industry-v99.industry-home-v100 .iv-section-head>div,
+.industry-v99.industry-home-v100 .iv-section-head>p {padding-top:2px}
+.industry-v99.industry-home-v100 .iv-section-head :is(p,div p) {max-width:62ch;color:var(--iv-ink)}
+.industry-v99.industry-home-v100 .iv-secondary {gap:4px 28px;margin-top:22px;padding-top:18px;border-color:var(--iv-line)}
+.industry-v99.industry-home-v100 .iv-secondary a {font-size:14px;font-weight:500;color:var(--iv-ink)}
+.industry-v99.industry-home-v100 .iv-routes {border:0}
+.industry-v99.industry-home-v100 .iv-route {
+  grid-template-columns:minmax(0,1.1fr) minmax(0,1fr) minmax(0,.7fr);
+  column-gap:clamp(32px,4vw,60px);padding-block:28px;border-bottom:1px solid var(--iv-line);
+}
+.industry-v99.industry-home-v100 .iv-route:first-child {padding-top:0}
+.industry-v99.industry-home-v100 .iv-route h3 {margin-bottom:12px;font-size:24px}
+.industry-v99.industry-home-v100 .iv-route p {font-size:16px;line-height:1.75}
+.industry-v99.industry-home-v100 .iv-route .iv-context {color:var(--iv-muted)}
+.industry-v99.industry-home-v100 .iv-route>.iv-link {align-self:start;margin-top:1px}
+.industry-v99.industry-home-v100 .iv-processing {
+  margin-top:30px;padding:26px 0 0;background:transparent;border-top:1px solid var(--iv-line);
+  grid-template-columns:minmax(0,1.9fr) minmax(0,.7fr);gap:24px 60px;
+}
+.industry-v99.industry-home-v100 .iv-processing h3 {font-size:24px}
+.industry-v99.industry-home-v100 .iv-processing p {max-width:73ch;font-size:16px}
+.industry-v99.industry-home-v100 .iv-processing>.iv-link {align-self:start}
+
+/* Technical studies explain the body content; they no longer compete with the opening. */
+.industry-v99.industry-home-v100 .iv-context-art {
+  display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);align-items:center;gap:8px 30px;
+  width:100%;max-width:none;margin:28px 0 0;padding:22px 0 0;background:transparent;border-top:1px solid var(--iv-line);
+}
+.industry-v99.industry-home-v100 .iv-context-art>img,
+.industry-v99.industry-home-v100 .iv-context-art>svg {grid-column:1;grid-row:1 / span 2;width:100%;height:auto;max-height:230px;object-fit:contain}
+.industry-v99.industry-home-v100 .iv-context-art>.iv-position-labels {
+  grid-column:2;display:grid;grid-template-columns:1fr;gap:10px;align-self:end;margin:0;font-size:14px;line-height:1.6;
+}
+.industry-v99.industry-home-v100 .iv-context-art>figcaption {grid-column:2;align-self:start;margin:0;font-size:12px;line-height:1.7;color:var(--iv-muted)}
+.industry-v99.industry-home-v100 .iv-science-layout {
+  display:grid;grid-template-columns:minmax(0,1.13fr) minmax(0,.87fr);gap:clamp(36px,6vw,86px);align-items:start;
+}
+.industry-v99.industry-home-v100 .iv-science-layout>.iv-section-head {display:block;margin:0}
+.industry-v99.industry-home-v100 .iv-science-layout>.iv-section-head h2 {max-width:20ch;margin-bottom:26px}
+.industry-v99.industry-home-v100 .iv-science-layout>.iv-section-head>div {padding:0}
+.industry-v99.industry-home-v100 .iv-science-layout>.iv-context-art {
+  display:block;margin:0;padding:10px 0 0;border:0;
+}
+.industry-v99.industry-home-v100 .iv-science-layout>.iv-context-art>img {max-height:260px}
+.industry-v99.industry-home-v100 .iv-science-layout>.iv-context-art>figcaption {max-width:48ch;margin:18px 0 0}
+
+/* Feed: retain the readable product comparison and give application support its own chapter. */
+.industry-v99.industry-home-v100.iv-feed #story-2 {padding-block:66px 62px}
+.industry-v99.industry-home-v100.iv-feed #story-1 {padding-block:62px 66px;background:#dce6ed}
+.industry-v99.industry-home-v100 .iv-products {margin-top:30px;border-top:0}
+.industry-v99.industry-home-v100 :is(.iv-product,.iv-products-head) {gap:30px;grid-template-columns:minmax(0,.72fr) minmax(0,.84fr) minmax(0,1.4fr) minmax(0,.8fr)}
+.industry-v99.industry-home-v100 .iv-products-head {padding-bottom:15px;border-bottom:1px solid #9fb6c8;color:#425e75}
+.industry-v99.industry-home-v100 .iv-product {padding-block:25px;border-color:#b4c7d5}
+.industry-v99.industry-home-v100 .iv-product strong {font-size:21px;font-weight:550}
+.industry-v99.industry-home-v100 .iv-product :is(p,span) {font-size:15px;line-height:1.75}
+.industry-v99.industry-home-v100 .iv-product>a {align-self:start;font-size:14px;font-weight:550}
+.industry-v99.industry-home-v100.iv-feed #story-3,
+.industry-v99.industry-home-v100.iv-juice #story-2,
+.industry-v99.industry-home-v100.iv-detergent #story-2 {
+  --iv-navy:#fff;--iv-ink:#edf4f9;--iv-muted:#c4d4e1;--iv-line:#52718d;
+  background:#092b4c;color:#edf4f9;
+}
+.industry-v99.industry-home-v100 :is(#story-3,#story-2) .iv-steps {margin-top:34px}
+.industry-v99.industry-home-v100 .iv-steps ol {gap:48px}
+.industry-v99.industry-home-v100 .iv-steps li {padding-top:20px;border-color:var(--iv-line)}
+.industry-v99.industry-home-v100 .iv-steps li::before {margin-bottom:14px;color:#bddbed;font-size:13px;font-weight:500}
+.industry-v99.industry-home-v100 .iv-steps h3 {max-width:22ch;margin-bottom:14px;font-size:24px}
+.industry-v99.industry-home-v100 .iv-steps p {font-size:16px;line-height:1.8}
+.industry-v99.industry-home-v100.iv-feed #story-3 a,
+.industry-v99.industry-home-v100.iv-juice #story-2 a,
+.industry-v99.industry-home-v100.iv-detergent #story-2 a {color:#fff;text-decoration-color:#a9c4d9}
+.industry-v99.industry-home-v100.iv-feed #story-3 a:focus-visible,
+.industry-v99.industry-home-v100.iv-juice #story-2 a:focus-visible,
+.industry-v99.industry-home-v100.iv-detergent #story-2 a:focus-visible {outline-color:#edf4f9}
+
+/* Juice: upstream and downstream stay distinct, with the process studies on pale surfaces. */
+.industry-v99.industry-home-v100 .iv-juice-stage {grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:clamp(40px,6vw,86px);align-items:start}
+.industry-v99.industry-home-v100 .iv-stage-copy h2 {max-width:22ch;margin-bottom:26px}
+.industry-v99.industry-home-v100 .iv-stage-copy>p {max-width:58ch}
+.industry-v99.industry-home-v100 .iv-stage-copy .iv-secondary {margin-top:20px;padding-top:14px}
+.industry-v99.industry-home-v100 .iv-stage-drawing {align-self:center;padding:22px 20px 16px;background:#f2f6f9}
+.industry-v99.industry-home-v100 .iv-stage-drawing img {max-height:260px;object-fit:contain}
+.industry-v99.industry-home-v100 .iv-stage-drawing figcaption {margin-top:12px;color:#52677d;font-size:11px}
+.industry-v99.industry-home-v100 .iv-juice-stage>.iv-context-art {
+  display:block;align-self:center;margin:0;padding:0;border:0;background:transparent;
+}
+.industry-v99.industry-home-v100 .iv-juice-stage>.iv-context-art>img {max-height:270px}
+.industry-v99.industry-home-v100 .iv-juice-stage>.iv-context-art>.iv-position-labels {
+  display:flex;justify-content:space-between;gap:18px;margin-top:14px;font-size:13px;
+}
+.industry-v99.industry-home-v100 .iv-juice-stage>.iv-context-art>figcaption {margin-top:12px;font-size:11px}
+.industry-v99.industry-home-v100 .iv-measures {gap:clamp(40px,6vw,86px);margin-top:34px;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr)}
+.industry-v99.industry-home-v100 .iv-measures>div {padding-top:20px}
+.industry-v99.industry-home-v100 .iv-measures strong {margin-bottom:10px;font-size:18px;font-weight:550}
+.industry-v99.industry-home-v100 .iv-measures p {font-size:16px;line-height:1.75}
+.industry-v99.industry-home-v100.iv-juice #story-3 {padding-block:62px 66px}
+.industry-v99.industry-home-v100.iv-juice #story-3 .iv-section-head {display:block;margin-bottom:30px}
+.industry-v99.industry-home-v100.iv-juice #story-3 .iv-section-head h2 {max-width:26ch}
+.industry-v99.industry-home-v100 .iv-product-bridge {grid-template-columns:minmax(0,1.65fr) minmax(0,.65fr);gap:32px 86px;padding-block:28px;border-top:0;border-bottom:1px solid var(--iv-line)}
+.industry-v99.industry-home-v100 .iv-product-bridge h3 {font-size:28px;margin-bottom:16px}
+.industry-v99.industry-home-v100 .iv-product-bridge>.iv-link {align-self:center}
+
+/* Detergent: a material/function pairing, then a dark route band and open format columns. */
+.industry-v99.industry-home-v100.iv-detergent #story-1 {padding-block:66px 62px}
+.industry-v99.industry-home-v100 .iv-relationship {gap:40px;margin-top:34px;padding-block:22px;border-color:var(--iv-line);font-size:15px;line-height:1.7}
+.industry-v99.industry-home-v100 .iv-relationship span {padding-left:0;border:0}
+.industry-v99.industry-home-v100.iv-detergent #story-2 {padding-block:62px 54px}
+.industry-v99.industry-home-v100 .iv-function-routes {border:0}
+.industry-v99.industry-home-v100.iv-detergent .iv-function-routes .iv-route {grid-template-columns:minmax(0,.95fr) minmax(0,1.1fr) minmax(0,.75fr);padding-block:26px}
+.industry-v99.industry-home-v100.iv-detergent .iv-function-routes .iv-route:first-child {padding-top:0}
+.industry-v99.industry-home-v100.iv-detergent .iv-function-routes .iv-route:last-child {border-bottom:0;padding-bottom:0}
+.industry-v99.industry-home-v100.iv-detergent .iv-function-routes .iv-route h3 {max-width:20ch}
+.industry-v99.industry-home-v100 .iv-formats {gap:clamp(48px,7vw,100px);margin-top:32px}
+.industry-v99.industry-home-v100 .iv-format {padding-top:26px;border-top:1px solid #8ca9be}
+.industry-v99.industry-home-v100 .iv-format h3 {margin-bottom:23px;font-size:28px}
+.industry-v99.industry-home-v100 .iv-format dl {grid-template-columns:minmax(0,.64fr) minmax(0,1.36fr);gap:16px 26px;font-size:15px;line-height:1.75}
+.industry-v99.industry-home-v100 .iv-formats+p {margin-top:32px}
+
+/* The final invitation echoes the homepage's quieter, mid-tone closing spread. */
+.industry-v99.industry-home-v100 .iv-section.iv-final {padding-block:68px 64px;background:#c8d7e2}
+.industry-v99.industry-home-v100 .iv-closing {grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:30px clamp(40px,6vw,86px)}
+.industry-v99.industry-home-v100 .iv-closing h2 {max-width:19ch}
+.industry-v99.industry-home-v100 .iv-closing p {max-width:57ch}
+.industry-v99.industry-home-v100 .iv-closing .iv-button {margin-top:24px}
+.industry-v99.industry-home-v100 .iv-closing .iv-secondary {margin-top:6px;border-color:#9ab1c3}
+.industry-v99.industry-home-v100 .source-review {padding-block:20px;font-size:12px;color:#425e75}
+
+@media(max-width:1100px) {
+  .industry-v99.industry-home-v100 .iv-hero {min-height:510px;padding-block:48px 58px}
+  .industry-v99.industry-home-v100 .iv-hero-copy {width:59%}
+  .industry-v99.industry-home-v100 .iv-hero-copy h1 {font-size:54px}
+  .industry-v99.industry-home-v100 .iv-hero-copy>p {font-size:16px}
+  .industry-v99.industry-home-v100 .iv-section-head {gap:40px}
+  .industry-v99.industry-home-v100 :is(.iv-product,.iv-products-head) {gap:22px}
+  .industry-v99.industry-home-v100 .iv-steps ol {gap:30px}
+  .industry-v99.industry-home-v100 .iv-format dl {grid-template-columns:1fr;gap:5px}
+  .industry-v99.industry-home-v100 .iv-format dd+dt {margin-top:13px}
+}
+@media(max-width:900px) {
+  .industry-v99.industry-home-v100 :is(.iv-wrap,.iv-breadcrumbs,.iv-toc,.source-review) {width:calc(100% - 80px)}
+  .industry-v99.industry-home-v100 .iv-hero-copy {width:64%}
+  .industry-v99.industry-home-v100 .iv-hero-copy h1 {font-size:50px}
+  .industry-v99.industry-home-v100 h2 {font-size:36px}
+  .industry-v99.industry-home-v100 .iv-section {padding-block:56px}
+  .industry-v99.industry-home-v100 .iv-route {column-gap:24px;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr) minmax(0,.8fr)}
+  .industry-v99.industry-home-v100 .iv-route h3 {font-size:22px}
+  .industry-v99.industry-home-v100 .iv-processing {gap:24px 32px}
+  .industry-v99.industry-home-v100 .iv-science-layout {gap:34px}
+  .industry-v99.industry-home-v100 .iv-product-bridge {gap:28px 40px}
+}
+@media(max-width:767px) {
+  .industry-v99.industry-home-v100 {font-size:16px}
+  .industry-v99.industry-home-v100 p {font-size:16px;line-height:1.8}
+  .industry-v99.industry-home-v100 h2 {font-size:34px;line-height:1.17}
+  .industry-v99.industry-home-v100 .iv-hero {display:flex;flex-direction:column;align-items:stretch;min-height:0;padding:0}
+  .industry-v99.industry-home-v100 .iv-hero::before {content:none;display:none}
+  .industry-v99.industry-home-v100 .iv-hero>.iv-wrap {order:1;padding-block:36px 38px}
+  .industry-v99.industry-home-v100 .iv-hero-copy {width:100%;max-width:620px}
+  .industry-v99.industry-home-v100 .iv-hero.iv-hero-copy-right .iv-hero-copy {width:100%;margin:0}
+  .industry-v99.industry-home-v100 .iv-hero-copy h1 {max-width:20ch;font-size:42px;line-height:1.12;margin-bottom:22px}
+  .industry-v99.industry-home-v100 .iv-hero-copy>p {max-width:60ch;font-size:16px;line-height:1.8}
+  .industry-v99.industry-home-v100 .iv-hero-copy .iv-button {margin-top:24px}
+  .industry-v99.industry-home-v100 .iv-scene {order:2;position:relative;inset:auto;z-index:2;width:100%;height:240px;flex:none}
+  .industry-v99.industry-home-v100 .iv-scene>figcaption {max-width:80%;right:16px;bottom:12px;font-size:10px}
+  .industry-v99.industry-home-v100.iv-feed .iv-scene>img {object-position:50% 58%}
+  .industry-v99.industry-home-v100.iv-juice .iv-scene>img {object-position:36% 50%}
+  .industry-v99.industry-home-v100.iv-detergent .iv-scene>img {object-position:50% 50%}
+  .industry-v99.industry-home-v100 .iv-toc {gap:0 24px;padding-block:8px}
+  .industry-v99.industry-home-v100 .iv-toc a {font-size:12px}
+  .industry-v99.industry-home-v100 .iv-section,
+  .industry-v99.industry-home-v100.iv-feed #story-2,
+  .industry-v99.industry-home-v100.iv-feed #story-1,
+  .industry-v99.industry-home-v100.iv-juice #story-3,
+  .industry-v99.industry-home-v100.iv-detergent #story-1,
+  .industry-v99.industry-home-v100.iv-detergent #story-2 {padding-block:44px 46px}
+  .industry-v99.industry-home-v100 .iv-section-head {grid-template-columns:1fr;gap:22px;margin-bottom:28px}
+  .industry-v99.industry-home-v100 .iv-section-head h2 {max-width:26ch}
+  .industry-v99.industry-home-v100 .iv-section-head>div,
+  .industry-v99.industry-home-v100 .iv-section-head>p {padding-top:0}
+  .industry-v99.industry-home-v100 .iv-route,
+  .industry-v99.industry-home-v100.iv-detergent .iv-function-routes .iv-route {grid-template-columns:1fr;gap:14px;padding-block:24px}
+  .industry-v99.industry-home-v100 .iv-route h3 {margin-bottom:10px;font-size:24px}
+  .industry-v99.industry-home-v100 .iv-route>.iv-link {margin-top:0}
+  .industry-v99.industry-home-v100 .iv-processing {grid-template-columns:1fr;gap:14px;margin-top:24px;padding-top:24px}
+  .industry-v99.industry-home-v100 .iv-context-art {grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:10px 20px;margin-top:25px;padding-top:20px}
+  .industry-v99.industry-home-v100 .iv-context-art>.iv-position-labels {font-size:12px;gap:8px}
+  .industry-v99.industry-home-v100 .iv-context-art>figcaption {font-size:11px}
+  .industry-v99.industry-home-v100 .iv-science-layout {grid-template-columns:1fr;gap:25px}
+  .industry-v99.industry-home-v100 .iv-science-layout>.iv-section-head h2 {max-width:25ch;margin-bottom:22px}
+  .industry-v99.industry-home-v100 .iv-science-layout>.iv-context-art {display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:20px;padding-top:20px;border-top:1px solid var(--iv-line)}
+  .industry-v99.industry-home-v100 .iv-science-layout>.iv-context-art>img {max-height:210px}
+  .industry-v99.industry-home-v100 .iv-science-layout>.iv-context-art>figcaption {margin:0;align-self:center}
+  .industry-v99.industry-home-v100 .iv-products {margin-top:24px}
+  .industry-v99.industry-home-v100 .iv-products-head {display:none}
+  .industry-v99.industry-home-v100 .iv-product {grid-template-columns:1fr;gap:15px;padding-block:24px}
+  .industry-v99.industry-home-v100 .iv-product:first-of-type {border-top:1px solid #a9bfce}
+  .industry-v99.industry-home-v100 .iv-product strong {font-size:22px}
+  .industry-v99.industry-home-v100 .iv-product>a {display:flex;align-items:center;min-height:44px;padding:0}
+  .industry-v99.industry-home-v100 .iv-label {color:#52677d}
+  .industry-v99.industry-home-v100 .iv-steps ol {grid-template-columns:1fr;gap:26px}
+  .industry-v99.industry-home-v100 .iv-steps li {padding-top:18px}
+  .industry-v99.industry-home-v100 .iv-steps h3 {max-width:none;font-size:24px}
+  .industry-v99.industry-home-v100 .iv-steps li::before {margin-bottom:12px}
+  .industry-v99.industry-home-v100 .iv-juice-stage {grid-template-columns:1fr;gap:28px}
+  .industry-v99.industry-home-v100 .iv-stage-copy h2 {max-width:26ch;margin-bottom:23px}
+  .industry-v99.industry-home-v100 .iv-stage-drawing {padding:20px 16px 14px}
+  .industry-v99.industry-home-v100 .iv-stage-drawing img {max-height:260px}
+  .industry-v99.industry-home-v100 .iv-measures {grid-template-columns:1fr;gap:22px;margin-top:28px}
+  .industry-v99.industry-home-v100 .iv-product-bridge {grid-template-columns:1fr;gap:16px;padding-block:0 22px}
+  .industry-v99.industry-home-v100.iv-juice #story-3 .iv-section-head {margin-bottom:25px}
+  .industry-v99.industry-home-v100 .iv-product-bridge h3 {font-size:26px}
+  .industry-v99.industry-home-v100 .iv-product-bridge>.iv-link {align-self:start}
+  .industry-v99.industry-home-v100 .iv-relationship {grid-template-columns:1fr;gap:14px;margin-top:28px;padding-block:20px;font-size:15px}
+  .industry-v99.industry-home-v100 .iv-formats {grid-template-columns:1fr;gap:34px;margin-top:26px}
+  .industry-v99.industry-home-v100 .iv-format {padding-top:22px}
+  .industry-v99.industry-home-v100 .iv-format h3 {font-size:26px;margin-bottom:20px}
+  .industry-v99.industry-home-v100 .iv-format dl {grid-template-columns:minmax(0,.65fr) minmax(0,1.35fr);gap:14px 20px}
+  .industry-v99.industry-home-v100 .iv-format dd+dt {margin:0}
+  .industry-v99.industry-home-v100 .iv-section.iv-final {padding-block:46px 44px}
+  .industry-v99.industry-home-v100 .iv-closing {grid-template-columns:1fr;gap:23px}
+  .industry-v99.industry-home-v100 .iv-closing h2 {max-width:24ch}
+  .industry-v99.industry-home-v100 .iv-closing .iv-secondary {margin-top:3px;padding-top:18px}
+}
+@media(max-width:600px) {
+  .industry-v99.industry-home-v100 :is(.iv-wrap,.iv-breadcrumbs,.iv-toc,.source-review) {width:calc(100% - 44px)}
+  .industry-v99.industry-home-v100 .iv-breadcrumbs {font-size:11px;min-height:54px}
+  .industry-v99.industry-home-v100 .iv-hero-copy h1 {font-size:38px;max-width:18ch}
+  .industry-v99.industry-home-v100 .iv-scene {height:220px}
+  .industry-v99.industry-home-v100 h2 {font-size:32px}
+  .industry-v99.industry-home-v100 .iv-context-art {display:block}
+  .industry-v99.industry-home-v100 .iv-context-art>img {max-height:200px}
+  .industry-v99.industry-home-v100 .iv-context-art>.iv-position-labels {display:flex;justify-content:space-between;gap:16px;margin-top:13px}
+  .industry-v99.industry-home-v100 .iv-context-art>figcaption {margin-top:12px}
+  .industry-v99.industry-home-v100 .iv-science-layout>.iv-context-art {display:block}
+  .industry-v99.industry-home-v100 .iv-science-layout>.iv-context-art>img {max-height:230px}
+  .industry-v99.industry-home-v100 .iv-science-layout>.iv-context-art>figcaption {margin-top:14px;max-width:54ch}
+}
+@media(max-width:359px) {
+  .industry-v99.industry-home-v100 .iv-hero-copy h1 {font-size:34px}
+  .industry-v99.industry-home-v100 .iv-format dl {grid-template-columns:1fr;gap:5px}
+  .industry-v99.industry-home-v100 .iv-format dd+dt {margin-top:12px}
+  .industry-v99.industry-home-v100 .iv-button {width:fit-content;max-width:100%;padding-inline:18px}
+}
