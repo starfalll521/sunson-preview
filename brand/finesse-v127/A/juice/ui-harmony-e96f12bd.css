@@ -1,0 +1,87 @@
+/* Shared interaction roles; material hues remain owned by each industry page. */
+main#main-content[data-industry-version="107"] {
+  --ui-primary:#a74732;
+  --ui-primary-hover:#9e3f2a;
+  --ui-hero-ink:var(--iv-navy);
+  --ui-hero-fill:var(--iv-navy);
+  --ui-hero-hover-ink:#f0f1ed;
+  --ui-end-surface:var(--iv-mist);
+  --ui-notes-gutter:max(56px,calc((100% - 1280px)/2));
+}
+main#main-content[data-industry-version="107"] .iv-button {
+  background:var(--ui-primary);
+  border-color:var(--ui-primary);
+  color:#f0f1ed;
+}
+main#main-content[data-industry-version="107"] .iv-button:hover {
+  background:var(--ui-primary-hover);
+  border-color:var(--ui-primary-hover);
+  color:#f0f1ed;
+}
+/* A chapter jump is secondary to an enquiry, with the same size and hit area. */
+main#main-content[data-industry-version="107"] .iv-hero-copy .iv-button {
+  color:var(--ui-hero-ink);
+  border-color:var(--ui-hero-ink);
+  background:transparent;
+}
+main#main-content[data-industry-version="107"] .iv-hero-copy .iv-button:hover {
+  color:var(--ui-hero-hover-ink);
+  border-color:var(--ui-hero-fill);
+  background:var(--ui-hero-fill);
+}
+main#main-content[data-industry-version="107"] .iv-hero-copy .iv-button:focus-visible {
+  outline:3px solid var(--ui-hero-ink);
+  outline-offset:5px;
+}
+main#main-content.iv-detergent[data-industry-version="107"] {
+  --ui-hero-ink:#efedeb;
+  --ui-hero-fill:#efedeb;
+  --ui-hero-hover-ink:#513c45;
+  --ui-end-surface:#ede6e7;
+}
+main#main-content.feed-option-v101[data-industry-version="107"] {
+  --iv-stone:#ede6e7;
+  --iv-stone-line:#dbc7cd;
+  --iv-line:#dbc7cd;
+  --ui-end-surface:#ede6e7;
+}
+main#main-content.feed-option-v101[data-industry-version="107"] .iv-product {
+  border-color:#dbc7cd;
+}
+/* Preserve the inset content geometry while removing its attached-card seam. */
+main#main-content.feed-option-v101[data-industry-version="107"] .iv-section.iv-final {
+  background:var(--ui-end-surface);
+}
+main#main-content.feed-option-v101[data-industry-version="107"] .iv-closing {
+  background:transparent;
+}
+main#main-content.juice-option-v101[data-industry-version="107"] {
+  --ui-end-surface:#ede7e8;
+}
+/* Review notes are one quiet strip on the end surface, without an inset white box. */
+main#main-content[data-industry-version="107"] .source-review {
+  width:100%;
+  max-width:none;
+  margin-inline:0;
+  padding-inline:var(--ui-notes-gutter);
+  background:var(--ui-end-surface);
+  border-color:var(--iv-line);
+}
+@media(max-width:1100px) {
+  main#main-content.iv-detergent[data-industry-version="107"] {--ui-notes-gutter:40px}
+}
+@media(max-width:1050px) {
+  main#main-content.juice-option-v101[data-industry-version="107"] {--ui-notes-gutter:40px}
+}
+@media(max-width:900px) {
+  main#main-content.feed-option-v101[data-industry-version="107"] {--ui-notes-gutter:36px}
+}
+@media(max-width:767px) {
+  main#main-content[data-industry-version="107"] {--ui-notes-gutter:22px}
+  main#main-content.feed-option-v101[data-industry-version="107"] {--ui-notes-gutter:22px}
+  main#main-content.iv-detergent[data-industry-version="107"] {--ui-notes-gutter:22px}
+  main#main-content.juice-option-v101[data-industry-version="107"] {--ui-notes-gutter:20px}
+}
+@media(max-width:359px) {
+  main#main-content.feed-option-v101[data-industry-version="107"] {--ui-notes-gutter:18px}
+}

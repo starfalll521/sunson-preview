@@ -1,0 +1,38 @@
+/* SUNSON v71. Original red/blue trademark; the approved compositions stay intact. */
+:root,body.bio-site,body.bio-inner,body.bio-overview{
+ --brand-blue:#a74732;--brand-red:#a74732;--brand-navy:#293236;--brand-white:#f0f1ed;
+ --brand-ice:#dfe5e1;--brand-light:#ced7d3;--brand-muted:#3c4a47;
+ --paper:#f0f1ed;--sage:#dfe5e1;--mist:#ebede9;--forest:#293236;--ink:#263236;--muted:#3c4a47;--lime:#ced7d3;--line:#cad4d0;
+ --bio-paper:#f0f1ed;--bio-sage:#dfe5e1;--bio-forest:#293236;--bio-ink:#263236;--bio-citron:#ced7d3;--bio-muted:#3c4a47;--bio-line:#cad4d0;
+ --sun-paper:#f0f1ed;--sun-tint:#dfe5e1;--sun-ink:#263236;--sun-muted:#3c4a47;--sun-red:#a74732;--sun-line:#cad4d0;--sun-deep:#293236;--sun-neutral:#ebede9;
+ accent-color:#a74732;caret-color:#a74732;
+}
+body{scrollbar-color:#879691 #ebede9}
+::selection{background:#d6deda;color:#293236}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{
+ outline:2px solid #a74732;outline-offset:4px;
+}
+:is(.science-chapter,.source-footer,footer,.a-standards) :is(a,button,summary,input):focus-visible{outline-color:#e2e7e3}
+.logo.sunson-original-logo,.source-logo.sunson-original-logo{
+ display:inline-block;flex-shrink:0;line-height:0;font-size:0;letter-spacing:0;padding:0;
+ height:auto;min-width:0;text-decoration:none;vertical-align:middle;background:#f0f1ed;
+}
+.brand-logo-window{display:block;position:relative;overflow:hidden;width:126px;height:56px;background:#f0f1ed}
+.brand-logo-window img{position:absolute;display:block;width:113.777778%;height:auto;max-width:none;left:-7.111111%;top:-30.666667%;object-fit:initial;transform:none;filter:none}
+footer .sunson-original-logo{padding:4px 8px!important;border-radius:5px}
+footer .brand-logo-window{width:144px;height:64px}
+.bio-site .nav-contact,.bio-overview .nav-contact,
+body.bio-inner .source-header a[class*="primaryButton-surface"],
+body.bio-home-scale #conversation .closing a[href*="contact.html"]{
+ background:#a74732!important;color:#f0f1ed!important;border-color:#a74732!important;border-radius:999px!important;
+}
+.bio-site .nav-contact:hover,.bio-overview .nav-contact:hover,
+body.bio-inner .source-header a[class*="primaryButton-surface"]:hover,
+body.bio-home-scale #conversation .closing a[href*="contact.html"]:hover{
+ background:#9c3d28!important;color:#f0f1ed!important;border-color:#9c3d28!important;
+}
+.article-copy a{color:#a74732;text-decoration-thickness:1px;text-underline-offset:4px}
+.insight-card-link:focus-visible{outline:3px solid #a74732;outline-offset:-5px}
+.insight-card:nth-child(even) .insight-card-link:focus-visible{outline-color:#e2e7e3}
+@media(max-width:767px){.brand-logo-window{width:117px;height:52px}.logo.sunson-original-logo,.source-logo.sunson-original-logo{margin-block:0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

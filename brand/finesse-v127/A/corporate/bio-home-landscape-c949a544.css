@@ -1,0 +1,194 @@
+/* Living matter / working systems. Home-only composition; one scientific stage.
+   Photograph, explanatory surface and animated geometry always have clear bounds. */
+.bio-home-landscape{--paper:#e7ebe7;--sage:#dae1dd;--landscape-mineral:#f0f1ed;--frame:1280px}
+.bio-home-landscape.bio-home-bold .bio-hero{min-height:calc(100svh - 100px);align-items:center;padding-block:86px 116px}
+.bio-home-landscape.bio-home-bold .bio-hero .hero-copy h1{font-size:clamp(58px,6.4vw,96px);max-width:1040px;line-height:1.045;font-weight:600;letter-spacing:-.03em;margin-bottom:28px;text-wrap:balance}
+.bio-home-landscape.bio-home-bold .bio-hero .hero-copy>p{font-size:18px;line-height:1.7;max-width:37ch}
+.bio-home-landscape.bio-home-bold .bio-hero .hero-copy .action{margin-top:30px}
+
+/* The first study stays static, with two simultaneous research perspectives. */
+.bio-home-landscape.bio-home-bold .landscape-research{padding-block:78px 74px;background:var(--paper)}
+.bio-home-landscape.bio-home-bold .landscape-research .research-scale-intro{margin-bottom:42px}
+.bio-home-landscape.bio-home-bold .landscape-research .research-scale-intro h2{font-size:clamp(46px,4.4vw,60px);line-height:1.12;font-weight:560;max-width:1050px;letter-spacing:-.025em}
+.bio-home-landscape.bio-home-bold .landscape-research .research-scale-intro>p{font-size:16px;line-height:1.8;max-width:700px;margin-top:25px}
+.bio-home-landscape.bio-home-bold .landscape-research .research-diptych-grid{grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:28px}
+.bio-home-landscape.bio-home-bold .landscape-research .research-diptych-window{height:340px}
+.bio-home-landscape.bio-home-bold .landscape-research .research-diptych-copy h3{font-size:25px;font-weight:560;line-height:1.3}
+.bio-home-landscape.bio-home-bold .landscape-research .research-diptych-action{margin-top:14px}
+.bio-home-landscape .relocated-research-provenance{display:contents!important;height:auto!important;position:static!important;overflow:visible!important;background:none!important}
+.bio-home-landscape .relocated-research-provenance>small{position:static;display:inline;color:var(--muted);font-size:11px}
+
+/* The scene itself supplies warm open space for text; no white card covers it. */
+.bio-home-landscape.bio-home-bold .landscape-materials{--material-ground:#e3e8e4;padding:0 0 58px;background:var(--material-ground)}
+.bio-home-landscape.bio-home-bold .material-landscape-figure{display:block;position:static;margin:0;background:none;overflow:visible}
+.bio-home-landscape.bio-home-bold .material-landscape-scene{position:relative;isolation:isolate;min-height:570px;background:var(--material-ground);overflow:hidden}
+.bio-home-landscape.bio-home-bold .material-landscape-scene:after{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;background:linear-gradient(90deg,#e3e8e44d 0%,#e3e8e41a 38%,transparent 59%)}
+.bio-home-landscape.bio-home-bold .material-landscape-scene>.material-image-window{position:absolute;inset:0;width:100%;height:100%;overflow:hidden;margin:0;background:var(--material-ground)}
+.bio-home-landscape.bio-home-bold .material-landscape-scene>.material-image-window>img{display:block;width:100%;height:100%;aspect-ratio:auto;object-fit:cover;object-position:center 52%}
+.bio-home-landscape.bio-home-bold .material-landscape-frame{position:relative;z-index:1;min-height:570px;display:flex;align-items:center;pointer-events:none}
+.bio-home-landscape.bio-home-bold .material-reading-plane{display:block;flex:0 1 430px;width:430px;max-width:43%;background:transparent;border:0;border-radius:0;box-shadow:none;padding:0;margin:0;pointer-events:auto}
+.bio-home-landscape.bio-home-bold .material-reading-plane h2{font-size:clamp(37px,3.45vw,47px);line-height:1.14;font-weight:500;letter-spacing:-.025em;max-width:18ch;color:#283236}
+.bio-home-landscape.bio-home-bold .material-reading-plane>p{font-size:16px;line-height:1.8;max-width:35ch;color:#313e3e;padding:0;margin-top:25px}
+.bio-home-landscape.bio-home-bold .material-landscape-caption{position:static;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 25px;min-height:44px;margin-top:10px;padding:0;background:none;color:var(--muted);font-size:12px;line-height:1.7}
+.bio-home-landscape.bio-home-bold .material-landscape-notes .material-continuum{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin-top:26px}
+.bio-home-landscape.bio-home-bold .material-landscape-notes .material-continuum>article{border:0;padding:0 34px 0 0}
+.bio-home-landscape.bio-home-bold .material-landscape-notes .material-continuum>article+article{border-left:1px solid #bac8c3;padding-left:34px}
+.bio-home-landscape.bio-home-bold .material-landscape-notes h3{font-size:27px;line-height:1.3;font-weight:560}
+.bio-home-landscape.bio-home-bold .material-landscape-notes p{font-size:14px;line-height:1.75;margin-top:12px;max-width:28ch}
+
+/* A compact navigation chapter gives the two expressive scenes breathing room. */
+.bio-home-landscape.bio-home-bold .landscape-industry{padding-block:62px 66px;background:#dce3df}
+.bio-home-landscape.bio-home-bold .landscape-industry .solution-layout>div:first-child{gap:22px 48px}
+.bio-home-landscape.bio-home-bold .landscape-industry .solution-layout h2{font-size:clamp(40px,3.8vw,51px);line-height:1.13;font-weight:560;max-width:1000px}
+.bio-home-landscape.bio-home-bold .landscape-industry .solution-layout>div:first-child>p{font-size:16px;max-width:680px;line-height:1.8}
+.bio-home-landscape.bio-home-bold .landscape-industry .industry-routes{margin-top:34px}
+.bio-home-landscape.bio-home-bold .landscape-industry .industry-route{min-height:196px;padding:26px 28px 46px}
+.bio-home-landscape.bio-home-bold .landscape-industry .industry-route strong{font-size:29px;line-height:1.25;min-height:73px;font-weight:560}
+.bio-home-landscape.bio-home-bold .landscape-industry .industry-route small{font-size:13px;margin-top:9px}
+
+/* One independent scientific stage, with live reading on the left and art on the right. */
+.bio-home-landscape.bio-home-bold #enzyme-innovation.landscape-science{padding-block:78px 70px;background:var(--forest)}
+.bio-home-landscape.bio-home-bold #enzyme-innovation.landscape-science .intro-pair{margin-bottom:38px}
+.bio-home-landscape.bio-home-bold #enzyme-innovation.landscape-science .intro-pair h2{font-size:clamp(44px,4.2vw,58px);line-height:1.12;font-weight:560;max-width:950px}
+.bio-home-landscape.bio-home-bold #enzyme-innovation.landscape-science .intro-pair p{max-width:720px;font-size:16px;line-height:1.8}
+.bio-home-landscape.bio-home-bold .landscape-science .science-composition{display:grid;grid-template-columns:minmax(0,38fr) minmax(0,62fr);gap:44px;align-items:center;padding-top:28px}
+.bio-home-landscape.bio-home-bold .landscape-science .science-panels{order:-1;min-width:0;padding:0}
+.bio-home-landscape.bio-home-bold .landscape-science .science-figure{order:1;min-width:0;align-self:center;margin:0}
+.bio-home-landscape.bio-home-bold .landscape-science .science-reading>h3{font-size:32px;line-height:1.22;font-weight:560;max-width:21ch;letter-spacing:-.025em}
+.bio-home-landscape.bio-home-bold .landscape-science .science-reading>p{font-size:16px;line-height:1.8;max-width:40ch;margin-top:24px}
+.bio-home-landscape.bio-home-bold .landscape-science .science-reading>.reading-link{margin-top:26px}
+.bio-home-landscape.bio-home-bold .landscape-science .science-field-art{width:100%;max-width:none;margin-left:0}
+.bio-home-landscape.bio-home-bold .landscape-science .science-ready .science-panels{min-height:410px}
+
+/* Real research statements carry the evidence; repeated mood photography is retired. */
+.bio-home-landscape.bio-home-bold .landscape-evidence{padding-block:78px 76px;background:var(--paper)}
+.bio-home-landscape.bio-home-bold .landscape-evidence .section-heading{display:block;margin-bottom:46px}
+.bio-home-landscape.bio-home-bold .landscape-evidence .section-heading h2{font-size:clamp(43px,4vw,55px);line-height:1.13;font-weight:560;max-width:1000px}
+.bio-home-landscape.bio-home-bold .landscape-evidence .section-heading>p{font-size:16px;line-height:1.8;max-width:700px;margin-top:25px}
+.bio-home-landscape.bio-home-bold .landscape-evidence .editorial-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:80px;align-items:start}
+.bio-home-landscape.bio-home-bold .landscape-evidence .research-story{display:block;min-width:0;border:0;background:none;padding:0;margin:0;overflow:visible}
+.bio-home-landscape.bio-home-bold .landscape-evidence .story-copy{padding:0;background:none}
+.bio-home-landscape.bio-home-bold .landscape-evidence .story-copy h3,
+.bio-home-landscape.bio-home-bold .landscape-evidence .standards-story h3{font-size:34px;line-height:1.2;font-weight:560;letter-spacing:-.025em;max-width:22ch;color:var(--forest)}
+.bio-home-landscape.bio-home-bold .landscape-evidence .story-copy p,
+.bio-home-landscape.bio-home-bold .landscape-evidence .standards-story p{font-size:16px;line-height:1.8;max-width:47ch;color:#2b383a;margin:25px 0 0}
+.bio-home-landscape.bio-home-bold .landscape-evidence .standards-story{display:block;border:0;background:none;color:var(--forest);padding:0;margin:0}
+.bio-home-landscape.bio-home-bold .landscape-evidence .standards-story .reading-link,
+.bio-home-landscape.bio-home-bold .landscape-evidence .story-copy .reading-link{display:inline-flex;max-width:100%;margin:27px 0 0;padding:12px 22px;font-size:14px;color:var(--forest);border-color:#465451;background:none}
+.bio-home-landscape.bio-home-bold .landscape-evidence .standards-story .reading-link:hover,
+.bio-home-landscape.bio-home-bold .landscape-evidence .standards-story .reading-link:focus-visible{color:var(--forest);background:#dae1dc}
+.bio-home-landscape.bio-home-bold .landscape-evidence :focus-visible{outline-color:#364443}
+
+/* The production account stays calm and genuinely ordered. */
+.bio-home-landscape.bio-home-bold .landscape-manufacturing{padding-block:74px 68px;background:var(--landscape-mineral)}
+.bio-home-landscape.bio-home-bold .landscape-manufacturing .purpose-layout h2{font-size:clamp(42px,4vw,55px);line-height:1.13;font-weight:560;max-width:1050px}
+.bio-home-landscape.bio-home-bold .landscape-manufacturing .purpose-layout>div{margin-top:27px;gap:16px 45px}
+.bio-home-landscape.bio-home-bold .landscape-manufacturing .purpose-layout p{font-size:16px;line-height:1.8;max-width:700px}
+.bio-home-landscape.bio-home-bold .landscape-manufacturing .manufacturing-study{margin-top:44px}
+.bio-home-landscape.bio-home-bold .landscape-manufacturing .process-drawing{width:100px;height:100px;margin-bottom:25px}
+.bio-home-landscape.bio-home-bold .landscape-manufacturing .manufacturing-flow:before{top:130px;background:#9aa8a3}
+.bio-home-landscape.bio-home-bold .landscape-manufacturing .process-name{font-size:18px;font-weight:500}
+.bio-home-landscape.bio-home-bold .landscape-manufacturing .process-point{background:var(--landscape-mineral)}
+.bio-home-landscape.bio-home-bold .landscape-manufacturing .manufacturing-study figcaption{margin-top:28px}
+
+/* Close the visual arc with the second leaf crop and one concise invitation. */
+.bio-home-landscape.bio-home-bold .resource-scene{padding-block:84px}
+.bio-home-landscape.bio-home-bold .resource-scene h2{font-size:clamp(40px,4.1vw,57px);line-height:1.13;font-weight:560;max-width:18ch;letter-spacing:-.025em}
+.bio-home-landscape.bio-home-bold .resource-scene .frame>div{max-width:585px}
+.bio-home-landscape.bio-home-bold .resource-scene p{font-size:16px;line-height:1.8;max-width:43ch}
+.bio-home-landscape.bio-home-bold .landscape-closing{padding-block:64px 68px}
+.bio-home-landscape.bio-home-bold .landscape-closing .closing h2{font-size:clamp(42px,4.2vw,57px);line-height:1.12;font-weight:560;max-width:900px}
+.bio-home-landscape.bio-home-bold .landscape-closing .closing>div{display:grid;grid-template-columns:repeat(2,max-content);justify-content:center;gap:22px;margin-top:26px}
+.bio-home-landscape.bio-home-bold .landscape-closing .closing p{grid-column:1/-1;width:100%;max-width:720px;font-size:16px;line-height:1.8;margin:0 auto 2px}
+.bio-home-landscape.bio-home-bold .landscape-closing .closing .reading-link{justify-self:center;width:auto;min-width:0;margin:0}
+
+@media(max-width:1100px){
+ .bio-home-landscape.bio-home-bold .material-reading-plane{flex-basis:430px;max-width:45%;padding:0}
+ .bio-home-landscape.bio-home-bold .material-reading-plane h2{font-size:39px}
+ .bio-home-landscape.bio-home-bold .landscape-science .science-composition{gap:32px}
+ .bio-home-landscape.bio-home-bold .landscape-evidence .editorial-pair{gap:50px}
+ .bio-home-landscape.bio-home-bold .landscape-evidence .story-copy h3,.bio-home-landscape.bio-home-bold .landscape-evidence .standards-story h3{font-size:31px}
+}
+@media(max-width:950px){
+ .bio-home-landscape.bio-home-bold .bio-hero .hero-copy h1{font-size:clamp(56px,7.2vw,76px);max-width:900px}
+ .bio-home-landscape.bio-home-bold .landscape-research{padding-block:66px}
+ .bio-home-landscape.bio-home-bold .landscape-research .research-scale-intro h2{font-size:48px}
+ .bio-home-landscape.bio-home-bold .landscape-research .research-diptych-window{height:300px}
+ .bio-home-landscape.bio-home-bold .material-landscape-scene,.bio-home-landscape.bio-home-bold .material-landscape-frame{min-height:540px}
+ .bio-home-landscape.bio-home-bold .material-reading-plane{flex-basis:390px;max-width:46%;padding:0}
+ .bio-home-landscape.bio-home-bold .material-reading-plane h2{font-size:36px}
+ .bio-home-landscape.bio-home-bold .material-reading-plane>p{font-size:15px}
+ .bio-home-landscape.bio-home-bold .landscape-science .science-composition{grid-template-columns:minmax(0,43fr) minmax(0,57fr);gap:28px}
+ .bio-home-landscape.bio-home-bold #enzyme-innovation.landscape-science .science-reading>h3{font-size:28px}
+ .bio-home-landscape.bio-home-bold #enzyme-innovation.landscape-science .science-reading>p{font-size:15px}
+ .bio-home-landscape.bio-home-bold .landscape-evidence .editorial-pair{gap:38px}
+ .bio-home-landscape.bio-home-bold .landscape-evidence .story-copy h3,.bio-home-landscape.bio-home-bold .landscape-evidence .standards-story h3{font-size:29px}
+}
+@media(max-width:767px){
+ .bio-home-landscape.bio-home-bold .bio-hero{min-height:calc(100svh - 88px);padding-block:70px 106px}
+ .bio-home-landscape.bio-home-bold .bio-hero .hero-copy h1{font-size:46px;line-height:1.07;font-weight:600;max-width:100%;letter-spacing:-.025em}
+ .bio-home-landscape.bio-home-bold .bio-hero .hero-copy>p{font-size:16px;line-height:1.75;max-width:30ch}
+ .bio-home-landscape.bio-home-bold .landscape-research{padding-block:58px}
+ .bio-home-landscape.bio-home-bold .landscape-research .research-scale-intro{margin-bottom:30px}
+ .bio-home-landscape.bio-home-bold .landscape-research .research-scale-intro h2{font-size:36px;line-height:1.16;max-width:none}
+ .bio-home-landscape.bio-home-bold .landscape-research .research-scale-intro>p{font-size:15px;line-height:1.8;max-width:100%}
+ .bio-home-landscape.bio-home-bold .landscape-research .research-diptych-grid{grid-template-columns:1fr;gap:30px}
+ .bio-home-landscape.bio-home-bold .landscape-research .research-diptych-window{height:220px}
+ .bio-home-landscape.bio-home-bold .landscape-research .research-diptych-copy h3{font-size:24px}
+ .bio-home-landscape.bio-home-bold .landscape-materials{padding-bottom:36px}
+ .bio-home-landscape.bio-home-bold .material-landscape-scene{display:flex;flex-direction:column;min-height:0;overflow:visible}
+ .bio-home-landscape.bio-home-bold .material-landscape-scene:after{content:none}
+ .bio-home-landscape.bio-home-bold .material-landscape-scene>.material-image-window{position:relative;inset:auto;order:0;width:100%;height:240px;flex:none}
+ .bio-home-landscape.bio-home-bold .material-landscape-scene>.material-image-window:after{content:'';position:absolute;left:0;right:0;bottom:0;height:28px;z-index:1;pointer-events:none;background:linear-gradient(180deg,#eaeef300,var(--material-ground))}
+ .bio-home-landscape.bio-home-bold .material-landscape-scene>.material-image-window>img{width:100%;height:240px;object-position:right 52%;aspect-ratio:auto}
+ .bio-home-landscape.bio-home-bold .material-landscape-frame{order:1;display:block;width:100%;min-height:0;padding:22px 20px 30px;background:var(--material-ground)}
+ .bio-home-landscape.bio-home-bold .material-reading-plane{display:block;width:100%;max-width:none;flex-basis:auto;padding:0;margin:0;background:transparent;border:0;box-shadow:none}
+ .bio-home-landscape.bio-home-bold .material-reading-plane h2{font-size:36px;line-height:1.15;max-width:none}
+ .bio-home-landscape.bio-home-bold .material-reading-plane>p{font-size:15px;line-height:1.8;max-width:48ch;margin-top:25px}
+ .bio-home-landscape.bio-home-bold .material-landscape-caption{margin-top:0;min-height:44px;gap:10px 15px}
+ .bio-home-landscape.bio-home-bold .material-landscape-notes .material-continuum{grid-template-columns:1fr;gap:0;margin-top:15px}
+ .bio-home-landscape.bio-home-bold .material-landscape-notes .material-continuum>article,.bio-home-landscape.bio-home-bold .material-landscape-notes .material-continuum>article+article{display:grid;grid-template-columns:minmax(0,.65fr) minmax(0,1.35fr);gap:20px;border:0;padding:19px 0}
+ .bio-home-landscape.bio-home-bold .material-landscape-notes .material-continuum>article+article{border-top:1px solid #bac8c3}
+ .bio-home-landscape.bio-home-bold .material-landscape-notes h3{font-size:25px}
+ .bio-home-landscape.bio-home-bold .material-landscape-notes p{font-size:14px;line-height:1.75;max-width:none;margin:0}
+ .bio-home-landscape.bio-home-bold .landscape-industry{padding-block:54px 58px}
+ .bio-home-landscape.bio-home-bold .landscape-industry .solution-layout h2{font-size:36px;line-height:1.15}
+ .bio-home-landscape.bio-home-bold .landscape-industry .solution-layout>div:first-child>p{font-size:15px}
+ .bio-home-landscape.bio-home-bold .landscape-industry .industry-route{min-height:118px;padding:23px 50px 23px 13px}
+ .bio-home-landscape.bio-home-bold .landscape-industry .industry-route strong{font-size:27px;min-height:0}
+ .bio-home-landscape.bio-home-bold .landscape-industry .industry-route small{font-size:12px}
+ .bio-home-landscape.bio-home-bold #enzyme-innovation.landscape-science{padding-block:60px 58px}
+ .bio-home-landscape.bio-home-bold #enzyme-innovation.landscape-science .intro-pair h2{font-size:36px;line-height:1.15;max-width:none}
+ .bio-home-landscape.bio-home-bold #enzyme-innovation.landscape-science .intro-pair p{font-size:15px;line-height:1.8}
+ .bio-home-landscape.bio-home-bold .landscape-science .science-composition{grid-template-columns:minmax(0,1fr);gap:28px;padding-top:26px}
+ .bio-home-landscape.bio-home-bold .landscape-science .science-panels,.bio-home-landscape.bio-home-bold .landscape-science .science-ready .science-panels{order:-1;min-height:0}
+ .bio-home-landscape.bio-home-bold .landscape-science .science-figure{order:1}
+ .bio-home-landscape.bio-home-bold .landscape-science .science-field-art{height:265px}
+ .bio-home-landscape.bio-home-bold #enzyme-innovation.landscape-science .science-reading>h3{font-size:29px;line-height:1.23}
+ .bio-home-landscape.bio-home-bold #enzyme-innovation.landscape-science .science-reading>p{font-size:15px;line-height:1.8;max-width:none}
+ .bio-home-landscape.bio-home-bold .landscape-evidence{padding-block:58px}
+ .bio-home-landscape.bio-home-bold .landscape-evidence .section-heading{margin-bottom:34px}
+ .bio-home-landscape.bio-home-bold .landscape-evidence .section-heading h2{font-size:36px;line-height:1.16}
+ .bio-home-landscape.bio-home-bold .landscape-evidence .section-heading>p{font-size:15px;line-height:1.8}
+ .bio-home-landscape.bio-home-bold .landscape-evidence .editorial-pair{grid-template-columns:1fr;gap:38px}
+ .bio-home-landscape.bio-home-bold .landscape-evidence .story-copy h3,.bio-home-landscape.bio-home-bold .landscape-evidence .standards-story h3{font-size:29px;line-height:1.22;max-width:none}
+ .bio-home-landscape.bio-home-bold .landscape-evidence .story-copy p,.bio-home-landscape.bio-home-bold .landscape-evidence .standards-story p{font-size:15px;line-height:1.8;margin-top:22px;max-width:48ch}
+ .bio-home-landscape.bio-home-bold .landscape-evidence .standards-story .reading-link,.bio-home-landscape.bio-home-bold .landscape-evidence .story-copy .reading-link{font-size:13px;margin-top:24px}
+ .bio-home-landscape.bio-home-bold .landscape-manufacturing{padding-block:58px}
+ .bio-home-landscape.bio-home-bold .landscape-manufacturing .purpose-layout h2{font-size:36px;line-height:1.16}
+ .bio-home-landscape.bio-home-bold .landscape-manufacturing .purpose-layout p{font-size:15px;line-height:1.8}
+ .bio-home-landscape.bio-home-bold .landscape-manufacturing .manufacturing-study{margin-top:36px}
+ .bio-home-landscape.bio-home-bold .landscape-manufacturing .manufacturing-study figcaption{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 18px}
+ .bio-home-landscape.bio-home-bold .landscape-manufacturing .manufacturing-study figcaption>.process-replay{margin-top:0}
+ .bio-home-landscape.bio-home-bold .landscape-manufacturing .manufacturing-flow:before{content:none}
+ .bio-home-landscape.bio-home-bold .landscape-manufacturing .process-drawing{width:88px;height:88px;margin-bottom:18px}
+ .bio-home-landscape.bio-home-bold .landscape-manufacturing .process-name{font-size:16px}
+ .bio-home-landscape.bio-home-bold .resource-scene{padding-block:68px}
+ .bio-home-landscape.bio-home-bold .resource-scene h2{font-size:38px;line-height:1.15;max-width:none}
+ .bio-home-landscape.bio-home-bold .resource-scene p{font-size:15px;line-height:1.8}
+ .bio-home-landscape.bio-home-bold .landscape-closing{padding-block:56px 60px}
+ .bio-home-landscape.bio-home-bold .landscape-closing .closing h2{font-size:36px;line-height:1.15;max-width:none}
+ .bio-home-landscape.bio-home-bold .landscape-closing .closing>div{grid-template-columns:minmax(0,1fr);gap:16px}
+ .bio-home-landscape.bio-home-bold .landscape-closing .closing p{grid-column:1;width:100%;max-width:48ch;font-size:15px;line-height:1.8}
+ .bio-home-landscape.bio-home-bold .landscape-closing .closing .reading-link{grid-column:1;width:auto;min-width:0;max-width:100%}
+}

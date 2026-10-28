@@ -1,0 +1,58 @@
+/* finesse | register=brand | A=cool-white-mineral-graphite | B=existing-type-preserved | C=existing-layout-preserved | D=existing-motion-preserved | E=existing-images-preserved | scope=homepage-paint-only-v131 */
+/* Cold white (#F3F6F8) — primary reading surface, no cream tint.
+   Mist (#DFE7EC) — research evidence surface, cool mineral blue-gray.
+   Frost (#EBF0F4) — manufacturing reading surface, cool and neutral.
+   Steel (#B8C8D3) — medium enquiry ground; separates it from the carbon footer.
+   Carbon (#293236) and Oxide (#A74732) — retained ink and small action roles. */
+body.bio-home-landscape.bio-home-bold.selected-middle-a{
+ --home-cold-white:#F3F6F8;--home-mineral:#DFE7EC;--home-frost:#EBF0F4;--home-steel:#B8C8D3;
+ --home-carbon:#293236;--home-ink:#263236;--home-body:#425460;--home-oxide:#A74732;
+ --paper:#F3F6F8;--mist:#DFE7EC;--lime:#D5E1EA;
+ background:var(--home-cold-white);color:var(--home-ink);
+}
+body.bio-home-landscape.bio-home-bold.selected-middle-a .identity-strip,
+body.bio-home-landscape.bio-home-bold.selected-middle-a #research-in-view{
+ background:var(--home-cold-white);
+}
+body.bio-home-landscape.bio-home-bold.selected-middle-a #research-in-view .routines-factory-background:after{
+ background:linear-gradient(90deg,#f3f6f8f0 0%,#f3f6f8e6 40%,#f3f6f8d1 72%,#f3f6f8c4 100%);
+}
+body.bio-home-landscape.bio-home-bold.selected-middle-a #work-and-perspectives.option-a-evidence,
+body.bio-home-landscape.bio-home-bold.selected-middle-a #work-and-perspectives .a90-proof-strip{
+ background:var(--home-mineral);
+}
+body.bio-home-landscape.bio-home-bold.selected-middle-a #from-research-to-use.option-a-manufacturing{
+ background:var(--home-frost);
+}
+body.bio-home-landscape.bio-home-bold.selected-middle-a #enzyme-innovation.science-atlas{
+ --atlas-paper:#F3F6F8;--atlas-soft:#CCD8E0;--atlas-accent:#C3D2DC;
+}
+body.bio-home-landscape.bio-home-bold.selected-middle-a #enzyme-innovation.science-atlas .science-tabs button[aria-selected=true]:hover{background:#D7E2EA}
+body.bio-home-landscape.bio-home-bold.selected-middle-a #conversation.home-inquiry{
+ --inquiry-ink:#263236;--inquiry-muted:#425460;--inquiry-ice:#F3F6F8;
+ background:var(--home-steel);color:var(--home-ink);
+}
+body.bio-home-landscape.bio-home-bold.selected-middle-a #conversation :is(h2,p,label,label span,.inquiry-preview-note,.inquiry-meta>a,.inquiry-intro a){
+ color:var(--home-ink);
+}
+body.bio-home-landscape.bio-home-bold.selected-middle-a #conversation .inquiry-field :is(input,select,textarea){
+ background:var(--home-cold-white);border-color:#5B7080;color:var(--home-ink);caret-color:var(--home-ink);
+}
+body.bio-home-landscape.bio-home-bold.selected-middle-a #conversation .inquiry-field :is(input,select,textarea):hover{border-color:#425460}
+body.bio-home-landscape.bio-home-bold.selected-middle-a #conversation :is(input,select,textarea,button,a):focus-visible{outline-color:var(--home-carbon)}
+body.bio-home-landscape.bio-home-bold.selected-middle-a #conversation .inquiry-field [aria-invalid=true]{border-color:#A12031}
+body.bio-home-landscape.bio-home-bold.selected-middle-a #conversation.home-inquiry .inquiry-error{color:#8E172B}
+body.bio-home-landscape.bio-home-bold.selected-middle-a #conversation button[type=submit],
+body.bio-home-landscape.bio-home-bold.selected-middle-a #hero .hero-copy .action,
+body.bio-home-landscape.bio-home-bold.selected-middle-a .np-header .np-contact{
+ background:var(--home-oxide);border-color:var(--home-oxide);color:#F6F5F0;
+}
+body.bio-home-landscape.bio-home-bold.selected-middle-a #conversation button[type=submit]:hover,
+body.bio-home-landscape.bio-home-bold.selected-middle-a #hero .hero-copy .action:hover,
+body.bio-home-landscape.bio-home-bold.selected-middle-a .np-header .np-contact:hover{
+ background:#8D3D2B;border-color:#8D3D2B;color:#F6F5F0;
+}
+body.bio-home-landscape.bio-home-bold.selected-middle-a ::selection{background:#B8C8D3;color:#263236}
+@media(max-width:767px){
+ body.bio-home-landscape.bio-home-bold.selected-middle-a #research-in-view .routines-factory-background:after{background:#f3f6f8ed}
+}

@@ -1,0 +1,8 @@
+/* Keep the overview reading layout within the shared site shell. */
+:root{--paper:#eff0ec;--ink:#283236;--muted:#3d4b48;--soft:#e3e8e4;--accent:#324040;--line:#bcc9c4}
+body{font-family:Manrope,Arial,sans-serif}.site-header,body>footer{max-width:none;padding:0;margin:0}
+.site-header .nav-bar{padding-block:0}.site-header nav{max-width:none}.site-header .nav-panel p{margin:0}.site-header a{color:inherit}
+body>footer{background:var(--footer);color:var(--paper);padding:72px 0 24px}body>footer a{color:inherit}
+body>footer .split{border:0}.copy>.intro{margin-top:28px}main>nav[aria-label=Breadcrumb]{padding-top:32px;font-size:14px}
+main .split{grid-template-columns:1fr 1fr;gap:36px}main .products>summary{min-height:44px;display:flex;align-items:center}
+@media(max-width:760px){main .split{grid-template-columns:1fr}.site-header .utility{padding-inline:16px}.site-header .nav-panel{position:static}body>footer{padding:48px 0 24px}}

@@ -1,0 +1,7 @@
+/* finesse component scope: approved navigation structure; existing palette, image and motion system retained. */
+/* Only compensate for the added product route; page typography and layout remain unchanged. */
+@media(min-width:1181px) and (max-width:1439px){
+ .np-header .np-links{gap:16px}
+ .np-header .np-item>summary,.np-header .np-direct{font-size:12px}
+ .np-header .np-bar{gap:20px}
+}

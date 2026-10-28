@@ -1,0 +1,11 @@
+/* finesse | register=brand | A=carbon-mineral-oxide | B=existing-type | C=existing-approved-layout | D=existing-motion | E=supplied-photography | scope=colour-only-v127 */
+body .np-header{background:#fff;color:#263236}
+body .np-header .np-utility{background:#293236;color:#F0F1ED}
+body .np-header .np-contact{background:#A74732;color:#F6F5F0!important}
+body .np-header .np-contact:hover{background:color-mix(in srgb,#A74732 82%,#293236);color:#F6F5F0!important}
+body .np-header .np-panel,body .np-header.np-mobile-open .np-links{background:#DFE5E1;color:#263236}
+body .np-header .np-sectors button[aria-selected=true]{background:#293236;color:#F0F1ED}
+body .np-header .np-bar,body .np-header .np-head,body .np-header .np-foot{border-color:color-mix(in srgb,#263236 19%,transparent)}
+body .np-header .brand-logo-window,body footer .brand-logo-window,body .sunson-original-logo{background:#fff}
+body .source-footer,body>footer{background:#293236;color:#F0F1ED}
+body .source-footer :is(h2,h3,p,a,small),body>footer :is(h2,h3,p,a,small){color:#F0F1ED}

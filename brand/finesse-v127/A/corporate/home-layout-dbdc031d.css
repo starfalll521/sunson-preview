@@ -1,0 +1,30 @@
+/* Initial GitHub evidence composition (c1e5777), current copy and brand palette.
+   Only the chapter AFTER Four New is restored. No front-half or global type rules. */
+body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence{padding-block:78px 76px;scroll-margin-top:120px}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .section-heading{display:block;margin-bottom:46px}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .section-heading h2{font-size:clamp(43px,4vw,55px);line-height:1.13;font-weight:560;max-width:1000px}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .section-heading>p{font-size:16px;line-height:1.8;max-width:700px;margin-top:25px}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .editorial-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:80px;align-items:start}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence :is(.research-story,.standards-story,.story-copy){display:block;min-width:0;border:0;background:none;color:var(--forest);padding:0;margin:0;overflow:visible}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence :is(.story-copy,.standards-story) h3{font-size:34px;line-height:1.2;font-weight:560;letter-spacing:-.025em;max-width:22ch;color:var(--forest)}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence :is(.story-copy,.standards-story) p{font-size:16px;line-height:1.8;max-width:47ch;color:var(--muted);margin:25px 0 0}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .reading-link{display:inline-flex;max-width:100%;min-height:44px;margin:27px 0 0;padding:12px 22px;font-size:14px;color:var(--forest);border:1px solid var(--line);background:none}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .reading-link:hover{color:var(--forest);background:var(--sage)}
+@media(max-width:1100px){
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .editorial-pair{gap:50px}
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence :is(.story-copy,.standards-story) h3{font-size:31px}
+}
+@media(max-width:1023px){
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .editorial-pair{gap:38px}
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence :is(.story-copy,.standards-story) h3{font-size:29px}
+}
+@media(max-width:767px){
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence{padding-block:58px}
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .section-heading{margin-bottom:34px}
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .section-heading h2{font-size:36px;line-height:1.16}
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .section-heading>p{font-size:15px;line-height:1.8}
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .editorial-pair{grid-template-columns:1fr;gap:38px}
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence :is(.story-copy,.standards-story) h3{font-size:29px;line-height:1.22;max-width:none}
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence :is(.story-copy,.standards-story) p{font-size:15px;line-height:1.8;margin-top:22px;max-width:48ch}
+ body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .reading-link{font-size:13px;margin-top:24px}
+}

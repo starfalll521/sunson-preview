@@ -1,0 +1,10 @@
+/* Supplied SUNSON / 夏盛酶 wordmark. The original PNG is retained byte-for-byte.
+   A proportional window removes only the source image's surrounding whitespace. */
+body .brand-logo-window{width:190px;height:40.815px;background:#fff;overflow:hidden;position:relative;display:block}
+body .brand-logo-window img{position:absolute;display:block;width:125%;height:auto;max-width:none;left:-16.666667%;top:-30.172414%;object-fit:initial;transform:none;filter:none}
+body .np-header .np-logo{width:190px;height:54px}
+body .np-header .brand-logo-window{width:190px;height:40.815px}
+body footer .brand-logo-window{width:210px;height:45.111px}
+@media(max-width:1250px) and (min-width:1181px){body .np-header .np-logo,body .np-header .brand-logo-window{width:160px}body .np-header .brand-logo-window{height:34.37px}}
+@media(max-width:1180px){body .np-header .np-logo,body .np-header .brand-logo-window{width:166px}body .np-header .brand-logo-window{height:35.659px}}
+@media(max-width:370px){body .np-header .np-logo,body .np-header .brand-logo-window{width:138px}body .np-header .brand-logo-window{height:29.644px}}

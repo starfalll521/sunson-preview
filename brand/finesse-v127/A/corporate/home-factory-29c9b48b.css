@@ -1,0 +1,38 @@
+/* Actual production photography, kept quiet behind the original everyday cases. */
+body.bio-home-landscape.bio-home-bold #research-in-view .routines-factory-background img{
+  object-position:center 45%;opacity:1;filter:saturate(.25);
+}
+body.bio-home-landscape.bio-home-bold #research-in-view .routines-factory-background:after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(90deg,#f0f1edf0 0%,#f0f1ede6 40%,#f0f1edd1 72%,#f0f1edc4 100%);
+}
+body.bio-home-landscape.bio-home-bold #research-in-view .routines-factory-note{
+  position:absolute;top:-49px;right:0;z-index:4;margin:0;
+}
+body.bio-home-landscape.bio-home-bold #research-in-view .routines-factory-note>summary{
+  display:grid;place-items:center;width:44px;height:44px;color:#3b4946;
+}
+body.bio-home-landscape.bio-home-bold #research-in-view .routines-factory-note .media-info-content{
+  color:#263236;background:#e7eae6;border-color:#b8c6c1;max-width:calc(100vw - 48px);
+}
+/* The optical midpoint is between the paragraphs, whose measure is 47ch. */
+body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .editorial-pair{
+  --evidence-column-gap:80px;
+}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .editorial-pair:after{
+  font-size:16px;
+  left:calc(25% + var(--evidence-column-gap) / 4 + min(23.5ch, (100% - var(--evidence-column-gap)) / 4));
+  background:linear-gradient(180deg,#35424299 0%,#2b383ab3 42%,#35424299 80%,#4d5b5880 100%);
+  box-shadow:0 0 3px #3c4a4726;
+}
+@media(max-width:1100px){
+  body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .editorial-pair{--evidence-column-gap:50px}
+}
+@media(max-width:1023px){
+  body.bio-home-landscape.bio-home-bold #work-and-perspectives.restored-evidence .editorial-pair{--evidence-column-gap:38px}
+}
+@media(max-width:767px){
+  body.bio-home-landscape.bio-home-bold #research-in-view .routines-factory-background img{object-position:62% center;opacity:1}
+  body.bio-home-landscape.bio-home-bold #research-in-view .routines-factory-background:after{background:#f0f1eded}
+  body.bio-home-landscape.bio-home-bold #research-in-view .routines-factory-note{top:-46px}
+}

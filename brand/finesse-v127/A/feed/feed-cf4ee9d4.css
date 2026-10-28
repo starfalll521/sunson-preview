@@ -1,0 +1,220 @@
+/* Accepted feed layout: open material introduction, nutrition columns and a quiet process spread. */
+.industry-v99.feed-option-v101 {
+  --iv-mist:#e7eae0; --iv-ink:#414938; --iv-navy:#40493a; --iv-blue:#485651;
+  --iv-muted:#485651; --iv-line:#cdd3c0;
+  --iv-stone:#e7eae0; --iv-stone-line:#cdd3c0; --iv-neutral:#eeefea;
+  background:#eeefea; color:var(--iv-ink); font-size:17px; line-height:1.75;
+}
+.industry-v99.feed-option-v101 :is(.iv-wrap,.iv-breadcrumbs,.iv-toc,.source-review) {
+  width:min(calc(100% - 112px),1280px); max-width:none; margin-inline:auto;
+}
+.industry-v99.feed-option-v101 :is(h1,h2,h3) {font-weight:550;letter-spacing:-.035em}
+.industry-v99.feed-option-v101 h2 {font-size:clamp(36px,3.1vw,44px);line-height:1.15}
+.industry-v99.feed-option-v101 h3 {font-size:25px;line-height:1.3;letter-spacing:-.025em}
+.industry-v99.feed-option-v101 p {font-size:17px;line-height:1.75}
+.industry-v99.feed-option-v101 a {text-underline-offset:6px}
+.industry-v99.feed-option-v101 a:not(.iv-button) {color:var(--iv-blue)}
+.industry-v99.feed-option-v101 a:not(.iv-button):hover {color:#40493a;text-decoration-color:#40493a}
+.industry-v99.feed-option-v101 a:focus-visible {outline:2px solid #485651;outline-offset:5px}
+.industry-v99.feed-option-v101 .iv-breadcrumbs {min-height:62px;font-size:12px;color:#485651}
+.industry-v99.feed-option-v101 .iv-breadcrumbs a {color:inherit}
+.industry-v99.feed-option-v101 .iv-button {
+  min-height:48px; padding:12px 24px; border-radius:999px; font-size:14px; font-weight:650;
+  line-height:1.55; box-shadow:none;
+}
+.industry-v99.feed-option-v101 .iv-button:hover {background:#9d3e29;border-color:#9d3e29}
+.industry-v99.feed-option-v101 .iv-link {font-size:14px;font-weight:600;text-decoration-color:#cdd3c0}
+.industry-v99.feed-option-v101 .iv-label {color:var(--iv-muted)}
+
+/* The complete introduction precedes the image. No text or shade obscures the feed material. */
+.industry-v99.feed-option-v101 .iv-hero {padding-block:54px 28px;background:var(--iv-mist)}
+.industry-v99.feed-option-v101 .iv-hero > .iv-wrap {display:block}
+.industry-v99.feed-option-v101 .iv-hero-copy {
+  display:grid; grid-template-columns:minmax(0,1.18fr) minmax(0,.82fr);
+  column-gap:clamp(48px,6vw,90px); row-gap:24px; align-items:start; margin-bottom:48px;
+}
+.industry-v99.feed-option-v101 .iv-hero-copy h1 {
+  grid-column:1;grid-row:1/span 2;max-width:14ch;margin:0;
+  font-size:clamp(58px,5.65vw,82px);line-height:1.055;letter-spacing:-.05em;font-weight:500;
+}
+.industry-v99.feed-option-v101 .iv-hero-copy > p {grid-column:2;max-width:41ch;font-size:18px;line-height:1.8;padding-top:4px}
+.industry-v99.feed-option-v101 .iv-hero-copy .iv-button {grid-column:2;justify-self:start;margin:0}
+.industry-v99.feed-option-v101.iv-feed .iv-hero-art {padding:0;margin:0;max-width:none}
+.industry-v99.feed-option-v101 .iv-material-image img {
+  width:100%;height:390px;aspect-ratio:auto;object-fit:cover;object-position:50% 56%;
+  filter:none;mix-blend-mode:normal;opacity:1;
+}
+.industry-v99.feed-option-v101 figcaption {margin-top:13px;color:#485651;font-size:11px;line-height:1.65}
+.industry-v99.feed-option-v101 .iv-toc {
+  gap:0 38px;padding-block:17px;border-bottom:1px solid var(--iv-line);font-size:13px;
+}
+.industry-v99.feed-option-v101 .iv-toc a {color:var(--iv-ink);min-height:44px}
+
+/* Nutrition is a set of distinct ingredients and questions, presented in three open columns. */
+.industry-v99.feed-option-v101 .iv-section {padding-block:82px;background:#eeefea}
+.industry-v99.feed-option-v101 .iv-section + .iv-section {border:0}
+.industry-v99.feed-option-v101 #story-2 .iv-section-head {display:block;margin-bottom:43px}
+.industry-v99.feed-option-v101 #story-2 .iv-section-head h2 {max-width:25ch;margin-bottom:23px}
+.industry-v99.feed-option-v101 #story-2 .iv-section-head > div {padding:0}
+.industry-v99.feed-option-v101 #story-2 .iv-section-head p {max-width:68ch;color:var(--iv-muted)}
+.industry-v99.feed-option-v101 .iv-routes {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(34px,5vw,72px);border:0}
+.industry-v99.feed-option-v101 .iv-route {
+  display:flex;flex-direction:column;align-items:flex-start;gap:17px;padding:0;border:0;
+}
+.industry-v99.feed-option-v101 .iv-route h3 {margin-bottom:18px;max-width:18ch;font-size:25px;font-weight:600}
+.industry-v99.feed-option-v101 .iv-route p {font-size:16px;line-height:1.8}
+.industry-v99.feed-option-v101 .iv-route .iv-context {color:var(--iv-muted)}
+.industry-v99.feed-option-v101 .iv-route > .iv-link {align-self:flex-start;margin-top:auto;padding-top:4px}
+.industry-v99.feed-option-v101 .iv-processing {
+  grid-template-columns:minmax(0,1.9fr) minmax(0,.8fr);gap:30px 60px;
+  margin-top:50px;padding:29px 34px;background:var(--iv-stone);align-items:center;
+}
+.industry-v99.feed-option-v101 .iv-processing h3 {margin-bottom:9px;font-size:23px;font-weight:600}
+.industry-v99.feed-option-v101 .iv-processing p {max-width:80ch;font-size:15px;line-height:1.8}
+.industry-v99.feed-option-v101 .iv-processing > .iv-link {justify-self:end;color:var(--iv-ink);text-decoration-color:var(--iv-muted)}
+
+/* A stone table head recalls the grain/stainless scene; white data rows keep the comparison precise. */
+.industry-v99.feed-option-v101 #story-1 {background:var(--iv-neutral);padding-block:65px 58px}
+.industry-v99.feed-option-v101 #story-1 .iv-section-head {grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:70px;margin-bottom:35px}
+.industry-v99.feed-option-v101 #story-1 .iv-section-head h2 {max-width:20ch;font-size:38px}
+.industry-v99.feed-option-v101 #story-1 .iv-section-head p {max-width:62ch;color:var(--iv-muted)}
+.industry-v99.feed-option-v101 #story-1 .iv-products {margin:0;border:0}
+.industry-v99.feed-option-v101 :is(.iv-products-head,.iv-product) {grid-template-columns:minmax(0,.7fr) minmax(0,.9fr) minmax(0,1.5fr) minmax(0,.8fr);gap:30px}
+.industry-v99.feed-option-v101 .iv-products-head {padding:15px 20px;border-bottom:1px solid var(--iv-stone-line);background:var(--iv-stone);color:var(--iv-ink);font-size:12px;font-weight:550}
+.industry-v99.feed-option-v101 .iv-product {padding:23px 20px;border-color:#cdd3c0;background:#eeefea;align-items:center}
+.industry-v99.feed-option-v101 .iv-product strong {font-size:24px;font-weight:650;letter-spacing:-.03em}
+.industry-v99.feed-option-v101 .iv-product :is(p,span) {font-size:15px;line-height:1.7}
+.industry-v99.feed-option-v101 .iv-product > span {font-weight:500}
+.industry-v99.feed-option-v101 .iv-product > p {color:var(--iv-muted)}
+.industry-v99.feed-option-v101 .iv-product > a {font-size:14px;align-self:center}
+.industry-v99.feed-option-v101 .iv-secondary {gap:4px 27px;margin:27px 0 0;padding-top:18px;border-color:var(--iv-line)}
+.industry-v99.feed-option-v101 .iv-secondary a {font-size:14px;font-weight:500}
+.industry-v99.feed-option-v101 #story-1 .iv-secondary {border:0;padding:0;margin-top:18px}
+
+/* Grain-shadow, wheat and stone connect the single dark chapter to the natural feed scene. */
+.industry-v99.feed-option-v101 #story-3 {
+  --iv-navy:#eeefea;--iv-ink:#dadfd0;--iv-muted:#dadfd0;--iv-line:#cdd3c0;
+  padding-block:88px 78px;background:#40493a;color:var(--iv-ink);
+}
+.industry-v99.feed-option-v101 #story-3 > .iv-wrap {display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:36px clamp(65px,9vw,130px)}
+.industry-v99.feed-option-v101 #story-3 .iv-section-head {display:block;margin:0}
+.industry-v99.feed-option-v101 #story-3 .iv-section-head h2 {max-width:19ch;margin-bottom:29px}
+.industry-v99.feed-option-v101 #story-3 .iv-section-head > div {padding:0}
+.industry-v99.feed-option-v101 #story-3 .iv-section-head p {max-width:46ch;color:var(--iv-muted)}
+.industry-v99.feed-option-v101 #story-3 .iv-steps {margin:0}
+.industry-v99.feed-option-v101 .iv-steps ol {display:flex;flex-direction:column;gap:30px}
+.industry-v99.feed-option-v101 .iv-steps li {position:relative;border:0;padding:0 0 0 37px}
+.industry-v99.feed-option-v101 .iv-steps li::before {position:absolute;left:0;top:4px;margin:0;color:#485651;font-size:13px;font-weight:650}
+.industry-v99.feed-option-v101 .iv-steps h3 {font-size:23px;margin-bottom:10px}
+.industry-v99.feed-option-v101 .iv-steps p {font-size:16px;line-height:1.8}
+.industry-v99.feed-option-v101 #story-3 .iv-secondary {grid-column:1/-1;margin:3px 0 0;padding-top:23px}
+.industry-v99.feed-option-v101 #story-3 .iv-steps li::before {color:#e7eae0}
+.industry-v99.feed-option-v101 #story-3 a {color:#e7eae0;text-decoration-color:#cdd3c0}
+.industry-v99.feed-option-v101 #story-3 a:hover {color:#eeefea;text-decoration-color:#eeefea}
+.industry-v99.feed-option-v101 #story-3 a:focus-visible {outline-color:#e7eae0}
+
+/* A quiet inset invitation ends the page without imposing another full-width color band. */
+.industry-v99.feed-option-v101 .iv-section.iv-final {padding-block:0 60px;background:#eeefea}
+.industry-v99.feed-option-v101 .iv-closing {
+  grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:28px 70px;
+  padding:47px 48px 30px;background:var(--iv-mist);
+}
+.industry-v99.feed-option-v101 .iv-closing h2 {max-width:17ch;font-size:38px}
+.industry-v99.feed-option-v101 .iv-closing p {max-width:58ch;font-size:16px;line-height:1.8}
+.industry-v99.feed-option-v101 .iv-closing .iv-button {margin-top:23px}
+.industry-v99.feed-option-v101 .iv-closing .iv-secondary {margin-top:8px;padding-top:19px;border-color:#cdd3c0}
+.industry-v99.feed-option-v101 .iv-closing .iv-secondary a {font-size:13px}
+.industry-v99.feed-option-v101 .source-review {padding-block:0 25px;background:#eeefea;color:var(--iv-muted);border-color:var(--iv-line)}
+
+@media(max-width:1100px) {
+  .industry-v99.feed-option-v101 .iv-hero-copy {column-gap:45px;grid-template-columns:1.1fr 1fr}
+  .industry-v99.feed-option-v101 .iv-hero-copy h1 {font-size:62px}
+  .industry-v99.feed-option-v101 .iv-hero-copy > p {font-size:17px}
+  .industry-v99.feed-option-v101 .iv-material-image img {height:340px}
+  .industry-v99.feed-option-v101 .iv-routes {gap:35px}
+  .industry-v99.feed-option-v101 .iv-route h3 {font-size:23px}
+  .industry-v99.feed-option-v101 .iv-processing {gap:28px;padding:26px}
+  .industry-v99.feed-option-v101 #story-1 .iv-section-head {gap:45px}
+  .industry-v99.feed-option-v101 #story-3 > .iv-wrap {column-gap:60px}
+  .industry-v99.feed-option-v101 .iv-closing {gap:27px 45px;padding-inline:34px}
+}
+@media(max-width:900px) {
+  .industry-v99.feed-option-v101 :is(.iv-wrap,.iv-breadcrumbs,.iv-toc,.source-review) {width:calc(100% - 72px)}
+  .industry-v99.feed-option-v101 .iv-hero-copy {column-gap:38px}
+  .industry-v99.feed-option-v101 .iv-hero-copy h1 {font-size:54px}
+  .industry-v99.feed-option-v101 .iv-hero-copy > p {font-size:16px}
+  .industry-v99.feed-option-v101 .iv-routes {gap:27px}
+  .industry-v99.feed-option-v101 .iv-route h3 {font-size:22px}
+  .industry-v99.feed-option-v101 .iv-section {padding-block:65px}
+  .industry-v99.feed-option-v101 h2 {font-size:36px}
+  .industry-v99.feed-option-v101 #story-1 .iv-section-head h2 {font-size:34px}
+  .industry-v99.feed-option-v101 :is(.iv-products-head,.iv-product) {gap:20px;grid-template-columns:.7fr 1fr 1.25fr .8fr}
+  .industry-v99.feed-option-v101 #story-3 > .iv-wrap {column-gap:40px}
+  .industry-v99.feed-option-v101 .iv-closing {gap:27px 35px;padding:35px 29px 25px}
+  .industry-v99.feed-option-v101 .iv-closing h2 {font-size:34px}
+}
+@media(max-width:767px) {
+  .industry-v99.feed-option-v101 {font-size:16px}
+  .industry-v99.feed-option-v101 :is(.iv-wrap,.iv-breadcrumbs,.iv-toc,.source-review) {width:calc(100% - 44px)}
+  .industry-v99.feed-option-v101 p {font-size:16px;line-height:1.8}
+  .industry-v99.feed-option-v101 h2 {font-size:33px;line-height:1.2}
+  .industry-v99.feed-option-v101 .iv-breadcrumbs {min-height:56px;font-size:11px}
+  .industry-v99.feed-option-v101 .iv-hero {padding-block:34px 22px}
+  .industry-v99.feed-option-v101 .iv-hero-copy {display:block;margin-bottom:32px}
+  .industry-v99.feed-option-v101 .iv-hero-copy h1 {font-size:clamp(40px,7.6vw,58px);max-width:16ch;line-height:1.08;margin-bottom:23px}
+  .industry-v99.feed-option-v101 .iv-hero-copy > p {font-size:16px;max-width:57ch;padding:0}
+  .industry-v99.feed-option-v101 .iv-hero-copy .iv-button {margin-top:23px}
+  .industry-v99.feed-option-v101 .iv-material-image img {height:250px;object-position:45% 55%}
+  .industry-v99.feed-option-v101 figcaption {font-size:10px;line-height:1.7;margin-top:12px}
+  .industry-v99.feed-option-v101 .iv-toc {gap:0 22px;padding-block:10px}
+  .industry-v99.feed-option-v101 .iv-toc a {font-size:12px}
+  .industry-v99.feed-option-v101 .iv-section {padding-block:48px}
+  .industry-v99.feed-option-v101 #story-2 .iv-section-head {margin-bottom:34px}
+  .industry-v99.feed-option-v101 #story-2 .iv-section-head h2 {max-width:23ch;margin-bottom:20px}
+  .industry-v99.feed-option-v101 .iv-routes {grid-template-columns:1fr;gap:32px}
+  .industry-v99.feed-option-v101 .iv-route {gap:13px;padding:0}
+  .industry-v99.feed-option-v101 .iv-route + .iv-route {padding-top:29px;border-top:1px solid #cdd3c0}
+  .industry-v99.feed-option-v101 .iv-route h3 {max-width:none;font-size:25px;margin-bottom:12px}
+  .industry-v99.feed-option-v101 .iv-route p {max-width:60ch;font-size:16px}
+  .industry-v99.feed-option-v101 .iv-route > .iv-link {margin-top:0;padding:0}
+  .industry-v99.feed-option-v101 .iv-processing {grid-template-columns:1fr;gap:14px;margin-top:33px;padding:25px 23px 20px}
+  .industry-v99.feed-option-v101 .iv-processing h3 {font-size:23px;margin-bottom:12px}
+  .industry-v99.feed-option-v101 .iv-processing p {font-size:15px}
+  .industry-v99.feed-option-v101 .iv-processing > .iv-link {justify-self:start}
+  .industry-v99.feed-option-v101 #story-1 {padding-block:46px 41px}
+  .industry-v99.feed-option-v101 #story-1 .iv-section-head {grid-template-columns:1fr;gap:21px;margin-bottom:27px}
+  .industry-v99.feed-option-v101 #story-1 .iv-section-head h2 {max-width:24ch;font-size:33px}
+  .industry-v99.feed-option-v101 #story-1 .iv-section-head > div {padding:0}
+  .industry-v99.feed-option-v101 .iv-products-head {display:none}
+  .industry-v99.feed-option-v101 .iv-product {grid-template-columns:1fr;gap:13px;padding-block:24px;align-items:start}
+  .industry-v99.feed-option-v101 .iv-product:first-of-type {border-top:1px solid var(--iv-stone-line)}
+  .industry-v99.feed-option-v101 .iv-product strong {font-size:24px}
+  .industry-v99.feed-option-v101 .iv-label {font-size:11px;color:#485651}
+  .industry-v99.feed-option-v101 .iv-product > a {display:inline-flex;padding:0;min-height:44px}
+  .industry-v99.feed-option-v101 .iv-secondary {gap:3px 23px}
+  .industry-v99.feed-option-v101 #story-3 {padding-block:49px}
+  .industry-v99.feed-option-v101 #story-3 > .iv-wrap {grid-template-columns:1fr;gap:31px}
+  .industry-v99.feed-option-v101 #story-3 .iv-section-head h2 {max-width:25ch;margin-bottom:23px}
+  .industry-v99.feed-option-v101 #story-3 .iv-section-head p {max-width:60ch}
+  .industry-v99.feed-option-v101 .iv-steps ol {gap:27px}
+  .industry-v99.feed-option-v101 .iv-steps li {padding-left:29px}
+  .industry-v99.feed-option-v101 .iv-steps h3 {font-size:23px}
+  .industry-v99.feed-option-v101 #story-3 .iv-secondary {margin:0;padding-top:20px}
+  .industry-v99.feed-option-v101 .iv-section.iv-final {padding-block:0 35px}
+  .industry-v99.feed-option-v101 .iv-closing {grid-template-columns:1fr;gap:23px;padding:30px 24px 24px}
+  .industry-v99.feed-option-v101 .iv-closing h2 {font-size:32px;max-width:23ch}
+  .industry-v99.feed-option-v101 .iv-closing p {font-size:16px}
+  .industry-v99.feed-option-v101 .iv-closing .iv-secondary {margin:0;padding-top:18px}
+  .industry-v99.feed-option-v101 .iv-closing .iv-secondary a {font-size:13px}
+  .industry-v99.feed-option-v101 .source-review {padding-bottom:22px}
+}
+@media(max-width:359px) {
+  .industry-v99.feed-option-v101 :is(.iv-wrap,.iv-breadcrumbs,.iv-toc,.source-review) {width:calc(100% - 36px)}
+  .industry-v99.feed-option-v101 .iv-hero-copy h1 {font-size:36px}
+  .industry-v99.feed-option-v101 .iv-material-image img {height:220px}
+  .industry-v99.feed-option-v101 .iv-button {width:fit-content;padding-inline:20px}
+  .industry-v99.feed-option-v101 .iv-closing {padding-inline:21px}
+}
+@media(prefers-reduced-motion:reduce) {
+  .industry-v99.feed-option-v101 *, .industry-v99.feed-option-v101 *::before, .industry-v99.feed-option-v101 *::after {animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}

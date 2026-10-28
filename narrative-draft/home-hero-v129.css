@@ -1,0 +1,3 @@
+/* finesse | register=brand | scope=selected-hero-only; first finesse palette restored */
+body.bio-home-landscape.bio-home-bold.selected-middle-a #hero .hero-image{inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+@media(max-width:767px){body.bio-home-landscape.bio-home-bold.selected-middle-a #hero .hero-image{object-position:68% center}}

@@ -1,0 +1,206 @@
+/* Accepted detergent layout, scoped to this industry main. */
+main.industry-v99.iv-detergent {
+  --iv-navy:#254d55;--iv-ink:#254d55;--iv-blue:#3e4c49;--iv-mist:#e4ebe9;--iv-pale:#ecefec;
+  --iv-red:#a74732;--iv-muted:#3e4c49;--iv-line:#b4cacb;
+  margin:0;padding:0;background:#ecefec;color:var(--iv-ink);font-family:BioManrope,Manrope,Arial,sans-serif;
+}
+main.industry-v99.iv-detergent :is(.iv-wrap,.iv-breadcrumbs,.iv-toc,.source-review) {
+  width:min(calc(100% - 112px),1280px);max-width:none;margin-inline:auto;
+}
+main.industry-v99.iv-detergent :is(h1,h2,h3) {font-weight:550;letter-spacing:-.035em;color:var(--iv-navy)}
+main.industry-v99.iv-detergent h2 {font-size:clamp(36px,3.2vw,44px);line-height:1.15}
+main.industry-v99.iv-detergent h3 {font-size:25px;line-height:1.3;letter-spacing:-.025em}
+main.industry-v99.iv-detergent p {max-width:65ch;font-size:17px;line-height:1.8}
+main.industry-v99.iv-detergent p+p {margin-top:19px}
+main.industry-v99.iv-detergent a {text-underline-offset:6px}
+main.industry-v99.iv-detergent a:focus-visible {outline:3px solid #3e4c49;outline-offset:5px}
+main.industry-v99.iv-detergent .iv-button {
+  min-height:48px;width:fit-content;padding:12px 24px;border-radius:999px;
+  border:1px solid var(--iv-red);background:var(--iv-red);color:#f0f1ed;
+  font-size:14px;line-height:1.5;font-weight:650;text-decoration:none;box-shadow:none;
+}
+main.industry-v99.iv-detergent .iv-button:hover {background:#9c3d28;border-color:#9c3d28}
+main.industry-v99.iv-detergent .iv-link {min-height:44px;font-size:14px;font-weight:550;color:#3e4c49;text-decoration-color:#b4cacb}
+main.industry-v99.iv-detergent .iv-breadcrumbs {min-height:58px;padding-block:5px;font-size:12px;color:#3e4c49}
+
+/* One large title, followed by the actual formulation materials in an offset image. */
+main.industry-v99.iv-detergent .iv-hero {position:relative;display:block;min-height:0;padding:54px 0 30px;overflow:visible;background:#2b4c52;color:#d4e1e1}
+main.industry-v99.iv-detergent .iv-hero::before {content:none;display:none}
+main.industry-v99.iv-detergent .iv-hero>.iv-wrap {
+  display:grid;grid-template-columns:minmax(0,.83fr) minmax(0,1.17fr);grid-template-rows:auto auto 1fr;
+  column-gap:clamp(48px,6.5vw,94px);row-gap:32px;align-items:start;
+}
+main.industry-v99.iv-detergent .iv-hero-copy {display:contents;width:auto;max-width:none}
+main.industry-v99.iv-detergent .iv-hero-copy h1 {
+  grid-column:1/-1;grid-row:1;max-width:18ch;margin:0 0 11px;font-size:clamp(58px,5.25vw,74px);
+  line-height:1.07;letter-spacing:-.045em;font-weight:550;color:#ecefec;text-wrap:balance;
+}
+main.industry-v99.iv-detergent .iv-hero-copy>p {grid-column:1;grid-row:2;max-width:44ch;margin:0;padding-top:20px;font-size:17px;line-height:1.8;color:#d4e1e1}
+main.industry-v99.iv-detergent .iv-hero-copy>.iv-button {grid-column:1;grid-row:3;align-self:start;margin-top:1px}
+main.industry-v99.iv-detergent .iv-hero a:focus-visible {outline-color:#ecefec}
+main.industry-v99.iv-detergent .iv-scene {
+  position:relative;inset:auto;grid-column:2;grid-row:2/4;align-self:start;z-index:auto;
+  display:block;width:100%;height:auto;margin:-15px 0 0;overflow:visible;
+}
+main.industry-v99.iv-detergent .iv-scene>img {
+  position:static;inset:auto;display:block;width:100%;height:auto;max-width:100%;aspect-ratio:1.42;
+  object-fit:cover;object-position:52% 50%;border:0;border-radius:0;filter:none;transform:none;
+}
+main.industry-v99.iv-detergent .iv-scene>figcaption {position:static;max-width:none;margin:0;padding:13px 18px;background:#254d55;color:#d4e1e1;text-align:left;font-size:11px;line-height:1.6}
+main.industry-v99.iv-detergent .iv-toc {display:flex;flex-wrap:wrap;justify-content:flex-start;gap:0 34px;min-height:62px;padding-block:8px;margin-top:26px;border:0;border-bottom:1px solid var(--iv-line);background:#ecefec}
+main.industry-v99.iv-detergent .iv-toc a {min-height:44px;color:var(--iv-ink);font-size:13px}
+
+/* The mechanism is one quiet explanatory study, rather than another hero. */
+main.industry-v99.iv-detergent .iv-section {padding-block:90px;background:#ecefec;border:0}
+main.industry-v99.iv-detergent .iv-section+.iv-section {border:0}
+main.industry-v99.iv-detergent #story-1 {padding-block:94px 92px;background:var(--iv-pale)}
+main.industry-v99.iv-detergent .iv-science-layout {display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(40px,6vw,86px);align-items:start}
+main.industry-v99.iv-detergent .iv-science-layout>.iv-section-head {display:block;margin:0}
+main.industry-v99.iv-detergent .iv-science-layout>.iv-section-head h2 {max-width:19ch;margin-bottom:28px}
+main.industry-v99.iv-detergent .iv-section-head>div {padding:0}
+main.industry-v99.iv-detergent .iv-section-head p {max-width:63ch;color:var(--iv-ink)}
+main.industry-v99.iv-detergent .iv-science-layout>.iv-context-art {display:block;align-self:center;width:100%;max-width:none;margin:0;padding:23px 28px 25px;border:0;background:#d4e1e1}
+main.industry-v99.iv-detergent .iv-context-art>img {display:block;width:100%;height:auto;max-height:none;object-fit:contain}
+main.industry-v99.iv-detergent .iv-context-art>figcaption {max-width:57ch;margin-top:21px;padding-top:14px;border-top:1px solid #b4cacb;font-size:11px;line-height:1.7;color:#3e4c49}
+main.industry-v99.iv-detergent .iv-relationship {display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1fr) minmax(0,1.2fr);gap:18px;margin-top:13px;padding:0;border:0;font-size:13px;line-height:1.65;color:var(--iv-ink)}
+main.industry-v99.iv-detergent .iv-relationship span {padding:0;border:0}
+main.industry-v99.iv-detergent #story-1 .iv-secondary {margin-top:24px;padding:0;border:0}
+
+/* One compact dark entry area gathers the product routes within an open chapter. */
+main.industry-v99.iv-detergent #story-2 {padding-block:86px 92px;background:#ecefec;color:var(--iv-ink)}
+main.industry-v99.iv-detergent #story-2 .iv-section-head {display:block;margin-bottom:54px}
+main.industry-v99.iv-detergent #story-2 .iv-section-head h2 {max-width:23ch;margin-bottom:25px}
+main.industry-v99.iv-detergent #story-2 .iv-section-head>div {max-width:74%;margin-left:26%}
+main.industry-v99.iv-detergent #story-2 .iv-section-head p {max-width:72ch}
+main.industry-v99.iv-detergent .iv-function-routes {display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.2fr) minmax(0,.9fr);column-gap:48px;align-items:start;padding:39px 42px 37px;border:0;background:var(--iv-navy);color:#ecefec}
+main.industry-v99.iv-detergent .iv-function-routes .iv-route {display:flex;flex-direction:column;align-items:flex-start;gap:0;min-height:0;padding:0;border:0;background:transparent}
+main.industry-v99.iv-detergent .iv-function-routes .iv-route:first-child {margin-top:0}
+main.industry-v99.iv-detergent .iv-function-routes .iv-route:last-child {margin-top:0}
+main.industry-v99.iv-detergent .iv-function-routes .iv-route h3 {max-width:21ch;margin:0 0 17px;font-size:24px;line-height:1.32;color:#ecefec}
+main.industry-v99.iv-detergent .iv-function-routes .iv-route p {max-width:31ch;margin:0 0 18px;font-size:15px;line-height:1.8;color:#d4e1e1}
+main.industry-v99.iv-detergent .iv-function-routes .iv-route>.iv-link {align-self:flex-start;margin:0;color:#ecefec;font-size:14px;text-decoration-color:#b4cacb}
+main.industry-v99.iv-detergent .iv-function-routes .iv-route>.iv-link:hover {text-decoration-color:#ecefec}
+main.industry-v99.iv-detergent .iv-function-routes a:focus-visible {outline-color:#ecefec}
+
+/* Liquid and powder have their own native comparison rhythm. */
+main.industry-v99.iv-detergent #story-3 {padding-block:104px 86px;background:#ecefec}
+main.industry-v99.iv-detergent #story-3 .iv-section-head {display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:90px;align-items:start;margin-bottom:48px}
+main.industry-v99.iv-detergent #story-3 .iv-section-head h2 {max-width:19ch}
+main.industry-v99.iv-detergent #story-3 .iv-section-head p {max-width:48ch;padding-top:6px}
+main.industry-v99.iv-detergent .iv-formats {display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:clamp(48px,6.25vw,90px);align-items:start;margin-top:0;margin-bottom:47px}
+main.industry-v99.iv-detergent .iv-format {padding:0;border:0;background:transparent}
+main.industry-v99.iv-detergent .iv-format:first-child {position:relative;padding:43px 44px 47px;background:#d4e1e1}
+main.industry-v99.iv-detergent .iv-format:last-child {margin-top:93px;padding-top:27px;border-top:1px solid #b4cacb}
+main.industry-v99.iv-detergent .iv-format h3 {margin-bottom:33px;font-size:32px;line-height:1.2}
+main.industry-v99.iv-detergent .iv-format:first-child h3 {padding-right:65px}
+main.industry-v99.iv-detergent .dv-format-symbol {position:absolute;top:34px;right:35px;display:block;width:48px;height:58px;color:var(--iv-navy)}
+main.industry-v99.iv-detergent .iv-format dl {display:grid;grid-template-columns:1fr;gap:0;font-size:15px;line-height:1.8}
+main.industry-v99.iv-detergent .iv-format dt {margin-bottom:7px;color:var(--iv-navy);font-size:16px;font-weight:650}
+main.industry-v99.iv-detergent .iv-format dd {max-width:44ch;color:var(--iv-ink)}
+main.industry-v99.iv-detergent .iv-format dd+dt {margin-top:27px}
+main.industry-v99.iv-detergent .iv-format:first-child dd+dt {padding-top:24px;border-top:1px solid #b4cacb}
+main.industry-v99.iv-detergent #story-3 .iv-wrap>p {max-width:76ch;margin-left:auto;width:74%}
+main.industry-v99.iv-detergent #story-3 .iv-wrap>p+p {margin-top:18px}
+main.industry-v99.iv-detergent #story-3 .iv-secondary {justify-content:flex-start;gap:4px 28px;width:74%;margin:21px 0 0 auto;padding:0;border:0}
+
+/* A short invitation ends the content without introducing another feature band. */
+main.industry-v99.iv-detergent .iv-section.iv-final {padding-block:56px 42px;background:var(--iv-mist)}
+main.industry-v99.iv-detergent .iv-closing {display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);gap:28px 70px;align-items:start}
+main.industry-v99.iv-detergent .iv-closing h2 {max-width:19ch;font-size:36px;line-height:1.18}
+main.industry-v99.iv-detergent .iv-closing p {max-width:61ch;font-size:16px;line-height:1.8}
+main.industry-v99.iv-detergent .iv-closing .iv-button {margin-top:22px}
+main.industry-v99.iv-detergent .iv-closing .iv-secondary {grid-column:1/-1;gap:2px 28px;margin:10px 0 0;padding-top:17px;border-top:1px solid var(--iv-line)}
+main.industry-v99.iv-detergent .iv-secondary a {font-size:14px}
+main.industry-v99.iv-detergent .source-review {padding-block:20px;font-size:12px;color:#3e4c49}
+
+@media(max-width:1100px) {
+  main.industry-v99.iv-detergent :is(.iv-wrap,.iv-breadcrumbs,.iv-toc,.source-review) {width:calc(100% - 80px)}
+  main.industry-v99.iv-detergent .iv-hero>.iv-wrap {column-gap:48px}
+  main.industry-v99.iv-detergent .iv-hero-copy h1 {font-size:62px}
+  main.industry-v99.iv-detergent .iv-hero-copy>p {font-size:16px}
+  main.industry-v99.iv-detergent .iv-function-routes {column-gap:33px;padding:33px 32px}
+  main.industry-v99.iv-detergent .iv-function-routes .iv-route h3 {font-size:23px}
+  main.industry-v99.iv-detergent #story-3 .iv-section-head {gap:50px}
+  main.industry-v99.iv-detergent .iv-format:first-child {padding:35px 31px 38px}
+  main.industry-v99.iv-detergent .dv-format-symbol {top:29px;right:27px}
+}
+@media(max-width:850px) {
+  main.industry-v99.iv-detergent .iv-hero-copy h1 {font-size:56px}
+  main.industry-v99.iv-detergent .iv-hero-copy>p {padding-top:4px}
+  main.industry-v99.iv-detergent .iv-scene {margin-top:0}
+  main.industry-v99.iv-detergent .iv-scene>img {aspect-ratio:1.12}
+  main.industry-v99.iv-detergent .iv-science-layout {gap:34px;grid-template-columns:1fr 1fr}
+  main.industry-v99.iv-detergent .iv-function-routes {column-gap:28px;grid-template-columns:1fr 1.1fr 1fr}
+  main.industry-v99.iv-detergent .iv-function-routes .iv-route h3 {font-size:21px}
+  main.industry-v99.iv-detergent .iv-function-routes .iv-route:first-child {margin-top:0}
+  main.industry-v99.iv-detergent .iv-function-routes .iv-route:last-child {margin-top:0}
+  main.industry-v99.iv-detergent .iv-formats {gap:40px}
+}
+@media(max-width:767px) {
+  main.industry-v99.iv-detergent :is(.iv-wrap,.iv-breadcrumbs,.iv-toc,.source-review) {width:calc(100% - 44px)}
+  main.industry-v99.iv-detergent h2 {font-size:34px;line-height:1.17}
+  main.industry-v99.iv-detergent p {font-size:16px;line-height:1.8}
+  main.industry-v99.iv-detergent .iv-breadcrumbs {font-size:11px;min-height:54px}
+  main.industry-v99.iv-detergent .iv-hero {padding:34px 0 13px}
+  main.industry-v99.iv-detergent .iv-hero>.iv-wrap {display:block}
+  main.industry-v99.iv-detergent .iv-hero-copy {display:block}
+  main.industry-v99.iv-detergent .iv-hero-copy h1 {max-width:18ch;margin-bottom:25px;font-size:clamp(37px,9.4vw,58px);line-height:1.1}
+  main.industry-v99.iv-detergent .iv-hero-copy>p {max-width:58ch;margin:0;padding:0;font-size:16px;line-height:1.8}
+  main.industry-v99.iv-detergent .iv-hero-copy>.iv-button {margin-top:24px}
+  main.industry-v99.iv-detergent .iv-scene {width:100%;margin:37px 0 0}
+  main.industry-v99.iv-detergent .iv-scene>img {aspect-ratio:1.45;object-position:50% 50%}
+  main.industry-v99.iv-detergent .iv-scene>figcaption {margin-top:0;padding:11px 13px;font-size:10px}
+  main.industry-v99.iv-detergent .iv-toc {gap:0 25px;min-height:0;margin-top:10px;padding-block:8px}
+  main.industry-v99.iv-detergent .iv-toc a {font-size:12px}
+  main.industry-v99.iv-detergent #story-1 {padding-block:55px 54px}
+  main.industry-v99.iv-detergent .iv-science-layout {display:block}
+  main.industry-v99.iv-detergent .iv-science-layout>.iv-section-head h2 {max-width:22ch;margin-bottom:24px}
+  main.industry-v99.iv-detergent .iv-science-layout>.iv-context-art {padding:18px 20px 21px;margin-top:33px}
+  main.industry-v99.iv-detergent .iv-context-art>img {max-height:270px}
+  main.industry-v99.iv-detergent .iv-context-art>figcaption {margin-top:18px;padding-top:12px;font-size:11px}
+  main.industry-v99.iv-detergent .iv-relationship {gap:13px;margin-top:13px;font-size:12px}
+  main.industry-v99.iv-detergent #story-1 .iv-secondary {margin-top:21px}
+  main.industry-v99.iv-detergent #story-2 {padding-block:51px 53px}
+  main.industry-v99.iv-detergent #story-2 .iv-section-head {margin-bottom:30px}
+  main.industry-v99.iv-detergent #story-2 .iv-section-head h2 {max-width:23ch;margin-bottom:22px}
+  main.industry-v99.iv-detergent #story-2 .iv-section-head>div {max-width:none;margin:0}
+  main.industry-v99.iv-detergent .iv-function-routes {display:block;padding:28px 25px 27px}
+  main.industry-v99.iv-detergent .iv-function-routes .iv-route {display:block;padding:24px 0 22px;margin:0;border-top:1px solid #b4cacb}
+  main.industry-v99.iv-detergent .iv-function-routes .iv-route:first-child {padding-top:0;border-top:0}
+  main.industry-v99.iv-detergent .iv-function-routes .iv-route:first-child,
+  main.industry-v99.iv-detergent .iv-function-routes .iv-route:last-child {margin:0}
+  main.industry-v99.iv-detergent .iv-function-routes .iv-route:last-child {padding-bottom:0}
+  main.industry-v99.iv-detergent .iv-function-routes .iv-route h3 {max-width:26ch;margin-bottom:13px;font-size:25px}
+  main.industry-v99.iv-detergent .iv-function-routes .iv-route p {max-width:58ch;margin-bottom:9px;font-size:15px}
+  main.industry-v99.iv-detergent #story-3 {padding-block:55px 53px}
+  main.industry-v99.iv-detergent #story-3 .iv-section-head {display:block;margin-bottom:29px}
+  main.industry-v99.iv-detergent #story-3 .iv-section-head h2 {max-width:23ch;margin-bottom:23px}
+  main.industry-v99.iv-detergent #story-3 .iv-section-head p {max-width:65ch;padding:0}
+  main.industry-v99.iv-detergent .iv-formats {display:block;margin-bottom:30px}
+  main.industry-v99.iv-detergent .iv-format:first-child {padding:29px 26px 33px}
+  main.industry-v99.iv-detergent .iv-format:last-child {width:calc(100% - 26px);margin:29px 0 0 26px;padding-top:25px}
+  main.industry-v99.iv-detergent .iv-format h3 {margin-bottom:25px;font-size:29px}
+  main.industry-v99.iv-detergent .dv-format-symbol {top:23px;right:23px;width:40px;height:49px}
+  main.industry-v99.iv-detergent .iv-format:first-child h3 {padding-right:49px}
+  main.industry-v99.iv-detergent .iv-format dl {grid-template-columns:1fr;gap:0}
+  main.industry-v99.iv-detergent .iv-format dt {margin-bottom:5px}
+  main.industry-v99.iv-detergent .iv-format dd+dt {margin-top:22px}
+  main.industry-v99.iv-detergent .iv-format:first-child dd+dt {padding-top:21px}
+  main.industry-v99.iv-detergent #story-3 .iv-wrap>p {width:100%;max-width:65ch;margin-left:0}
+  main.industry-v99.iv-detergent #story-3 .iv-secondary {width:100%;margin:18px 0 0;gap:3px 24px}
+  main.industry-v99.iv-detergent .iv-section.iv-final {padding-block:43px 34px}
+  main.industry-v99.iv-detergent .iv-closing {display:block}
+  main.industry-v99.iv-detergent .iv-closing h2 {max-width:24ch;margin-bottom:23px;font-size:32px}
+  main.industry-v99.iv-detergent .iv-closing .iv-button {margin-top:22px}
+  main.industry-v99.iv-detergent .iv-closing .iv-secondary {gap:3px 24px;margin-top:28px;padding-top:17px}
+}
+@media(max-width:359px) {
+  main.industry-v99.iv-detergent .iv-hero-copy h1 {font-size:34px}
+  main.industry-v99.iv-detergent h2 {font-size:30px}
+  main.industry-v99.iv-detergent .iv-button {max-width:100%;padding-inline:19px}
+  main.industry-v99.iv-detergent .iv-relationship {grid-template-columns:1fr;gap:9px;font-size:12px}
+  main.industry-v99.iv-detergent .iv-format:first-child {padding-inline:21px}
+}
+@media(prefers-reduced-motion:reduce) {
+  main.industry-v99.iv-detergent *,main.industry-v99.iv-detergent *::before,main.industry-v99.iv-detergent *::after {animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
