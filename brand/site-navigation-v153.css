@@ -1,0 +1,39 @@
+/* finesse | component=shared masthead | brand register | v153
+ * Bound the approved identity, seven labels and contact in one continuous band.
+ * Inherits colors, native disclosure, immediate focus and reduced-motion behavior.
+ * Desktop dimensions interpolate without the former 1439/1440px step.
+ */
+@media(min-width:1280px){
+ body .np-header{
+  --np-brand-width:clamp(136px,calc(7.5vw + 40px),160px);
+  --np-nav-type:clamp(14px,calc(.3125vw + 10px),15px);
+  --np-nav-gap:clamp(16px,1.25vw,20px);
+  --np-column-gap:clamp(20px,calc(2.5vw - 12px),28px);
+  --np-side-pad:clamp(20px,calc(1.25vw + 4px),24px);
+  --np-contact-width:clamp(100px,calc(3.75vw + 52px),112px);
+ }
+ body .np-header .np-bar{
+  width:100%;max-width:1480px;margin-inline:auto;
+  grid-template-columns:var(--np-brand-width) minmax(0,1fr) var(--np-contact-width);
+  padding-inline:var(--np-side-pad);gap:var(--np-column-gap);
+ }
+ body .np-header .np-utility{
+  padding-inline:max(var(--np-side-pad),calc(50% - 740px + var(--np-side-pad)));
+ }
+ body .np-header .np-logo{width:var(--np-brand-width)}
+ body .np-header .np-logo .brand-logo-window{
+  width:var(--np-brand-width);height:calc(var(--np-brand-width) * .2148148);
+ }
+ body .np-header .np-logo img{
+  width:calc(var(--np-brand-width) * 1.25);
+  left:calc(var(--np-brand-width) * -.1666667);
+  top:calc(var(--np-brand-width) * -.0648148);
+ }
+ body .np-header .np-links{gap:var(--np-nav-gap)}
+ body .np-header .np-links>.np-direct,
+ body .np-header .np-item>summary{font-size:var(--np-nav-type)}
+ body .np-header .np-contact{
+  width:var(--np-contact-width);min-height:40px;height:40px;font-size:13px;
+ }
+ body .np-header .np-panel-147>.np-inner{max-width:1480px;margin-inline:auto}
+}

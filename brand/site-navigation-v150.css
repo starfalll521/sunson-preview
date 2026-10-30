@@ -1,0 +1,31 @@
+/* finesse · component: verified industry/product dropdown · brand register
+ * Inherits the approved v149 masthead and existing SUNSON tokens.
+ * Native links, immediate focus, stable selection; no async loading or added motion.
+ */
+.np-header .np-business-150{min-height:340px}
+.np-header .np-business-150 .np-intro-147{padding-top:38px;padding-bottom:28px}
+.np-header .np-business-150 .np-category-tabs-147{gap:8px;padding-top:12px}
+.np-header .np-business-150 .np-category-tabs-147>button{font-size:14px;min-height:48px}
+.np-header .np-business-150 .np-category-panels-147{padding-top:36px;padding-bottom:30px}
+.np-header .np-business-150 .np-category-top-147{align-items:center;gap:20px;min-height:42px}
+.np-header .np-industry-link-150{display:inline-flex;align-items:center;gap:10px;font-size:13px;line-height:1.4;text-decoration:none;min-height:44px;max-width:25ch}
+.np-header .np-industry-link-150>svg{width:18px;height:18px;flex:none}
+.np-header .np-business-150 .np-product-150{min-height:66px;font-size:14px;align-items:center}
+.np-header .np-business-150 .np-product-150 small{color:color-mix(in srgb,var(--ink) 80%,var(--np-board));font-size:12px;line-height:1.5}
+.np-header .np-business-150 .np-reference-150{white-space:nowrap}
+.np-header .np-business-150 .np-leaves-147{gap:10px 24px}
+.np-header .np-business-150 [role=tab]:active,.np-header .np-business-150 a:active{opacity:.8}
+tr[id^="product-"]{scroll-margin-top:124px}
+@media(hover:hover){.np-header .np-industry-link-150:hover{text-decoration:underline;text-underline-offset:5px}}
+@media(max-width:1279px){
+ .np-header .np-business-150{min-height:0}
+ .np-header .np-business-150 .np-intro-147{padding:26px 20px}
+ .np-header .np-business-150 .np-category-tabs-147{gap:0;padding-top:6px}
+ .np-header .np-business-150 .np-category-tabs-147>button{font-size:16px;min-height:54px}
+ .np-header .np-business-150 .np-category-panels-147{padding:12px 0 0}
+ .np-header .np-business-150 .np-category-top-147{min-height:0}
+ .np-header .np-industry-link-150{max-width:none;font-size:14px}
+ .np-header .np-business-150 .np-leaves-147{gap:4px}
+ .np-header .np-business-150 .np-product-150{min-height:64px;font-size:15px}
+ .np-header .np-business-150 .np-product-150 small{font-size:13px}
+}

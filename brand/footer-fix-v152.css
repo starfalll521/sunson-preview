@@ -1,0 +1,5 @@
+/* finesse | component=source-footer | v152: match the existing text-only footer links.
+ * Decorative arrows have no independent navigation task; keep both link labels and targets.
+ * Existing colors, column geometry, hover and focus states are inherited without animation.
+ */
+footer.source-footer .footer-link > svg{display:none}

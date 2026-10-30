@@ -1,0 +1,38 @@
+/* finesse · component: SUNSON masthead identity · register=brand
+ * Existing artwork and palette. Optical alignment follows the wordmark, with
+ * clear space for its raised sun symbol. No recoloring, tracing or added motion.
+ * States: native link; inherited active/focus, pointer-only hover.
+ * Loading/error/success/disabled are not application states of this home link.
+ */
+body .np-header{--np-logo-art-width:156px}
+body .np-header .np-logo{
+ width:var(--np-logo-art-width);height:56px;min-height:56px;
+ display:flex;align-items:center;justify-content:flex-start;
+ flex:none;line-height:0;text-decoration:none;
+}
+body .np-header .np-logo .brand-logo-window{
+ display:block;position:relative;flex:none;overflow:hidden;
+ width:var(--np-logo-art-width);
+ height:calc(var(--np-logo-art-width) * .2148148);
+ transform:translateY(calc(var(--np-logo-art-width) * -.037));
+ background:transparent;pointer-events:none;
+}
+body .np-header .np-logo img{
+ display:block;position:absolute;max-width:none;height:auto;
+ width:calc(var(--np-logo-art-width) * 1.25);
+ left:calc(var(--np-logo-art-width) * -.1666667);
+ top:calc(var(--np-logo-art-width) * -.0648148);
+ object-fit:initial;transform:none;filter:none;
+}
+body .np-header .np-logo:focus-visible{
+ outline:2px solid currentColor;outline-offset:6px;transition:none;
+}
+@media(min-width:1280px){
+ body .np-header{
+  --np-logo-art-width:clamp(144px,calc(10vw + 16px),176px);
+  --np-brand-width:var(--np-logo-art-width);
+ }
+}
+@media(max-width:380px){body .np-header{--np-logo-art-width:128px}}
+@media(hover:hover){body .np-header .np-logo:hover{opacity:.92}}
+body .np-header .np-logo:active{opacity:.8}

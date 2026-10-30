@@ -1,0 +1,2 @@
+/* Keep the document inside its available width, including the reserved scrollbar gutter. */
+html { width: auto; }

@@ -218,3 +218,6 @@
 @media(prefers-reduced-motion:reduce) {
   .industry-v99.feed-option-v101 *, .industry-v99.feed-option-v101 *::before, .industry-v99.feed-option-v101 *::after {animation:none!important;transition:none!important;scroll-behavior:auto!important}
 }
+
+/* v159: let the document fit the available width, including its reserved scrollbar gutter. */
+html { width: auto; }

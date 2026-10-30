@@ -1,0 +1,5 @@
+/* finesse · component: existing secondary-menu destinations · brand register
+ * Shared v149/v150 surfaces, typography and interaction states are inherited.
+ * Native chapter links sit below the fixed masthead; body copy remains static.
+ */
+.cs-careers :is(#purpose,#fields-of-work,#careers-review-heading){scroll-margin-top:124px}
