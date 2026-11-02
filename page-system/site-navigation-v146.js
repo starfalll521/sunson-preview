@@ -8,6 +8,31 @@
   const nav = header.querySelector('.np-links');
   const media = matchMedia('(max-width:1279px)');
   const glyph = toggle.querySelector('path');
+  // A shared product document can contain several model anchors. A pathname
+  // match alone must not mark every model as the current location.
+  const currentLinks = [...header.querySelectorAll('.np-links a[href], a.np-contact[href]')];
+  const previewPages = new Map();
+  const pagePath = path => {
+    const canonical = previewPages.get(path) || path;
+    return canonical.replace(/\/index\.html$/, '/').replace(/\/$/, '') || '/';
+  };
+  function syncCurrentLinks() {
+    const here = new URL(location.href);
+    const matches = [];
+    currentLinks.forEach(link => {
+      link.removeAttribute('aria-current');
+      const target = new URL(link.href, here);
+      if (target.origin !== here.origin || pagePath(target.pathname) !== pagePath(here.pathname)) return;
+      if (target.hash && target.hash !== here.hash) return;
+      matches.push({link, target});
+    });
+    const exact = matches.filter(item => item.target.hash);
+    const candidates = exact.length ? exact : matches;
+    const selected = candidates.find(item => item.link.classList.contains('np-direct')) || candidates[0];
+    if (selected) selected.link.setAttribute('aria-current', selected.target.hash ? 'location' : 'page');
+  }
+  syncCurrentLinks();
+  ['hashchange', 'popstate', 'pageshow'].forEach(event => addEventListener(event, syncCurrentLinks));
   function sync() {
     shade.hidden = media.matches || !primary.some(item => item.open);
   }
@@ -27,6 +52,7 @@
     closeMobile();
   }
   primary.forEach(item => item.addEventListener('toggle', () => {
+    syncCurrentLinks();
     if (item.open) primary.filter(other => other !== item).forEach(other => { other.open = false; });
     sync();
   }));

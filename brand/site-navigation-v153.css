@@ -37,3 +37,7 @@
  }
  body .np-header .np-panel-147>.np-inner{max-width:1480px;margin-inline:auto}
 }
+/* finesse · component: navigation current location · v167
+ * Same existing oxide indicator; an exact fragment is a location, not a page.
+ */
+.np-header [aria-current="location"]{text-decoration:underline;text-decoration-color:#a74732;text-decoration-thickness:2px;text-underline-offset:6px}
