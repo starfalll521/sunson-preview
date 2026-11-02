@@ -108,7 +108,7 @@ function setupResearch(runtime){
    sourceCaption.hidden=mode!=='source';useCaption.hidden=mode!=='use';
    sourceImage.setAttribute('aria-hidden',String(mode!=='source'));
    image.setAttribute('aria-hidden',String(mode!=='use'));
-   image.alt='Conceptual study of grain, fruit and linen';
+   image.alt='Conceptual study of raw materials and processes';
    if(!animate||!enabled()){finish();return}
    sequence=gsap.timeline({onComplete:()=>{const done=sequence;sequence=null;timelines.delete(done);finish()}});
    timelines.add(sequence);
