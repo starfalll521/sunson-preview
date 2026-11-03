@@ -11,26 +11,26 @@ body:has(#main-content.co110) ::selection{background:#dce3df;color:var(--ed-ink)
 body:has(#main-content.co110) :is(a,button,summary):focus-visible{outline:3px solid var(--ed-accent);outline-offset:5px}
 
 /* Site navigation retains its existing interaction and shared content. */
-body:has(#main-content.co110) .np-header{background:var(--ed-paper);color:var(--ed-ink)}
-body:has(#main-content.co110) .np-header .np-utility{padding-inline:max(var(--ed-gutter),calc((100% - 1440px)/2 + var(--ed-gutter)));background:var(--ed-ink);color:#e2e7e3}
-body:has(#main-content.co110) .np-header .np-utility :focus-visible{outline-color:var(--ed-paper)}
-body:has(#main-content.co110) .np-header .np-bar{width:100%;max-width:1440px;margin-inline:auto;padding-inline:var(--ed-gutter);border-bottom-color:var(--ed-line)}
-body:has(#main-content.co110) .np-header .np-inner{width:calc(100% - var(--ed-gutter)*2);max-width:1328px}
-body:has(#main-content.co110) .np-header .np-contact{min-height:44px;border-radius:24px;background:var(--ed-ink);color:var(--ed-paper)!important;transition:background-color 180ms ease}
-body:has(#main-content.co110) .np-header .np-contact:hover{background:var(--ed-accent)}
-body:has(#main-content.co110) .np-header :is(.np-direct,.np-item>summary):hover,body:has(#main-content.co110) .np-header .np-item[open]>summary{color:var(--ed-accent)}
-body:has(#main-content.co110) .np-header [aria-current="page"]{text-decoration-color:var(--ed-accent)}
-body:has(#main-content.co110) .np-header .np-mode-tabs button[aria-selected="true"]::after{background:var(--ed-accent)}
-body:has(#main-content.co110) .np-header .np-panel{background:var(--ed-mist);border-bottom-color:var(--ed-line);box-shadow:0 12px 24px rgba(41,50,54,0.06)}
-body:has(#main-content.co110) .np-header .np-sectors button[aria-selected="true"]{background:var(--ed-ink);border-radius:10px}
-body:has(#main-content.co110) .np-header .np-sectors button:not([aria-selected="true"]):hover{background:#dee4e0;border-radius:10px}
-body:has(#main-content.co110) .np-header .np-link:hover{color:var(--ed-accent)}
-body:has(#main-content.co110) .np-header :is(.np-link,.np-overview)>svg{width:28px;height:28px;padding:6px;border:1px solid #93a19d;border-radius:50%;transition:transform 180ms ease,background-color 180ms ease,color 180ms ease}
-body:has(#main-content.co110) .np-header :is(.np-link,.np-overview):is(:hover,:focus-visible)>svg{background:var(--ed-ink);border-color:var(--ed-ink);color:var(--ed-paper);transform:translateX(4px)}
-body:has(#main-content.co110) .np-header .np-overview:hover{text-decoration:none}
-body:has(#main-content.co110) .np-header .np-photo-pair img{border-radius:16px}
-body:has(#main-content.co110) .np-header .np-logo img{filter:none!important;transform:none}
-body:has(#main-content.co110) .np-header .np-mobile-toggle{flex:0 0 44px;min-width:44px;border-radius:50%}
+:where(body:has(#main-content.co110)) .np-header{background:var(--ed-paper);color:var(--ed-ink)}
+:where(body:has(#main-content.co110)) .np-header .np-utility{padding-inline:max(var(--ed-gutter),calc((100% - 1440px)/2 + var(--ed-gutter)));background:var(--ed-ink);color:#e2e7e3}
+:where(body:has(#main-content.co110)) .np-header .np-utility :focus-visible{outline-color:var(--ed-paper)}
+:where(body:has(#main-content.co110)) .np-header .np-bar{width:100%;max-width:1440px;margin-inline:auto;padding-inline:var(--ed-gutter);border-bottom-color:var(--ed-line)}
+:where(body:has(#main-content.co110)) .np-header .np-inner{width:calc(100% - var(--ed-gutter)*2);max-width:1328px}
+:where(body:has(#main-content.co110)) .np-header .np-contact{min-height:44px;border-radius:24px;background:var(--ed-ink);color:var(--ed-paper)!important;transition:background-color 180ms ease}
+:where(body:has(#main-content.co110)) .np-header .np-contact:hover{background:var(--ed-accent)}
+:where(body:has(#main-content.co110)) .np-header :is(.np-direct,.np-item>summary):hover,:where(body:has(#main-content.co110)) .np-header .np-item[open]>summary{color:var(--ed-accent)}
+:where(body:has(#main-content.co110)) .np-header [aria-current="page"]{text-decoration-color:var(--ed-accent)}
+:where(body:has(#main-content.co110)) .np-header .np-mode-tabs button[aria-selected="true"]::after{background:var(--ed-accent)}
+:where(body:has(#main-content.co110)) .np-header .np-panel{background:var(--ed-mist);border-bottom-color:var(--ed-line);box-shadow:0 12px 24px rgba(41,50,54,0.06)}
+:where(body:has(#main-content.co110)) .np-header .np-sectors button[aria-selected="true"]{background:var(--ed-ink);border-radius:10px}
+:where(body:has(#main-content.co110)) .np-header .np-sectors button:not([aria-selected="true"]):hover{background:#dee4e0;border-radius:10px}
+:where(body:has(#main-content.co110)) .np-header .np-link:hover{color:var(--ed-accent)}
+:where(body:has(#main-content.co110)) .np-header :is(.np-link,.np-overview)>svg{width:28px;height:28px;padding:6px;border:1px solid #93a19d;border-radius:50%;transition:transform 180ms ease,background-color 180ms ease,color 180ms ease}
+:where(body:has(#main-content.co110)) .np-header :is(.np-link,.np-overview):is(:hover,:focus-visible)>svg{background:var(--ed-ink);border-color:var(--ed-ink);color:var(--ed-paper);transform:translateX(4px)}
+:where(body:has(#main-content.co110)) .np-header .np-overview:hover{text-decoration:none}
+:where(body:has(#main-content.co110)) .np-header .np-photo-pair img{border-radius:16px}
+:where(body:has(#main-content.co110)) .np-header .np-logo img{filter:none!important;transform:none}
+:where(body:has(#main-content.co110)) .np-header .np-mobile-toggle{flex:0 0 44px;min-width:44px;border-radius:50%}
 
 #main-content.co110{
  --co-navy:#293236;--co-ink:#293236;--co-paper:#f0f1ed;--co-ice:#f0f1ed;--co-mist:#f0f1ed;--co-blue:#a74732;--co-red:#293236;--co-muted:#3c4a47;
@@ -118,9 +118,9 @@ body:has(#main-content.co110) .source-footer a:hover{color:var(--ed-paper)}
 body:has(#main-content.co110) .source-footer :focus-visible{outline-color:#dce3df}
 
 @media(max-width:1180px){
- body:has(#main-content.co110) .np-header.np-ready .np-links{background:var(--ed-mist);border-top-color:var(--ed-line)}
- body:has(#main-content.co110) .np-header .np-panel{background:transparent;box-shadow:none}
- body:has(#main-content.co110) .np-header .np-inner{width:100%;max-width:none}
+ :where(body:has(#main-content.co110)) .np-header.np-ready .np-links{background:var(--ed-mist);border-top-color:var(--ed-line)}
+ :where(body:has(#main-content.co110)) .np-header .np-panel{background:transparent;box-shadow:none}
+ :where(body:has(#main-content.co110)) .np-header .np-inner{width:100%;max-width:none}
 }
 @media(max-width:1100px){
  body:has(#main-content.co110){--ed-gutter:32px}
@@ -134,7 +134,7 @@ body:has(#main-content.co110) .source-footer :focus-visible{outline-color:#dce3d
 }
 @media(max-width:767px){
  body:has(#main-content.co110){--ed-gutter:20px}
- body:has(#main-content.co110) .np-header .np-bar{gap:10px}
+ :where(body:has(#main-content.co110)) .np-header .np-bar{gap:10px}
  #main-content.co110 h1{font-size:36px;line-height:1.08;letter-spacing:-.03em}
  #main-content.co110 h2{font-size:31px;line-height:1.15;letter-spacing:-.025em}
  #main-content.co110 h3{font-size:25px;line-height:1.23}
@@ -157,19 +157,19 @@ body:has(#main-content.co110) .source-footer :focus-visible{outline-color:#dce3d
  #main-content.co110 .co-evidence-grid>.co-prose:first-child{isolation:auto}
 }
 @media(max-width:370px){
- body:has(#main-content.co110) .np-header .np-bar{gap:8px}
- body:has(#main-content.co110) .np-header .np-logo,body:has(#main-content.co110) .np-header .brand-logo-window{width:118px}
- body:has(#main-content.co110) .np-header .brand-logo-window{height:25.348px}
- body:has(#main-content.co110) .np-header .np-contact{padding:9px 11px;font-size:11px;min-height:44px}
- body:has(#main-content.co110) .np-header .np-mobile-toggle{width:44px;min-width:44px;flex:0 0 44px}
+ :where(body:has(#main-content.co110)) .np-header .np-bar{gap:8px}
+ :where(body:has(#main-content.co110)) .np-header .np-logo,:where(body:has(#main-content.co110)) .np-header .brand-logo-window{width:118px}
+ :where(body:has(#main-content.co110)) .np-header .brand-logo-window{height:25.348px}
+ :where(body:has(#main-content.co110)) .np-header .np-contact{padding:9px 11px;font-size:11px;min-height:44px}
+ :where(body:has(#main-content.co110)) .np-header .np-mobile-toggle{width:44px;min-width:44px;flex:0 0 44px}
 }
 @media(max-width:359px){#main-content.co110 h1{font-size:33px}#main-content.co110 h2{font-size:29px}#main-content.co110 h3{font-size:24px}}
 @media(prefers-reduced-motion:reduce){body:has(#main-content.co110) *,body:has(#main-content.co110) *::before,body:has(#main-content.co110) *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 
 /* Final steering: SUNSON homepage blue palette, with a distinct closing interval. */
-body:has(#main-content.co110) .np-header{background:#f0f1ed;color:#263236}
-body:has(#main-content.co110) .np-header .np-contact{background:#a74732;color:#f0f1ed!important}
-body:has(#main-content.co110) .np-header .np-contact:hover{background:#9c3d28}
+:where(body:has(#main-content.co110)) .np-header{background:#f0f1ed;color:#263236}
+:where(body:has(#main-content.co110)) .np-header .np-contact{background:#a74732;color:#f0f1ed!important}
+:where(body:has(#main-content.co110)) .np-header .np-contact:hover{background:#9c3d28}
 #main-content.co110{--co-ink:#263236;--co-muted:#3c4a47}
 #main-content.co110 .co-closing{background:#b7c5c0;color:#263236}
 #main-content.co110 .co-closing :is(h2,h3){color:#263236}
@@ -184,7 +184,7 @@ body:has(#main-content.co110) .np-header .np-contact:hover{background:#9c3d28}
 body:has(#main-content.co110) .source-footer{background:#293236;color:#dbe2de;border-top:1px solid rgba(236,238,234,0.13)}
 /* Supplied photography returns to the straight-edged homepage language. */
 #main-content.co110 .co-photo,#main-content.co110 .co-photo-frame,#main-content.co110 .co-photo img,#main-content.co110 .co-photo-frame::after{border-radius:0}
-body:has(#main-content.co110) .np-header .np-photo-pair img{border-radius:0}
+:where(body:has(#main-content.co110)) .np-header .np-photo-pair img{border-radius:0}
 
 /* Homepage tokens verified by the parent against the live home page. */
 #main-content.co110{font-family:Manrope,BioManrope,Arial,sans-serif}
@@ -233,7 +233,7 @@ body:has(#main-content.co110) .np-header .np-photo-pair img{border-radius:0}
 /* Straight-edged supplied photographs, including their immediate containers. */
 #main-content.co110 .co-research-stage,#main-content.co110 .co-production-stage,#main-content.co110 .co-locations,#main-content.co110 .co-photo,#main-content.co110 .co-photo-frame,#main-content.co110 .co-photo img,#main-content.co110 .co-photo-frame::after{border-radius:0}
 #main-content.co110 .co-photo figcaption{left:16px;bottom:16px;max-width:calc(100% - 32px);padding:7px 11px;border:0;border-left:2px solid #404e4b;border-radius:0;background:rgba(236,238,234,0.9);box-shadow:none;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
-body:has(#main-content.co110) .np-header .np-photo-pair,body:has(#main-content.co110) .np-header .np-photo-pair img{border-radius:0}
+:where(body:has(#main-content.co110)) .np-header .np-photo-pair,:where(body:has(#main-content.co110)) .np-header .np-photo-pair img{border-radius:0}
 
 @media(min-width:1101px){#main-content.co110 .co-research-stage .co-prose{padding-right:32px}}
 @media(max-width:1100px) and (min-width:768px){

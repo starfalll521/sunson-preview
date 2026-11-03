@@ -6,7 +6,7 @@
   const shade = document.querySelector('.np-shade');
   const toggle = header.querySelector('.np-mobile-toggle');
   const nav = header.querySelector('.np-links');
-  const media = matchMedia('(max-width:1279px)');
+  const media = matchMedia('(max-width:1439px)');
   const glyph = toggle.querySelector('path');
   // A shared product document can contain several model anchors. A pathname
   // match alone must not mark every model as the current location.

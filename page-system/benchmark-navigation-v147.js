@@ -2,7 +2,7 @@
 (() => {
  const header=document.querySelector('[data-navigation-version="96"]');
  if(!header)return;
- const mobile=matchMedia('(max-width:1279px)');
+ const mobile=matchMedia('(max-width:1439px)');
  const fine=matchMedia('(hover:hover) and (pointer:fine)');
  const menus=[...header.querySelectorAll('.np-item-147')];
  function categoryRoot(button){return button.closest('.np-item[data-menu="industries"]')}

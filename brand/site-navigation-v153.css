@@ -1,24 +1,41 @@
+/* finesse · component: cross-page navigation typography · v182
+ * Shared type is independent of each page's body and reset styles.
+ * Existing default/hover/focus/current/pressed states retain their geometry.
+ */
+html:has(.np-header){scrollbar-gutter:stable}
+@font-face{
+ font-family:SunsonNavigationManrope;
+ src:url(../page-system/Manrope.ttf) format('truetype');
+ font-style:normal;font-weight:200 800;font-display:swap;
+}
+body .np-header{--np-font-family:SunsonNavigationManrope,Arial,sans-serif}
+body .np-header,
+body .np-header .np-bar,body .np-header .np-bar *,
+body .np-header .np-utility,body .np-header .np-utility *{
+ font-family:var(--np-font-family);font-style:normal;
+}
+
 /* finesse | component=shared masthead | brand register | v153
  * Bound the approved identity, seven labels and contact in one continuous band.
  * Inherits colors, native disclosure, immediate focus and reduced-motion behavior.
- * Desktop dimensions interpolate without the former 1439/1440px step.
+ * v181: roomier 1680px masthead, distributed labels, compact mode below 1440px.
  */
-@media(min-width:1280px){
+@media(min-width:1440px){
  body .np-header{
   --np-brand-width:clamp(136px,calc(7.5vw + 40px),160px);
   --np-nav-type:clamp(14px,calc(.3125vw + 10px),15px);
-  --np-nav-gap:clamp(16px,1.25vw,20px);
+  --np-nav-gap:clamp(28px,2vw,36px);
   --np-column-gap:clamp(20px,calc(2.5vw - 12px),28px);
   --np-side-pad:clamp(20px,calc(1.25vw + 4px),24px);
   --np-contact-width:clamp(100px,calc(3.75vw + 52px),112px);
  }
  body .np-header .np-bar{
-  width:100%;max-width:1480px;margin-inline:auto;
+  width:100%;max-width:1680px;margin-inline:auto;
   grid-template-columns:var(--np-brand-width) minmax(0,1fr) var(--np-contact-width);
   padding-inline:var(--np-side-pad);gap:var(--np-column-gap);
  }
  body .np-header .np-utility{
-  padding-inline:max(var(--np-side-pad),calc(50% - 740px + var(--np-side-pad)));
+  padding-inline:max(var(--np-side-pad),calc(50% - 840px + var(--np-side-pad)));
  }
  body .np-header .np-logo{width:var(--np-brand-width)}
  body .np-header .np-logo .brand-logo-window{
@@ -29,13 +46,13 @@
   left:calc(var(--np-brand-width) * -.1666667);
   top:calc(var(--np-brand-width) * -.0648148);
  }
- body .np-header .np-links{gap:var(--np-nav-gap)}
+ body .np-header .np-links{gap:var(--np-nav-gap);justify-content:space-between}
  body .np-header .np-links>.np-direct,
  body .np-header .np-item>summary{font-size:var(--np-nav-type)}
  body .np-header .np-contact{
   width:var(--np-contact-width);min-height:40px;height:40px;font-size:13px;
  }
- body .np-header .np-panel-147>.np-inner{max-width:1480px;margin-inline:auto}
+ body .np-header .np-panel-147>.np-inner{max-width:1680px;margin-inline:auto}
 }
 /* finesse · component: navigation current location · v167
  * Same existing oxide indicator; an exact fragment is a location, not a page.
