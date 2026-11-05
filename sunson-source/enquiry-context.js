@@ -20,10 +20,15 @@ enquiryContextData.pages.P23.file="resources--technical-documents.html#public-in
 enquiryContextData.pages.P25.file="request-sample.html#trial-comparison";
 enquiryContextData.pages.P19.file=__sunsonPreviewURL("seo-hub-review/content.html#product-directory");
 (()=>{
- const form=document.querySelector('main form');if(!form)return;
- form.addEventListener('submit',ev=>ev.preventDefault());
- const params=new URLSearchParams(location.search),source=params.get('from'),record=enquiryContextData.pages[source];if(!record)return;
- const code=params.get('product'),product=enquiryContextData.products[code],edited=params.get('context')==='edited';
+ const form=document.querySelector('main form');
+ const documentEnquiry=document.querySelector('main a[data-document-enquiry]');
+ if(!form&&!documentEnquiry)return;
+ if(form)form.addEventListener('submit',ev=>ev.preventDefault());
+ const params=new URLSearchParams(location.search),source=params.get('from');
+ if(!Object.hasOwn(enquiryContextData.pages,source))return;
+ const record=enquiryContextData.pages[source];
+ const code=params.get('product'),edited=params.get('context')==='edited';
+ const product=Object.hasOwn(enquiryContextData.products,code)?enquiryContextData.products[code]:null;
  const chosen=!edited&&product&&product.page===source?product:null;
  const palatant=!!(chosen&&source==='P09'&&params.get('use')==='palatant');
  // Recognise only topics already used by the corresponding published-in-preview entry points.
@@ -36,6 +41,25 @@ enquiryContextData.pages.P19.file=__sunsonPreviewURL("seo-hub-review/content.htm
  ]);
  const candidate=topicOptions.get(topicCode);
  const topic=!edited&&candidate&&candidate.pages.includes(source)?candidate:null;
+ if(!form){
+  const productSource=Object.values(enquiryContextData.products).some(entry=>entry.page===source);
+  if(!productSource&&!edited)return;
+  const target=new URL(documentEnquiry.href,location.href);
+  target.searchParams.set('from',source);
+  if(chosen)target.searchParams.set('product',code);
+  if(palatant)target.searchParams.set('use','palatant');
+  if(topic)target.searchParams.set('topic',topicCode);
+  if(edited)target.searchParams.set('context','edited');
+  documentEnquiry.href=target.href;
+  const documentShortcut=document.querySelector('main [data-document-shortcut]');
+  if(chosen&&documentShortcut){
+   const link=documentShortcut.querySelector('a');
+   link.href=target.href;
+   link.querySelector('span').textContent='Ask about '+code+' documents';
+   documentShortcut.hidden=false;
+  }
+  return;
+ }
  const appPages=new Set(['P03','P05','P06','P10','P11','P12','P14','P15','P18','P20','P21']);
  const application=!edited&&!code&&appPages.has(source);
  const notice=document.createElement('div');notice.className='enquiry-context';
@@ -45,7 +69,12 @@ enquiryContextData.pages.P19.file=__sunsonPreviewURL("seo-hub-review/content.htm
  const topicLine=topic?document.createElement('p'):null;
  if(topicLine){topicLine.textContent='Enquiry topic: '+topic.name;notice.append(topicLine)}
  const helper=document.createElement('p');helper.textContent=source==='R01'?'Introduce your research question with a non-confidential summary. No product model has been selected automatically.':chosen?'The product field is filled below. You can change it or describe a different application.':(application||topic?.initial)?'Your application is filled below. No product model has been selected automatically.':'Choose a product reference or describe your application below. No model has been selected automatically.';notice.append(helper);
- const back=document.createElement('a');back.href=record.file+(palatant?'#palatant-production':'');back.textContent='Return to '+record.name;notice.append(back);form.prepend(notice);
+ const productRow=chosen&&(source==='P16'||source==='P17');
+ const back=document.createElement('a');
+ const returnAnchor=productRow?'#product-'+code.toLowerCase():palatant?'#palatant-production':'';
+ back.href=record.file+returnAnchor;
+ back.textContent='Return to '+(productRow?chosen.name:record.name);
+ notice.append(back);form.prepend(notice);
  const label=[...form.querySelectorAll('label')].find(x=>/^(Product or reference|Product, company or site reference|Product or application|Product interests)/i.test(x.textContent.trim()));
  const field=label?.querySelector('input,textarea');
  const initial=chosen?chosen.name+(palatant?' — palatant production':''):(topic?.initial||(application?'Application: '+record.name:''));
