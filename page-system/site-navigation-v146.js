@@ -67,7 +67,7 @@
     item.querySelector('summary').focus();
     sync();
   }));
-  toggle.addEventListener('click', () => {
+  toggle.addEventListener('click', event => {
     const open = !header.classList.contains('np-mobile-open');
     if (!open) return closeAll();
     header.classList.add('np-mobile-open');
@@ -75,6 +75,9 @@
     toggle.setAttribute('aria-expanded', 'true');
     toggle.setAttribute('aria-label', 'Close navigation');
     glyph.setAttribute('d', 'M5 5l14 14M19 5L5 19');
+    if (media.matches && event.detail === 0) {
+      nav.querySelector('.np-direct, .np-item > summary').focus({preventScroll:true});
+    }
   });
   document.addEventListener('keydown', event => {
     if (event.key !== 'Escape') return;
