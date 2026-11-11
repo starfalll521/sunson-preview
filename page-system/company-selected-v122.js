@@ -219,7 +219,7 @@
     // No timer/polling loop: one post-resource refresh, then one fragment correction.
     frame(() => {
       if (ScrollTrigger) ScrollTrigger.refresh();
-      frame(() => { correctInitialHash(); scheduleTopic(); });
+      frame(() => { correctInitialHash(); });
     });
   });
 })();
