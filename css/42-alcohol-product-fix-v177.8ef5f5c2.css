@@ -1,0 +1,105 @@
+/* SUNSON stylesheet segment 42: alcohol-product-fix-v177 */
+/* brand/alcohol-product-fix-v177.css */
+
+.bio-inner main.alcohol-product-v176 a > svg.task-link-arrow {
+  display: block;
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+  max-width: 22px;
+  flex: 0 0 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.bio-inner main.alcohol-product-v176 .sun-mobile-product-action {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  min-height: 44px;
+  padding: 12px 20px;
+  background: var(--bio-forest);
+  color: var(--bio-paper);
+  border: 1px solid var(--bio-forest);
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 550;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.bio-inner main.alcohol-product-v176 .task-product-desk .task-desk-link {
+  min-width: 0;
+  min-height: 63px;
+  color: var(--bio-paper);
+}
+
+.bio-inner main.alcohol-product-v176 #process-conditions .sun-editorial-body > .sun-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: fit-content;
+  max-width: 100%;
+  min-height: 44px;
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.bio-inner main.alcohol-product-v176 .task-product-next .task-next-link {
+  color: var(--bio-ink);
+  border-color: var(--bio-line);
+}
+
+.bio-inner main.alcohol-product-v176 .sun-editorial-heading h2 {
+  color: var(--bio-ink);
+}
+
+.bio-inner main.alcohol-product-v176 #process-conditions :is(.sun-editorial-heading,.sun-editorial-body,h2,p,a) {
+  color: var(--bio-paper);
+}
+
+.bio-inner main.alcohol-product-v176 a:is(.task-desk-link,.task-next-link,.sun-mobile-product-action,.sun-link):focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+.bio-inner main.alcohol-product-v176 a:is(.task-desk-link,.task-next-link,.sun-mobile-product-action,.sun-link):active > .task-link-arrow {
+  transform: translateX(2px);
+}
+
+@media (hover:hover) {
+  .bio-inner main.alcohol-product-v176 .task-product-desk .task-desk-link:hover {
+    background: var(--bio-muted);
+    color: var(--bio-paper);
+  }
+  .bio-inner main.alcohol-product-v176 .sun-mobile-product-action:hover {
+    background: var(--bio-muted);
+    border-color: var(--bio-muted);
+  }
+  .bio-inner main.alcohol-product-v176 .task-product-next .task-next-link:hover {
+    background: var(--bio-paper);
+  }
+}
+
+@media (max-width:767px) {
+  .bio-inner main.alcohol-product-v176 .sun-mobile-product-action {
+    display: inline-flex;
+  }
+  .bio-inner main.alcohol-product-v176 .task-product-desk .task-desk-link {
+    min-height: 54px;
+  }
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .bio-inner main.alcohol-product-v176 a > svg.task-link-arrow {
+    transition: none;
+    transform: none;
+  }
+}

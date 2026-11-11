@@ -1,0 +1,385 @@
+/* SUNSON stylesheet segment 41: alcohol-v176 */
+/* brand/alcohol-v176.css */
+
+main.iv-alcohol {
+  --iv-navy: #283b42;
+  --iv-ink: #283b42;
+  --iv-mist: #e2e9ec;
+  --iv-white: #f0f3f4;
+  --iv-blue: #32505b;
+  --iv-red: #a74732;
+  --iv-muted: #50646b;
+  --iv-line: #bdcbd0;
+  background: var(--iv-white);
+  color: var(--iv-ink);
+  font-family: Manrope,Arial,sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.iv-alcohol :is(.iv-wrap,.sun-breadcrumb-v169) {
+  width: min(calc(100% - 112px),1280px);
+  margin-inline: auto;
+}
+
+.iv-alcohol :is(h1,h2,h3) {
+  color: inherit;
+  font-weight: 500;
+  letter-spacing: -.035em;
+}
+
+.iv-alcohol .iv-hero {
+  position: relative;
+  min-height: 540px;
+  display: flex;
+  align-items: center;
+  padding-block: 60px;
+  background: #dce5e9;
+  isolation: isolate;
+}
+
+.iv-alcohol .iv-hero>.iv-wrap {
+  position: relative;
+  z-index: 2;
+  display: block;
+}
+
+.iv-alcohol .iv-hero-copy {
+  max-width: 520px;
+}
+
+.iv-alcohol .iv-hero h1 {
+  font-size: clamp(40px,4vw,58px);
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+
+.iv-alcohol .iv-hero-copy p {
+  max-width: 44ch;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.iv-alcohol .iv-scene {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  z-index: 0;
+}
+
+.iv-alcohol .iv-scene:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg,rgba(230,237,239,.98),rgba(230,237,239,.92) 30%,rgba(230,237,239,.35) 57%,transparent 75%);
+}
+
+.iv-alcohol .iv-scene img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.iv-alcohol .iv-scene figcaption {
+  position: absolute;
+  right: 25px;
+  bottom: 14px;
+  z-index: 2;
+  max-width: 40ch;
+  color: #253b43;
+  font-size: 11px;
+  line-height: 1.5;
+  background: rgba(231,237,240,.84);
+  padding: 5px 8px;
+}
+
+.iv-alcohol .iv-section {
+  padding-block: 65px;
+}
+
+.iv-alcohol h2 {
+  font-size: clamp(31px,3vw,43px);
+  line-height: 1.15;
+  margin-bottom: 24px;
+}
+
+.iv-alcohol h3 {
+  font-size: 25px;
+  line-height: 1.22;
+  margin-bottom: 16px;
+}
+
+.iv-alcohol .iv-tinted {
+  background: #e3eaed;
+}
+
+.iv-alcohol #saccharification {
+  background: #293f48;
+  color: #f0f4f5;
+  --iv-line: #617782;
+  --iv-muted: #ccdade;
+}
+
+.iv-alcohol #saccharification :is(h2,p,a,strong,figcaption) {
+  color: inherit;
+}
+
+.iv-alcohol .iv-juice-stage {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) minmax(0,1fr);
+  gap: 64px;
+  align-items: center;
+}
+
+.iv-alcohol .alcohol-process-art {
+  margin: 0;
+  background: transparent;
+}
+
+.iv-alcohol .alcohol-process-art img {
+  width: 100%;
+  height: auto;
+  max-height: 320px;
+  object-fit: contain;
+}
+
+.iv-alcohol .iv-section-head {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  margin-bottom: 32px;
+}
+
+.iv-alcohol .alcohol-products {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.iv-alcohol .iv-product {
+  padding: 28px 0;
+  border-top: 1px solid var(--iv-line);
+  border-radius: 0;
+  background: transparent;
+}
+
+.iv-alcohol .iv-product>span {
+  font-size: 13px;
+  display: block;
+  margin-bottom: 18px;
+  color: var(--iv-muted);
+}
+
+.iv-alcohol .iv-product-bridge {
+  margin-top: 38px;
+  padding-top: 30px;
+  border-top: 1px solid var(--iv-line);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.iv-alcohol .alcohol-checks {
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  gap: 35px;
+  margin: 35px 0;
+}
+
+.iv-alcohol .alcohol-checks article {
+  border-top: 1px solid var(--iv-line);
+  padding-top: 23px;
+}
+
+.iv-alcohol .alcohol-checks h3 {
+  font-size: 23px;
+}
+
+.iv-alcohol .alcohol-scope {
+  max-width: 85ch;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.iv-alcohol .iv-final {
+  background: #b8cbd3;
+}
+
+.iv-alcohol .iv-link,
+.iv-alcohol .iv-button {
+  display: inline-flex;
+  gap: 22px;
+  align-items: center;
+  font-size: 14px;
+  min-height: 44px;
+  margin-top: 18px;
+}
+
+.iv-alcohol :is(.iv-link,.iv-button) svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  flex-shrink: 0;
+}
+
+.iv-alcohol .iv-button {
+  background: #293f48;
+  color: #f0f4f5;
+  border: 1px solid #293f48;
+  border-radius: 999px;
+  padding: 12px 22px;
+}
+
+.iv-alcohol .iv-link {
+  border-bottom: 1px solid currentColor;
+  text-decoration: none;
+}
+
+.iv-alcohol a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 5px;
+}
+
+.iv-alcohol .iv-measures {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  margin-top: 25px;
+  padding-top: 24px;
+  border-top: 1px solid var(--iv-line);
+}
+
+.iv-alcohol .iv-closing {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px 64px;
+}
+
+.iv-alcohol .iv-secondary {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  grid-column: 1/-1;
+}
+
+.bio-inner .alcohol-product-v176 {
+  --bio-forest: #293f48;
+  --bio-ink: #283b42;
+  --bio-muted: #50646b;
+  --bio-sage: #e1e9ec;
+  --bio-paper: #edf2f3;
+  --bio-line: #bdcbd0;
+  --task-ink: #283b42;
+  --task-muted: #50646b;
+  --task-paper: #edf2f3;
+  --task-accent: #32505b;
+}
+
+.alcohol-product-v176 .task-product-opening {
+  background: #e1e9ec;
+}
+
+.bio-inner main.alcohol-product-v176 #process-conditions {
+  background: #293f48;
+  color: #edf3f5;
+}
+
+.bio-inner main.alcohol-product-v176 #process-conditions :is(h2,p,a) {
+  color: inherit;
+}
+
+.alcohol-product-v176 .task-product-reference {
+  display: block;
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .iv-alcohol *,
+  main.alcohol-product-v176 * {
+    scroll-behavior: auto !important;
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+@media (max-width:900px) {
+  .iv-alcohol :is(.iv-wrap,.sun-breadcrumb-v169) {
+    width: calc(100% - 48px);
+  }
+  .iv-alcohol .iv-hero {
+    min-height: 560px;
+  }
+  .iv-alcohol .iv-hero-copy {
+    max-width: 440px;
+  }
+  .iv-alcohol .iv-hero h1 {
+    font-size: 43px;
+  }
+  .iv-alcohol .iv-scene:after {
+    background: linear-gradient(90deg,rgba(230,237,239,.98),rgba(230,237,239,.92) 40%,rgba(230,237,239,.35));
+  }
+  .iv-alcohol :is(.iv-juice-stage,.iv-section-head,.iv-closing) {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+  .iv-alcohol .iv-section {
+    padding-block: 44px;
+  }
+  .iv-alcohol .alcohol-checks {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .iv-alcohol .iv-product-bridge {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .iv-alcohol .iv-scene figcaption {
+    right: 16px;
+    bottom: 8px;
+    max-width: 36ch;
+  }
+  .iv-alcohol .iv-secondary {
+    gap: 14px;
+  }
+}
+
+@media (max-width:560px) {
+  .iv-alcohol :is(.iv-wrap,.sun-breadcrumb-v169) {
+    width: calc(100% - 40px);
+  }
+  .iv-alcohol .alcohol-products,
+  .iv-alcohol .iv-measures {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+  .iv-alcohol .iv-hero {
+    min-height: 540px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+  .iv-alcohol .iv-hero h1 {
+    font-size: 38px;
+  }
+  .iv-alcohol .iv-hero-copy p {
+    font-size: 16px;
+  }
+  .iv-alcohol .iv-scene img {
+    object-position: 65% center;
+  }
+  .iv-alcohol .iv-scene:after {
+    background: rgba(230,237,239,.86);
+  }
+  .iv-alcohol .iv-scene figcaption {
+    font-size: 10px;
+    left: 20px;
+    right: 20px;
+    max-width: none;
+  }
+  .iv-alcohol .iv-link {
+    gap: 12px;
+    font-size: 13px;
+  }
+}

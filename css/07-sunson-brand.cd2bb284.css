@@ -1,0 +1,121 @@
+/* SUNSON stylesheet segment 07: sunson-brand-d3447a00 */
+/* sunson-brand-d3447a00.css */
+
+:root,
+body.bio-site {
+  --brand-blue: #a74732;
+  --brand-red: #a74732;
+  --brand-navy: var(--sec-1);
+  --brand-white: #f0f1ed;
+  --brand-ice: var(--sec-2);
+  --brand-light: var(--sec-3);
+  --brand-muted: #3c4a47;
+  --paper: #f0f1ed;
+  --sage: var(--sec-2);
+  --mist: var(--sec-4);
+  --forest: var(--sec-1);
+  --ink: var(--sec-5);
+  --muted: #3c4a47;
+  --lime: var(--sec-3);
+  --line: var(--sec-6);
+  --bio-paper: #f0f1ed;
+  --bio-sage: var(--sec-2);
+  --bio-forest: var(--sec-1);
+  --bio-ink: var(--sec-5);
+  --bio-citron: var(--sec-3);
+  --bio-muted: #3c4a47;
+  --bio-line: var(--sec-6);
+  --sun-paper: #f0f1ed;
+  --sun-tint: var(--sec-2);
+  --sun-ink: var(--sec-5);
+  --sun-muted: #3c4a47;
+  --sun-red: #a74732;
+  --sun-line: var(--sec-6);
+  --sun-deep: var(--sec-1);
+  --sun-neutral: var(--sec-4);
+  accent-color: #a74732;
+  caret-color: #a74732;
+}
+
+body {
+  scrollbar-color: var(--sec-7) var(--sec-4);
+}
+
+::selection {
+  background: var(--sec-8);
+  color: var(--sec-1);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
+  outline: 2px solid #a74732;
+  outline-offset: 4px;
+}
+
+:is(.science-chapter,.source-footer,footer,.a-standards) :is(a,button,summary,input):focus-visible {
+  outline-color: var(--sec-9);
+}
+
+.brand-logo-window {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 126px;
+  height: 56px;
+  background: #f0f1ed;
+}
+
+.brand-logo-window img {
+  position: absolute;
+  display: block;
+  width: 113.777778%;
+  height: auto;
+  max-width: none;
+  left: -7.111111%;
+  top: -30.666667%;
+  object-fit: initial;
+  transform: none;
+  filter: none;
+}
+
+footer .sunson-original-logo {
+  padding: 4px 8px !important;
+  border-radius: 5px;
+}
+
+footer .brand-logo-window {
+  width: 144px;
+  height: 64px;
+}
+
+.article-copy a {
+  color: #a74732;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.insight-card-link:focus-visible {
+  outline: 3px solid #a74732;
+  outline-offset: -5px;
+}
+
+.insight-card:nth-child(even) .insight-card-link:focus-visible {
+  outline-color: var(--sec-9);
+}
+
+@media (max-width:767px) {
+  .brand-logo-window {
+    width: 117px;
+    height: 52px;
+  }
+}
+
+@media (prefers-reduced-motion:reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

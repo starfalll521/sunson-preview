@@ -1,0 +1,560 @@
+/* SUNSON stylesheet segment 02: bio-premium-399d8fe3, bio-craft-9b9f9f9b, bio-home-tech-f79c42e1, bio-home-scale-149c9863 */
+/* bio-premium-399d8fe3.css [corporate only] */
+
+.bio-site h1,
+.bio-site h2 {
+  font-weight: 450;
+}
+
+.bio-site .bio-hero {
+  padding-block: 92px 128px;
+}
+
+.bio-site .hero-copy h1 {
+  font-size: clamp(54px,6.1vw,88px);
+  line-height: 1.06;
+  max-width: 910px;
+  margin-bottom: 30px;
+}
+
+.bio-site .hero-copy>p {
+  font-size: 18px;
+  max-width: 420px;
+  line-height: 1.65;
+}
+
+.bio-site .hero-copy .action {
+  background: var(--paper);
+  color: var(--forest);
+  margin-top: 32px;
+}
+
+.bio-site .hero-copy .action:hover {
+  background: var(--lime);
+}
+
+.identity-strip {
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+  padding-block: 30px;
+}
+
+.identity-strip>.frame {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  justify-content: space-between;
+}
+
+.identity-strip p {
+  font-size: 16px;
+  max-width: 670px;
+  line-height: 1.6;
+}
+
+.identity-strip strong {
+  font-weight: 600;
+}
+
+.identity-strip .reading-link {
+  margin-top: 0;
+  flex: none;
+}
+
+.bio-site #enzyme-innovation {
+  background: #ebede9;
+}
+
+.research-plate {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: #d7deda;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 34px 28px;
+}
+
+.research-plate>img {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: .45;
+}
+
+.research-plate:before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(180deg,#dfe5e1d9,#dfe5e152 58%,#dfe5e1ee);
+}
+
+.research-plate figcaption {
+  font-size: 11px;
+  line-height: 1.65;
+  margin-top: 45px;
+  font-weight: 600;
+}
+
+.research-plate figcaption small {
+  display: block;
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: 12px;
+  color: var(--muted);
+}
+
+.bio-site .research-plate figcaption,
+.bio-site .research-plate figcaption small {
+  font-size: 12px;
+}
+
+@media (max-width:1100px) {
+  .research-plate {
+    padding: 28px 22px;
+  }
+}
+
+@media (max-width:1023px) {
+  .research-plate {
+    min-height: 360px;
+  }
+}
+
+@media (max-width:767px) {
+  .bio-site .bio-hero {
+    padding-block: 72px 112px;
+    min-height: calc(100svh - 88px);
+  }
+  .bio-site .hero-copy h1 {
+    font-size: 46px;
+    line-height: 1.08;
+    max-width: 590px;
+    margin-bottom: 26px;
+  }
+  .bio-site .hero-copy>p {
+    font-size: 16px;
+    max-width: 30ch;
+  }
+  .bio-site .hero-copy .action {
+    margin-top: 28px;
+  }
+  .identity-strip {
+    padding-block: 26px;
+  }
+  .identity-strip>.frame {
+    display: block;
+  }
+  .identity-strip p {
+    font-size: 15px;
+  }
+  .identity-strip .reading-link {
+    margin-top: 18px;
+  }
+  .research-plate {
+    min-height: 350px;
+    padding: 32px 27px;
+  }
+}
+
+/* bio-craft-9b9f9f9b.css [corporate only] */
+
+:root {
+  --arrival: cubic-bezier(.16,1,.3,1);
+}
+
+.bio-site {
+  -webkit-font-smoothing: antialiased;
+}
+
+.bio-site p {
+  text-wrap: pretty;
+}
+
+.bio-site .site-header {
+  box-shadow: 0 1px 0 #29323614;
+}
+
+.bio-site .nav-panel a {
+  transition: color .16s ease,background-color .16s ease;
+  padding-inline: 14px;
+}
+
+.bio-site .nav-panel a:hover,
+.bio-site .nav-panel a:focus-visible {
+  background: var(--sage);
+  color: var(--forest);
+}
+
+.bio-site .action,
+.bio-site .button {
+  border-radius: 3px;
+}
+
+.bio-site .action>svg {
+  transition: transform .22s var(--arrival);
+}
+
+.bio-site .action:hover>svg,
+.bio-site .action:focus-visible>svg {
+  transform: translateX(4px);
+}
+
+.bio-site .reading-link {
+  transition: color .16s ease;
+}
+
+.bio-site .reading-link:hover {
+  color: #2e3b3c;
+}
+
+.bio-site footer a:hover {
+  color: var(--lime);
+}
+
+.hero-bottom a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+
+.hero-bottom a span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d8e0dc66;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  transition: background-color .2s ease,transform .2s var(--arrival);
+}
+
+.hero-bottom a:hover span,
+.hero-bottom a:focus-visible span {
+  background: #d8e0dc33;
+  transform: translateY(3px);
+}
+
+.bio-site .research-plate {
+  border-radius: 0 0 12px 0;
+}
+
+.bio-site .research-plate figcaption {
+  line-height: 1.7;
+}
+
+.manufacturing-study {
+  margin-top: 72px;
+  background: var(--paper);
+  padding: 44px 44px 26px;
+}
+
+.manufacturing-flow {
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  counter-reset: process;
+}
+
+.manufacturing-flow:before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  left: 12.5%;
+  right: 12.5%;
+  top: 143px;
+  background: var(--line);
+  transform-origin: left;
+  transform: scaleX(var(--flow,1));
+}
+
+.manufacturing-flow>li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  counter-increment: process;
+}
+
+.process-drawing {
+  width: 110px;
+  height: 110px;
+  margin-bottom: 28px;
+  position: relative;
+}
+
+.process-drawing>svg {
+  width: 100%;
+  height: 100%;
+  stroke-width: 1.2;
+  color: #3d4b48;
+}
+
+.process-point {
+  width: 11px;
+  height: 11px;
+  border: 1px solid #3d4b48;
+  background: var(--paper);
+  border-radius: 50%;
+  position: relative;
+}
+
+.process-name {
+  font-size: 17px;
+  margin-top: 24px;
+  letter-spacing: -.02em;
+}
+
+.process-name:before {
+  content: counter(process,decimal-leading-zero);
+  font-size: 11px;
+  display: block;
+  text-align: center;
+  letter-spacing: 0;
+  color: var(--muted);
+  margin-bottom: 7px;
+  font-variant-numeric: tabular-nums;
+}
+
+.manufacturing-study figcaption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-top: 1px solid var(--line);
+  margin-top: 40px;
+  padding-top: 22px;
+  font-size: 13px;
+}
+
+.manufacturing-study figcaption>span {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+@media (max-width:767px) {
+  .manufacturing-study {
+    padding: 28px 22px 22px;
+    margin-top: 45px;
+  }
+  .manufacturing-flow {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px 22px;
+  }
+  .manufacturing-flow:before {
+    content: none;
+  }
+  .process-drawing {
+    width: 85px;
+    height: 85px;
+    margin-bottom: 16px;
+  }
+  .process-point {
+    display: none;
+  }
+  .process-name {
+    margin-top: 0;
+    font-size: 15px;
+  }
+  .process-name:before {
+    margin-bottom: 6px;
+  }
+  .manufacturing-study figcaption {
+    display: block;
+    font-size: 12px;
+    margin-top: 28px;
+    padding-top: 18px;
+  }
+  .manufacturing-study figcaption>span {
+    display: block;
+    margin-top: 6px;
+    font-size: 12px;
+  }
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .bio-site * {
+    scroll-behavior: auto;
+  }
+  .bio-site .action:active {
+    transform: none;
+  }
+}
+
+/* bio-home-tech-f79c42e1.css [corporate only] */
+
+.bio-home-tech .manufacturing-study {
+  position: relative;
+}
+
+.bio-home-tech .manufacturing-flow>li {
+  transition: color .18s ease;
+}
+
+.bio-home-tech .manufacturing-flow>li[data-process-active=true] {
+  color: var(--forest);
+}
+
+.bio-home-tech .manufacturing-flow>li[data-process-active=true] .process-point {
+  background: var(--forest);
+  box-shadow: 0 0 0 5px #ced7d366;
+}
+
+.bio-home-tech .manufacturing-flow>li[data-process-active=true] .process-drawing>svg {
+  color: var(--forest);
+}
+
+.bio-home-tech .process-replay {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  min-height: 44px;
+  font-size: 12px;
+  padding: 8px 0;
+  color: var(--forest);
+  flex: none;
+}
+
+.bio-home-tech .process-replay svg {
+  width: 18px;
+  height: 18px;
+}
+
+.bio-home-tech .reading-link {
+  position: relative;
+}
+
+.bio-home-tech .reading-link:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 2px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .28s var(--arrival);
+  pointer-events: none;
+}
+
+.bio-home-tech .reading-link:hover:after,
+.bio-home-tech .reading-link:focus-visible:after {
+  transform: scaleX(1);
+}
+
+.bio-home-tech .action,
+.bio-home-tech .button {
+  transition: background-color .2s ease,color .2s ease,transform .18s var(--arrival),box-shadow .2s ease;
+}
+
+.bio-home-tech .action:hover {
+  box-shadow: 0 5px 16px #1e25281c;
+}
+
+.bio-home-tech .action:active {
+  transform: scale(.96);
+}
+
+@media (max-width:767px) {
+  .bio-home-tech .manufacturing-study figcaption>.process-replay {
+    margin-top: 12px;
+  }
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .bio-home-tech .reading-link:after {
+    transition: none;
+  }
+  .bio-home-tech .action:active {
+    transform: none;
+  }
+}
+
+.bio-home-tech .process-replay[hidden] {
+  display: none !important;
+}
+
+/* bio-home-scale-149c9863.css [corporate only] */
+
+.bio-home-tech .scale-research-chapter {
+  padding-block: 96px 112px;
+  background: var(--paper);
+}
+
+@media (max-width:950px) {
+  .bio-home-tech .scale-research-chapter {
+    padding-block: 82px;
+  }
+}
+
+@media (max-width:767px) {
+  .bio-home-tech .scale-research-chapter {
+    padding-block: 66px;
+  }
+}
+
+.bio-home-scale {
+  --ease-out-expo: cubic-bezier(.16,1,.3,1);
+  --dur-feedback: 180ms;
+  --dur-fast: 400ms;
+  --dur-slow: 900ms;
+  --stagger: 120ms;
+}
+
+.bio-home-scale {
+  --frame: 1160px;
+  --chapter-space: 80px;
+}
+
+.bio-home-scale #research-in-view,
+.bio-home-scale #enzyme-innovation,
+.bio-home-scale #work-and-perspectives,
+.bio-home-scale #from-research-to-use {
+  padding-block: var(--chapter-space);
+}
+
+.bio-home-scale #our-solutions,
+.bio-home-scale #conversation {
+  padding-block: 72px;
+}
+
+.bio-home-scale #continue-the-connection {
+  padding-block: 86px;
+}
+
+.bio-home-scale .reading-link {
+  font-size: 14px;
+}
+
+@media (max-width:950px) {
+  .bio-home-scale {
+    --chapter-space: 68px;
+  }
+  .bio-home-scale #our-solutions,
+  .bio-home-scale #conversation {
+    padding-block: 64px;
+  }
+}
+
+@media (max-width:767px) {
+  .bio-home-scale {
+    --chapter-space: 58px;
+  }
+  .bio-home-scale #our-solutions,
+  .bio-home-scale #conversation {
+    padding-block: 58px;
+  }
+  .bio-home-scale #continue-the-connection {
+    padding-block: 66px;
+  }
+}

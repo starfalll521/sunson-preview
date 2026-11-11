@@ -1,0 +1,15 @@
+/* SUNSON stylesheet segment 29: site-navigation-v139 */
+/* brand/site-navigation-v139.css */
+
+@media (min-width:1181px) and (max-width:1439px) {
+  .np-header .np-links {
+    gap: 16px;
+  }
+  .np-header .np-item>summary,
+  .np-header .np-direct {
+    font-size: 12px;
+  }
+  .np-header .np-bar {
+    gap: 20px;
+  }
+}

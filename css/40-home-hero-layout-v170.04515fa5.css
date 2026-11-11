@@ -1,0 +1,62 @@
+/* SUNSON stylesheet segment 40: home-hero-layout-v170 */
+/* narrative-draft/home-hero-layout-v170.css */
+
+body.bio-home-landscape.bio-home-bold.selected-middle-a #hero .hero-copy h1 {
+  max-width: 1000px;
+  font-size: clamp(54px,5.8vw,90px);
+  line-height: 1.08;
+  margin-bottom: 28px;
+  text-wrap: balance;
+}
+
+body.bio-home-landscape.bio-home-bold.selected-middle-a #hero .hero-copy>p {
+  width: 100%;
+  max-width: min(58ch,620px);
+  font-size: 18px;
+  line-height: 1.65;
+  margin: 0;
+  text-wrap: pretty;
+}
+
+body.bio-home-landscape.bio-home-bold.selected-middle-a #hero .hero-copy>.action {
+  margin-top: 28px;
+}
+
+@media (min-width:1100px) and (min-height:900px) {
+  body.bio-home-landscape.bio-home-bold.selected-middle-a #hero .hero-copy {
+    margin-top: -48px;
+  }
+}
+
+@media (max-width:1099px) and (min-width:768px) {
+  body.bio-home-landscape.bio-home-bold.selected-middle-a #hero .hero-copy h1 {
+    font-size: clamp(50px,6.2vw,68px);
+  }
+  body.bio-home-landscape.bio-home-bold.selected-middle-a #hero .hero-copy>p {
+    max-width: 54ch;
+  }
+}
+
+@media (max-width:767px) {
+  body.bio-home-landscape.bio-home-bold.selected-middle-a #hero .hero-copy h1 {
+    font-size: clamp(36px,9.2vw,46px);
+    line-height: 1.1;
+    max-width: 100%;
+    margin-bottom: 24px;
+  }
+  body.bio-home-landscape.bio-home-bold.selected-middle-a #hero .hero-copy>p {
+    max-width: 36ch;
+    font-size: 16px;
+    line-height: 1.65;
+  }
+  body.bio-home-landscape.bio-home-bold.selected-middle-a #hero .hero-copy>.action {
+    margin-top: 24px;
+  }
+}
+
+@media (max-width:359px) {
+  body.bio-home-landscape.bio-home-bold.selected-middle-a #hero .hero-copy h1 {
+    font-size: 32px;
+    line-height: 1.12;
+  }
+}
