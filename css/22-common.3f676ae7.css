@@ -2,10 +2,10 @@
 /* common-b0784395.css [feed only] */
 
 main#main-content[data-feed-version="108"] {
-  --fd-oat: #e7eae0;
+  --fd-oat: #e4e9e6;
   --fd-white: #eeefea;
-  --fd-dark: #40493a;
-  --fd-ink: #414938;
+  --fd-dark: #293236;
+  --fd-ink: #293236;
   --fd-muted: #485651;
   --fd-rule: #cdd3c0;
   --fd-red: #a74732;
@@ -139,7 +139,7 @@ main#main-content[data-feed-version="108"] figcaption {
 }
 
 main#main-content[data-feed-version="108"] ::selection {
-  background: #40493a;
+  background: #293236;
   color: #eeefea;
 }
 

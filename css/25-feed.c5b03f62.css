@@ -2,13 +2,13 @@
 /* feed-cf4ee9d4.css [feed only] */
 
 .industry-v99.feed-option-v101 {
-  --iv-mist: #e7eae0;
-  --iv-ink: #414938;
-  --iv-navy: #40493a;
+  --iv-mist: #e4e9e6;
+  --iv-ink: #293236;
+  --iv-navy: #293236;
   --iv-blue: #485651;
   --iv-muted: #485651;
   --iv-line: #cdd3c0;
-  --iv-stone: #e7eae0;
+  --iv-stone: #e4e9e6;
   --iv-stone-line: #cdd3c0;
   --iv-neutral: #eeefea;
   background: #eeefea;
@@ -53,8 +53,8 @@
 }
 
 .industry-v99.feed-option-v101 a:not(.iv-button):hover {
-  color: #40493a;
-  text-decoration-color: #40493a;
+  color: #293236;
+  text-decoration-color: #293236;
 }
 
 .industry-v99.feed-option-v101 a:focus-visible {
@@ -354,7 +354,7 @@
   --iv-muted: #dadfd0;
   --iv-line: #cdd3c0;
   padding-block: 88px 78px;
-  background: #40493a;
+  background: #293236;
   color: var(--iv-ink);
 }
 
@@ -426,11 +426,11 @@
 }
 
 .industry-v99.feed-option-v101 #story-3 .iv-steps li::before {
-  color: #e7eae0;
+  color: #e4e9e6;
 }
 
 .industry-v99.feed-option-v101 #story-3 a {
-  color: #e7eae0;
+  color: #e4e9e6;
   text-decoration-color: #cdd3c0;
 }
 
@@ -440,7 +440,7 @@
 }
 
 .industry-v99.feed-option-v101 #story-3 a:focus-visible {
-  outline-color: #e7eae0;
+  outline-color: #e4e9e6;
 }
 
 .industry-v99.feed-option-v101 .iv-section.iv-final {

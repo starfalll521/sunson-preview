@@ -17,16 +17,16 @@
   -webkit-mask: var(--sx-arrow) center / contain no-repeat;
   mask: var(--sx-arrow) center / contain no-repeat;
 }
-.sx-arrow-e { --sx-arrow: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M2.5 8h11M9 3.5 13.5 8 9 12.5' fill='none' stroke='%23000' stroke-width='1.5' stroke-linecap='square'/%3E%3C/svg%3E); }
-.sx-arrow-ne { --sx-arrow: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3.5 12.5 12.5 3.5M5.5 3.5h7v7' fill='none' stroke='%23000' stroke-width='1.5' stroke-linecap='square'/%3E%3C/svg%3E); }
+.sx-arrow-e { --sx-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M2.5 8h11M9 3.5 13.5 8 9 12.5' fill='none' stroke='%23000' stroke-width='1.5' stroke-linecap='square'/%3E%3C/svg%3E"); }
+.sx-arrow-ne { --sx-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3.5 12.5 12.5 3.5M5.5 3.5h7v7' fill='none' stroke='%23000' stroke-width='1.5' stroke-linecap='square'/%3E%3C/svg%3E"); }
 
 /* Colour tokens of the feed section; the stylesheets read them as var(--sec-N). */
 :root {
-  --sec-1: #414938;
-  --sec-2: #e4e7db;
+  --sec-1: #293236;
+  --sec-2: #e4e9e6;
   --sec-3: #d5dac9;
   --sec-4: #eceee7;
-  --sec-5: #414938;
+  --sec-5: #293236;
   --sec-6: #d1d7c5;
   --sec-7: #8d9788;
   --sec-8: #dce0d2;
@@ -55,7 +55,7 @@
   --sec-31: #6e7a70;
   --sec-32: #4a5853;
   --sec-33: #3e4a40;
-  --sec-34: #414938;
+  --sec-34: #293236;
   --sec-35: rgba(233,235,227,0.0700000003);
   --sec-36: rgba(233,235,227,0.150000006);
   --sec-37: rgba(233,235,227,0.300000012);
@@ -178,7 +178,7 @@
   --sec-183: #e8eae1;
   --sec-184: #525f59;
   --sec-189: #dbe0d1;
-  --sec-191: #41493815;
+  --sec-191: #29323615;
   --sec-196: #959f8f;
   --sec-197: #3e4c49;
   --sec-199: #dadfd0;
@@ -189,18 +189,18 @@
   --sec-204: #b1baa5;
   --sec-205: #616d65;
   --sec-206: #dadfd0;
-  --sec-207: #41493814;
+  --sec-207: #29323614;
   --sec-208: #414939;
   --sec-209: #3d4b48;
   --sec-210: #626f66;
   --sec-211: #a8b19e;
-  --sec-212: #414938;
+  --sec-212: #293236;
   --sec-213: #e6e9de;
   --sec-214: #d1d7c5;
   --sec-215: #abb5a1;
   --sec-216: #c6cdb8;
   --sec-217: #edefe9;
   --sec-218: #40493b;
-  --sec-219: #e7eae0;
+  --sec-219: #e4e9e6;
   --sec-220: #cdd3c0;
 }

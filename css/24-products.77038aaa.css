@@ -2,10 +2,10 @@
 /* products-e6637aa8.css [feed only] */
 
 main#main-content.fp108 {
-  --fp-ground: var(--fd-oat,#e7eae0);
+  --fp-ground: var(--fd-oat,#e4e9e6);
   --fp-paper: var(--fd-white,#eeefea);
-  --fp-roast: var(--fd-dark,#40493a);
-  --fp-ink: var(--fd-ink,#414938);
+  --fp-roast: var(--fd-dark,#293236);
+  --fp-ink: var(--fd-ink,#293236);
   --fp-muted: var(--fd-muted,#485651);
   --fp-line: var(--fd-rule,#cdd3c0);
   color: var(--fp-ink);
@@ -442,13 +442,13 @@ main#main-content.fp108 .fp-depth {
 }
 
 main#main-content.fp108 .fp-depth .fp-prose {
-  color: #e4e7db;
+  color: #e4e9e6;
 }
 
 main#main-content.fp108 .fp-depth .fp-table-scroll {
   --fp-line: #69756c;
   --fp-muted: #dee2d4;
-  --fp-ground: #40493a;
+  --fp-ground: #293236;
 }
 
 main#main-content.fp108 .fp-depth a:focus-visible,

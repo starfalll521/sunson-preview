@@ -1,0 +1,71 @@
+/* v219 company facts strip. Scoped to the company page; uses the page's own width and colour tokens
+   (--ed-ink / --ed-muted / --ed-line / --ed-accent, defined on body:has(#main-content.co110) in 20-company). */
+#main-content.co110 .co-facts {
+  width: calc(100% - var(--co-gutter, 24px)*2);
+  max-width: calc(1440px - var(--co-gutter, 24px)*2);
+  margin: 0 auto 8px;
+  padding-block: 8px 28px;
+}
+#main-content.co110 .co-facts .co-wrap {
+  width: 100%;
+  max-width: none;
+  padding-inline: 0;
+}
+#main-content.co110 .co-facts-title {
+  margin: 0 0 20px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--ed-muted, #3c4a47);
+}
+#main-content.co110 .co-facts-list {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0;
+  border-top: 1px solid var(--ed-line, #cad4d0);
+}
+/* Short rust rule: the same accent the page's section headings carry. */
+#main-content.co110 .co-facts-list::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -1px;
+  width: 48px;
+  height: 2px;
+  background: var(--ed-accent, #a74732);
+}
+#main-content.co110 .co-facts-list > div {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  gap: 6px;
+  padding: 24px 24px 24px 0;
+  border-bottom: 1px solid var(--ed-line, #cad4d0);
+}
+#main-content.co110 .co-facts-list dd {
+  margin: 0;
+  font-size: clamp(36px, 4.6vw, 60px);
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: -.02em;
+  color: var(--ed-ink, #293236);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+#main-content.co110 .co-facts-list dt {
+  max-width: 24ch;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--ed-muted, #3c4a47);
+}
+#main-content.co110 .co-facts-note {
+  margin: 14px 0 0;
+  font-size: 13px;
+  color: var(--ed-muted, #3c4a47);
+  max-width: none;
+}
+@media (max-width: 767px) {
+  #main-content.co110 .co-facts-list { grid-template-columns: repeat(2, 1fr); }
+  #main-content.co110 .co-facts-list > div { padding: 18px 14px 18px 0; }
+}
