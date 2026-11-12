@@ -2,12 +2,12 @@
 /* value-page-v96-dd4c736f.css [corporate only] */
 
 body.value-page {
-  --vp-paper: #e2e7e3;
-  --vp-pale: #e9ece8;
+  --vp-paper: #ebf0f4;
+  --vp-pale: #e6ecf0;
   --vp-navy: #293236;
   --vp-ink: #263236;
-  --vp-muted: #43514e;
-  --vp-line: #c1cdc8;
+  --vp-muted: #415057;
+  --vp-line: #bfccd4;
   background: var(--vp-paper);
   font-size: 16px;
   line-height: 1.75;
@@ -62,7 +62,7 @@ body.value-page {
   min-height: 580px;
   display: flex;
   align-items: center;
-  background: #e3e8e4;
+  background: #e1e8ec;
 }
 
 .vp-hero-image {
@@ -80,7 +80,7 @@ body.value-page {
   position: absolute;
   z-index: -1;
   inset: 0;
-  background: linear-gradient(90deg,#e4e9e5 0%,#e4e9e5f0 31%,#e4e9e5b8 47%,#f0efe900 71%);
+  background: linear-gradient(90deg,#ebf0f4 0%,#e4e9e5f0 31%,#e4e9e5b8 47%,#f0efe900 71%);
 }
 
 .vp-hero-content {
@@ -186,15 +186,15 @@ body.value-page {
 
 .vp-dark {
   background: var(--vp-navy);
-  color: #e8ebe7;
+  color: #e5ebef;
 }
 
 .vp-dark p {
-  color: #dee4e0;
+  color: #dce4e8;
 }
 
 .vp-dark a:hover {
-  color: #f0f1ed;
+  color: #f3f6f8;
 }
 
 .vp-mechanism {
@@ -207,8 +207,8 @@ body.value-page {
 
 .vp-reaction {
   padding: 29px 0 16px;
-  border-top: 1px solid #84928e;
-  border-bottom: 1px solid #84928e;
+  border-top: 1px solid #819199;
+  border-bottom: 1px solid #819199;
 }
 
 .vp-reaction svg {
@@ -220,29 +220,29 @@ body.value-page {
 
 .vp-reaction svg text {
   font: 15px Manrope,Arial,sans-serif;
-  fill: #e8ebe7;
+  fill: #e5ebef;
   stroke: none;
   letter-spacing: 0;
 }
 
 .vp-reaction svg .vp-caption {
   font-size: 12px;
-  fill: #c7d2ce;
+  fill: #c6d1d9;
 }
 
 .vp-reaction svg .vp-link-bond {
-  stroke: #a9b7b2;
+  stroke: #a6b6be;
   stroke-width: 2;
 }
 
 .vp-reaction svg .vp-unit {
   fill: #273337;
-  stroke: #c8d2ce;
+  stroke: #c6d1d8;
 }
 
 .vp-reaction svg .vp-enzyme {
-  fill: #cfd8d4;
-  stroke: #cfd8d4;
+  fill: #cdd7de;
+  stroke: #cdd7de;
 }
 
 .vp-reaction svg .vp-reaction-mark {
@@ -251,12 +251,12 @@ body.value-page {
 }
 
 .vp-reaction svg .vp-reaction-arrow {
-  stroke: #9fada8;
+  stroke: #9cacb4;
 }
 
 .vp-reaction figcaption {
   font-size: 12px;
-  color: #c9d4cf;
+  color: #c7d3db;
   margin-top: 16px;
   max-width: 62ch;
 }
@@ -271,7 +271,7 @@ body.value-page {
 
 .vp-reaction-control span {
   font-size: 12px;
-  color: #c9d4cf;
+  color: #c7d3db;
 }
 
 .vp-replay {
@@ -280,7 +280,7 @@ body.value-page {
   display: inline-flex;
   gap: 11px;
   align-items: center;
-  border-bottom: 1px solid #97a5a1;
+  border-bottom: 1px solid #94a4ac;
 }
 
 .vp-replay svg {
@@ -300,7 +300,7 @@ body.value-page {
 
 .vp-mechanism-examples h3 {
   font-size: 19px;
-  color: #f0f1ed;
+  color: #f3f6f8;
 }
 
 .vp-mechanism-examples p {
@@ -339,7 +339,7 @@ body.value-page {
   counter-increment: process;
   position: relative;
   padding: 25px 20px 0 0;
-  border-top: 1px solid #82908c;
+  border-top: 1px solid #7f8f97;
 }
 
 .vp-process li:before {
@@ -444,7 +444,7 @@ body.value-page {
 .vp-table-scroll {
   overflow: auto;
   max-width: 100%;
-  scrollbar-color: #7c8a86 var(--vp-paper);
+  scrollbar-color: #798991 var(--vp-paper);
 }
 
 .vp-measures {
@@ -495,7 +495,7 @@ body.value-page {
 }
 
 .vp-conditions-section {
-  background: #dae1dd;
+  background: #d8e0e6;
 }
 
 .vp-conditions {
@@ -507,7 +507,7 @@ body.value-page {
 
 .vp-conditions>div {
   padding-top: 21px;
-  border-top: 1px solid #98a6a2;
+  border-top: 1px solid #95a5ad;
 }
 
 .vp-conditions dt {
@@ -529,7 +529,7 @@ body.value-page {
   gap: 85px;
   margin-top: 34px;
   padding-top: 25px;
-  border-top: 1px solid #98a6a2;
+  border-top: 1px solid #95a5ad;
 }
 
 .vp-conditions-bottom p {
@@ -538,7 +538,7 @@ body.value-page {
 
 .vp-company-section {
   background: var(--vp-navy);
-  color: #e8ebe7;
+  color: #e5ebef;
 }
 
 .vp-company-layout {
@@ -554,7 +554,7 @@ body.value-page {
 
 .vp-company-copy p {
   font-size: 15px;
-  color: #dee4e0;
+  color: #dce4e8;
 }
 
 .vp-company-photo img {
@@ -567,7 +567,7 @@ body.value-page {
 .vp-company-photo figcaption {
   font-size: 12px;
   line-height: 1.8;
-  color: #c7d2cd;
+  color: #c5d1d9;
   margin-top: 13px;
 }
 
@@ -575,7 +575,7 @@ body.value-page {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
-  border-top: 1px solid #74827e;
+  border-top: 1px solid #718189;
   padding-top: 28px;
   margin-top: 38px;
 }
@@ -587,11 +587,11 @@ body.value-page {
 .vp-evidence p {
   font-size: 13px;
   margin-top: 15px;
-  color: #dee4e0;
+  color: #dce4e8;
 }
 
 .vp-evidence .vp-inline-link {
-  color: #e3e8e4;
+  color: #e1e8ec;
   font-size: 12px;
 }
 
@@ -671,11 +671,11 @@ body.value-page {
 
 .value-page .vp-dark :focus-visible,
 .value-page .vp-company-section :focus-visible {
-  outline-color: #ced7d3;
+  outline-color: #ccd6dd;
 }
 
 .value-page ::selection {
-  background: #ced7d3;
+  background: #ccd6dd;
   color: #293236;
 }
 
@@ -689,7 +689,7 @@ body.value-page {
 
 .value-page .vp-dark .vp-inline-link:hover,
 .value-page .vp-company-section .vp-inline-link:hover {
-  color: #f0f1ed;
+  color: #f3f6f8;
 }
 
 @keyframes vp-bond-highlight {
@@ -764,7 +764,7 @@ body.value-page {
     object-position: 70% 58%;
   }
   .vp-hero:before {
-    background: linear-gradient(90deg,#e4e9e5 0%,#e4e9e5e8 34%,#e4e9e570 49%,#f0efe900 67%);
+    background: linear-gradient(90deg,#ebf0f4 0%,#e4e9e5e8 34%,#e4e9e570 49%,#f0efe900 67%);
   }
 }
 
@@ -825,7 +825,7 @@ body.value-page {
     opacity: .52;
   }
   .vp-hero:before {
-    background: linear-gradient(90deg,#e4e9e5 0%,#e4e9e5f0 45%,#e4e9e580 76%,#e4e9e540 100%);
+    background: linear-gradient(90deg,#ebf0f4 0%,#e4e9e5f0 45%,#e4e9e580 76%,#e4e9e540 100%);
   }
   .value-page main h1 {
     font-size: 49px;
@@ -912,7 +912,7 @@ body.value-page {
     pointer-events: none;
     inset: auto 0 216px;
     height: 90px;
-    background: linear-gradient(#e3e8e4,#efeee700);
+    background: linear-gradient(#e1e8ec,#efeee700);
   }
   .vp-hero-content {
     padding-block: 31px 285px;
@@ -1016,7 +1016,7 @@ body.value-page {
   }
   .vp-process li {
     border-top: 0;
-    border-left: 1px solid #82908c;
+    border-left: 1px solid #7f8f97;
     padding: 0 0 29px 27px;
     min-height: 0;
     margin-left: 4px;

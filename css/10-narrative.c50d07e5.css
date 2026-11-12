@@ -2,8 +2,8 @@
 /* narrative-bb905079.css [corporate only] */
 
 :root {
-  --rose: #e3e8e4;
-  --rose-deep: #d4ddd8;
+  --rose: #e1e8ec;
+  --rose-deep: #d2dce3;
   --wine: #324040;
   --footer: #283236;
   --wrap: 1224px;
@@ -68,7 +68,7 @@ figure {
 }
 
 * {
-  scrollbar-color: #667470 #e2e7e3;
+  scrollbar-color: #63737b #ebf0f4;
 }
 
 section[id] {
@@ -112,7 +112,7 @@ section[id] {
 }
 
 .button:hover {
-  background: #c7d2cd;
+  background: #c5d1d9;
 }
 
 .site-header {
@@ -151,11 +151,11 @@ section[id] {
 }
 
 footer :focus-visible {
-  outline-color: #ccd6d1;
+  outline-color: #cad5dd;
 }
 
 .media {
-  background: #d6deda;
+  background: #d4dde3;
   aspect-ratio: 3/2;
   position: relative;
   border-radius: 8px 0 8px 0;
@@ -178,7 +178,7 @@ footer :focus-visible {
 .slide {
   min-height: 460px;
   position: relative;
-  background: #dbe2de;
+  background: #d9e1e7;
   border-radius: 12px 0 12px 0;
   padding: 64px;
   display: flex;
@@ -187,15 +187,15 @@ footer :focus-visible {
 }
 
 .slide:nth-child(2) {
-  background: #d7deda;
+  background: #d5dde3;
 }
 
 .slide:nth-child(3) {
-  background: #d9e0dc;
+  background: #d7dfe5;
 }
 
 .slide:nth-child(4) {
-  background: #d4dcd8;
+  background: #d2dbe1;
 }
 
 .slide[hidden] {
@@ -587,7 +587,7 @@ footer {
   position: fixed;
   left: 16px;
   top: -100px;
-  background: #f0f1ed;
+  background: #f3f6f8;
   padding: 12px;
   z-index: 5;
 }
@@ -667,7 +667,7 @@ footer {
 /* journey-shell-4ae489eb.css [corporate only] */
 
 :root {
-  --soft: #e3e8e4;
+  --soft: #e1e8ec;
   --accent: #324040;
 }
 

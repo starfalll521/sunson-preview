@@ -101,7 +101,7 @@ body.bio-home-landscape.bio-home-bold.selected-middle-a #hero .hero-copy .action
 body.bio-home-landscape.bio-home-bold.selected-middle-a .np-header .np-contact {
   background: var(--home-oxide);
   border-color: var(--home-oxide);
-  color: #F6F5F0;
+  color: #f1f6f9;
 }
 
 body.bio-home-landscape.bio-home-bold.selected-middle-a #conversation button[type=submit]:hover,
@@ -109,7 +109,7 @@ body.bio-home-landscape.bio-home-bold.selected-middle-a #hero .hero-copy .action
 body.bio-home-landscape.bio-home-bold.selected-middle-a .np-header .np-contact:hover {
   background: #8D3D2B;
   border-color: #8D3D2B;
-  color: #F6F5F0;
+  color: #f1f6f9;
 }
 
 body.bio-home-landscape.bio-home-bold.selected-middle-a ::selection {

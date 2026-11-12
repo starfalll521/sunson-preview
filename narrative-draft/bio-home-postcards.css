@@ -3,7 +3,7 @@ body.bio-home-landscape.bio-home-bold #work-and-perspectives .editorial-pair{gri
 body.bio-home-landscape.bio-home-bold #work-and-perspectives .research-story,
 body.bio-home-landscape.bio-home-bold #work-and-perspectives .standards-story{display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:0;min-width:0;min-height:0;padding:0;border:0;box-shadow:none;overflow:visible;isolation:isolate}
 body.bio-home-landscape.bio-home-bold #work-and-perspectives .research-story{margin:0;background:var(--forest);color:var(--paper);border-radius:32px 4px 32px 4px}
-body.bio-home-landscape.bio-home-bold #work-and-perspectives .standards-story{margin:32px 0 0;background:#e5eddb;color:var(--forest);border-radius:4px 32px 4px 32px}
+body.bio-home-landscape.bio-home-bold #work-and-perspectives .standards-story{margin:32px 0 0;background:#e3ebf0;color:var(--forest);border-radius:4px 32px 4px 32px}
 body.bio-home-landscape.bio-home-bold #work-and-perspectives .standards-story>*{grid-column:auto;grid-row:auto}
 body.bio-home-landscape.bio-home-bold #work-and-perspectives .evidence-cover{position:relative;flex:none;height:228px;margin:0;padding:0;min-width:0}
 body.bio-home-landscape.bio-home-bold #work-and-perspectives .cover-image-window{height:100%;overflow:hidden;clip-path:polygon(0 0,100% 0,100% 78%,0 100%);border-radius:32px 4px 0 0}

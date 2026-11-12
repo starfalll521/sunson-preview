@@ -1,0 +1,134 @@
+/* v220: package figure (SFQ-081), feed addition-rate table, licence list. Square corners throughout. */
+
+/* SFQ-081(100) packaging inside the product-information card */
+.v220-pack {
+  margin: 24px 0 0;
+  padding: 20px 20px 16px;
+  max-width: 260px;
+  border: 1px solid rgba(41, 50, 54, .18);
+  border-radius: 0;
+  background: #ebf0f4;
+}
+
+.v220-pack img {
+  display: block;
+  width: 100%;
+  max-width: 190px;
+  height: auto;
+  margin-inline: auto;
+  border-radius: 0;
+}
+
+main#main-content.fp108 .v220-pack figcaption {
+  margin: 14px 0 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #435055;
+}
+
+/* Feed hub: compound references by addition rate */
+.industry-v99 .v220-rates .v220-scroll {
+  max-width: 100%;
+  margin-top: 28px;
+  overflow-x: auto;
+}
+
+.industry-v99 .v220-rates table {
+  width: 100%;
+  min-width: 0;
+  border-collapse: collapse;
+  border-top: 1px solid rgba(41, 50, 54, .28);
+  font-variant-numeric: tabular-nums;
+}
+
+.industry-v99 .v220-rates th,
+.industry-v99 .v220-rates td {
+  padding: 20px 22px 20px 0;
+  text-align: left;
+  vertical-align: top;
+  border: 0;
+  border-bottom: 1px solid rgba(41, 50, 54, .18);
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: 400;
+  overflow-wrap: break-word;
+}
+
+.industry-v99 .v220-rates thead th {
+  padding-block: 14px 12px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #435055;
+}
+
+.industry-v99 .v220-rates tbody th {
+  width: 58%;
+  font-weight: 600;
+  color: #293236;
+}
+
+.industry-v99 .v220-rates td strong {
+  font-size: 22px;
+  line-height: 1.3;
+  font-weight: 600;
+  color: #293236;
+}
+
+.industry-v99 .v220-rates .v220-note {
+  margin: 18px 0 0;
+  max-width: 62ch;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #435055;
+}
+
+/* Manufacturing & quality: licences held */
+.v220-licence-block {
+  margin-top: 40px;
+}
+
+.v220-licence-block h3 {
+  margin: 0 0 12px;
+}
+
+.v220-licence-block > p {
+  margin: 0;
+}
+
+.v220-licences {
+  margin: 22px 0 0;
+  padding: 0;
+  border-top: 1px solid rgba(41, 50, 54, .28);
+}
+
+.v220-licences > div {
+  display: grid;
+  grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr);
+  gap: 6px 32px;
+  padding: 18px 0;
+  border-bottom: 1px solid rgba(41, 50, 54, .18);
+}
+
+.v220-licences dt {
+  font-weight: 600;
+  color: #293236;
+}
+
+.v220-licences dd {
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .v220-licences > div {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .industry-v99 .v220-rates th,
+  .industry-v99 .v220-rates td {
+    padding-right: 14px;
+  }
+
+  .industry-v99 .v220-rates tbody th {
+    width: 52%;
+  }
+}

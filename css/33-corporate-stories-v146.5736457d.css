@@ -2,16 +2,16 @@
 /* brand/corporate-stories-v146.css */
 
 .corporate-story-v146 {
-  --cs-paper: #F3F6F8;
-  --cs-frost: #EBF0F4;
-  --cs-mist: #DFE7EC;
-  --cs-steel: #B8C8D3;
-  --cs-carbon: #293236;
-  --cs-ink: #263236;
-  --cs-body: #425460;
+  --cs-paper: #f7f6f3;
+  --cs-frost: #f1efeb;
+  --cs-mist: #e8e5e1;
+  --cs-steel: #c9c5be;
+  --cs-carbon: #2c3137;
+  --cs-ink: #2b3037;
+  --cs-body: #4c5259;
   --cs-accent: #A74732;
-  --cs-rule: rgba(38,50,54,.22);
-  --cs-light-rule: rgba(223,231,236,.28);
+  --cs-rule: rgba(43, 48, 55,.22);
+  --cs-light-rule: rgba(232, 229, 225,.28);
   width: 100%;
   max-width: none;
   margin: 0;
@@ -152,7 +152,7 @@
   inset: auto 0 0;
   padding: 34px 22px 17px;
   color: var(--cs-paper);
-  background: linear-gradient(transparent,rgba(38,50,54,.88));
+  background: linear-gradient(transparent,rgba(43, 48, 55,.88));
 }
 
 .corporate-story-v146 .cs-photo-notes {

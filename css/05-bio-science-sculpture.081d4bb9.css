@@ -22,7 +22,7 @@
   border: 0;
   border-radius: 0;
   background: transparent;
-  color: var(--field-ink,#dee4e0);
+  color: var(--field-ink,#dce4e8);
   font: inherit;
   font-size: 12px;
   line-height: 1.3;
@@ -33,11 +33,11 @@
 
 [data-science-field] .science-vector-controls button:hover {
   text-decoration: underline;
-  color: #c5d0cb;
+  color: #c3cfd7;
 }
 
 [data-science-field] .science-vector-controls button:focus-visible {
-  outline: 2px solid #c5d0cb;
+  outline: 2px solid #c3cfd7;
   outline-offset: 4px;
 }
 
@@ -135,7 +135,7 @@ body.bio-home-landscape.bio-home-bold #research-in-view .everyday-tabs button[ar
 }
 
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-tabs button:hover:not([aria-selected=true]) {
-  background: #d9e0dc;
+  background: #d7dfe5;
 }
 
 body.bio-home-landscape.bio-home-bold #research-in-view .everyday-tabs button:focus-visible {
@@ -154,7 +154,7 @@ body.bio-home-landscape.bio-home-bold #research-in-view .everyday-panel {
   align-items: center;
   min-height: 510px;
   overflow: hidden;
-  background: #e4e8e4;
+  background: #e2e8ec;
   isolation: isolate;
   outline-offset: 5px;
 }
@@ -223,7 +223,7 @@ body.bio-home-landscape.bio-home-bold #research-in-view .everyday-copy .reading-
   font-size: 13px;
   min-height: 44px;
   white-space: normal;
-  background: var(--lime,#aab8b4);
+  background: var(--lime,#a7b7bf);
   color: var(--forest);
   border-color: transparent;
 }
@@ -397,9 +397,9 @@ body.bio-home-landscape.bio-home-bold #research-in-view .everyday-caption .media
 /* bio-science-atlas-046be08c.css [corporate only] */
 
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas {
-  --atlas-paper: #f0f1ed;
-  --atlas-soft: #d0d9d5;
-  --atlas-accent: #c1cdc8;
+  --atlas-paper: #f3f6f8;
+  --atlas-soft: #ced8df;
+  --atlas-accent: #bfccd4;
   background: #293236;
   padding-block: 76px 72px;
   color: var(--atlas-paper);
@@ -516,7 +516,7 @@ body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-
 }
 
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-tabs button[aria-selected=true]:hover {
-  background: #cfd8d4;
+  background: #cdd7de;
   color: #293236;
 }
 
@@ -678,12 +678,12 @@ body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-
   font-size: 12px;
   line-height: 1.6;
   margin-top: 3px;
-  color: #bfcbc7;
+  color: #becad2;
 }
 
 body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-legend .science-legend-caption {
   margin-top: 12px;
-  color: #a9b7b3;
+  color: #a6b6be;
   font-size: 11px;
 }
 
@@ -999,7 +999,7 @@ body.bio-home-landscape.bio-home-bold #enzyme-innovation .research-connection p 
   font-size: 14px;
   line-height: 1.8;
   max-width: 48ch;
-  color: #dae1dd;
+  color: #d8e0e6;
 }
 
 body.bio-home-landscape.bio-home-bold #work-and-perspectives {
@@ -1054,7 +1054,7 @@ body.bio-home-landscape.bio-home-bold #work-and-perspectives .media-info-content
   box-sizing: border-box;
   background: var(--paper);
   color: var(--forest);
-  border: 1px solid #899793;
+  border: 1px solid #86969e;
   border-radius: 8px;
   font-size: 12px;
   line-height: 1.7;

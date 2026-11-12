@@ -4,7 +4,7 @@
  */
 @font-face{font-family:SunsonFooterManrope;src:url(../page-system/Manrope.ttf) format('truetype');font-style:normal;font-weight:200 800;font-display:swap}
 body>footer.sun-footer-v166.sun-footer-v168{
- --sf-background:#293236;--sf-ink:#f0f1ed;--sf-muted:#cbd5da;
+ --sf-background:#293236;--sf-ink:#f3f6f8;--sf-muted:#cbd5da;
  --sf-rule:rgb(240 241 237 / 20%);--sf-width:1224px;--sf-gutter:clamp(20px,4.4%,64px);
  box-sizing:border-box;display:block;width:100%;max-width:none;margin:0;
  padding:72px var(--sf-gutter) 28px;border:0;border-radius:0;

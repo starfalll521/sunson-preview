@@ -2,17 +2,17 @@
 /* detergent-ccb4c20b.css [detergent only] */
 
 main.industry-v99.iv-detergent {
-  --iv-navy: #254d55;
-  --iv-ink: #254d55;
-  --iv-blue: #3e4c49;
-  --iv-mist: #e4ebe9;
-  --iv-pale: #ecefec;
+  --iv-navy: #314c4d;
+  --iv-ink: #314c4d;
+  --iv-blue: #334e4f;
+  --iv-mist: #e4ebeb;
+  --iv-pale: #e9efef;
   --iv-red: #a74732;
-  --iv-muted: #3e4c49;
-  --iv-line: #b4cacb;
+  --iv-muted: #334e4f;
+  --iv-line: #bcc8c8;
   margin: 0;
   padding: 0;
-  background: #ecefec;
+  background: #e9efef;
   color: var(--iv-ink);
   font-family: Manrope,Arial,sans-serif;
 }
@@ -55,7 +55,7 @@ main.industry-v99.iv-detergent a {
 }
 
 main.industry-v99.iv-detergent a:focus-visible {
-  outline: 3px solid #3e4c49;
+  outline: 3px solid #334e4f;
   outline-offset: 5px;
 }
 
@@ -66,7 +66,7 @@ main.industry-v99.iv-detergent .iv-button {
   border-radius: 999px;
   border: 1px solid var(--iv-red);
   background: var(--iv-red);
-  color: #f0f1ed;
+  color: #f2f7f7;
   font-size: 14px;
   line-height: 1.5;
   font-weight: 650;
@@ -83,8 +83,8 @@ main.industry-v99.iv-detergent .iv-link {
   min-height: 44px;
   font-size: 14px;
   font-weight: 550;
-  color: #3e4c49;
-  text-decoration-color: #b4cacb;
+  color: #334e4f;
+  text-decoration-color: #bcc8c8;
 }
 
 main.industry-v99.iv-detergent .iv-hero {
@@ -93,8 +93,8 @@ main.industry-v99.iv-detergent .iv-hero {
   min-height: 0;
   padding: 54px 0 30px;
   overflow: visible;
-  background: #2b4c52;
-  color: #d4e1e1;
+  background: #314b4c;
+  color: #d8e0e0;
 }
 
 main.industry-v99.iv-detergent .iv-hero::before {
@@ -126,7 +126,7 @@ main.industry-v99.iv-detergent .iv-hero-copy h1 {
   line-height: 1.07;
   letter-spacing: -.045em;
   font-weight: 550;
-  color: #ecefec;
+  color: #e9efef;
   text-wrap: balance;
 }
 
@@ -138,7 +138,7 @@ main.industry-v99.iv-detergent .iv-hero-copy>p {
   padding-top: 20px;
   font-size: 17px;
   line-height: 1.8;
-  color: #d4e1e1;
+  color: #d8e0e0;
 }
 
 main.industry-v99.iv-detergent .iv-hero-copy>.iv-button {
@@ -149,7 +149,7 @@ main.industry-v99.iv-detergent .iv-hero-copy>.iv-button {
 }
 
 main.industry-v99.iv-detergent .iv-hero a:focus-visible {
-  outline-color: #ecefec;
+  outline-color: #e9efef;
 }
 
 main.industry-v99.iv-detergent .iv-scene {
@@ -187,8 +187,8 @@ main.industry-v99.iv-detergent .iv-scene>figcaption {
   max-width: none;
   margin: 0;
   padding: 13px 18px;
-  background: #254d55;
-  color: #d4e1e1;
+  background: #314c4d;
+  color: #d8e0e0;
   text-align: left;
   font-size: 11px;
   line-height: 1.6;
@@ -204,7 +204,7 @@ main.industry-v99.iv-detergent .iv-toc {
   margin-top: 26px;
   border: 0;
   border-bottom: 1px solid var(--iv-line);
-  background: #ecefec;
+  background: #e9efef;
 }
 
 main.industry-v99.iv-detergent .iv-toc a {
@@ -215,7 +215,7 @@ main.industry-v99.iv-detergent .iv-toc a {
 
 main.industry-v99.iv-detergent .iv-section {
   padding-block: 90px;
-  background: #ecefec;
+  background: #e9efef;
   border: 0;
 }
 
@@ -262,7 +262,7 @@ main.industry-v99.iv-detergent .iv-science-layout>.iv-context-art {
   margin: 0;
   padding: 23px 28px 25px;
   border: 0;
-  background: #d4e1e1;
+  background: #d8e0e0;
 }
 
 main.industry-v99.iv-detergent .iv-context-art>img {
@@ -277,10 +277,10 @@ main.industry-v99.iv-detergent .iv-context-art>figcaption {
   max-width: 57ch;
   margin-top: 21px;
   padding-top: 14px;
-  border-top: 1px solid #b4cacb;
+  border-top: 1px solid #bcc8c8;
   font-size: 11px;
   line-height: 1.7;
-  color: #3e4c49;
+  color: #334e4f;
 }
 
 main.industry-v99.iv-detergent .iv-relationship {
@@ -308,7 +308,7 @@ main.industry-v99.iv-detergent #story-1 .iv-secondary {
 
 main.industry-v99.iv-detergent #story-2 {
   padding-block: 86px 92px;
-  background: #ecefec;
+  background: #e9efef;
   color: var(--iv-ink);
 }
 
@@ -339,7 +339,7 @@ main.industry-v99.iv-detergent .iv-function-routes {
   padding: 39px 42px 37px;
   border: 0;
   background: var(--iv-navy);
-  color: #ecefec;
+  color: #e9efef;
 }
 
 main.industry-v99.iv-detergent .iv-function-routes .iv-route {
@@ -366,7 +366,7 @@ main.industry-v99.iv-detergent .iv-function-routes .iv-route h3 {
   margin: 0 0 17px;
   font-size: 24px;
   line-height: 1.32;
-  color: #ecefec;
+  color: #e9efef;
 }
 
 main.industry-v99.iv-detergent .iv-function-routes .iv-route p {
@@ -374,28 +374,28 @@ main.industry-v99.iv-detergent .iv-function-routes .iv-route p {
   margin: 0 0 18px;
   font-size: 15px;
   line-height: 1.8;
-  color: #d4e1e1;
+  color: #d8e0e0;
 }
 
 main.industry-v99.iv-detergent .iv-function-routes .iv-route>.iv-link {
   align-self: flex-start;
   margin: 0;
-  color: #ecefec;
+  color: #e9efef;
   font-size: 14px;
-  text-decoration-color: #b4cacb;
+  text-decoration-color: #bcc8c8;
 }
 
 main.industry-v99.iv-detergent .iv-function-routes .iv-route>.iv-link:hover {
-  text-decoration-color: #ecefec;
+  text-decoration-color: #e9efef;
 }
 
 main.industry-v99.iv-detergent .iv-function-routes a:focus-visible {
-  outline-color: #ecefec;
+  outline-color: #e9efef;
 }
 
 main.industry-v99.iv-detergent #story-3 {
   padding-block: 104px 86px;
-  background: #ecefec;
+  background: #e9efef;
 }
 
 main.industry-v99.iv-detergent #story-3 .iv-section-head {
@@ -433,13 +433,13 @@ main.industry-v99.iv-detergent .iv-format {
 main.industry-v99.iv-detergent .iv-format:first-child {
   position: relative;
   padding: 43px 44px 47px;
-  background: #d4e1e1;
+  background: #d8e0e0;
 }
 
 main.industry-v99.iv-detergent .iv-format:last-child {
   margin-top: 93px;
   padding-top: 27px;
-  border-top: 1px solid #b4cacb;
+  border-top: 1px solid #bcc8c8;
 }
 
 main.industry-v99.iv-detergent .iv-format h3 {
@@ -488,7 +488,7 @@ main.industry-v99.iv-detergent .iv-format dd+dt {
 
 main.industry-v99.iv-detergent .iv-format:first-child dd+dt {
   padding-top: 24px;
-  border-top: 1px solid #b4cacb;
+  border-top: 1px solid #bcc8c8;
 }
 
 main.industry-v99.iv-detergent #story-3 .iv-wrap>p {
@@ -553,7 +553,7 @@ main.industry-v99.iv-detergent .iv-secondary a {
 main.industry-v99.iv-detergent .source-review {
   padding-block: 20px;
   font-size: 12px;
-  color: #3e4c49;
+  color: #334e4f;
 }
 
 @media (max-width:1100px) {
@@ -734,7 +734,7 @@ main.industry-v99.iv-detergent .source-review {
     display: block;
     padding: 24px 0 22px;
     margin: 0;
-    border-top: 1px solid #b4cacb;
+    border-top: 1px solid #bcc8c8;
   }
   main.industry-v99.iv-detergent .iv-function-routes .iv-route:first-child {
     padding-top: 0;

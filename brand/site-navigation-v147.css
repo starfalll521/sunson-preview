@@ -2,7 +2,7 @@
  * inherited SUNSON palette; native disclosure, static text and explicit planning states.
  * No new images. Geometry follows the observed introduction / category / detail composition.
  */
-.np-header{--np-board:var(--paper,#f0f1ed);--np-board-side:color-mix(in srgb,var(--ink,#263236) 7%,var(--paper,#f0f1ed));--np-rule:color-mix(in srgb,var(--ink,#263236) 19%,transparent);--np-selection:color-mix(in srgb,var(--ink,#263236) 12%,var(--paper,#f0f1ed))}
+.np-header{--np-board:var(--paper,#f3f6f8);--np-board-side:color-mix(in srgb,var(--ink,#263236) 7%,var(--paper,#f3f6f8));--np-rule:color-mix(in srgb,var(--ink,#263236) 19%,transparent);--np-selection:color-mix(in srgb,var(--ink,#263236) 12%,var(--paper,#f3f6f8))}
 .np-header .np-panel-147{background:var(--np-board)!important;color:var(--ink,#263236);backdrop-filter:blur(10px);border-top:1px solid var(--np-rule);box-shadow:0 16px 32px #26323614}
 .np-header .np-panel-147>.np-inner{width:100%;max-width:none;padding:0;margin:0;position:relative}
 .np-header .np-panel-147 .np-close{top:12px;right:15px;z-index:3}

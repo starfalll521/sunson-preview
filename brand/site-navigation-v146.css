@@ -19,4 +19,4 @@
 @media(hover:hover){.np-header .np-direct:hover,.np-header .np-item>summary:hover{color:var(--ink,#263236);text-decoration:underline;text-underline-offset:6px}}
 .np-header :is(a,summary,button):focus-visible{outline:2px solid currentColor;outline-offset:4px;transition:none}.np-header :is(a,summary,button):active{opacity:.8}.np-header .np-utility a:focus-visible{outline-color:currentColor}
 @media(prefers-reduced-motion:reduce){.np-header *{transition:none!important;animation:none!important}}
-.cs-skip-146{position:fixed;left:18px;top:-90px;z-index:3000;padding:12px 18px;background:#263236;color:#f0f1ed}.cs-skip-146:focus{top:12px}
+.cs-skip-146{position:fixed;left:18px;top:-90px;z-index:3000;padding:12px 18px;background:#263236;color:#f3f6f8}.cs-skip-146:focus{top:12px}

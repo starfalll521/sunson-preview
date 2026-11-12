@@ -1,0 +1,58 @@
+/* v222 明暗层次：行业落地页（industry-v99）统一节奏——深色首屏 / 近白底 / 重色浅带 / 深色带 / 浅带收尾。
+   结构、字体、图片不动，只换底色与首屏文字色；每个行业一组 深/浅带/近白/反白 四色（明度同族，色相各自）。
+   对标机制：同一版式，主题只换一组深、浅、字三色，深浅交替清楚。 */
+.industry-v99.iv-feed {
+  --v-deep: #1c3324; --v-tint: #dbe8de; --v-paper: #f8faf8; --v-on: #f1f6f2; --v-on2: #c6d6ca;
+}
+.industry-v99.iv-alcohol {
+  --v-deep: #1b2b43; --v-tint: #d5e0ee; --v-paper: #f7f9fc; --v-on: #eef3f9; --v-on2: #bccadb;
+}
+.industry-v99.iv-detergent {
+  --v-deep: #1f4044; --v-tint: #d3e8e9; --v-paper: #f6fafa; --v-on: #e8f3f3; --v-on2: #b8d2d3;
+}
+
+/* 首屏：深色整幅，图片仍为直角 */
+.industry-v99 .iv-hero {
+  background: var(--v-deep) !important;
+  color: var(--v-on) !important;
+  padding-bottom: 64px !important;
+}
+.industry-v99 .iv-hero h1,
+.industry-v99 .iv-hero-copy h1 { color: var(--v-on) !important; }
+.industry-v99 .iv-hero-copy > p { color: var(--v-on2) !important; }
+.industry-v99 .iv-hero .iv-button {
+  background: transparent !important;
+  color: var(--v-on) !important;
+  border-color: rgba(238, 243, 249, .55) !important;
+}
+.industry-v99 .iv-hero .iv-button:hover,
+.industry-v99 .iv-hero .iv-button:focus-visible {
+  background: var(--v-on) !important;
+  color: var(--v-deep) !important;
+}
+.industry-v99 .iv-hero figcaption { color: var(--v-on2) !important; }
+
+/* 正文：近白底，与重色浅带交替 */
+.industry-v99 .iv-section:not(.iv-tinted):not(.iv-final) { background: var(--v-paper) !important; }
+.industry-v99 .iv-section.iv-tinted { background: var(--v-tint) !important; }
+.industry-v99 .iv-section.iv-final { background: var(--v-tint) !important; }
+
+/* 酒精与果汁（同一版式）：糖化段本来就是深色带，统一到本行业深色，其余段落保持近白与浅带 */
+.industry-v99.iv-alcohol .iv-section.iv-tinted.iv-downstream { background: var(--v-deep) !important; }
+
+/* 酒精与果汁的首屏是整幅照片：左侧遮罩由浅色改为本行业深色，文字才能用反白；图注同步为深色底 */
+.industry-v99.iv-alcohol .iv-scene:after {
+  background: linear-gradient(90deg, rgba(27, 43, 67, .97), rgba(27, 43, 67, .9) 32%, rgba(27, 43, 67, .4) 58%, transparent 76%);
+}
+.industry-v99.iv-alcohol .iv-scene figcaption {
+  color: var(--v-on2);
+  background: rgba(27, 43, 67, .82);
+}
+@media (max-width: 900px) {
+  .industry-v99.iv-alcohol .iv-scene:after {
+    background: linear-gradient(90deg, rgba(27, 43, 67, .97), rgba(27, 43, 67, .9) 40%, rgba(27, 43, 67, .45));
+  }
+}
+@media (max-width: 560px) {
+  .industry-v99.iv-alcohol .iv-scene:after { background: rgba(27, 43, 67, .88); }
+}

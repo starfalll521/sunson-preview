@@ -8,22 +8,22 @@ body .np-header {
 
 body .np-header .np-utility {
   background: #293236;
-  color: #F0F1ED;
+  color: #f3f6f8;
 }
 
 body .np-header .np-contact {
   background: #A74732;
-  color: #F6F5F0 !important;
+  color: #f1f6f9 !important;
 }
 
 body .np-header .np-contact:hover {
   background: color-mix(in srgb,#A74732 82%,#293236);
-  color: #F6F5F0 !important;
+  color: #f1f6f9 !important;
 }
 
 body .np-header .np-panel,
 body .np-header.np-mobile-open .np-links {
-  background: #DFE5E1;
+  background: #dde5e9;
   color: #263236;
 }
 
@@ -39,9 +39,9 @@ body .sunson-original-logo {
 
 body>footer {
   background: #293236;
-  color: #F0F1ED;
+  color: #f3f6f8;
 }
 
 body>footer :is(h2,h3,p,a,small) {
-  color: #F0F1ED;
+  color: #f3f6f8;
 }

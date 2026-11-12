@@ -2,12 +2,12 @@
 /* applications-de72a3e0.css [feed only] */
 
 main#main-content.fa108[data-feed-version="108"] {
-  --fa-oat: #e4e9e6;
-  --fa-paper: #eeefea;
-  --fa-roast: #293236;
-  --fa-ink: #293236;
-  --fa-muted: #485651;
-  --fa-rule: #cdd3c0;
+  --fa-oat: #edf0ed;
+  --fa-paper: #f4f6f4;
+  --fa-roast: #253429;
+  --fa-ink: #253429;
+  --fa-muted: #47574a;
+  --fa-rule: #cbd1cc;
   background: var(--fa-paper);
   color: var(--fa-ink);
   font-family: Manrope,Arial,sans-serif;
@@ -60,7 +60,7 @@ main#main-content.fa108[data-feed-version="108"] a {
 }
 
 main#main-content.fa108[data-feed-version="108"] a.fd-button--primary {
-  color: #f0f1ed;
+  color: #f4f6f4;
 }
 
 main#main-content.fa108[data-feed-version="108"] a:hover {
@@ -74,8 +74,8 @@ main#main-content.fa108[data-feed-version="108"] summary:focus-visible {
 }
 
 main#main-content.fa108[data-feed-version="108"] ::selection {
-  background: #cdd3c0;
-  color: #293236;
+  background: #cbd1cc;
+  color: #253429;
 }
 
 main#main-content.fa108[data-feed-version="108"] .fa-opening {
@@ -562,15 +562,15 @@ main#main-content.fa108[data-feed-version="108"] .fa-measures li {
 }
 
 main#main-content.fa108[data-feed-version="108"] .fa-dark {
-  --fd-ink: #eeefea;
-  --fd-muted: #dadfd0;
+  --fd-ink: #f4f6f4;
+  --fd-muted: #d8ded9;
   background: var(--fa-roast);
   color: var(--fa-paper);
   padding-block: 55px;
 }
 
 main#main-content.fa108[data-feed-version="108"] .fa-dark p {
-  color: #dadfd0;
+  color: #d8ded9;
 }
 
 main#main-content.fa108[data-feed-version="108"] .fa-dark a {

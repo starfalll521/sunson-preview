@@ -2,12 +2,12 @@
 /* common-b0784395.css [feed only] */
 
 main#main-content[data-feed-version="108"] {
-  --fd-oat: #e4e9e6;
-  --fd-white: #eeefea;
-  --fd-dark: #293236;
-  --fd-ink: #293236;
-  --fd-muted: #485651;
-  --fd-rule: #cdd3c0;
+  --fd-oat: #edf0ed;
+  --fd-white: #f4f6f4;
+  --fd-dark: #253429;
+  --fd-ink: #253429;
+  --fd-muted: #47574a;
+  --fd-rule: #cbd1cc;
   --fd-red: #a74732;
   --fd-gutter: 56px;
   color: var(--fd-ink);
@@ -100,13 +100,13 @@ main#main-content[data-feed-version="108"] .fd-button:hover {
 }
 
 main#main-content[data-feed-version="108"] .fd-button--primary {
-  color: #f0f1ed;
+  color: #f4f6f4;
   background: var(--fd-red);
   border-color: var(--fd-red);
 }
 
 main#main-content[data-feed-version="108"] .fd-button--primary:hover {
-  color: #f0f1ed;
+  color: #f4f6f4;
   background: #9e3f2a;
   border-color: #9e3f2a;
 }
@@ -139,8 +139,8 @@ main#main-content[data-feed-version="108"] figcaption {
 }
 
 main#main-content[data-feed-version="108"] ::selection {
-  background: #293236;
-  color: #eeefea;
+  background: #253429;
+  color: #f4f6f4;
 }
 
 @media (max-width:1050px) {

@@ -2,10 +2,10 @@
 /* brand/site-navigation-v147.css */
 
 .np-header {
-  --np-board: var(--paper,#f0f1ed);
-  --np-board-side: color-mix(in srgb,var(--ink,#263236) 7%,var(--paper,#f0f1ed));
+  --np-board: var(--paper,#f3f6f8);
+  --np-board-side: color-mix(in srgb,var(--ink,#263236) 7%,var(--paper,#f3f6f8));
   --np-rule: color-mix(in srgb,var(--ink,#263236) 19%,transparent);
-  --np-selection: color-mix(in srgb,var(--ink,#263236) 12%,var(--paper,#f0f1ed));
+  --np-selection: color-mix(in srgb,var(--ink,#263236) 12%,var(--paper,#f3f6f8));
 }
 
 .np-header .np-panel-147 {

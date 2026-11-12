@@ -6,7 +6,7 @@ main#main-content[data-industry-version="107"] {
   --ui-primary-hover: #9e3f2a;
   --ui-hero-ink: var(--iv-navy);
   --ui-hero-fill: var(--iv-navy);
-  --ui-hero-hover-ink: #f0f1ed;
+  --ui-hero-hover-ink: #f3f6f8;
   --ui-end-surface: var(--iv-mist);
   --ui-notes-gutter: max(56px,calc((100% - 1280px)/2));
 }
@@ -14,13 +14,13 @@ main#main-content[data-industry-version="107"] {
 main#main-content[data-industry-version="107"] .iv-button {
   background: var(--ui-primary);
   border-color: var(--ui-primary);
-  color: #f0f1ed;
+  color: #f3f6f8;
 }
 
 main#main-content[data-industry-version="107"] .iv-button:hover {
   background: var(--ui-primary-hover);
   border-color: var(--ui-primary-hover);
-  color: #f0f1ed;
+  color: #f3f6f8;
 }
 
 main#main-content[data-industry-version="107"] .iv-hero-copy .iv-button {

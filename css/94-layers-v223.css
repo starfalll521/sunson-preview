@@ -1,0 +1,60 @@
+/* v223 明暗层次（高级感版）：在v222节奏上降低彩度——深色更接近墨色，浅带带一点点主题色相的灰而不是薄荷/糖果色；
+   深色首屏加一层极淡的明度渐变与细分隔线，靠明度与细线分层，不靠颜色堆叠。
+   节奏：深色首屏 → 近白底 → 重色浅带 → 深色带 → 浅带收尾。结构、字体、直角图片不动。 */
+.industry-v99.iv-feed {
+  --v-deep: #172a1e; --v-hi: #21392a; --v-tint: #e3e9e3; --v-paper: #f6f8f6; --v-on: #eef2ee; --v-on2: #bcc8bf; --v-rgb: 23, 42, 30;
+}
+.industry-v99.iv-alcohol {
+  --v-deep: #16222f; --v-hi: #20314a; --v-tint: #dde3eb; --v-paper: #f6f7f9; --v-on: #edf1f6; --v-on2: #b8c3d0; --v-rgb: 22, 34, 47;
+}
+.industry-v99.iv-detergent {
+  --v-deep: #172f33; --v-hi: #214349; --v-tint: #dce8e9; --v-paper: #f5f8f8; --v-on: #e8f1f1; --v-on2: #b5cccd; --v-rgb: 23, 47, 51;
+}
+
+/* 首屏：深色整幅，左深右略亮的极淡渐变，底部一条细分隔线；图片仍为直角 */
+.industry-v99 .iv-hero {
+  background: linear-gradient(100deg, var(--v-deep) 0%, var(--v-deep) 38%, var(--v-hi) 100%) !important;
+  color: var(--v-on) !important;
+  padding-bottom: 64px !important;
+  border-bottom: 1px solid rgba(238, 243, 246, .10);
+}
+.industry-v99 .iv-hero h1,
+.industry-v99 .iv-hero-copy h1 { color: var(--v-on) !important; }
+.industry-v99 .iv-hero-copy > p { color: var(--v-on2) !important; }
+.industry-v99 .iv-hero .iv-button {
+  background: transparent !important;
+  color: var(--v-on) !important;
+  border-color: rgba(238, 243, 246, .5) !important;
+}
+.industry-v99 .iv-hero .iv-button:hover,
+.industry-v99 .iv-hero .iv-button:focus-visible {
+  background: var(--v-on) !important;
+  color: var(--v-deep) !important;
+}
+.industry-v99 .iv-hero figcaption { color: var(--v-on2) !important; }
+
+/* 正文：近白底，与浅带交替 */
+.industry-v99 .iv-section:not(.iv-tinted):not(.iv-final) { background: var(--v-paper) !important; }
+.industry-v99 .iv-section.iv-tinted { background: var(--v-tint) !important; }
+.industry-v99 .iv-section.iv-final { background: var(--v-tint) !important; }
+
+/* 酒精与果汁：糖化段本来就是深色带，统一到本行业深色 */
+.industry-v99.iv-alcohol .iv-section.iv-tinted.iv-downstream { background: var(--v-deep) !important; }
+
+/* 酒精与果汁的首屏是整幅照片：遮罩由浅色改为本行业深色，反白字才看得清；图注同步深色底 */
+.industry-v99.iv-alcohol .iv-hero { background: var(--v-deep) !important; }
+.industry-v99.iv-alcohol .iv-scene:after {
+  background: linear-gradient(90deg, rgba(var(--v-rgb), .97), rgba(var(--v-rgb), .9) 32%, rgba(var(--v-rgb), .4) 58%, transparent 76%);
+}
+.industry-v99.iv-alcohol .iv-scene figcaption {
+  color: var(--v-on2);
+  background: rgba(var(--v-rgb), .82);
+}
+@media (max-width: 900px) {
+  .industry-v99.iv-alcohol .iv-scene:after {
+    background: linear-gradient(90deg, rgba(var(--v-rgb), .97), rgba(var(--v-rgb), .9) 40%, rgba(var(--v-rgb), .45));
+  }
+}
+@media (max-width: 560px) {
+  .industry-v99.iv-alcohol .iv-scene:after { background: rgba(var(--v-rgb), .88); }
+}

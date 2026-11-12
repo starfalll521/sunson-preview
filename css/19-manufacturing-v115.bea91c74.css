@@ -2,12 +2,12 @@
 /* manufacturing-v115-81f56151.css [corporate only] */
 
 .bio-inner .mq110 {
-  --mq-charcoal: #293236;
-  --mq-ink: #263236;
-  --mq-ice: #dfe5e1;
+  --mq-charcoal: #2c3137;
+  --mq-ink: #2b3037;
+  --mq-ice: #e6e3df;
   --mq-blue: #a74732;
   --mq-gutter: 56px;
-  background: #f0f1ed;
+  background: #f7f6f3;
   color: var(--mq-ink);
   font-family: Manrope,Arial,sans-serif;
 }
@@ -57,7 +57,7 @@
 }
 
 .bio-inner .mq110 a:hover {
-  color: #293236;
+  color: #2c3137;
 }
 
 .bio-inner .mq110 a:focus-visible,
@@ -73,7 +73,7 @@
 .bio-inner .mq110>.mq-hero {
   padding: 52px 0;
   background: var(--mq-charcoal);
-  color: #f0f1ed;
+  color: #f7f6f3;
 }
 
 .bio-inner .mq110 .mq-hero-grid {
@@ -95,13 +95,13 @@
   letter-spacing: -.042em;
   max-width: 20ch;
   margin-bottom: 26px;
-  color: #f0f1ed;
+  color: #f7f6f3;
 }
 
 .bio-inner .mq110 .mq-hero-copy>p {
   font-size: 17px;
   line-height: 1.7;
-  color: #f0f1ed;
+  color: #f7f6f3;
   max-width: 55ch;
 }
 
@@ -116,7 +116,7 @@
 .bio-inner .mq110 .mq-action,
 .bio-inner .mq110 .mq-hero-actions>a:first-child {
   background: #a74732;
-  color: #f0f1ed;
+  color: #f7f6f3;
   font-size: 14px;
   line-height: 1.5;
   font-weight: 650;
@@ -134,7 +134,7 @@
 .bio-inner .mq110 .mq-action:hover,
 .bio-inner .mq110 .mq-hero-actions>a:first-child:hover {
   background: #9c3d28;
-  color: #f0f1ed;
+  color: #f7f6f3;
 }
 
 .bio-inner .mq110 .mq-hero-actions>a:last-child {
@@ -142,7 +142,7 @@
   align-items: center;
   min-height: 48px;
   background: transparent;
-  color: #f0f1ed;
+  color: #f7f6f3;
   border: 0;
   border-radius: 0;
   padding: 10px 0;
@@ -154,7 +154,7 @@
 }
 
 .bio-inner .mq110 .mq-hero-actions a:focus-visible {
-  outline-color: #e2e7e3;
+  outline-color: #f1efeb;
 }
 
 .bio-inner .mq110 .mq-photo {
@@ -162,7 +162,7 @@
   flex-direction: column;
   min-width: 0;
   overflow: hidden;
-  background: #dfe5e1;
+  background: #e6e3df;
   border-radius: 0;
 }
 
@@ -200,7 +200,7 @@
 }
 
 .bio-inner .mq110 .mq-hero-photo figcaption {
-  color: #e2e7e3;
+  color: #f1efeb;
   font-size: 13px;
   padding-top: 12px;
   flex: 0 0 auto;
@@ -212,7 +212,7 @@
   z-index: 25;
   display: block;
   padding: 0 var(--mq-gutter);
-  background: #dfe5e1;
+  background: #e6e3df;
   border: 0;
   overflow: visible;
 }
@@ -240,7 +240,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #263236;
+  color: #2b3037;
   min-width: 0;
   max-width: none;
   min-height: 62px;
@@ -255,13 +255,13 @@
 
 .bio-inner .mq110>.sun-topic-nav .sun-topic-links a:hover,
 .bio-inner .mq110>.sun-topic-nav .sun-topic-links a[aria-current="location"] {
-  background: #ced7d3;
-  color: #293236;
+  background: #d7d3ce;
+  color: #2c3137;
 }
 
 .bio-inner .mq110>.mq-stages {
   padding: 78px 0 80px;
-  background: #f0f1ed;
+  background: #f7f6f3;
 }
 
 .bio-inner .mq110 .mq-section-intro {
@@ -280,7 +280,7 @@
 .bio-inner .mq110 .editorial-production-study {
   padding: 24px 28px 18px;
   margin: 0;
-  background: #dfe5e1;
+  background: #e6e3df;
   grid-column: auto;
   min-width: 0;
 }
@@ -346,13 +346,13 @@
   border: 0;
   margin-top: 18px;
   padding: 0;
-  color: #263236;
+  color: #2b3037;
 }
 
 .bio-inner .mq110 .editorial-production-study figcaption span {
   font-size: 13px;
   line-height: 1.5;
-  color: #3c4a47;
+  color: #41474e;
 }
 
 .bio-inner .mq110 .mq-production-pair {
@@ -378,7 +378,7 @@
 
 .bio-inner .mq110>.mq-scope {
   padding: 76px 0 80px;
-  background: #dfe5e1;
+  background: #e6e3df;
 }
 
 .bio-inner .mq110 .mq-scope-principle p {
@@ -393,7 +393,7 @@
   text-align: left;
   font-size: 15px;
   line-height: 1.6;
-  color: #263236;
+  color: #2b3037;
 }
 
 .bio-inner .mq110 caption {
@@ -411,7 +411,7 @@
   padding: 17px 14px 17px 0;
   vertical-align: top;
   border: 0;
-  border-top: 1px solid #b4c2bd;
+  border-top: 1px solid #c3beb7;
   font-size: 15px;
   line-height: 1.65;
 }
@@ -430,7 +430,7 @@
 
 .bio-inner .mq110>.mq-requirements {
   padding: 78px 0;
-  background: #f0f1ed;
+  background: #f7f6f3;
 }
 
 .bio-inner .mq110 .mq-requirements-grid {
@@ -477,8 +477,8 @@
 
 .bio-inner .mq110>.mq-next {
   padding: 66px 0 68px;
-  background: #293236;
-  color: #f0f1ed;
+  background: #2c3137;
+  color: #f7f6f3;
 }
 
 .bio-inner .mq110 .mq-next-grid {
@@ -497,7 +497,7 @@
 
 .bio-inner .mq110 .mq-next p {
   font-size: 17px;
-  color: #f0f1ed;
+  color: #f7f6f3;
 }
 
 .bio-inner .mq110 .mq-next-actions .source-link-list {
@@ -509,21 +509,21 @@
 }
 
 .bio-inner .mq110 .mq-next a {
-  color: #f0f1ed;
+  color: #f7f6f3;
 }
 
 .bio-inner .mq110 .mq-next a:hover {
-  color: #ced7d3;
+  color: #d7d3ce;
 }
 
 .bio-inner .mq110 .mq-next a:focus-visible {
-  outline-color: #e2e7e3;
+  outline-color: #f1efeb;
 }
 
 .bio-inner .mq110 .mq-next .source-link-list>a:first-child {
   padding: 13px 24px;
   background: #a74732;
-  color: #f0f1ed;
+  color: #f7f6f3;
   border-radius: 3px;
   text-decoration: none;
   font-weight: 650;
@@ -543,7 +543,7 @@
 .bio-inner .mq110 .source-task-route>p {
   font-size: 13px;
   margin: 0 0 5px;
-  color: #ced7d3;
+  color: #d7d3ce;
 }
 
 .bio-inner .mq110 .source-route-links {

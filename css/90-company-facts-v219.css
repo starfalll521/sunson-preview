@@ -17,14 +17,14 @@
   font-weight: 600;
   letter-spacing: .04em;
   text-transform: uppercase;
-  color: var(--ed-muted, #3c4a47);
+  color: var(--ed-muted, #41474e);
 }
 #main-content.co110 .co-facts-list {
   position: relative;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: 0;
-  border-top: 1px solid var(--ed-line, #cad4d0);
+  border-top: 1px solid var(--ed-line, #d4d0cb);
 }
 /* Short rust rule: the same accent the page's section headings carry. */
 #main-content.co110 .co-facts-list::before {
@@ -42,7 +42,7 @@
   justify-content: flex-end;
   gap: 6px;
   padding: 24px 24px 24px 0;
-  border-bottom: 1px solid var(--ed-line, #cad4d0);
+  border-bottom: 1px solid var(--ed-line, #d4d0cb);
 }
 #main-content.co110 .co-facts-list dd {
   margin: 0;
@@ -50,20 +50,27 @@
   font-weight: 500;
   line-height: 1.05;
   letter-spacing: -.02em;
-  color: var(--ed-ink, #293236);
+  color: var(--ed-ink, #2c3137);
   font-variant-numeric: lining-nums tabular-nums;
 }
 #main-content.co110 .co-facts-list dt {
   max-width: 24ch;
   font-size: 14px;
   line-height: 1.5;
-  color: var(--ed-muted, #3c4a47);
+  color: var(--ed-muted, #41474e);
 }
 #main-content.co110 .co-facts-note {
   margin: 14px 0 0;
   font-size: 13px;
-  color: var(--ed-muted, #3c4a47);
+  color: var(--ed-muted, #41474e);
   max-width: none;
+}
+/* v221：身份条里的免费电话链接原为深色字压深色底（对比度1.01，v219/v220同样有），改为继承浅色并加下划线 */
+#main-content.co110 .co-identity p a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
 }
 @media (max-width: 767px) {
   #main-content.co110 .co-facts-list { grid-template-columns: repeat(2, 1fr); }

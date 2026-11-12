@@ -45,12 +45,12 @@ body.bio-home-landscape.bio-home-bold.selected-middle-a #conversation.home-inqui
 body.bio-home-landscape.bio-home-bold.selected-middle-a #conversation button[type=submit],
 body.bio-home-landscape.bio-home-bold.selected-middle-a #hero .hero-copy .action,
 body.bio-home-landscape.bio-home-bold.selected-middle-a .np-header .np-contact{
- background:var(--home-oxide);border-color:var(--home-oxide);color:#F6F5F0;
+ background:var(--home-oxide);border-color:var(--home-oxide);color:#f1f6f9;
 }
 body.bio-home-landscape.bio-home-bold.selected-middle-a #conversation button[type=submit]:hover,
 body.bio-home-landscape.bio-home-bold.selected-middle-a #hero .hero-copy .action:hover,
 body.bio-home-landscape.bio-home-bold.selected-middle-a .np-header .np-contact:hover{
- background:#8D3D2B;border-color:#8D3D2B;color:#F6F5F0;
+ background:#8D3D2B;border-color:#8D3D2B;color:#f1f6f9;
 }
 body.bio-home-landscape.bio-home-bold.selected-middle-a ::selection{background:#B8C8D3;color:#263236}
 @media(max-width:767px){

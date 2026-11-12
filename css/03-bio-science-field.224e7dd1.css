@@ -3,7 +3,7 @@
 
 .bio-home-tech .science-field {
   --field-ink: #293236;
-  --field-line: #9daba7;
+  --field-line: #9aaab2;
   margin-top: 58px;
   min-width: 0;
 }
@@ -81,7 +81,7 @@
 }
 
 .bio-home-tech .science-tabs button:not(:disabled):hover {
-  color: #465451;
+  color: #44535a;
   background: #d1dad655;
 }
 
@@ -132,7 +132,7 @@
 .bio-home-tech .science-figure figcaption small {
   font-size: 11px;
   line-height: 1.6;
-  color: #3e4c49;
+  color: #3c4b52;
 }
 
 .bio-home-tech .science-panels {
@@ -251,7 +251,7 @@
   margin-top: 16px;
   font-size: 12px;
   line-height: 1.6;
-  color: #3e4c49;
+  color: #3c4b52;
 }
 
 .bio-home-tech .science-legend-caption small {
@@ -285,7 +285,7 @@
   font-size: 11px;
   font-weight: 400;
   font-variant-numeric: tabular-nums;
-  color: #515f5c;
+  color: #4f5e65;
   margin: 0 0 5px;
 }
 

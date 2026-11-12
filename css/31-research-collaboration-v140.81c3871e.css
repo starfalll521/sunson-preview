@@ -7,13 +7,13 @@ body {
 }
 
 #main-content.r01 {
-  --r-paper: #F3F6F8;
-  --r-frost: #EBF0F4;
-  --r-mist: #DFE7EC;
-  --r-steel: #B8C8D3;
-  --r-carbon: #293236;
-  --r-ink: #263236;
-  --r-body: #425460;
+  --r-paper: #f5f5f8;
+  --r-frost: #efeff3;
+  --r-mist: #e5e5ea;
+  --r-steel: #c4c5cd;
+  --r-carbon: #2e2f3f;
+  --r-ink: #2d2e3f;
+  --r-body: #4e5062;
   --r-accent: #A74732;
   margin: 0;
   padding: 0;
@@ -113,7 +113,7 @@ body {
   inset: auto 0 0;
   padding: 40px 20px 17px;
   color: var(--r-paper);
-  background: linear-gradient(transparent,rgba(38,50,54,.82));
+  background: linear-gradient(transparent,rgba(45, 46, 63,.82));
   line-height: 1.5;
   font-weight: 500;
 }
@@ -202,7 +202,7 @@ body {
 
 #main-content.r01 .r01-centres {
   margin-top: 29px;
-  border-top: 1px solid rgba(38,50,54,.2);
+  border-top: 1px solid rgba(45, 46, 63,.2);
 }
 
 #main-content.r01 .r01-centres>div {
@@ -210,7 +210,7 @@ body {
   grid-template-columns: minmax(0,.7fr) minmax(0,1fr);
   gap: 20px;
   padding-block: 17px;
-  border-bottom: 1px solid rgba(38,50,54,.2);
+  border-bottom: 1px solid rgba(45, 46, 63,.2);
 }
 
 #main-content.r01 .r01-centres dt {
@@ -257,13 +257,13 @@ body {
 #main-content.r01 .r01-question-list {
   list-style: none;
   padding: 0;
-  border-top: 1px solid rgba(223,231,236,.26);
+  border-top: 1px solid rgba(229, 229, 234,.26);
 }
 
 #main-content.r01 .r01-question-list>li {
   display: grid;
   gap: clamp(20px,3vw,46px);
-  border-bottom: 1px solid rgba(223,231,236,.26);
+  border-bottom: 1px solid rgba(229, 229, 234,.26);
   align-items: start;
 }
 
@@ -322,7 +322,7 @@ body {
 
 #main-content.r01 .r01-starting-points>li {
   padding-top: 18px;
-  border-top: 1px solid rgba(38,50,54,.24);
+  border-top: 1px solid rgba(45, 46, 63,.24);
 }
 
 #main-content.r01 .r01-starting-points h3 {
@@ -448,7 +448,7 @@ body {
 }
 
 #main-content.r01 .r01-masthead {
-  border-top: 1px solid rgba(38,50,54,.28);
+  border-top: 1px solid rgba(45, 46, 63,.28);
   padding-top: 15px;
   margin-bottom: 27px;
 }
@@ -511,7 +511,7 @@ body {
   display: grid;
   grid-template-columns: minmax(0,1.16fr) minmax(0,.84fr);
   gap: clamp(35px,7vw,108px);
-  border-bottom: 1px solid rgba(38,50,54,.2);
+  border-bottom: 1px solid rgba(45, 46, 63,.2);
   padding-block: 25px 31px;
 }
 
@@ -524,7 +524,7 @@ body {
 
 #main-content.r01 .r01-opening-notes>p+p {
   padding-left: 26px;
-  border-left: 1px solid rgba(38,50,54,.2);
+  border-left: 1px solid rgba(45, 46, 63,.2);
   font-size: 15px;
 }
 

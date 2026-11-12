@@ -2,14 +2,14 @@
 /* brand/alcohol-v176.css */
 
 main.iv-alcohol {
-  --iv-navy: #283b42;
-  --iv-ink: #283b42;
-  --iv-mist: #e2e9ec;
-  --iv-white: #f0f3f4;
-  --iv-blue: #32505b;
+  --iv-navy: #2d3948;
+  --iv-ink: #2d3948;
+  --iv-mist: #e4e8ec;
+  --iv-white: #f1f3f6;
+  --iv-blue: #404c5c;
   --iv-red: #a74732;
-  --iv-muted: #50646b;
-  --iv-line: #bdcbd0;
+  --iv-muted: #556272;
+  --iv-line: #c3c9d0;
   background: var(--iv-white);
   color: var(--iv-ink);
   font-family: Manrope,Arial,sans-serif;
@@ -34,7 +34,7 @@ main.iv-alcohol {
   display: flex;
   align-items: center;
   padding-block: 60px;
-  background: #dce5e9;
+  background: #e0e4e9;
   isolation: isolate;
 }
 
@@ -71,7 +71,7 @@ main.iv-alcohol {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg,rgba(230,237,239,.98),rgba(230,237,239,.92) 30%,rgba(230,237,239,.35) 57%,transparent 75%);
+  background: linear-gradient(90deg,rgba(233, 236, 240,.98),rgba(233, 236, 240,.92) 30%,rgba(233, 236, 240,.35) 57%,transparent 75%);
 }
 
 .iv-alcohol .iv-scene img {
@@ -87,10 +87,10 @@ main.iv-alcohol {
   bottom: 14px;
   z-index: 2;
   max-width: 40ch;
-  color: #253b43;
+  color: #2c3848;
   font-size: 11px;
   line-height: 1.5;
-  background: rgba(231,237,240,.84);
+  background: rgba(233, 236, 240,.84);
   padding: 5px 8px;
 }
 
@@ -111,14 +111,14 @@ main.iv-alcohol {
 }
 
 .iv-alcohol .iv-tinted {
-  background: #e3eaed;
+  background: #e6e9ed;
 }
 
 .iv-alcohol #saccharification {
-  background: #293f48;
-  color: #f0f4f5;
-  --iv-line: #617782;
-  --iv-muted: #ccdade;
+  background: #303c4c;
+  color: #f1f4f6;
+  --iv-line: #687484;
+  --iv-muted: #d3d8de;
 }
 
 .iv-alcohol #saccharification :is(h2,p,a,strong,figcaption) {
@@ -171,6 +171,46 @@ main.iv-alcohol {
   color: var(--iv-muted);
 }
 
+/* v221：产品卡片标题 25px 在 117px 列内溢出并压住说明文字，改为“标题整行、说明与链接同一行” */
+.iv-alcohol .iv-product {
+  grid-template-columns: 7rem minmax(0,1fr) auto;
+  column-gap: 20px;
+  row-gap: 8px;
+  align-items: start;
+}
+
+.iv-alcohol .iv-product>span {
+  grid-row: 1 / span 2;
+  margin-bottom: 0;
+}
+
+.iv-alcohol .iv-product>h3 {
+  grid-column: 2 / -1;
+  margin: 0;
+}
+
+.iv-alcohol .iv-product>p {
+  grid-column: 2;
+  grid-row: 2;
+  margin: 0;
+}
+
+.iv-alcohol .iv-product>.iv-link {
+  grid-column: 3;
+  grid-row: 2;
+  align-self: end;
+}
+
+@media (max-width:560px) {
+  .iv-alcohol .iv-product {
+    grid-template-columns: minmax(0,1fr);
+  }
+  .iv-alcohol .iv-product>:is(span,h3,p,.iv-link) {
+    grid-column: 1;
+    grid-row: auto;
+  }
+}
+
 .iv-alcohol .iv-product-bridge {
   margin-top: 38px;
   padding-top: 30px;
@@ -204,7 +244,7 @@ main.iv-alcohol {
 }
 
 .iv-alcohol .iv-final {
-  background: #b8cbd3;
+  background: #c2c8d0;
 }
 
 .iv-alcohol .iv-link,
@@ -227,9 +267,9 @@ main.iv-alcohol {
 }
 
 .iv-alcohol .iv-button {
-  background: #293f48;
-  color: #f0f4f5;
-  border: 1px solid #293f48;
+  background: #303c4c;
+  color: #f1f4f6;
+  border: 1px solid #303c4c;
   border-radius: 999px;
   padding: 12px 22px;
 }
@@ -267,25 +307,25 @@ main.iv-alcohol {
 }
 
 .bio-inner .alcohol-product-v176 {
-  --bio-forest: #293f48;
-  --bio-ink: #283b42;
-  --bio-muted: #50646b;
-  --bio-sage: #e1e9ec;
-  --bio-paper: #edf2f3;
-  --bio-line: #bdcbd0;
-  --task-ink: #283b42;
-  --task-muted: #50646b;
-  --task-paper: #edf2f3;
-  --task-accent: #32505b;
+  --bio-forest: #303c4c;
+  --bio-ink: #2d3948;
+  --bio-muted: #556272;
+  --bio-sage: #e4e8ec;
+  --bio-paper: #eff1f5;
+  --bio-line: #c3c9d0;
+  --task-ink: #2d3948;
+  --task-muted: #556272;
+  --task-paper: #eff1f5;
+  --task-accent: #404c5c;
 }
 
 .alcohol-product-v176 .task-product-opening {
-  background: #e1e9ec;
+  background: #e4e8ec;
 }
 
 .bio-inner main.alcohol-product-v176 #process-conditions {
-  background: #293f48;
-  color: #edf3f5;
+  background: #303c4c;
+  color: #f0f2f5;
 }
 
 .bio-inner main.alcohol-product-v176 #process-conditions :is(h2,p,a) {
@@ -319,7 +359,7 @@ main.iv-alcohol {
     font-size: 43px;
   }
   .iv-alcohol .iv-scene:after {
-    background: linear-gradient(90deg,rgba(230,237,239,.98),rgba(230,237,239,.92) 40%,rgba(230,237,239,.35));
+    background: linear-gradient(90deg,rgba(233, 236, 240,.98),rgba(233, 236, 240,.92) 40%,rgba(233, 236, 240,.35));
   }
   .iv-alcohol :is(.iv-juice-stage,.iv-section-head,.iv-closing) {
     grid-template-columns: 1fr;
@@ -370,7 +410,7 @@ main.iv-alcohol {
     object-position: 65% center;
   }
   .iv-alcohol .iv-scene:after {
-    background: rgba(230,237,239,.86);
+    background: rgba(233, 236, 240,.86);
   }
   .iv-alcohol .iv-scene figcaption {
     font-size: 10px;

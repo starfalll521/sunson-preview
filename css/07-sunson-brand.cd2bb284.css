@@ -6,29 +6,29 @@ body.bio-site {
   --brand-blue: #a74732;
   --brand-red: #a74732;
   --brand-navy: var(--sec-1);
-  --brand-white: #f0f1ed;
+  --brand-white: #f3f6f8;
   --brand-ice: var(--sec-2);
   --brand-light: var(--sec-3);
-  --brand-muted: #3c4a47;
-  --paper: #f0f1ed;
+  --brand-muted: #3a4950;
+  --paper: #f3f6f8;
   --sage: var(--sec-2);
   --mist: var(--sec-4);
   --forest: var(--sec-1);
   --ink: var(--sec-5);
-  --muted: #3c4a47;
+  --muted: #3a4950;
   --lime: var(--sec-3);
   --line: var(--sec-6);
-  --bio-paper: #f0f1ed;
+  --bio-paper: #f3f6f8;
   --bio-sage: var(--sec-2);
   --bio-forest: var(--sec-1);
   --bio-ink: var(--sec-5);
   --bio-citron: var(--sec-3);
-  --bio-muted: #3c4a47;
+  --bio-muted: #3a4950;
   --bio-line: var(--sec-6);
-  --sun-paper: #f0f1ed;
+  --sun-paper: #f3f6f8;
   --sun-tint: var(--sec-2);
   --sun-ink: var(--sec-5);
-  --sun-muted: #3c4a47;
+  --sun-muted: #3a4950;
   --sun-red: #a74732;
   --sun-line: var(--sec-6);
   --sun-deep: var(--sec-1);
@@ -66,7 +66,7 @@ summary:focus-visible {
   overflow: hidden;
   width: 126px;
   height: 56px;
-  background: #f0f1ed;
+  background: #f3f6f8;
 }
 
 .brand-logo-window img {

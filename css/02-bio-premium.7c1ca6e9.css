@@ -62,14 +62,14 @@
 }
 
 .bio-site #enzyme-innovation {
-  background: #ebede9;
+  background: #e8edf0;
 }
 
 .research-plate {
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  background: #d7deda;
+  background: #d5dde3;
   min-height: 420px;
   display: flex;
   flex-direction: column;
@@ -296,13 +296,13 @@
   width: 100%;
   height: 100%;
   stroke-width: 1.2;
-  color: #3d4b48;
+  color: #3b4a51;
 }
 
 .process-point {
   width: 11px;
   height: 11px;
-  border: 1px solid #3d4b48;
+  border: 1px solid #3b4a51;
   background: var(--paper);
   border-radius: 50%;
   position: relative;

@@ -130,7 +130,7 @@ button:disabled {
 }
 
 * {
-  scrollbar-color: #606e6a var(--sage);
+  scrollbar-color: #5d6d75 var(--sage);
 }
 
 .frame,
@@ -212,7 +212,7 @@ article[id] {
 }
 
 .action-lime:hover {
-  background: #c6d1cc;
+  background: #c4d0d8;
 }
 
 .action:active {
@@ -314,7 +314,7 @@ article[id] {
 .hero-copy .identity {
   font-size: 15px;
   max-width: 530px;
-  color: #d8e0dc;
+  color: #d6dfe5;
   margin-top: 20px;
 }
 
@@ -344,7 +344,7 @@ article[id] {
 
 .hero-bottom small {
   font-size: 10px;
-  color: #d8e0dc;
+  color: #d6dfe5;
 }
 
 .bio-hero :focus-visible,

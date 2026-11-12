@@ -2,7 +2,7 @@
 /* bio-system-76819e7b.css */
 
 :root {
-  --bio-white: #f0f1ed;
+  --bio-white: #f3f6f8;
   --bio-gutter: clamp(22px,5vw,80px);
   --bio-width: 1240px;
 }
@@ -1318,7 +1318,7 @@ body.bio-craft-inner {
 }
 
 .bio-craft-inner .sun-table-scroll[data-scrollable=true] {
-  box-shadow: inset -12px 0 14px -14px #3c4a47;
+  box-shadow: inset -12px 0 14px -14px #3a4950;
 }
 
 .bio-craft-inner th,

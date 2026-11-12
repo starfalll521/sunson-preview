@@ -37,23 +37,23 @@
 .bio-home-bold #enzyme-innovation .intro-pair p {
   font-size: 16px;
   line-height: 1.8;
-  color: #d3dcd7;
+  color: #d1dbe2;
 }
 
 .bio-home-bold #enzyme-innovation .science-field {
-  --field-ink: #f0f1ed;
-  --field-line: #6c7a76;
+  --field-ink: #f3f6f8;
+  --field-line: #697981;
   margin-top: 38px;
   color: var(--paper);
 }
 
 .bio-home-bold #enzyme-innovation .science-tabs {
-  border-color: #6c7a76;
+  border-color: #697981;
 }
 
 .bio-home-bold #enzyme-innovation .science-tabs button {
-  color: #dbe2de;
-  border-color: #6c7a76;
+  color: #d9e1e7;
+  border-color: #697981;
   background: transparent;
   font-weight: 550;
   min-height: 72px;
@@ -92,7 +92,7 @@
 }
 
 .bio-home-bold #enzyme-innovation .science-reading>p {
-  color: #d7dfdb;
+  color: #d5dee4;
   font-size: 16px;
   line-height: 1.8;
 }
@@ -102,13 +102,13 @@
 .bio-home-bold #enzyme-innovation .science-legend span,
 .bio-home-bold #enzyme-innovation .science-legend ol li,
 .bio-home-bold #enzyme-innovation .science-figure figcaption {
-  color: #d7dfdb;
+  color: #d5dee4;
 }
 
 .bio-home-bold #enzyme-innovation .science-legend-caption,
 .bio-home-bold #enzyme-innovation .science-legend-caption small,
 .bio-home-bold #enzyme-innovation .science-legend ol li span {
-  color: #c1cdc8;
+  color: #bfccd4;
 }
 
 .bio-home-bold main .reading-link {
@@ -120,7 +120,7 @@
   max-width: 100%;
   width: fit-content;
   padding: 12px 22px;
-  border: 1px solid #465451;
+  border: 1px solid #44535a;
   border-radius: 999px;
   background: transparent;
   color: var(--forest);
@@ -137,7 +137,7 @@
 
 .bio-home-bold main .reading-link:hover,
 .bio-home-bold main .reading-link:focus-visible {
-  background: #dae1dc;
+  background: #d8e0e6;
   color: var(--forest);
   transform: translateY(-2px);
 }
@@ -161,8 +161,8 @@
 
 .bio-home-bold .hero-copy .action:hover,
 .bio-home-bold .hero-copy .action:focus-visible {
-  background: #bfcbc6;
-  border-color: #bfcbc6;
+  background: #bdcad2;
+  border-color: #bdcad2;
   transform: translateY(-2px);
   box-shadow: none;
 }
@@ -172,7 +172,7 @@
 }
 
 .bio-home-bold #enzyme-innovation .reading-link {
-  border-color: #bfccc7;
+  border-color: #bdcbd4;
   color: var(--paper);
   background: transparent;
 }
@@ -192,8 +192,8 @@
 
 .bio-home-bold #conversation .reading-link:last-child:hover,
 .bio-home-bold #conversation .reading-link:last-child:focus-visible {
-  background: #bfcbc6;
-  border-color: #bfcbc6;
+  background: #bdcad2;
+  border-color: #bdcad2;
 }
 
 .bio-home-bold :focus-visible {
@@ -257,7 +257,7 @@
 }
 
 .bio-home-bold .media-info[open]>summary {
-  background: #d1dad6;
+  background: #cfd9e0;
 }
 
 .bio-home-bold .media-info>div {
@@ -267,7 +267,7 @@
   width: 270px;
   max-width: calc(100vw - 48px);
   padding: 17px 19px;
-  border: 1px solid #b8c6c1;
+  border: 1px solid #b6c5ce;
   border-radius: 10px;
   background: var(--paper);
   color: var(--forest);
@@ -287,7 +287,7 @@
 }
 
 .bio-home-bold .bio-hero .media-info {
-  color: #dae1dd;
+  color: #d8e0e6;
 }
 
 .bio-home-bold .bio-hero .media-info[open]>summary {
@@ -486,7 +486,7 @@
   width: 100%;
   height: 350px;
   overflow: hidden;
-  background: #dae1dd;
+  background: #d8e0e6;
 }
 
 @media (max-width:1100px) {
@@ -504,9 +504,9 @@
 /* bio-home-landscape-c949a544.css [corporate only] */
 
 .bio-home-landscape {
-  --paper: #e7ebe7;
-  --sage: #dae1dd;
-  --landscape-mineral: #f0f1ed;
+  --paper: #e5ebef;
+  --sage: #d8e0e6;
+  --landscape-mineral: #f3f6f8;
   --frame: 1280px;
 }
 

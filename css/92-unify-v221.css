@@ -1,0 +1,21 @@
+/* v221：页面标题尺度统一（对标站内页 H1 固定一档，只靠主题换色，不靠换字号）。
+   两档：栏目与页面标题 4.5rem；产品详情页标题（编号较长）3.5rem。
+   放在所有样式之后，用 !important 覆盖各页历史上各自定义的字号、字重、字距。 */
+:root {
+  --h1-page-v221: clamp(2.5rem, 1.1rem + 4.2vw, 4.5rem);
+  --h1-product-v221: clamp(2.125rem, 1rem + 2.6vw, 3.5rem);
+}
+
+main h1 {
+  font-size: var(--h1-page-v221) !important;
+  font-weight: 500 !important;
+  line-height: 1.07 !important;
+  letter-spacing: -0.035em !important;
+  overflow-wrap: break-word;
+}
+
+main.fp108 h1,
+main.fa108 h1 {
+  font-size: var(--h1-product-v221) !important;
+  line-height: 1.1 !important;
+}

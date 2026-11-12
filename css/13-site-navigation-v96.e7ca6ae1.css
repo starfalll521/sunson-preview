@@ -61,7 +61,7 @@ body .np-header {
   height: 28px;
   padding: 0 3.8vw;
   background: #293236;
-  color: #e2e7e3;
+  color: #ebf0f4;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -98,7 +98,7 @@ body .np-header {
   display: flex;
   gap: 26px;
   align-items: center;
-  border-bottom: 1px solid #d9e0dc;
+  border-bottom: 1px solid #d7dfe5;
 }
 
 .np-logo {
@@ -115,7 +115,7 @@ body .np-header {
   width: 132px;
   height: 52px;
   overflow: hidden;
-  background: #f0f1ed;
+  background: #f3f6f8;
 }
 
 .np-logo img {
@@ -202,7 +202,7 @@ body .np-header {
   padding: 10px 22px;
   border-radius: 24px;
   background: #a74732;
-  color: #f0f1ed !important;
+  color: #f3f6f8 !important;
   font-size: 13px;
   font-weight: 650;
   white-space: nowrap;
@@ -221,8 +221,8 @@ body .np-header {
   left: 0;
   right: 0;
   top: 100%;
-  background: #e4e9e5;
-  border-bottom: 1px solid #c6d1cc;
+  background: #ebf0f4;
+  border-bottom: 1px solid #c4d0d8;
   max-height: calc(100dvh - 100px);
   overflow-y: auto;
   overscroll-behavior: contain;
@@ -252,7 +252,7 @@ body .np-header {
 }
 
 .np-close:hover {
-  background: #dbe2de;
+  background: #d9e1e7;
 }
 
 .np-overview {
@@ -290,12 +290,12 @@ body .np-header {
 }
 
 .np-header ::selection {
-  background: #cfd8d4;
+  background: #cdd7de;
   color: #293236;
 }
 
 .np-header {
-  scrollbar-color: #98a6a1 #e4e9e5;
+  scrollbar-color: #95a5ad #ebf0f4;
 }
 
 @media (min-width:1900px) {
@@ -381,9 +381,9 @@ body .np-header {
     top: 100%;
     max-height: calc(100dvh - 100px);
     overflow: auto;
-    background: #e4e9e5;
+    background: #ebf0f4;
     padding: 12px 24px 60px;
-    border-top: 1px solid #ccd6d1;
+    border-top: 1px solid #cad5dd;
     overscroll-behavior: contain;
   }
   .np-header.np-mobile-open .np-links {
@@ -394,7 +394,7 @@ body .np-header {
     min-height: 58px;
     justify-content: space-between;
     white-space: normal;
-    border-bottom: 1px solid #c3cfca;
+    border-bottom: 1px solid #c1ced6;
   }
   .np-item>summary svg {
     width: 16px;
@@ -429,7 +429,7 @@ body .np-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #cfd8d4;
+    border-bottom: 1px solid #cdd7de;
     cursor: pointer;
   }
   .np-mobile-sector>summary::-webkit-details-marker {
@@ -535,7 +535,7 @@ body .np-header {
 }
 
 .np-header .np-links {
-  scrollbar-color: #98a6a1 #e4e9e5;
+  scrollbar-color: #95a5ad #ebf0f4;
 }
 
 @media (min-width:1900px) {
@@ -555,7 +555,7 @@ body .np-header {
     min-height: 58px;
     font-size: 19px;
     padding: 12px 0;
-    border-bottom: 1px solid #c3cfca;
+    border-bottom: 1px solid #c1ced6;
     white-space: normal;
   }
   html:not(.np-js) .np-header .np-bar {
@@ -571,7 +571,7 @@ body .np-header {
     flex-basis: 100%;
     max-height: none;
     overflow: visible;
-    background: #e4e9e5;
+    background: #ebf0f4;
     padding: 12px 24px 24px;
   }
   html:not(.np-js) .np-header .np-mobile-toggle {

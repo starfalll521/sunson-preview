@@ -3,7 +3,7 @@
 
 :root {
   --green-fern: var(--sec-10);
-  --green-transparent-fern-0: rgba(242,255,243,0);
+  --green-transparent-fern-0: rgba(247, 251, 254, 0);
   --green-transparent-fern-30: var(--sec-11);
   --green-transparent-fern-40: var(--sec-12);
   --green-transparent-fern-50: var(--sec-13);
@@ -19,7 +19,7 @@
   --green-transparent-algae-70: var(--sec-23);
   --green-transparent-algae-80: var(--sec-24);
   --green-transparent-algae-90: var(--sec-25);
-  --green-transparent-moss-0: rgba(23,54,48,0);
+  --green-transparent-moss-0: rgba(29, 51, 60, 0);
   --blue-lilac: var(--sec-26);
   --blue-200: var(--sec-27);
   --blue-300: var(--sec-6);
@@ -130,18 +130,18 @@
   --yellow-1100: var(--sec-106);
   --yellow-1200: var(--sec-5);
   --white-white-0: rgba(255,255,255,0);
-  --white-white-5: rgba(240,241,237,0.0500000007);
-  --white-white-10: rgba(240,241,237,0.100000001);
-  --white-white-20: rgba(240,241,237,0.200000003);
-  --yellow-rye-0: rgba(255,252,232,0);
-  --white-white-30: rgba(240,241,237,0.300000012);
-  --white-white-40: rgba(240,241,237,0.400000006);
-  --white-white-50: rgba(240,241,237,0.5);
-  --white-white-60: rgba(240,241,237,0.600000024);
-  --white-white-70: rgba(240,241,237,0.699999988);
-  --white-white-80: rgba(240,241,237,0.800000012);
-  --white-white-90: rgba(240,241,237,0.899999976);
-  --white-white-solid: #f0f1ed;
+  --white-white-5: rgba(243, 246, 248, 0.0500000007);
+  --white-white-10: rgba(243, 246, 248, 0.100000001);
+  --white-white-20: rgba(243, 246, 248, 0.200000003);
+  --yellow-rye-0: rgba(247, 252, 255, 0);
+  --white-white-30: rgba(243, 246, 248, 0.300000012);
+  --white-white-40: rgba(243, 246, 248, 0.400000006);
+  --white-white-50: rgba(243, 246, 248, 0.5);
+  --white-white-60: rgba(243, 246, 248, 0.600000024);
+  --white-white-70: rgba(243, 246, 248, 0.699999988);
+  --white-white-80: rgba(243, 246, 248, 0.800000012);
+  --white-white-90: rgba(243, 246, 248, 0.899999976);
+  --white-white-solid: #f3f6f8;
   --yellow-rye-30: var(--sec-11);
   --yellow-rye-40: var(--sec-12);
   --yellow-rye-50: var(--sec-13);
@@ -181,11 +181,11 @@
   --black-black-80: var(--sec-135);
   --black-black-90: var(--sec-136);
   --black-black-solid: var(--sec-137);
-  --functional-successgreen-light: rgba(233,247,231,1);
+  --functional-successgreen-light: rgba(237, 243, 247, 1);
   --functional-successgreen-dark: rgba(45,170,43,1);
   --functional-dangerred-light: rgba(247,231,231,1);
   --functional-dangerred-dark: rgba(175,18,18,1);
-  --functional-warningorange-light: rgba(255,239,216,1);
+  --functional-warningorange-light: rgba(236, 242, 246, 1);
   --functional-warningorange-dark: rgba(235,155,44,1);
   --functional-attentionyellow-light: var(--sec-138);
   --functional-attentionyellow-dark: var(--sec-139);
@@ -504,7 +504,7 @@ video {
   --tw-numeric-fraction: ;
   --tw-ring-inset: ;
   --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #f0f1ed;
+  --tw-ring-offset-color: #f3f6f8;
   --tw-ring-color: rgba(185,87,66,0.5);
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
@@ -558,7 +558,7 @@ video {
   --tw-numeric-fraction: ;
   --tw-ring-inset: ;
   --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #f0f1ed;
+  --tw-ring-offset-color: #f3f6f8;
   --tw-ring-color: rgba(185,87,66,0.5);
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
@@ -2183,7 +2183,7 @@ body {
 }
 
 .source-utility {
-  color: #f0f1ed;
+  color: #f3f6f8;
   display: flex;
   justify-content: flex-end;
   gap: 28px;
@@ -2254,7 +2254,7 @@ body {
   border: 1px solid currentColor;
   border-radius: 2px;
   padding: 10px 12px;
-  background: #f0f1ed;
+  background: #f3f6f8;
   width: 100%;
   box-sizing: border-box;
   color: var(--sec-34);
@@ -2342,7 +2342,7 @@ body {
   display: flex;
   gap: 28px;
   padding: 20px max(5vw,24px);
-  background: #f0f1ed;
+  background: #f3f6f8;
   overflow: auto;
   border-bottom: 1px solid var(--sec-180);
 }
@@ -2419,7 +2419,7 @@ body {
   top: -60px;
   left: 16px;
   z-index: 100;
-  background: #f0f1ed;
+  background: #f3f6f8;
   padding: 12px;
 }
 
@@ -2592,7 +2592,7 @@ main>[data-ele_module="xl-hero-section"] img {
   bottom: 12px;
   right: 12px;
   background: var(--sec-182);
-  color: #f0f1ed;
+  color: #f3f6f8;
   padding: 4px 8px;
 }
 
