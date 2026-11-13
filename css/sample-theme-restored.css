@@ -1,0 +1,10 @@
+/* Enquiry pages: warm stone and graphite, independent of washing themes. */
+#main-content.sample-redesign > .task-enquiry-workspace{background:#eeebe6!important}
+#main-content.sample-redesign .task-enquiry-columns{border-color:#c6c1ba}
+#main-content.sample-redesign .task-enquiry-brief{background:#353c43;color:#f7f6f3}
+#main-content.sample-redesign .task-enquiry-brief>div{border-color:#899097}
+#main-content.sample-redesign .task-enquiry-form{background:#f7f6f3;border-color:#c6c1ba}
+#main-content.sample-redesign .sample-step{border-color:#a8a6a1}
+#main-content.sample-redesign .sample-step::before{color:#dedad5}
+#main-content.sample-redesign .sample-faq{border-color:#a8a6a1}
+#main-content.sample-redesign .sample-faq summary:focus-visible{outline-color:#70767e}

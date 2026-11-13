@@ -1,7 +1,7 @@
 #main-content.protease-redesign {
-  --wash-ink: #20383a;
-  --wash-paper: #eff4f2;
-  --wash-line: #a8bdb7;
+  --wash-ink: #233c40;
+  --wash-paper: #e9efef;
+  --wash-line: #a8bec1;
 }
 
 #main-content.protease-redesign > .task-product-opening {
@@ -52,7 +52,7 @@
   gap: 24px;
   align-items: center;
   padding: 20px 0 0;
-  border-top: 1px solid #829b97;
+  border-top: 1px solid #829b9f;
   background: transparent;
   outline: none;
 }
@@ -74,7 +74,7 @@
 
 #main-content.protease-redesign .task-desk-link {
   padding: 10px;
-  border: 1px solid #829b97;
+  border: 1px solid #829b9f;
   min-height: 44px;
 }
 
@@ -103,13 +103,13 @@
 
 #main-content.protease-redesign .protease-format {
   border: 1px solid var(--wash-line);
-  border-top: 3px solid #45756d;
+  border-top: 3px solid #456e78;
   background: var(--wash-paper);
   padding: clamp(18px, 3vw, 32px);
 }
 
 #main-content.protease-redesign .protease-format:nth-child(2) {
-  background: #dce9e5;
+  background: #d4e2e0;
 }
 
 #main-content.protease-redesign .protease-format h3 {
@@ -121,7 +121,7 @@
 
 #main-content.protease-redesign .protease-format :is(.protease-format-name, .protease-reference) {
   margin: 0;
-  color: #3e5b55;
+  color: #3e5b60;
   font-size: .92rem;
 }
 
@@ -246,7 +246,7 @@
 .sample-faq[open] summary::after { content: "−"; }
 #main-content.sample-redesign .sample-faq h3 { margin: 0; font-size: 1.03rem; }
 #main-content.sample-redesign .sample-faq p { margin: 0 0 16px; }
-.sample-faq summary:focus-visible { outline: 2px solid #45756d; outline-offset: 4px; }
+.sample-faq summary:focus-visible { outline: 2px solid #456e78; outline-offset: 4px; }
 
 @media (max-width: 760px) {
   #main-content.protease-redesign :is(.task-product-spread, .task-product-desk, .protease-comparison),
