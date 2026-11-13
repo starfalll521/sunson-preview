@@ -15,6 +15,18 @@
   const entries=[['Name',name],['Email',email],['Your enquiry',message],
     ['Company',form.querySelector('#ct-company')],['Country / region',form.querySelector('#ct-country')],
     ['Product or application',form.querySelector('#ct-product')],['Phone',form.querySelector('#ct-phone')]];
+  const request=form.querySelector('#ct-request'),quantity=form.querySelector('#ct-quantity');
+  const hint=form.querySelector('#ct-message-hint'),originalHint=hint.textContent;
+  function sampleMode(){
+    const sample=request.value==='sample';
+    form.querySelector('#ct-sample-details').hidden=!sample;quantity.disabled=!sample;
+    hint.textContent=sample?'Tell us which product or application you want to test and what you want to evaluate.':originalHint;
+    if(sample)form.querySelector('.ct-more').open=true;
+  }
+  if(new URLSearchParams(location.search).get('request')==='sample')request.value='sample';
+  request.addEventListener('change',sampleMode);sampleMode();
+  entries.unshift(['Request type',{get value(){return request.selectedOptions[0].textContent}}]);
+  entries.push(['Requested sample quantity',{get value(){return request.value==='sample'?quantity.value:''}}]);
   let attempted=false;
   function validate(field){
     let text='';
