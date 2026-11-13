@@ -1,0 +1,122 @@
+#main-content.protease-redesign > #story-1 {
+  background: #274547 !important;
+  color: #f2f7f4;
+}
+
+#main-content.protease-redesign > #story-1 :is(h2, p) {
+  color: #f2f7f4 !important;
+}
+
+#main-content.protease-redesign > #story-1 .sun-editorial-grid {
+  border-color: #6f8d88;
+}
+
+#main-content.sample-redesign > .task-enquiry-workspace {
+  background: #e8eeed !important;
+  padding-block: clamp(32px, 5vw, 70px);
+}
+
+#main-content.sample-redesign .task-enquiry-columns {
+  display: grid;
+  grid-template-columns: minmax(0, .84fr) minmax(0, 1.16fr);
+  gap: 0;
+  align-items: stretch;
+  border: 1px solid #a6b8b4;
+}
+
+#main-content.sample-redesign .task-enquiry-brief {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 0;
+  padding: clamp(26px, 4vw, 62px);
+  background: #30474a;
+  color: #f5f7f6;
+}
+
+#main-content.sample-redesign .task-enquiry-brief > div {
+  border-color: #829997;
+}
+
+#main-content.sample-redesign .task-enquiry-brief :is(h2, p) {
+  color: inherit !important;
+}
+
+#main-content.sample-redesign .task-enquiry-brief h2 {
+  text-wrap: balance;
+}
+
+#main-content.sample-redesign .task-enquiry-writing {
+  padding: 0;
+  border: 0;
+  background: #f8faf9;
+}
+
+#main-content.sample-redesign .task-enquiry-form {
+  border: 0;
+  padding: clamp(22px, 4vw, 52px);
+}
+
+#main-content.sample-redesign > #content-1 {
+  background: #f3f6f5 !important;
+}
+
+#main-content.sample-redesign > #content-1,
+#main-content.sample-redesign > #content-4 {
+  padding-block: clamp(36px, 5vw, 72px);
+}
+
+#main-content.sample-redesign > #content-4 {
+  background: #e5edeb !important;
+}
+
+#main-content.sample-redesign #content-4 .sun-editorial-grid {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 22px;
+}
+
+#main-content.sample-redesign #content-4 .sun-editorial-body {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  column-gap: clamp(16px, 4vw, 52px);
+  row-gap: 0;
+  width: 100%;
+  max-width: none;
+}
+
+#main-content.sample-redesign #content-4 .sample-faq {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-top: 1px solid #98aca7;
+}
+
+#main-content.sample-redesign #content-4 .sample-faq summary {
+  padding: 14px 2px;
+  min-height: 56px;
+}
+
+#main-content.sample-redesign #content-4 .sample-faq[open] {
+  background: #f3f7f5;
+}
+
+#main-content.sample-redesign #content-4 .sample-faq[open] > p {
+  padding-inline: 10px;
+}
+
+#main-content.sample-redesign #content-4 .source-task-route {
+  grid-column: 1 / -1;
+  margin-top: 12px;
+}
+
+@media (max-width: 760px) {
+  #main-content.sample-redesign .task-enquiry-columns,
+  #main-content.sample-redesign #content-4 .sun-editorial-body {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  #main-content.sample-redesign .task-enquiry-brief {
+    padding: 24px 20px;
+  }
+}

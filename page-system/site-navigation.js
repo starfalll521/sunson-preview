@@ -139,12 +139,13 @@
  const header=document.querySelector('[data-navigation-version="96"]');
  if(!header)return;
  const mobile=matchMedia('(max-width:1439px)');
+ const drilldown=matchMedia('(max-width:767px)');
  const fine=matchMedia('(hover:hover) and (pointer:fine)');
  const menus=[...header.querySelectorAll('.np-item-147')];
  function categoryRoot(button){return button.closest('.np-item[data-menu="industries"]')}
  header.querySelectorAll('.np-category-tabs-147 [role="tab"]').forEach(tab=>{
   tab.addEventListener('click',()=>{
-   if(mobile.matches){
+   if(drilldown.matches){
     const menu=categoryRoot(tab);menu.classList.add('np-category-view-147');
     const back=document.getElementById(tab.getAttribute('aria-controls')).querySelector('[data-category-back]');
     back.focus({preventScroll:true});header.querySelector('.np-links').scrollTop=0;
@@ -168,10 +169,11 @@
  }));
  document.addEventListener('keydown',event=>{
   const current=header.querySelector('.np-category-view-147[open]');
-  if(event.key==='Escape'&&mobile.matches&&current){
+  if(event.key==='Escape'&&drilldown.matches&&current){
    event.preventDefault();event.stopImmediatePropagation();current.classList.remove('np-category-view-147');
    current.querySelector('[role="tab"][aria-selected="true"]').focus({preventScroll:true});
   }
  },true);
  mobile.addEventListener('change',()=>menus.forEach(m=>m.classList.remove('np-category-view-147')));
+ drilldown.addEventListener('change',()=>menus.forEach(m=>m.classList.remove('np-category-view-147')));
 })();

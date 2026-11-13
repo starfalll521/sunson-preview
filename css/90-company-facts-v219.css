@@ -22,7 +22,7 @@
 #main-content.co110 .co-facts-list {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr); /* v225：研发与专利数字移到科研页，身份条只留规模类4项 */
   margin: 0;
   border-top: 1px solid var(--ed-line, #d4d0cb);
 }

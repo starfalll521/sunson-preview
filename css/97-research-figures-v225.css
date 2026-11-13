@@ -1,0 +1,69 @@
+/* v225 科研页“Research in figures”：研发人员、专利、技术平台。放在 Two research centres 一段之下，沿用该段的霜色底与靛蓝墨色。 */
+#main-content.r01 .r01-figures {
+  margin-top: 56px;
+  padding-top: 0;
+}
+#main-content.r01 .r01-figures-title {
+  margin: 0 0 20px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--r-body);
+}
+#main-content.r01 .r01-figures-list {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, .8fr) minmax(0, 1.1fr) minmax(0, 1.5fr);
+  gap: 0 clamp(24px, 4vw, 56px);
+  margin: 0;
+  border-top: 1px solid rgba(45, 46, 63, .2);
+}
+/* 与公司页数据条同款的锈红短线 */
+#main-content.r01 .r01-figures-list::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -1px;
+  width: 48px;
+  height: 2px;
+  background: var(--r-accent);
+}
+#main-content.r01 .r01-figures-list > div {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 26px 0 28px;
+}
+#main-content.r01 .r01-figures-list dd {
+  margin: 0;
+  font-size: clamp(40px, 4.6vw, 64px);
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: -.02em;
+  color: var(--r-ink);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+#main-content.r01 .r01-figures-list dt {
+  max-width: 44ch;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--r-body);
+}
+#main-content.r01 .r01-figures-note {
+  margin: 4px 0 0;
+  max-width: none;
+  font-size: 13px;
+  color: var(--r-body);
+}
+@media (max-width: 900px) {
+  #main-content.r01 .r01-figures-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  #main-content.r01 .r01-figures-list .r01-figures-platforms { grid-column: 1 / -1; }
+}
+@media (max-width: 560px) {
+  #main-content.r01 .r01-figures { margin-top: 40px; }
+  #main-content.r01 .r01-figures-list { grid-template-columns: minmax(0, 1fr); }
+  #main-content.r01 .r01-figures-list > div { padding: 18px 0 20px; border-bottom: 1px solid rgba(45, 46, 63, .2); }
+  #main-content.r01 .r01-figures-list > div:last-child { border-bottom: 0; }
+}

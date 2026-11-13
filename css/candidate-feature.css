@@ -1,0 +1,13 @@
+/* Review-only image and copy layout. */
+#story-1:has(.candidate-feature){padding:72px 0 80px!important}
+.sun-wrap.sun-editorial-grid.candidate-feature{display:grid!important;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr)!important;grid-template-rows:auto 1fr;column-gap:clamp(36px,5vw,80px)!important;row-gap:28px!important;align-items:start!important;max-width:1320px!important;width:calc(100% - 96px)!important;margin:0 auto!important;padding:0!important;border:0!important}
+.candidate-feature>.sun-concept-illustration{grid-column:1;grid-row:1 / 3;width:100%;max-width:none;margin:0!important;align-self:stretch}
+.candidate-feature>.sun-concept-illustration img{width:100%;height:520px;object-fit:cover;object-position:45% center;border:0}
+.candidate-feature>.sun-concept-illustration figcaption{font-size:11px;line-height:1.5;margin-top:10px;color:#596970}
+.candidate-feature>.sun-editorial-heading{grid-column:2;grid-row:1;padding:22px 0 0!important;margin:0!important;max-width:none!important}
+.candidate-feature>.sun-editorial-heading h2{font-size:clamp(34px,3.3vw,48px)!important;line-height:1.08!important;letter-spacing:-.035em!important;max-width:540px!important;margin:0!important;text-wrap:balance}
+.candidate-feature>.sun-editorial-body{grid-column:2;grid-row:2;margin:0!important;padding:0!important;max-width:none!important}
+.candidate-feature>.sun-editorial-body p{font-size:18px!important;line-height:1.65!important;margin-top:0!important}
+.candidate-feature .sun-content-actions{margin-top:28px!important}
+@media(min-width:1600px){.candidate-feature>.sun-concept-illustration img{height:560px}}
+@media(max-width:800px){#story-1:has(.candidate-feature){padding:40px 0 48px!important}.sun-wrap.sun-editorial-grid.candidate-feature{width:calc(100% - 40px)!important;grid-template-columns:1fr!important;gap:24px!important}.candidate-feature>.sun-editorial-heading{grid-column:1;grid-row:1;padding:0!important}.candidate-feature>.sun-concept-illustration{grid-column:1;grid-row:2}.candidate-feature>.sun-editorial-body{grid-column:1;grid-row:3}.candidate-feature>.sun-concept-illustration img{height:auto;aspect-ratio:4/3;object-fit:cover}.candidate-feature>.sun-editorial-heading h2{font-size:34px!important}.candidate-feature>.sun-editorial-body p{font-size:17px!important}}

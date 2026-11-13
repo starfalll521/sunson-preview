@@ -1,0 +1,186 @@
+/* v226 “On this page” 页内目录条重做（制造质量、方案、资源、洗涤产品等 10 页共用）。
+   原状：制造质量页四个链接在 1313px 里两端撒开，其余页靠左但样式各异；没有标题，像四个孤立的文字。
+   现在：桌面端统一为“小标题 + 竖线 + 靠左排列的链接”，链接悬停/键盘聚焦出锈红短下划线。
+   底色、左右留白沿用各页原有设置（跟随各页内容栏），只改内部排布。结构不变（nav > details > .sun-topic-links > a）。
+   手机端（≤767px）仍是原来的折叠菜单，不动。 */
+@media (min-width: 768px) {
+  nav.source-topic-nav.sun-topic-nav {
+    border-bottom: 1px solid rgba(24, 36, 44, .1);
+  }
+  nav.source-topic-nav.sun-topic-nav .sun-topic-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 clamp(24px, 2.6vw, 40px);
+    padding: 0;
+    min-height: 56px;
+  }
+  /* 小标题：与 aria-label 同文，视觉上交代这是什么 */
+  nav.source-topic-nav.sun-topic-nav .sun-topic-links::before {
+    content: "On this page";
+    flex: none;
+    margin-right: clamp(0px, .6vw, 8px);
+    padding-right: clamp(20px, 2vw, 28px);
+    border-right: 1px solid rgba(24, 36, 44, .16);
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    opacity: .6;
+  }
+  nav.source-topic-nav.sun-topic-nav .sun-topic-links a {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    min-height: 56px;
+    padding: 0;
+    border: 0;
+    background: none;
+    font-size: 13.5px;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: .01em;
+    text-decoration: none;
+    opacity: .78;
+    transition: opacity .15s ease;
+  }
+  nav.source-topic-nav.sun-topic-nav .sun-topic-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 12px;
+    width: 100%;
+    height: 2px;
+    background: #a74732;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .22s ease;
+  }
+  nav.source-topic-nav.sun-topic-nav .sun-topic-links a:hover,
+  nav.source-topic-nav.sun-topic-nav .sun-topic-links a:focus-visible {
+    opacity: 1;
+  }
+  nav.source-topic-nav.sun-topic-nav .sun-topic-links a:hover::after,
+  nav.source-topic-nav.sun-topic-nav .sun-topic-links a:focus-visible::after {
+    transform: scaleX(1);
+  }
+  nav.source-topic-nav.sun-topic-nav .sun-topic-links a:focus-visible {
+    outline: 2px solid #a74732;
+    outline-offset: 2px;
+  }
+}
+/* 中等宽度（平板）：收起小标题、缩小间距，保证链接一行排下 */
+@media (min-width: 768px) and (max-width: 1279px) {
+  nav.source-topic-nav.sun-topic-nav .sun-topic-links::before { display: none; }
+}
+@media (min-width: 768px) and (max-width: 1099px) {
+  nav.source-topic-nav.sun-topic-nav .sun-topic-links {
+    flex-wrap: nowrap;
+    gap: 0 22px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  nav.source-topic-nav.sun-topic-nav .sun-topic-links::-webkit-scrollbar { display: none; }
+  nav.source-topic-nav.sun-topic-nav .sun-topic-links a { flex: none; font-size: 13px; }
+}
+/* ---- 手机折叠菜单（≤767px）----
+   原状：“+/−”文字符号；展开后制造质量页是 2 列且第一项带灰块，洗涤页是 1 列，各页不一致。
+   现状：标题行沿用桌面端小标题样式，右侧 V 形箭头展开时翻转；展开后统一单列，
+   每项 48px 高、发丝线分隔、右侧小箭头示意“跳到本页位置”，不再默认高亮第一项。 */
+@media (max-width: 767px) {
+  nav.source-topic-nav.sun-topic-nav,
+  main nav.source-topic-nav.sun-topic-nav[aria-label] {
+    padding-block: 0;
+    border-bottom: 1px solid rgba(24, 36, 44, .1);
+  }
+  nav.source-topic-nav.sun-topic-nav details.sun-topic-menu { width: 100%; }
+  nav.source-topic-nav.sun-topic-nav details.sun-topic-menu > summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 52px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    cursor: pointer;
+    list-style: none;
+  }
+  nav.source-topic-nav.sun-topic-nav details.sun-topic-menu > summary::-webkit-details-marker { display: none; }
+  nav.source-topic-nav.sun-topic-nav details.sun-topic-menu > summary::after {
+    content: "";
+    flex: none;
+    box-sizing: border-box;
+    width: 8px;
+    height: 8px;
+    margin: -3px 4px 0 0;
+    border-right: 1.5px solid currentColor;
+    border-bottom: 1.5px solid currentColor;
+    background: none;
+    font-size: 0;
+    transform: rotate(45deg);
+    transition: transform .2s ease, margin .2s ease;
+  }
+  nav.source-topic-nav.sun-topic-nav details.sun-topic-menu[open] > summary::after {
+    margin: 3px 4px 0 0;
+    transform: rotate(225deg);
+  }
+  nav.source-topic-nav.sun-topic-nav details.sun-topic-menu > summary:focus-visible {
+    outline: 2px solid #a74732;
+    outline-offset: -2px;
+  }
+  nav.source-topic-nav.sun-topic-nav details.sun-topic-menu .sun-topic-links {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+    padding: 0 0 6px;
+    border-top: 1px solid rgba(24, 36, 44, .1);
+  }
+  nav.source-topic-nav.sun-topic-nav details.sun-topic-menu .sun-topic-links a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 48px;
+    padding: 0 4px 0 0;
+    border: 0;
+    border-bottom: 1px solid rgba(24, 36, 44, .08);
+    background: none;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.3;
+    text-decoration: none;
+  }
+  /* 原样式的悬停会给链接加底色和锈红下边线；触屏点按后会“粘”在第一项上，这里取消 */
+  nav.source-topic-nav.sun-topic-nav details.sun-topic-menu .sun-topic-links a:hover {
+    background: none;
+    border-bottom-color: rgba(24, 36, 44, .08);
+    box-shadow: none;
+  }
+  nav.source-topic-nav.sun-topic-nav details.sun-topic-menu .sun-topic-links a:last-child,
+  nav.source-topic-nav.sun-topic-nav details.sun-topic-menu .sun-topic-links a:last-child:hover { border-bottom: 0; }
+  nav.source-topic-nav.sun-topic-nav details.sun-topic-menu .sun-topic-links a::after {
+    content: "";
+    flex: none;
+    box-sizing: border-box;
+    width: 7px;
+    height: 7px;
+    margin-left: 12px;
+    border-right: 1.5px solid #a74732;
+    border-bottom: 1.5px solid #a74732;
+    transform: rotate(45deg);
+  }
+  nav.source-topic-nav.sun-topic-nav details.sun-topic-menu .sun-topic-links a:active {
+    background: rgba(24, 36, 44, .05);
+  }
+  nav.source-topic-nav.sun-topic-nav details.sun-topic-menu .sun-topic-links a:focus-visible {
+    outline: 2px solid #a74732;
+    outline-offset: -2px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  nav.source-topic-nav.sun-topic-nav details.sun-topic-menu > summary::after { transition: none; }
+  nav.source-topic-nav.sun-topic-nav .sun-topic-links a,
+  nav.source-topic-nav.sun-topic-nav .sun-topic-links a::after { transition: none; }
+}

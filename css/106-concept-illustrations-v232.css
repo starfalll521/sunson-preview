@@ -1,0 +1,22 @@
+.sun-concept-illustration {
+  max-width: 410px;
+  margin: 22px 0 0;
+}
+
+.sun-concept-illustration img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #b4c2bf;
+}
+
+.sun-concept-illustration figcaption {
+  margin: 8px 0 0;
+  color: #465e5c;
+  font-size: .78rem;
+  line-height: 1.45;
+}
+
+@media (max-width: 760px) {
+  .sun-concept-illustration { margin-top: 14px; }
+}

@@ -1,0 +1,143 @@
+#main-content.sample-redesign {
+  --sample-ink: #293638;
+  --sample-paper: #f8faf9;
+  --sample-tint: #e6eeeb;
+  --sample-rule: #a7b9b4;
+}
+
+#main-content.sample-redesign .sample-editorial-hero {
+  background: var(--sample-paper);
+  color: var(--sample-ink);
+  padding: clamp(30px, 4.8vw, 68px) clamp(20px, 4vw, 64px);
+}
+
+.sample-hero-grid {
+  max-width: 1240px;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: minmax(0, .84fr) minmax(0, 1.16fr);
+  align-items: center;
+  gap: clamp(28px, 5vw, 80px);
+}
+
+#main-content.sample-redesign .sample-hero-intro h1 {
+  margin: 0;
+  max-width: 12ch;
+  color: var(--sample-ink) !important;
+  font-size: clamp(2.5rem, 4.7vw, 4.5rem) !important;
+  line-height: 1.02 !important;
+  letter-spacing: -.05em;
+  text-wrap: balance;
+}
+
+#main-content.sample-redesign .sample-hero-intro .fj-page-intro {
+  margin: 18px 0 24px;
+  max-width: 42ch;
+  color: #435657;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+#main-content.sample-redesign .sample-start {
+  display: inline-flex;
+  min-height: 46px;
+  align-items: center;
+  gap: 24px;
+  padding: 10px 16px;
+  background: #963e2c;
+  color: #fff;
+  text-decoration: none;
+}
+
+#main-content.sample-redesign .sample-start:hover { background: #783224; }
+#main-content.sample-redesign .sample-start:focus-visible { outline: 2px solid #293638; outline-offset: 4px; }
+
+.sample-hero-grid > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2.05;
+  object-fit: cover;
+  object-position: center 55%;
+}
+
+#main-content.sample-redesign > .task-enquiry-workspace {
+  background: var(--sample-tint) !important;
+  border-top: 1px solid #c5d2ce;
+  padding: clamp(28px, 3.2vw, 46px) clamp(20px, 4vw, 64px) !important;
+}
+
+#main-content.sample-redesign .task-enquiry-columns {
+  max-width: 1240px;
+  grid-template-columns: minmax(0, .66fr) minmax(0, 1.34fr);
+  align-items: start;
+  gap: clamp(24px, 4.5vw, 68px) !important;
+  border: 0;
+}
+
+#main-content.sample-redesign .sample-preparation {
+  display: block;
+  max-width: none;
+  padding: clamp(4px, 1.3vw, 18px) 0 0;
+  background: transparent;
+  color: var(--sample-ink);
+}
+
+#main-content.sample-redesign .sample-preparation h2 {
+  margin: 0 0 14px;
+  font-size: clamp(1.35rem, 2vw, 1.85rem);
+  line-height: 1.18;
+  letter-spacing: -.025em;
+}
+
+#main-content.sample-redesign .sample-preparation p {
+  margin: 0 0 13px;
+  color: #3f5352 !important;
+  font-size: .94rem;
+  line-height: 1.6;
+}
+
+#main-content.sample-redesign .sample-policy {
+  margin-top: 26px;
+  padding: 18px 0 0;
+  border-top: 1px solid var(--sample-rule);
+}
+
+#main-content.sample-redesign .sample-policy h2 {
+  font-size: 1.05rem;
+}
+
+#main-content.sample-redesign .task-enquiry-writing {
+  margin: 0;
+  background: var(--sample-paper);
+}
+
+#main-content.sample-redesign .task-enquiry-form {
+  padding: clamp(20px, 3vw, 44px);
+  border: 1px solid var(--sample-rule);
+  scroll-margin-top: 118px;
+}
+
+#main-content.sample-redesign .sample-form-heading {
+  margin: 0 0 10px;
+  color: var(--sample-ink);
+  font-size: clamp(1.45rem, 2.6vw, 2.15rem);
+  line-height: 1.15;
+}
+
+#main-content.sample-redesign .task-enquiry-form .fj-form-note {
+  max-width: 60ch;
+}
+
+#main-content.sample-redesign #content-4 {
+  background: var(--sample-paper) !important;
+}
+
+@media (max-width: 900px) {
+  .sample-hero-grid,
+  #main-content.sample-redesign .task-enquiry-columns {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  #main-content.sample-redesign .task-enquiry-writing { grid-row: 1; }
+}

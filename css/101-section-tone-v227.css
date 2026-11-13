@@ -1,0 +1,83 @@
+/* Match section contrast to the existing page families. */
+main > [data-section-tone="graphite"] {
+  background: #293236 !important;
+  color: #f7f6f3;
+  --tone-text: #f7f6f3;
+  --tone-rule: #829095;
+  --tone-focus: #f1aa90;
+}
+
+main > [data-section-tone="graphite"] :is(h2, h3, p, a) {
+  color: var(--tone-text) !important;
+}
+
+main > [data-section-tone="graphite"] a {
+  border-color: var(--tone-rule);
+}
+
+main > [data-section-tone="graphite"] a:hover {
+  text-decoration: underline;
+  text-underline-offset: .22em;
+}
+
+main > [data-section-tone="graphite"] a:focus-visible {
+  outline: 2px solid var(--tone-focus);
+  outline-offset: 4px;
+}
+
+main > [data-section-tone="stone"] {
+  background: #eeebe6 !important;
+}
+
+main > [data-section-tone="detergent-soft"] {
+  background: #d4e2e0 !important;
+}
+
+main > [data-section-tone="feed"] { --tone-hero: #253429; }
+main > [data-section-tone="alcohol"] { --tone-hero: #293949; }
+main > [data-section-tone="detergent"] { --tone-hero: #233c40; }
+
+main > :is([data-section-tone="feed"], [data-section-tone="alcohol"], [data-section-tone="detergent"]) {
+  background: var(--tone-hero) !important;
+}
+
+main > [data-section-tone] :is(.fp-product-intro, .task-product-summary) :is(h1, h1 span, .fp-lead, .task-product-summary > p) {
+  color: #f6f7f6 !important;
+}
+
+main > [data-section-tone="feed"] .fp-enquiries {
+  background: #edf0ed;
+  color: #253429;
+  padding: clamp(16px, 3vw, 28px);
+}
+
+main > [data-section-tone="feed"] .fp-specification {
+  background: #f4f6f4;
+  color: #253429;
+}
+
+main > :is([data-section-tone="alcohol"], [data-section-tone="detergent"]) .task-product-desk {
+  outline: 1px solid #8b9b9f;
+  outline-offset: -1px;
+}
+
+#main-content.co110 > .co-partners[data-section-tone="graphite"] .co-introduction > div {
+  background-color: #354146 !important;
+  border-color: #829095;
+}
+
+main > :is([data-section-tone="alcohol"], [data-section-tone="detergent"]) .task-product-summary .sun-mobile-product-action {
+  color: #f6f7f6 !important;
+  border-color: #a9b8bc;
+}
+
+main > :is([data-section-tone="feed"], [data-section-tone="alcohol"], [data-section-tone="detergent"]) a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+#main-content.co110 > .co-partners[data-section-tone="graphite"] .source-link-list a {
+  --co-ed-arrow-rest: var(--co-ed-arrow-light);
+  --co-ed-arrow-hover: var(--co-ed-arrow-dark);
+  --co-ed-circle-active: #f7f6f3;
+}

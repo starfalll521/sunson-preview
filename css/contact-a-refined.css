@@ -1,0 +1,83 @@
+/* Match the approved A composition: compact introduction, 62/38 workspace,
+   quiet request links and two supporting images. */
+.ct-a .ct-wrap{width:calc(100% - 80px);max-width:1760px}
+.ct-a .ct-workspace{padding:32px 0}
+.ct-a .ct-workspace-grid{grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:24px 36px}
+.ct-a .ct-intro{display:block;padding:0;border:0;margin:0}
+.ct-a .ct-eyebrow{display:none}
+.ct-a #contact-title{font-size:40px!important;letter-spacing:-1.5px;line-height:1.15;margin:0 0 18px}
+.ct-a .ct-standfirst{font-size:14px;line-height:1.65;max-width:54ch;margin:0}
+.ct-a .ct-form{padding:26px!important;border:0!important;background:#eeebe6!important}
+.ct-a .ct-form-heading h2{font-size:25px!important;font-weight:500;margin:0 0 12px;letter-spacing:-.5px}
+.ct-a .ct-form-heading>p:last-child{font-size:12px;line-height:1.6;max-width:none;margin:0}
+.ct-a .ct-step{display:none}
+.ct-a .ct-preview-note{font-size:11px;margin:12px 0 22px!important}
+.ct-a .ct-edit-fields{gap:16px}
+.ct-a .ct-paired-fields{gap:16px}
+.ct-a .ct-label{font-size:12px;margin-bottom:8px}
+.ct-a .ct-label small{font-size:10px}
+.ct-a .ct-field input{min-height:40px;padding:8px 11px;font-size:14px}
+.ct-a .ct-field textarea{min-height:88px;height:88px;padding:9px 11px;font-size:14px}
+.ct-a .ct-more summary{min-height:38px;font-size:12px}
+.ct-a .ct-form-action{flex-direction:row-reverse;justify-content:flex-end;gap:24px}
+.ct-a .ct-review-button{font-size:13px;min-height:42px;padding:10px 20px;gap:18px}
+.ct-a .ct-action-note{font-size:10px;margin:0!important}
+.ct-a .ct-direct{padding:26px 0 0;border-top-width:2px}
+.ct-a .ct-direct h2{font-size:18px!important;max-width:none;font-weight:500;margin:0 0 14px}
+.ct-a .ct-direct-group{padding:13px 0;margin:0;border-bottom:1px solid #c9cecc}
+.ct-a .ct-direct-group p{font-size:11px;margin:0 0 5px}
+.ct-a .ct-direct-group a{font-size:14px;min-height:28px;padding:2px 0;justify-content:flex-start;gap:16px}
+.ct-a .ct-office-jump{border-top:0;border-bottom:1px solid #c9cecc;margin:0;min-height:52px;padding:14px 0;justify-content:flex-start;gap:16px;font-size:13px}
+.ct-a .ct-a-reference{margin:24px 0 0}
+.ct-a .ct-a-reference img{display:block;width:100%;height:auto;aspect-ratio:2.4;object-fit:cover}
+.ct-a .ct-a-reference figcaption{font-size:10px;line-height:1.5;color:#646963;margin-top:8px}
+.ct-a .ct-routes{padding:0;background:#f7f6f3}
+.ct-a .ct-routes-grid{border-top:1px solid #c8c9c5;padding:22px 0}
+.ct-a .ct-routes-grid>div:first-child{gap:24px;margin-bottom:18px}
+.ct-a #routes-title{font-size:18px!important;font-weight:500}
+.ct-a .ct-routes-grid>div:first-child>p{font-size:12px;max-width:none}
+.ct-a .ct-route-list{border:0;gap:24px}
+.ct-a .ct-route{padding:0 0 18px;min-height:84px;border-bottom:1px solid #a6abaa}
+.ct-a .ct-route strong{font-size:18px;margin-bottom:9px}
+.ct-a .ct-route small{font-size:12px;max-width:45ch}
+.ct-a .ct-documents{background:#f7f6f3;padding:0;color:#2b3237}
+.ct-a .ct-documents-inner{border-bottom:1px solid #cccfca;padding:0 0 22px}
+.ct-a .ct-documents h2{color:#2b3237;font-size:16px!important;font-weight:500;margin:0 0 6px}
+.ct-a .ct-documents p{color:#636b6c;font-size:12px;margin:0}
+.ct-a .ct-documents a{color:#2b3237!important;font-size:12px}
+.ct-a .ct-location{padding:30px 0 40px}
+.ct-a .ct-location-grid{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:start}
+.ct-a .ct-location-copy{display:block}
+.ct-a #office-title{font-size:22px!important;font-weight:500;margin:0 0 22px}
+.ct-a .ct-location-copy>h3,.ct-a .ct-location-note h3{font-size:15px;margin:0 0 10px}
+.ct-a .ct-location-copy>p,.ct-a .ct-location-copy address,.ct-a .ct-location-note p{font-size:13px;line-height:1.7;margin:0 0 8px}
+.ct-a .ct-location-note{padding:18px 0 0;margin:18px 0 0;border:0;border-top:1px solid #d5d3cd;max-width:52ch}
+.ct-a .ct-location-note a{margin-top:4px;font-size:12px}
+.ct-a .ct-location-photo{margin:0}
+.ct-a .ct-location-photo img{aspect-ratio:2.1;height:auto;object-position:center 70%}
+.ct-a .ct-location-photo figcaption{font-size:11px;margin-top:8px}
+/* Keep the approved A layout: one quiet surface and shared alignment. */
+.ct-a .ct-routes{padding:0;background:#f7f6f3}
+.ct-a .ct-routes-grid{padding:24px 0 20px}
+.ct-a .ct-routes-grid>div:first-child{margin-bottom:22px}
+.ct-a .ct-route{min-height:94px;padding:0 0 20px}
+.ct-a .ct-route strong{font-size:18px;margin-bottom:10px}
+.ct-a .ct-route small{font-size:13px;line-height:1.7}
+.ct-a .ct-documents-inner{padding:0 0 24px}
+.ct-a .ct-location{padding:32px 0 40px;background:#f7f6f3}
+.ct-a .ct-location-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:36px;align-items:start}
+.ct-a #office-title{font-size:22px!important;margin:0 0 24px}
+.ct-a .ct-location-copy{display:grid;grid-template-columns:1fr 1fr;gap:0 30px}
+.ct-a #office-title{grid-column:1/-1}
+.ct-a .ct-location-copy>h3,.ct-a .ct-location-copy>p,.ct-a .ct-location-copy>address{grid-column:1}
+.ct-a .ct-location-copy>h3,.ct-a .ct-location-note h3{font-size:15px}
+.ct-a .ct-location-copy>p,.ct-a .ct-location-copy address,.ct-a .ct-location-note p{font-size:13px;line-height:1.8}
+.ct-a .ct-location-note{grid-column:2;grid-row:2/5;border:0;padding:0;margin:0;max-width:none}
+.ct-a .ct-location-note a{font-size:12px;margin-top:12px}
+.ct-a .ct-location-photo{margin:0}
+.ct-a .ct-location-photo img{aspect-ratio:2.8;object-position:center 72%}
+.ct-a .ct-location-photo figcaption{font-size:11px;margin-top:8px}
+.ct-a>.source-review{padding-top:0}
+@media(max-width:1100px){.ct-a .ct-location-copy{display:block}.ct-a .ct-location-note{margin-top:24px}.ct-a .ct-location-photo img{aspect-ratio:1.8}}
+@media(max-width:1100px){.ct-a .ct-wrap{width:calc(100% - 48px)}.ct-a .ct-workspace-grid{gap:24px}.ct-a .ct-form{padding:22px!important}.ct-a .ct-direct-group a{font-size:13px}}
+@media(max-width:767px){.ct-a .ct-wrap{width:calc(100% - 40px)}.ct-a .ct-workspace-grid{display:block}.ct-a .ct-intro{margin-bottom:24px}.ct-a #contact-title{font-size:34px!important}.ct-a .ct-form{padding:22px 18px!important}.ct-a .ct-form-heading h2{font-size:23px!important}.ct-a .ct-form-action{justify-content:space-between;gap:12px}.ct-a .ct-edit-fields{display:block}.ct-a .ct-field{margin-bottom:16px}.ct-a .ct-action-note{margin-top:14px!important}.ct-a .ct-routes-grid>div:first-child{display:block}.ct-a .ct-routes-grid>div:first-child>p{margin-top:10px}.ct-a .ct-route{padding:18px 0}.ct-a .ct-location-grid{display:block}.ct-a .ct-location-photo{margin-top:24px}.ct-a .ct-location-photo img{aspect-ratio:1.6}.ct-a .ct-a-reference img{aspect-ratio:2}}

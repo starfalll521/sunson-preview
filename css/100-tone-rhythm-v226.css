@@ -1,0 +1,8 @@
+/* v226 明暗分布修复与调整（只改颜色，不改结构）。
+   一、饲料页 #story-3（“From a nutritional question to an application”）本是深色带，白字。
+       94-layers 的“近白底”规则带 !important，把它刷成了近白，白字压白底（对比度约 1.0，11 处文字几乎看不见）。
+       这里按饲料主题的深色令牌恢复深色带，反白字沿用该区块自己的 --iv-* 变量。 */
+.industry-v99.iv-feed.feed-option-v101 #story-3 {
+  background: var(--v-deep) !important;
+  color: var(--v-on) !important;
+}

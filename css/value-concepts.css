@@ -1,0 +1,17 @@
+/* Original composition retained. Concept drawings belong to the conditions row. */
+.value-concept .vp-conditions dt .vc-illustration{display:block;width:100%;max-width:200px;height:150px;margin:0 0 20px;fill:none;stroke:#145b85;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round;overflow:visible}
+.value-concept .vp-conditions dt .vc-illustration *{vector-effect:non-scaling-stroke}
+.value-concept .vp-conditions>div{padding-top:24px}
+.value-concept .vp-reaction svg .vp-unit{rx:7px;stroke:#bdd1df;fill:#32454e}
+.value-concept .vp-reaction svg .vp-enzyme{fill:#bdd1df;stroke:#bdd1df}
+@media(max-width:1000px){.value-concept .vp-conditions dt .vc-illustration{height:115px;margin-bottom:16px}}
+@media(max-width:767px){.value-concept .vp-conditions dt .vc-illustration{width:150px;height:112px}}
+
+/* An intermediate dark tone for the measurement chapter. */
+.value-concept .vp-measure-section{background:#444b4e;color:#f1f2f1}
+.value-concept .vp-measure-section h2,.value-concept .vp-measure-section th,.value-concept .vp-measure-section a{color:#f1f2f1}
+.value-concept .vp-measure-section p,.value-concept .vp-measure-section td,.value-concept .vp-measure-section caption{color:#dfe2e1}
+.value-concept .vp-measure-section .vp-measures th,.value-concept .vp-measure-section .vp-measures td{border-color:#747e81}
+.value-concept .vp-measure-section .vp-inline-link{border-color:#a8b0b1}
+.value-concept .vp-measure-section .vp-inline-link svg{stroke:currentColor}
+.value-concept .vp-measure-section a:hover{color:#fff}

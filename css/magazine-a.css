@@ -1,0 +1,49 @@
+.magazine{background:#f3f6f8;color:#293236;font-family:inherit}
+.magazine *{box-sizing:border-box;min-width:0}
+.mag-wrap{width:calc(100% - 112px);max-width:1320px;margin:0 auto}
+.magazine h1,.magazine h2,.magazine h3,.magazine p{margin:0;color:inherit;max-width:none}
+.magazine h1{font-size:clamp(46px,5.3vw,80px);line-height:1.03;letter-spacing:-.055em;font-weight:500}
+.magazine h2{font-size:clamp(32px,3.3vw,49px);line-height:1.12;letter-spacing:-.04em;font-weight:500;text-wrap:balance}
+.magazine h3{font-size:29px;line-height:1.2;letter-spacing:-.025em;font-weight:500}
+.magazine p{font-size:18px;line-height:1.65;color:#4b5b63}
+.mag-kicker{display:block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;line-height:1.5;font-weight:600}
+.mag-hero{padding-top:52px}
+.mag-opening{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:72px;align-items:end;margin:28px 0 42px}
+.mag-opening p{padding-bottom:6px;max-width:400px}
+.mag-photo{margin:0;position:relative}
+.mag-photo img{display:block;width:100%;height:440px;object-fit:cover;object-position:center 58%}
+.mag-photo figcaption{position:absolute;bottom:15px;right:18px;font-size:10px;letter-spacing:.05em;color:#f3f6f8;background:#293236cc;padding:6px 9px}
+.mag-section{padding-top:92px;padding-bottom:96px}
+.mag-section-head{display:grid;grid-template-columns:1fr 2fr;column-gap:45px;row-gap:20px;margin-bottom:44px}
+.mag-section-head .mag-kicker{padding-top:8px}
+.mag-section-head>p{grid-column:2}
+.mag-three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px}
+.mag-three article{border-top:1px solid #b8c5cc;padding-top:22px;display:flex;flex-direction:column;align-items:start}
+.mag-index{font-size:13px;color:#7b898f;margin-bottom:34px}
+.mag-three h3{margin-bottom:18px}
+.mag-three p{font-size:17px;margin-bottom:26px}
+.mag-link{display:flex;align-items:center;justify-content:space-between;gap:18px;font-size:15px;font-weight:500;line-height:1.4;color:inherit;text-decoration:none;padding:14px 0;border-bottom:1px solid #9daeb7;transition:color .18s}
+.mag-three .mag-link{margin-top:auto;width:100%}
+.mag-link span{font-size:22px;font-weight:400}
+.mag-link:hover{color:#a34530}
+.mag-link:focus-visible{outline:2px solid #a34530;outline-offset:5px}
+.mag-band{background:#293236;color:#f3f6f8;padding:76px 0}
+.mag-feature{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:100px}
+.mag-feature h2{margin:25px 0}
+.mag-feature p{color:inherit;opacity:.86}
+.mag-feature>div+div{align-self:center}
+.mag-feature .mag-link{margin-top:18px;border-color:#6e7b81}
+.mag-two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:80px}
+.mag-two article{border-top:1px solid #b8c5cc;padding-top:28px}
+.mag-two p{margin:20px 0 24px;max-width:520px}
+.mag-resource-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:100px}
+.mag-resource-grid h2{margin:25px 0}
+.mag-directory .mag-kicker{margin-bottom:16px}
+.mag-directory .mag-link{padding:19px 0}
+.mag-close{background:#dfe7ec;padding:65px 0 72px}
+.mag-close-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:100px;margin-top:25px}
+.mag-close .mag-link{margin-top:18px}
+@media(min-width:1800px){.mag-wrap{max-width:1560px}.mag-photo img{height:520px}}
+@media(max-width:900px){.mag-wrap{width:calc(100% - 48px)}.mag-opening,.mag-feature,.mag-resource-grid,.mag-close-grid{gap:32px}.mag-opening{grid-template-columns:1fr}.mag-opening p{max-width:620px}.mag-photo img{height:340px}.mag-three{gap:24px}.mag-three h3{font-size:24px}.mag-two{gap:32px}.mag-section{padding:64px 0}.mag-section-head{grid-template-columns:1fr;gap:18px}.mag-section-head>p{grid-column:1}}
+@media(max-width:600px){.mag-wrap{width:calc(100% - 40px)}.mag-hero{padding-top:32px}.magazine h1{font-size:44px}.magazine h2{font-size:33px}.magazine h3{font-size:27px}.magazine p{font-size:17px}.mag-opening{margin:22px 0 28px;gap:24px}.mag-photo img{height:290px;object-position:38% center}.mag-photo figcaption{font-size:9px;bottom:9px;right:9px}.mag-three,.mag-two,.mag-feature,.mag-resource-grid,.mag-close-grid{grid-template-columns:1fr;gap:36px}.mag-index{margin-bottom:18px}.mag-section{padding:48px 0}.mag-section-head{margin-bottom:30px}.mag-band{padding:48px 0}.mag-feature h2{margin:18px 0}.mag-close{padding:42px 0}.mag-link{font-size:14px}.mag-directory .mag-link{padding:16px 0}}
+@media(prefers-reduced-motion:reduce){.mag-link{transition:none}}

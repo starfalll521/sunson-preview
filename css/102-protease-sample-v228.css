@@ -1,0 +1,274 @@
+#main-content.protease-redesign {
+  --wash-ink: #20383a;
+  --wash-paper: #eff4f2;
+  --wash-line: #a8bdb7;
+}
+
+#main-content.protease-redesign > .task-product-opening {
+  background: var(--wash-ink) !important;
+}
+
+#main-content.protease-redesign .task-product-spread {
+  display: grid;
+  grid-template-columns: minmax(0, .94fr) minmax(0, 1.06fr);
+  align-items: center;
+  gap: clamp(24px, 4vw, 56px);
+}
+
+#main-content.protease-redesign .task-product-summary h1 {
+  font-size: clamp(2.35rem, 4.2vw, 3.3125rem);
+  line-height: 1.04;
+  text-wrap: balance;
+}
+
+.protease-wash {
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  background: #455d5d;
+}
+
+.protease-wash img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1.55;
+  object-fit: cover;
+}
+
+.protease-wash figcaption {
+  position: absolute;
+  inset: auto 0 0;
+  padding: 24px 16px 10px;
+  background: linear-gradient(transparent, #142829);
+  color: #f4f8f6;
+  font-size: .75rem;
+}
+
+#main-content.protease-redesign .task-product-desk {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr);
+  gap: 24px;
+  align-items: center;
+  padding: 20px 0 0;
+  border-top: 1px solid #829b97;
+  background: transparent;
+  outline: none;
+}
+
+#main-content.protease-redesign .protease-desk-intro h2 {
+  margin: 0 0 6px;
+  font-size: 1.2rem;
+}
+
+#main-content.protease-redesign .protease-desk-intro p {
+  margin: 0;
+}
+
+#main-content.protease-redesign .sun-desk-links {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+#main-content.protease-redesign .task-desk-link {
+  padding: 10px;
+  border: 1px solid #829b97;
+  min-height: 44px;
+}
+
+#main-content.protease-redesign #content-1 .sun-editorial-grid {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+}
+
+#main-content.protease-redesign #content-1 .sun-editorial-body {
+  max-width: none;
+}
+
+#main-content.protease-redesign .protease-comparison,
+#main-content.protease-redesign .protease-product-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#main-content.protease-redesign .protease-comparison {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-block: 24px;
+}
+
+#main-content.protease-redesign .protease-format {
+  border: 1px solid var(--wash-line);
+  border-top: 3px solid #45756d;
+  background: var(--wash-paper);
+  padding: clamp(18px, 3vw, 32px);
+}
+
+#main-content.protease-redesign .protease-format:nth-child(2) {
+  background: #dce9e5;
+}
+
+#main-content.protease-redesign .protease-format h3 {
+  margin: 8px 0 3px;
+  color: var(--wash-ink);
+  font-size: clamp(1.35rem, 2.3vw, 2rem);
+  overflow-wrap: anywhere;
+}
+
+#main-content.protease-redesign .protease-format :is(.protease-format-name, .protease-reference) {
+  margin: 0;
+  color: #3e5b55;
+  font-size: .92rem;
+}
+
+#main-content.protease-redesign .protease-product-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin-top: 18px;
+  border-top: 1px solid var(--wash-line);
+  padding-top: 6px;
+}
+
+.protease-product-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+
+#main-content.sample-redesign > .task-enquiry-opening {
+  background: #293236 !important;
+  color: #f5f7f6;
+}
+
+#main-content.sample-redesign .task-enquiry-opening :is(h1, p, a) {
+  color: #f5f7f6 !important;
+}
+
+#main-content.sample-redesign > .task-enquiry-workspace {
+  background: #e4eceb !important;
+}
+
+#main-content.sample-redesign .task-enquiry-columns {
+  align-items: start;
+  gap: clamp(24px, 5vw, 72px);
+}
+
+#main-content.sample-redesign .task-enquiry-brief {
+  padding: 16px 0 0 18px;
+  border-left: 2px solid #587871;
+}
+
+#main-content.sample-redesign .task-enquiry-writing {
+  min-width: 0;
+}
+
+#main-content.sample-redesign .task-enquiry-form {
+  background: #f8faf9;
+  border: 1px solid #adbfba;
+  padding: clamp(18px, 3vw, 36px);
+  box-sizing: border-box;
+}
+
+#main-content.sample-redesign .task-enquiry-form ::placeholder {
+  color: #53666b;
+  opacity: 1;
+}
+
+#main-content.sample-redesign #content-3 :is(.sun-editorial-grid, .sun-editorial-body) {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: none;
+}
+
+#main-content.sample-redesign #content-3 .sun-editorial-grid {
+  max-width: var(--source-inner-wrap, 1140px);
+  gap: 24px;
+}
+
+#main-content.sample-redesign .sample-timeline {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  counter-reset: sample-step;
+  gap: 24px;
+}
+
+#main-content.sample-redesign .sample-step {
+  position: relative;
+  counter-increment: sample-step;
+  border-top: 1px solid #9baea9;
+  padding: 21px 0 0;
+}
+
+#main-content.sample-redesign .sample-step::before {
+  content: counter(sample-step, decimal-leading-zero);
+  color: #cce5dc;
+  font-size: 1.4rem;
+  font-variant-numeric: tabular-nums;
+}
+
+#main-content.sample-redesign .sample-step h3 {
+  margin: 14px 0 10px;
+  font-size: 1.3rem;
+}
+
+#main-content.sample-redesign .sample-step p {
+  margin: 0 0 10px;
+}
+
+#main-content.sample-redesign .sample-faq {
+  border-bottom: 1px solid #aab9b5;
+}
+
+#main-content.sample-redesign .sample-faq:first-child {
+  border-top: 1px solid #aab9b5;
+}
+
+#main-content.sample-redesign .sample-faq summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 48px;
+  padding: 13px 0;
+}
+
+.sample-faq summary::-webkit-details-marker { display: none; }
+.sample-faq summary::after { content: "+"; font-size: 1.35rem; }
+.sample-faq[open] summary::after { content: "−"; }
+#main-content.sample-redesign .sample-faq h3 { margin: 0; font-size: 1.03rem; }
+#main-content.sample-redesign .sample-faq p { margin: 0 0 16px; }
+.sample-faq summary:focus-visible { outline: 2px solid #45756d; outline-offset: 4px; }
+
+@media (max-width: 760px) {
+  #main-content.protease-redesign :is(.task-product-spread, .task-product-desk, .protease-comparison),
+  #main-content.sample-redesign .sample-timeline {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  #main-content.protease-redesign .sun-desk-links {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 6px;
+  }
+
+  .protease-wash img { aspect-ratio: 1.7; }
+
+  #main-content.sample-redesign .sample-step {
+    padding: 12px 0 0 44px;
+  }
+
+  #main-content.sample-redesign .sample-step::before {
+    position: absolute;
+    left: 0;
+  }
+
+  #main-content.sample-redesign .sample-step h3 { margin-top: 1px; }
+}

@@ -1,0 +1,86 @@
+.multi-hero{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:56px;align-items:center;padding:52px 0 60px}
+.multi-hero-copy h1{font-size:clamp(44px,4.3vw,64px);line-height:1.07;margin:24px 0;letter-spacing:-.045em}
+.multi-hero-copy p{max-width:470px;font-size:18px}
+.multi-hero-copy .mag-link{margin-top:30px;max-width:280px}
+.multi-photo{margin:0;position:relative;min-width:0}
+.multi-photo img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+.multi-photo figcaption{position:absolute;bottom:10px;right:10px;padding:5px 7px;background:#293236c9;color:#f3f6f8;font-size:9px;line-height:1.4;letter-spacing:.03em}
+.multi-hero-photo img{aspect-ratio:6/5;object-position:65% center}
+.mag-three{gap:28px}
+.mag-three article{border:0;padding:0}
+.mag-three .mag-index{display:none}
+.mag-three .multi-photo{width:100%;margin-bottom:24px}
+.mag-three h3{margin-bottom:12px}
+.mag-three p{font-size:16px}
+.multi-story{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:72px;align-items:center}
+.multi-story h2{margin:24px 0}
+.multi-story p{color:#dfe7ec}
+.multi-story .mag-link{margin-top:24px;border-color:#6e7b81}
+.resource-visuals{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin-bottom:88px}
+.resource-visuals h3{font-size:26px;margin:22px 0 12px}
+.resource-visuals p{font-size:16px}
+.mag-resource-grid{border-top:1px solid #b8c5cc;padding-top:48px}
+.multi-records{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px 64px;align-items:start}
+.multi-records>.multi-photo{grid-column:1;grid-row:1/3;align-self:center}
+.multi-records .mag-section-head{grid-column:2;display:block;margin:0}
+.multi-records .mag-section-head h2{font-size:40px;margin-top:20px}
+.multi-records .mag-two{grid-column:2;display:block}
+.multi-records .mag-two article+article{margin-top:26px}
+.multi-records .mag-two h3{font-size:25px}
+.multi-records .mag-two p{font-size:16px;margin:12px 0}
+.mag-section{padding-top:68px;padding-bottom:72px}
+.mag-section-head{margin-bottom:34px}
+.mag-band{padding:64px 0}
+@media(min-width:1800px){.multi-hero-copy h1{font-size:72px}.multi-hero{gap:80px}.multi-hero-photo img{aspect-ratio:4/3}}
+@media(max-width:1000px){.multi-hero{gap:30px}.multi-hero-copy h1{font-size:43px}.multi-story,.multi-records{gap:36px}.resource-visuals,.mag-three{gap:20px}.resource-visuals h3{font-size:22px}}
+@media(max-width:767px){.multi-hero,.multi-story,.multi-records{grid-template-columns:1fr;gap:30px}.multi-hero{padding:34px 0 20px}.multi-hero-copy h1{font-size:42px}.multi-hero-copy p{font-size:17px}.multi-hero-photo img{aspect-ratio:4/3}.resource-visuals,.mag-three{grid-template-columns:1fr;gap:36px}.resource-visuals{margin-bottom:48px}.multi-records>.multi-photo,.multi-records .mag-section-head,.multi-records .mag-two{grid-column:1;grid-row:auto}.multi-records .mag-section-head{order:-1}.mag-section{padding-top:44px;padding-bottom:48px}.mag-band{padding:44px 0}.multi-records .mag-section-head h2{font-size:33px}}
+
+/* Desktop composition: keep copy and imagery within one readable screen. */
+@media(min-width:1001px){
+ .multi-hero{grid-template-columns:minmax(0,42fr) minmax(0,58fr);gap:48px;padding:40px 0 48px}
+ .multi-hero-copy h1{font-size:clamp(46px,3.5vw,58px);line-height:1.12;letter-spacing:-.04em;margin:20px 0 22px;text-wrap:balance}
+ .multi-hero-copy p{max-width:440px;font-size:17px;line-height:1.65}
+ .multi-hero-copy .mag-link{margin-top:22px}
+ .multi-hero-photo img{height:440px;aspect-ratio:auto;object-position:center}
+ .mag-section{padding:52px 0 58px}
+ .mag-section-head{grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);gap:16px 64px;margin-bottom:32px}
+ .mag-section-head>.mag-kicker{grid-column:1 / -1;padding:0}
+ .mag-section-head>h2{grid-column:1;font-size:38px;line-height:1.15}
+ .mag-section-head>p{grid-column:2;align-self:end;font-size:17px}
+ .mag-three .multi-photo img,.resource-visuals .multi-photo img{aspect-ratio:3/2}
+ .mag-three .multi-photo{margin-bottom:18px}
+ .mag-three h3,.resource-visuals h3{font-size:25px}
+ .resource-visuals h3{margin:18px 0 10px}
+ .resource-visuals{margin-bottom:52px}
+ .multi-story{grid-template-columns:minmax(0,48fr) minmax(0,52fr);gap:56px}
+ .multi-story .multi-photo img{height:360px;aspect-ratio:auto}
+ .multi-story h2{font-size:38px;max-width:480px;margin:18px 0}
+ .multi-story p{font-size:17px;max-width:540px}
+ .mag-band{padding:48px 0}
+ .mag-resource-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:64px;padding-top:36px}
+ .mag-resource-grid h2,.mag-feature h2{font-size:38px}
+ .mag-resource-grid p,.mag-feature p{font-size:17px}
+ .multi-records{grid-template-columns:minmax(0,46fr) minmax(0,54fr);gap:20px 56px}
+ .multi-records>.multi-photo{align-self:stretch}
+ .multi-records>.multi-photo img{height:100%;min-height:420px;max-height:560px;aspect-ratio:auto}
+ .multi-records .mag-section-head{display:block;margin:0}
+ .multi-records .mag-section-head h2{font-size:36px;margin-top:14px}
+ .multi-records .mag-two article{padding-top:20px}
+ .multi-records .mag-two article+article{margin-top:20px}
+ .mag-two article{display:flex;flex-direction:column;align-items:stretch}
+ .mag-two article .mag-link{margin-top:auto}
+ .mag-close{padding:48px 0}
+ .mag-close h2{font-size:38px}
+}
+@media(min-width:1800px){
+ .multi-hero{gap:64px}
+ .multi-hero-photo img{height:480px}
+ .multi-hero-copy h1{font-size:60px}
+ .multi-story .multi-photo img{height:400px}
+}
+
+/* Trial opening: one clear headline with a quieter supporting line. */
+.multi-hero-copy .trial-hero-title{margin:20px 0 24px;text-wrap:initial;letter-spacing:-.035em}
+.trial-title-primary{display:block;font-size:clamp(46px,3.8vw,60px);line-height:1.08}
+.trial-title-secondary{display:block;margin-top:16px;font-size:clamp(24px,2vw,30px);font-weight:400;line-height:1.3;letter-spacing:-.025em;max-width:100%;text-wrap:balance}
+@media(max-width:767px){.multi-hero-copy .trial-hero-title{margin:18px 0 20px}.trial-title-primary{font-size:44px}.trial-title-secondary{font-size:25px;margin-top:12px;text-wrap:initial}}
