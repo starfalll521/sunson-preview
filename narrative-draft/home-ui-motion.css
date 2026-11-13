@@ -1,0 +1,20 @@
+/* Scoped enhancements for the local motion preview. */
+.home-ui-motion .home-reading-progress{position:fixed;inset:0 0 auto;height:3px;background:#af4931;transform:scaleX(0);transform-origin:left;z-index:1200;pointer-events:none}
+.home-ui-motion .motion-image-window{overflow:hidden}
+.home-ui-motion .motion-image-window img{transition:scale 650ms cubic-bezier(.2,.65,.3,1);transform-origin:center}
+.home-ui-motion main a{transition:color 180ms ease,text-underline-offset 180ms ease}
+.home-ui-motion main a:hover{ text-underline-offset:7px }
+.home-ui-motion main a .sx-arrow,.home-ui-motion main a svg{transition:translate 200ms ease}
+.home-ui-motion main a:hover .sx-arrow,.home-ui-motion main a:hover svg{translate:4px 0}
+.home-ui-motion .everyday-tabs button,.home-ui-motion .science-tabs button{position:relative;transition:background-color 180ms ease,color 180ms ease,scale 150ms ease}
+.home-ui-motion .everyday-tabs button::after,.home-ui-motion .science-tabs button::after{content:'';position:absolute;left:18px;right:18px;bottom:3px;height:2px;background:currentColor;opacity:.6;transform:scaleX(0);transform-origin:left;transition:transform 220ms ease}
+.home-ui-motion .everyday-tabs button[aria-selected=true]::after,.home-ui-motion .science-tabs button[aria-selected=true]::after{transform:scaleX(1)}
+.home-ui-motion .everyday-tabs button:active,.home-ui-motion .science-tabs button:active{scale:.96}
+.home-ui-motion #conversation input,.home-ui-motion #conversation textarea{transition:border-color 160ms ease,box-shadow 160ms ease,background-color 160ms ease}
+.home-ui-motion #conversation input:focus-visible,.home-ui-motion #conversation textarea:focus-visible{box-shadow:0 0 0 3px #23536e26;border-color:#23536e}
+.home-ui-motion .company-facts dd{font-variant-numeric:tabular-nums}
+@media(hover:hover) and (pointer:fine){.home-ui-motion .motion-image-window:hover img{scale:1.025}}
+@media(prefers-reduced-motion:reduce){
+ .home-ui-motion .motion-image-window img,.home-ui-motion main a,.home-ui-motion main a svg,.home-ui-motion main a .sx-arrow,.home-ui-motion .everyday-tabs button,.home-ui-motion .science-tabs button,.home-ui-motion .everyday-tabs button::after,.home-ui-motion .science-tabs button::after{transition:none!important;scale:1;translate:none}
+ .home-ui-motion .home-reading-progress{display:none}
+}
