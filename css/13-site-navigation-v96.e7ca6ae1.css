@@ -445,9 +445,6 @@ body .np-header {
   .np-locked {
     overflow: hidden !important;
   }
-  .np-shade {
-    display: none !important;
-  }
 }
 
 @media (max-width:370px) {

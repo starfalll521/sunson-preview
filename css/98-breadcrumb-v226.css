@@ -1,6 +1,6 @@
 /* v226 面包屑重做：由“64px 透明空条 + 斜杠小字”改为与顶栏同白的一行细导航。
    结构不变（nav[aria-label=Breadcrumb] > ol > li），只改呈现：
-   白底衔接顶栏、发丝线收边、44px 高、左缘与顶栏标志对齐、
+   白底衔接顶栏、发丝线收边、32px 高、左缘与顶栏标志对齐、
    用 CSS 画的细 V 形分隔取代斜杠，当前页为墨色加粗且不可点。 */
 .sun-breadcrumb-shell-v169 {
   background: #fff;
@@ -18,7 +18,7 @@
 }
 .sun-breadcrumb-shell-v169 nav.sun-breadcrumb-v169 ol {
   align-items: center;
-  min-height: 44px;
+  min-height: 32px;
 }
 .sun-breadcrumb-shell-v169 nav.sun-breadcrumb-v169 li {
   align-items: center;
@@ -29,7 +29,7 @@
   box-sizing: border-box;
   width: 5px;
   height: 5px;
-  margin-inline: 14px 12px;
+  margin-inline: 10px 9px;
   border-top: 1.25px solid #98a5ac;
   border-right: 1.25px solid #98a5ac;
   background: none;
@@ -37,7 +37,7 @@
 }
 .sun-breadcrumb-shell-v169 nav.sun-breadcrumb-v169 a,
 .sun-breadcrumb-shell-v169 nav.sun-breadcrumb-v169 span {
-  min-height: 44px;
+  min-height: 32px;
   line-height: 1;
 }
 .sun-breadcrumb-shell-v169 nav.sun-breadcrumb-v169 a {
@@ -59,11 +59,24 @@
   outline-offset: 2px;
   border-radius: 1px;
 }
+@media (min-width: 1181px) {
+  .np-js .sun-breadcrumb-shell-v169 {
+    position: sticky;
+    top: var(--np-masthead-height);
+    z-index: 2090;
+    transition: transform var(--np-collapse-motion), opacity var(--np-collapse-motion);
+  }
+  .np-aux-collapsed .sun-breadcrumb-shell-v169:not(:focus-within) {
+    transform: translateY(calc(-100% - var(--np-utility-height)));
+    opacity: 0;
+    pointer-events: none;
+  }
+}
 @media (max-width: 767px) {
   .sun-breadcrumb-shell-v169 nav.sun-breadcrumb-v169 { padding: 0 20px; font-size: 12px; }
-  .sun-breadcrumb-shell-v169 nav.sun-breadcrumb-v169 ol { min-height: 44px; }
+  .sun-breadcrumb-shell-v169 nav.sun-breadcrumb-v169 ol { min-height: 36px; }
   .sun-breadcrumb-shell-v169 nav.sun-breadcrumb-v169 a,
-  .sun-breadcrumb-shell-v169 nav.sun-breadcrumb-v169 span { min-height: 44px; }
+  .sun-breadcrumb-shell-v169 nav.sun-breadcrumb-v169 span { min-height: 36px; }
   .sun-breadcrumb-v169 li + li::before { margin-inline: 10px 9px; }
   /* 手机上只显示最近两级（上一级 › 当前页），更早层级视觉隐藏但仍留在文档里，保证一行放得下 */
   .sun-breadcrumb-shell-v169 nav.sun-breadcrumb-v169 ol { flex-wrap: nowrap; }
@@ -82,7 +95,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     display: block;
-    line-height: 44px;
+    line-height: 36px;
     overflow-wrap: normal;
   }
   .sun-breadcrumb-shell-v169 nav.sun-breadcrumb-v169 li:last-child { min-width: 0; }
@@ -91,7 +104,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     display: block;
-    line-height: 44px;
+    line-height: 36px;
     overflow-wrap: normal;
   }
 }

@@ -887,7 +887,7 @@ body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .atlas-to
   body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-ready .science-panels {
     order: 1;
     padding: 0 24px 28px;
-    min-height: 355px;
+    min-height: 0;
     align-items: start;
   }
   body.bio-home-landscape.bio-home-bold #enzyme-innovation.science-atlas .science-reading {
@@ -967,6 +967,12 @@ body.bio-home-landscape.bio-home-bold #research-in-view .everyday-overview .read
   flex: none;
   min-height: 44px;
   font-size: 13px;
+}
+
+@media (max-width:767px) {
+  body.bio-home-landscape.bio-home-bold #research-in-view .everyday-overview {
+    padding-block: 16px 0;
+  }
 }
 
 body.bio-home-landscape.bio-home-bold #enzyme-innovation .research-connection {

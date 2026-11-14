@@ -24,7 +24,7 @@
   width: 124px;
 }
 
-@media (min-width:1440px) {
+@media (min-width:1181px) {
   .np-header .np-mobile-toggle {
     display: none;
   }
@@ -40,7 +40,7 @@
   }
 }
 
-@media (max-width:1439px) {
+@media (max-width:1180px) {
   .np-utility {
     height: 28px;
     padding-inline: 20px;
@@ -153,12 +153,9 @@
   .np-locked {
     overflow: hidden !important;
   }
-  .np-shade {
-    display: none !important;
-  }
 }
 
-@media (max-width:1439px) {
+@media (max-width:1180px) {
   .np-logo img {
     width: 142px;
     left: -9px;
@@ -166,7 +163,7 @@
   }
 }
 
-@media (max-width:1439px) {
+@media (max-width:1180px) {
   .np-header .np-direct {
     border-bottom: 1px solid #bdcddb;
   }
@@ -187,7 +184,7 @@
   }
 }
 
-@media (max-width:1439px) {
+@media (max-width:1180px) {
   .np-header .np-bar {
     padding-inline: 24px;
     gap: 15px;

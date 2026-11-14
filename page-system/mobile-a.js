@@ -5,13 +5,6 @@
   function adapt() {
     undo.reverse().forEach(restore => restore()); undo = [];
     if (!phone.matches) return;
-    const utility = document.querySelector('.np-utility');
-    const links = document.querySelector('.np-links');
-    if (utility && links) {
-      const anchor = document.createComment('utility-original-position');
-      utility.before(anchor); links.append(utility); utility.classList.add('mobile-utility');
-      undo.push(() => { anchor.replaceWith(utility); utility.classList.remove('mobile-utility'); });
-    }
     document.querySelectorAll('main table').forEach((table, index) => {
       const records = table.rows.length > 1 && Array.from(table.rows).every(row => row.cells.length === 2 && Array.from(row.cells).every(cell => cell.colSpan === 1 && cell.rowSpan === 1));
       const region = document.createElement('div');
