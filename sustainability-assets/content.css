@@ -1,0 +1,45 @@
+.content-lead { max-width: 790px; margin-bottom: 34px; }
+.content-lead > p, .evidence-method h2 + p { margin-top: 18px; }
+.process-context, .application-cases, .evidence-method { padding-block: clamp(48px, 6vw, 88px); }
+.process-context { background: #ecf2f9; }
+.production-stages {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin: 0;
+    padding: 0 0 0 22px;
+    gap: 26px;
+}
+.production-stages li { padding-top: 15px; border-top: 1px solid #90a9c1; }
+.production-stages li::marker { color: #3a5d7d; font-weight: 700; }
+.production-stages h3 { font-size: clamp(19px, 1.7vw, 26px); overflow-wrap: anywhere; }
+.production-stages p, .application-list p, .evidence-method p, .evidence-method dd { color: var(--muted); }
+.production-stages p { margin-top: 9px; }
+.application-cases-a { background: #f9fbfd; }
+.application-cases-b { background: #edf5f7; }
+.application-cases-c { background: #f8fafc; }
+.application-list { border-top: 1px solid #a2b9cd; }
+.application-list article {
+    display: grid;
+    grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr);
+    gap: 8%;
+    padding-block: 24px;
+    border-bottom: 1px solid #a2b9cd;
+}
+.application-list p.case-type { margin-bottom: 7px; font-size: 13px; color: #356185; }
+.application-list p.case-test { margin-top: 10px; }
+.application-list .editorial-link { margin-top: 10px; }
+.application-cases-b .application-list { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 14px; border: 0; }
+.application-cases-b article { display: flex; flex-direction: column; gap: 16px; padding: 23px; background: #f8fbfd; border: 0; border-top: 2px solid #7198b2; }
+.application-cases-c article { padding-inline: 22px; background: #edf3fa; }
+.application-cases-c article:nth-child(even) { background: #e6f1f3; }
+.evidence-method { background: #e3edf6; }
+.evidence-method .frame { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1fr); gap: 7%; }
+.evidence-method dt { font-weight: 700; }
+.evidence-method dl > div { border-top: 1px solid #94acc1; padding-block: 12px; }
+.evidence-method dd { margin-top: 5px; }
+@media (max-width: 850px) {
+    .production-stages, .application-cases-b .application-list { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+@media (max-width: 620px) {
+    .production-stages, .application-cases-b .application-list, .application-list article, .evidence-method .frame { grid-template-columns: 1fr; gap: 16px; }
+}

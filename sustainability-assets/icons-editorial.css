@@ -1,0 +1,142 @@
+/* Taste Skill icon tiles are adapted here as editorial illustrations. */
+.icon-gallery .cx-tiles__grid { border: 0; background: none; gap: 24px; }
+.icon-gallery .icon-feature {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    background: transparent;
+    padding: 0;
+}
+.icon-gallery .icon-art {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: auto;
+    min-height: 230px;
+    background: #e5edf7;
+    color: #31557a;
+    box-shadow: none;
+}
+.icon-gallery .icon-art svg {
+    width: clamp(100px, 12vw, 175px);
+    height: auto;
+    aspect-ratio: 1;
+    stroke-width: 1.1;
+}
+.icon-gallery .icon-copy .cx-title { margin: 0 0 9px; font-size: clamp(22px, 2.25vw, 34px); }
+.icon-gallery .icon-copy p { margin: 0; }
+.icon-gallery .icon-copy p + p { margin-top: 12px; }
+
+.a-resources { padding-block: clamp(45px, 6vw, 87px); }
+.a-resources h2 { font-size: clamp(31px, 3.8vw, 51px); }
+.a-resources > p { margin-top: 16px; color: var(--muted); }
+.a-icon-strip { margin-top: 28px; }
+.a-icon-strip .icon-feature {
+    display: grid;
+    grid-template-columns: 66px minmax(0, 1fr);
+    align-items: start;
+    gap: 14px;
+    border-top: 1px solid #9db7cd;
+    padding-top: 16px;
+}
+.a-icon-strip .icon-art { min-height: 64px; background: #e7f1f4; }
+.a-icon-strip .icon-art svg { width: 42px; }
+.a-icon-strip .icon-copy .cx-title { font-size: 22px; }
+.a-icon-strip .icon-copy p { font-size: 14px; color: var(--muted); }
+
+.direction-a .material-editorial .content-lead h2 { font-size: clamp(31px, 3.65vw, 52px); }
+.direction-a .application-cases { padding-bottom: clamp(40px, 5vw, 72px); }
+.direction-a .application-cases .content-lead h2 { font-size: clamp(31px, 3.7vw, 53px); }
+.direction-a .application-cases .application-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    border: 0;
+}
+.direction-a .application-cases article {
+    display: block;
+    padding: 21px 0 0;
+    border: 0;
+    border-top: 2px solid #94b0c4;
+}
+.direction-a .application-cases article > div + div { margin-top: 15px; }
+.direction-a .application-cases .case-type,
+.a-wash .case-type { display: none; }
+
+.a-wash { background: #deebf3; padding-block: clamp(40px, 6vw, 86px); }
+.a-wash-layout { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); align-items: center; gap: 7%; }
+.a-wash-layout img { aspect-ratio: 1.42; object-position: center; }
+.a-wash-layout h3 { font-size: clamp(29px, 3.6vw, 49px); }
+.a-wash-layout h3 + p { margin-top: 18px; }
+.a-wash-layout .case-test { margin-top: 10px; color: var(--muted); }
+
+.b-side-icons .cx-tiles__grid { height: 100%; grid-template-columns: 1fr; gap: 11px; }
+.b-side-icons .icon-feature {
+    display: grid;
+    grid-template-columns: 112px minmax(0, 1fr);
+    background: #e6f0f7;
+    align-items: center;
+    padding: clamp(16px, 2.2vw, 31px);
+    gap: 18px;
+}
+.b-side-icons .icon-art { min-height: 0; background: transparent; }
+.b-side-icons .icon-art svg { width: 78px; }
+.b-side-icons .icon-copy .cx-title { font-size: 24px; }
+.b-side-icons .icon-copy p { font-size: 14px; }
+
+.icon-chapter { background: #e7eef8; padding-block: clamp(45px, 6vw, 85px); }
+.icon-chapter h2 { margin-bottom: 31px; }
+.b-icon-pair .cx-tiles__grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: clamp(22px, 4vw, 59px); }
+.b-icon-pair .icon-art { min-height: 305px; background: #d4e3f4; }
+.b-icon-pair .icon-feature:nth-child(2) .icon-art { background: #d1e9ec; color: #2d6376; }
+.b-icon-pair .icon-copy p { color: var(--muted); }
+
+.c-icon-opening { background: #192d45; color: #f2f8fc; padding-block: clamp(44px, 5vw, 75px) clamp(52px, 6.2vw, 89px); }
+.c-cover-title p:first-child { color: #bcd8ec; font-size: 14px; margin-bottom: 14px; }
+.c-cover-title h1 { font-size: clamp(48px, 6.7vw, 90px); }
+.c-cover-title p:last-child { margin-top: 14px; color: #d8e8f2; }
+.c-icon-hero { margin-top: 34px; }
+.c-icon-hero .cx-tiles__grid { grid-template-columns: repeat(3,minmax(0,1fr)); }
+.c-icon-hero .icon-art {
+    min-height: 260px;
+    background: #355778;
+    color: #cceafa;
+}
+.c-icon-hero .icon-feature:nth-child(2) .icon-art { background: #305a67; color: #c7edf0; }
+.c-icon-hero .icon-feature:nth-child(3) .icon-art { background: #414f78; color: #dbe3ff; }
+.c-icon-hero .icon-copy p { color: #e0ecf4; }
+.c-icon-hero .icon-copy p + p { color: #c8deeb; font-size: 14px; }
+.c-topic-heading { display: flex; align-items: center; gap: 18px; }
+.section-icon { flex: none; display: grid; place-items: center; width: 63px; height: 63px; background: #dbeaf5; color: #355d7c; }
+.section-icon svg { width: 35px; height: 35px; stroke-width: 1.4; }
+.c-boundary .c-topic-heading { margin-bottom: 25px; }
+.c-boundary .c-topic-heading h2 { margin-bottom: 0; }
+.c-boundary .section-icon { background: #345b70; color: #e1f4fc; }
+
+.c-landscape { background: #cde4ed; padding-block: clamp(38px, 5vw, 72px); }
+.c-landscape .frame {
+    display: grid;
+    grid-template-columns: minmax(0, 1.03fr) minmax(0, .97fr);
+    gap: 7%;
+    align-items: center;
+}
+.c-landscape img { aspect-ratio: 1.77; }
+.c-landscape h2 { font-size: clamp(29px, 3.8vw, 52px); }
+.c-landscape h2 + p { margin-top: 15px; color: var(--muted); }
+
+@media (max-width: 920px) {
+    .a-icon-strip .cx-tiles__grid { grid-template-columns: repeat(3,minmax(0,1fr)); }
+    .a-icon-strip .icon-feature { grid-template-columns: 1fr; }
+    .a-icon-strip .icon-art { width: 62px; }
+    .b-side-icons .icon-feature { grid-template-columns: 76px minmax(0,1fr); }
+    .b-side-icons .icon-art svg { width: 61px; }
+}
+@media (max-width: 650px) {
+    .a-icon-strip .cx-tiles__grid, .b-icon-pair .cx-tiles__grid, .c-icon-hero .cx-tiles__grid,
+    .direction-a .application-cases .application-list, .a-wash-layout, .c-landscape .frame { grid-template-columns: 1fr; gap: 23px; }
+    .a-icon-strip .icon-feature { grid-template-columns: 62px minmax(0,1fr); }
+    .c-icon-hero .icon-art, .b-icon-pair .icon-art { min-height: 180px; }
+    .c-topic-heading { gap: 10px; }
+    .section-icon { width: 45px; height: 45px; }
+    .section-icon svg { width: 27px; height: 27px; }
+}

@@ -1,0 +1,97 @@
+.river-opening figcaption {
+    position: absolute;
+    bottom: 15px;
+    right: 5vw;
+    max-width: 29ch;
+    padding: 7px 10px;
+    background: #112c39;
+    color: #eaf4fa;
+    font-size: 12px;
+}
+.river-opening figure { z-index: -1; }
+.river-opening::before { z-index: 0; pointer-events: none; }
+.river-title { position: relative; z-index: 1; }
+.river-opening::before { background: linear-gradient(90deg, #102736de, #10273638 65%, transparent); }
+.editorial-image img { display: block; width: 100%; height: auto; object-fit: cover; }
+.editorial-image figcaption, .visual-credit { color: #425a70; font-size: 13px; line-height: 1.45; padding-top: 9px; }
+.material-editorial > .frame {
+    display: grid;
+    grid-template-columns: minmax(0, .9fr) minmax(0, 1.18fr);
+    align-items: center;
+    gap: 28px 10%;
+}
+.material-editorial .content-lead { margin: 0; }
+.material-editorial .editorial-image img { aspect-ratio: 1.72; }
+.material-editorial .production-stages { grid-column: 1 / -1; margin-top: 13px; }
+.material-editorial .editorial-link { justify-self: start; margin-top: 0; }
+.direction-a .evidence-method {
+    background: linear-gradient(90deg, rgb(12 29 43 / .74), rgb(12 29 43 / .68)),
+        #20384c url("stream-edge.webp") center 48% / cover no-repeat;
+    color: #ecf6fb;
+}
+.direction-a .evidence-method :is(p,dd) { color: #dcebf3; }
+
+.environment-spread > .cx-photo { min-width: 0; }
+.environment-spread .cx-photo__frame { height: calc(100% - 28px); }
+.energy-editorial { background: #213449; color: #edf5fc; padding-block: clamp(44px, 6vw, 86px); }
+.energy-editorial .frame {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, .85fr);
+    align-items: center;
+    gap: 6.5%;
+}
+.energy-editorial .editorial-image img { aspect-ratio: 1.52; }
+.energy-editorial .editorial-image figcaption { color: #d3e3f0; }
+.energy-text h2 { max-width: 13ch; }
+.energy-text p { margin-top: 17px; color: #dceaf4; }
+.evidence-spread article {
+    display: grid;
+    align-content: start;
+    gap: 12px;
+    min-height: 235px;
+    padding: clamp(26px, 3.3vw, 47px);
+}
+.evidence-spread h3 { font-size: clamp(29px, 3.2vw, 45px); }
+.evidence-spread p { margin: 0; }
+.evidence-spread .editorial-link { justify-self: start; }
+
+.direction-c .c-opening { padding-block: clamp(38px, 4.5vw, 65px); }
+.assessment-workspace {
+    margin-top: 23px;
+    padding: clamp(20px, 3.3vw, 49px);
+    background: #e6f0f8;
+    color: #1e354d;
+}
+.assessment-workspace > h2 { margin-bottom: 23px; font-size: clamp(32px, 4.1vw, 57px); }
+.assessment-workspace .cx-tabs { max-width: none; margin: 0; gap: 10px; }
+.assessment-workspace .cx-tabs__scroll { justify-self: stretch; }
+.assessment-workspace .cx-tabs__bar { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); width: 100%; border-radius: 0; }
+.assessment-workspace .cx-tabs__tab { height: 59px; font-size: clamp(14px, 1.4vw, 20px); border-radius: 0; }
+.assessment-workspace .cx-tabs__ind { clip-path: inset(0 calc(100% - var(--x, 4px) - var(--w, 0px)) 0 var(--x, 4px)); }
+.assessment-workspace .cx-tabs__panel {
+    display: grid;
+    grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr);
+    grid-template-rows: min-content 1fr;
+    gap: 16px clamp(20px, 4vw, 56px);
+    min-height: 235px;
+    padding: clamp(20px, 3.2vw, 44px);
+    background: #f7fbfe;
+}
+.assessment-workspace .cx-tabs__panel[hidden] { display: none; }
+.assessment-workspace h3 { display: flex; align-items: start; gap: 12px; grid-column: 1; font-size: clamp(25px, 2.5vw, 37px); }
+.assessment-workspace h3 svg { margin-top: 3px; }
+.assessment-question { grid-column: 1; }
+.assessment-record { grid-column: 2; grid-row: 1 / span 2; align-self: stretch; padding: 20px; background: #dfedf7; }
+.assessment-record strong { display: block; font-size: 20px; line-height: 1.22; }
+.assessment-record p { margin-top: 10px; color: #344f65; }
+.direction-c .assessment-path { margin-top: 25px; }
+@media (max-width: 760px) {
+    .material-editorial > .frame, .energy-editorial .frame { grid-template-columns: 1fr; gap: 24px; }
+    .material-editorial .production-stages { grid-column: 1; }
+    .assessment-workspace .cx-tabs__panel { grid-template-columns: 1fr; grid-template-rows: auto; }
+    .assessment-record { grid-column: 1; grid-row: auto; }
+    .assessment-workspace .cx-tabs__tab { height: 46px; padding-inline: 7px; white-space: normal; }
+}
+@media (max-width: 390px) {
+    .assessment-workspace .cx-tabs__tab { font-size: 12px; }
+}
